@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: Proporciona información sobre los riesgos del sistema y cómo ver la historia del bienestar. 
+---
+= Ver la historia del bienestar
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede ver los riesgos del sistema que se producen en los últimos tres meses, de modo que pueda aprender cómo están criando horas extra.
+
+Estos riesgos se clasifican en cuatro tipos de riesgos: *Sin resolver*, *Nuevo*, *resuelto* y *reconocido*. Se representan con colores diferentes. El resumen de estos riesgos se representa a través de un gráfico *Historial de riesgos*.
+
+.Pasos
+. En el panel de control, en el panel *Wellness*, haga clic en *Ver todas las acciones*.
+. Haga clic en *Historial de bienestar*.
+. En el gráfico *Historial de riesgos*, haga clic en la categoría para la que desea ver el historial de riesgos.
++
+Cuando se pasa el ratón por encima de las barras de colores, se muestra información sobre el número de riesgos de cada categoría. Al hacer clic en la categoría de riesgo correspondiente, la información se muestra en la tabla * Información de riesgo*.
+
++
+También puede descargar un resumen de riesgos en una hoja de Excel.
+
+

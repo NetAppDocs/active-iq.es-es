@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_without_docker.html 
+keywords: Ansible Playbook, Ansible, playbook, without docker 
+summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones de Ansible con la imagen del Docker. 
+---
+= Ejecute el libro de aplicaciones de Ansible sin imagen de Docker de NetApp
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+.Pasos
+[role="lead"]
+. Instale link:https://docs.python.org/3/using/windows.html["Python"] y.. link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
+. Instale los paquetes Python necesarios utilizando *pip*:
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+ 
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0  paramiko-2.7.2
+----
+. Instale la colección Ansible de NetApp con el comando *Ansible-galy*:
++
+[listing]
+----
+To install the collection only for the current user
+$ ansible-galaxy collection install netapp.ontap
+ 
+To do a more universal installation,
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+
+$ chmod -R +rw /usr/share/ansible/collections
+----
++
+Para obtener más información sobre el comando ansible-galy, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentación de Ansible Galaxy"] Si desea obtener más información sobre la colección de Ansible de NetApp, consulte link:https://galaxy.ansible.com/netapp/ontap["Página de la colección Ansible de NetApp"].
+
+. Ejecute el libro de aplicaciones de Ansible con el comando * ansible-playbook*:
++
+[listing]
+----
+$ cd <downloaded_playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Si hay un conjunto de clústeres con credenciales de inicio de sesión diferentes, debe ejecutarse el libro de aplicaciones de Ansible en cada clúster. No es necesario realizar ningún cambio en el archivo de inventario, ya que el libro de aplicaciones de Ansible omite los clústeres para los que no se ha podido iniciar sesión.
+
+
+
+Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"] Y para ejecutar el libro de aplicaciones de Ansible en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"].
+
+Tras ejecutar el libro de estrategia, consulte link:task_validate_firmware_installation.html["Validaciones de instalación del firmware"] para obtener instrucciones posteriores a la ejecución.

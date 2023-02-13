@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_support_contracts_for_your_systems.html 
+keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+summary: Proporciona información sobre cómo renovar los contratos de soporte de sus sistemas. 
+---
+= Renueve sus contratos de soporte
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede ver la calificación y el resumen de todos los contratos de soporte activos del panel. Puede realizar acciones basadas en las recomendaciones clave que se proporcionan en orden de prioridad.
+
+.Pasos
+. En el Panel de control de estado, haga clic en el widget *asistencia y derechos*.
+. Si alguno de sus contratos de soporte del sistema ha caducado o está a punto de expirar, haga clic en el widget *contratos de soporte activo*.
+. Seleccione las casillas de verificación y haga clic en *renovar* para iniciar el proceso de renovación de los sistemas seleccionados.
+

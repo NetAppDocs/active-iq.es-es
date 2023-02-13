@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Proporciona información para agregar una lista de observación al panel de control. 
+---
+= Cree una lista de observación
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede combinar el conjunto de sistemas en función de la categoría o ubicación.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Listas de comprobaciones*
++
+Aparece la pantalla *Administrar lista de observación*.
+
+. Haga clic en *Crear lista de observación*.
+. Introduzca un nombre para la lista de observación.
+. Proporcione los detalles de los sistemas que desea añadir a la lista de observación.
++
+Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.
+
+. Haga clic en *Crear lista de observación*.
++
+Aparecerá el panel de control de la lista de observación.
+
+

@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: Proporciona información para ver y actualizar la versión de ONTAP del sistema de almacenamiento. 
+---
+= Actualice la versión de ONTAP generando un plan de actualización
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede ver las actualizaciones pendientes del sistema de almacenamiento y actualizar a una versión posterior de ONTAP generando un plan de actualización. También debería ver la lista de riesgos en la pestaña *Risk Advisor*, que se vería mitigada debido a la actualización.
+
+.Pasos
+. En el panel de control, vea las actualizaciones pendientes en el widget *actualizaciones*.image:upgrade_advisor_widget.png["Asesor de actualizaciones"]
+. Haga clic en el número de *acciones* para ver las actualizaciones pendientes.
+. Seleccione la opción de actualización requerida.image:upgrade_options.png["Opciones de actualización"]
+. Haga clic en el número de sistemas que aparecen en el widget para ver la ficha *Asesor de actualizaciones*.
++
+También puede consultar las Notas de la versión para ver información detallada sobre la versión.image:generate_upgrade_plan.png["Genere un plan de actualización"]
+
+. Consulte la lista de riesgos en la pestaña *Risk Advisor*, junto con su nivel de gravedad, que se mitigaría debido a la actualización.
+. Haga clic en *generar plan de actualización* para ir a *Asesor de actualizaciones*.
+

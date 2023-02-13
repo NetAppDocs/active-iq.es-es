@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: Ofrece información sobre el bienestar y los tipos de riesgo, que ayudan a mejorar su sistema de almacenamiento. 
+---
+= Entender el bienestar
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El widget Wellness ofrece información detallada sobre el sistema de almacenamiento. Proporciona información sobre distintos atributos del sistema de almacenamiento, como el rendimiento y la eficiencia, la capacidad, la configuración, las vulnerabilidades de seguridad, las renovaciones, y otros.
+
+image:wellness_workflow.png["flujo de trabajo de bienestar"]
+
+El widget wellness también ofrece información sobre los riesgos y las acciones que se deben tomar para mitigar el riesgo de cada atributo wellness. Los siguientes son los tipos de riesgos y la consecuencia asociada de cada riesgo:
+
+[cols="25,75"]
+|===
+| Tipo de riesgo | Consecuencia 
+
+
+| Crítico | Pérdida de datos, daños en los datos, interrupción del servicio de los datos del clúster, problema de seguridad personal o posible problema legal de cumplimiento de normativas. 
+
+
+| Alto | Pérdida a corto plazo de acceso a datos o pérdida prolongada de redundancia de nodo. 
+
+
+| Mediano | Degradación del rendimiento o pérdida a corto plazo de redundancia de nodos. 
+
+
+| Bajo | Escenarios de bajo impacto 
+
+
+| Mejor práctica | Desviaciones de las mejores prácticas documentadas 
+|===
+Puede ver el siguiente vídeo para comprender la importancia de los atributos de bienestar:
+
+video::-lTF3oWZB1M[youtube,width=848,height=480]

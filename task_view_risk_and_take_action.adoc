@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
+summary: Ofrece información para ver y analizar el estado de su sistema de almacenamiento y mitigar los riesgos. 
+---
+= Vea el riesgo y realice manualmente acciones correctivas
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas asociadas y mitigar manualmente el riesgo.
+
+.Pasos
+. Haga clic en el widget *Wellness* del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.
+. Consulte las *acciones* y *riesgos* asociadas con el atributo wellness.
+. Haga clic en *acciones* para ver los riesgos asociados con las acciones, haga clic en *riesgos* para ver todos los riesgos, o haga clic en *sistemas afectados* para ver los sistemas que requieren atención.
+. Haga clic en el nombre del riesgo para ver información sobre el riesgo.
+. Haga clic en las acciones correctivas asociadas y siga la información para resolver el riesgo.
+
+
+Los pasos para mitigar los riesgos son los mismos para todos los atributos de bienestar. Puede ver el siguiente vídeo para supervisar y solucionar problemas relacionados con la seguridad:
+
+video::ssXI-FAKMis[youtube,width=848,height=480]

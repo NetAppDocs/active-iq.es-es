@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: Proporciona información sobre cómo generar token para acceder a las API. 
+---
+= Genere tokens para usar las API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Es fácil registrarse en los servicios de API y generar tokens.
+
+.Pasos
+. En el menú *Enlaces rápidos*, haga clic en *Servicios API*.
+. Haga clic en *Registrar*.
+. Rellene el formulario de solicitud de autorización y haga clic en *Enviar*.
++
+La activación es automática y debería ser instantánea. Una vez que haya sido autorizado a utilizar las API del asesor digital, puede generar tokens que se utilizarán al realizar llamadas API programáticas. También puede utilizar estos tokens para ejecutar “Pruébela fuera” desde el catálogo de API. Cuando se obtienen mediante programación, los tokens siempre aparecen en conjuntos de dos: Un token de acceso y un símbolo de actualización. El token de acceso debe pasarse para utilizar correctamente todas las API (excepto una - el token de actualización se utiliza para obtener mediante programación un nuevo conjunto de tokens).
+
+. En la página principal de servicios de API, haga clic en *generar símbolo* para ver y descargar el token de acceso y actualizar token para invocar API.
++
+El portal le ofrece varias formas de guardar uno o ambos tokens en el conjunto. Puede copiarlos al portapapeles, descargarlas como un archivo de texto o visualizarlos como texto sin formato.
+
+
+
+
+NOTE: Debe descargar y guardar el token de acceso y actualizar el token para su uso posterior. Los tokens de acceso caducan una hora después de la generación y los tokens de actualización se deben regenerar, manualmente, cada 7 días e instalar en la aplicación. Para ello, no es necesario iniciar sesión en la aplicación. Sin embargo, después de 90 días, es necesario iniciar sesión en la aplicación para obtener un nuevo token de acceso y actualizar.

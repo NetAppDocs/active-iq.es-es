@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+summary: Proporciona información sobre el panel, las puntuaciones de estado, las funciones y los widgets. 
+---
+= Comience a utilizar la consola de comprobación del estado
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Este panel proporciona un resumen de un vistazo de la base instalada mediante los siguientes widgets:
+
+* *Adopción de AutoSupport*: Muestra el número y el porcentaje de sistemas con AutoSupport activado. También puede ver los sistemas marcados como ‘Dealineado’, aquellos con *HTTPS* y *AutoSupport On Demand* activado, así como *pérdida de señal* para aquellos sistemas que han dejado de enviar datos AutoSupport en los últimos 7 días. Para ver su puntuación de comprobación de estado e información sobre los sistemas de su base instalada, haga clic en el widget *adopción de AutoSupport*.
+* *Configuración recomendada*: Muestra los sistemas que son compatibles y no compatibles según el widget *Configuración recomendada*. Le ayuda a tomar medidas para garantizar que sus sistemas estén bien configurados en la base instalada. Puede ver la calificación proporcionada en el panel y tomar las medidas necesarias en función de las recomendaciones clave que se proporcionen por orden de prioridad.
+* *Software recomendado*: Muestra una lista consolidada de todas las actualizaciones de software y firmware y recomendaciones de moneda. Es posible ver los sistemas con la función AutoSupport habilitada que debería tener versiones de software o firmware mínimas o más recientes.
+* *Soporte y derechos*: Muestra los contratos de soporte que han caducado y los que están a punto de expirar dentro de 6 a 12 meses. Muestra el fin de las plataformas de soporte, los discos, las bandejas, el cumplimiento de las autorizaciones, las fechas de caducidad pendientes, y el fin del soporte de la plataforma y el hardware no es aplicable. Puede ver la calificación de la comprobación de estado que se proporciona en la consola y tomar medidas en función de las recomendaciones clave, que se ofrecen en orden de prioridad. Para ver información detallada sobre los contratos de soporte, haga clic en el widget *asistencia y derechos*. También puede renovar sus contratos de soporte con este widget.
+* *Mejores prácticas*: Muestra la puntuación de comprobación de estado evaluando los atributos de mejores prácticas del sistema de almacenamiento: Vulnerabilidades de rendimiento y eficiencia, disponibilidad y protección, capacidad, configuración y seguridad. Las prácticas recomendadas de NetApp ayudan a sostener el estado del sistema, que optimiza el rendimiento de la base instalada.
+* *Casos técnicos*: Le ofrece una vista detallada del historial técnico de su caso, por tipo de caso y estado abierto o cerrado, en intervalos de tiempo seleccionables. Puede acceder a grupos de casos, así como ver detalles de casos a través de link:https://mysupport.netapp.com//["Sitio de soporte de NetApp"] u otros portales de casos.
+

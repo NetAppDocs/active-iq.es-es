@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html 
+keywords: volume filling up, prevent an outage 
+summary: Proporciona información sobre cómo evitar que se llene un volumen para evitar una interrupción. 
+---
+= Evite que el volumen se llene para evitar una interrupción
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Cuando inicie sesión en Digital Advisor y observe la insignia roja en el widget *Configuración*. Al hacer clic en el widget, puede observar que el volumen está lleno al 98 % y que esto puede provocar una interrupción del servicio. La solución de este problema evitaría el llenado de volúmenes, lo que provocaría que se bloquee y falle la lectura, lo que provocaría que las aplicaciones accedan a él.
+
+.Pasos
+. Inicie sesión en Digital Advisor.
+. Haga clic en *acciones* en el widget *Configuración*.image:Configuration_image 1 prevent an outage.png["Widget de configuración"]
+. Haga clic en la ficha *riesgos únicos*. Al hacer clic en el enlace *Acción Correctiva*, puede cambiar los umbrales de advertencia o asignar más espacio al volumen.image:Risk summary_image 2 prevent an outage.png["Resumen de riesgos"]
+

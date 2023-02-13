@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: Proporciona información para comparar una plantilla de desviación de configuración. 
+---
+= Comparar una plantilla de desviación de configuración
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede comparar las configuraciones del sistema y del clúster y detectar las desviaciones de la configuración casi en tiempo real.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Config Drift*.
+. Seleccione una de las plantillas existentes o haga clic en *Agregar plantilla* para agregar una nueva plantilla.
+. Genere un informe de desviación de configuración
++
+Puede generar un informe inmediatamente o programar el informe para que se genere semanalmente o mensualmente.
+
+
+
+[cols="50,50"]
+|===
+| Para generar un informe inmediatamente | Programar el informe para que se genere semanalmente o mensualmente 
+
+
+ a| 
+. Seleccione una categoría y proporcione los valores solicitados para el informe.
+. Seleccione la opción *incluir sólo los derivs* para descargar sólo los cambios de desviación de la configuración.
+. Haga clic en *Enviar*.
+. link:task_generate_reports.html["Descargue y vea el informe de desviaciones de configuración"].
+. Ejecute el libro de aplicaciones de Ansible (incluido como parte del informe de la deriva de configuración) para mitigar los goteos.
+
+ a| 
+. Haga clic en la ficha *Informe de programación*.
+. Seleccione una categoría y proporcione los valores solicitados para el informe.
+. Seleccione la opción *incluir sólo los derivs* para descargar sólo los cambios de desviación de la configuración.
+. Seleccione la frecuencia del informe.
+. Seleccione la fecha de inicio y la fecha de finalización del informe.
+. Haga clic en *Enviar*.
+. link:task_generate_reports.html["Descargue y vea el informe de desviaciones de configuración"].
+. Ejecute el libro de aplicaciones de Ansible (incluido como parte del informe de la deriva de configuración) para mitigar los goteos.
+
+
+|===
+Se envía un correo electrónico con los detalles de la desviación de la configuración entre los sistemas seleccionados.

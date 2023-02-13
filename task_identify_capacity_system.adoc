@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_identify_capacity_system.html 
+keywords: capacity, space, increase, 
+summary: Proporciona información para aumentar la capacidad del sistema. 
+---
+= Identifique los sistemas que alcanzan los límites de capacidad
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Identifique de manera proactiva los sistemas que alcanzan los límites de capacidad y envíe una solicitud mediante chat en directo con el fin de aumentar la capacidad de su sistema de almacenamiento.
+
+Puede ver sistemas que han superado el 90% de la capacidad o que superan el 90% en 1, 3 y 6 meses. Chatee con un vendedor para aumentar fácilmente las solicitudes de adición de capacidad y obtener asistencia en tiempo real.
+
+.Pasos
+. En el widget *Planificación*, haga clic en *adiciones de capacidad* para ver los sistemas que han superado el 90% de la capacidad o que están cerca del 90% de la capacidad.
++
+Puede ver la cantidad de sistemas que han superado el 90% de capacidad o que superan el 90% en los próximos 1, 3 y 6 meses.
+
+. Seleccione una tarjeta para ver los sistemas.
+. Seleccione los sistemas para los que desea aumentar la capacidad y haga clic en *Contacto con Ventas*.
+. Compruebe sus datos de contacto.
+. Copie y pegue hasta cinco nombres de host en el chat para aumentar las solicitudes de ampliación de capacidad.
+

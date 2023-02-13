@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= Suscribirse al correo electrónico de revisión de bienestar
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede suscribirse al correo electrónico de revisión de bienestar para recibir un correo electrónico mensual que resume el estado de bienestar, sistemas que están próximos a sus fechas de renovación y sistemas que requieren una actualización de los productos de NetApp en su base instalada. Recibirá un correo electrónico de revisión del bienestar para que pueda ver un resumen mensual y tomar medidas para sus sistemas. También tiene opciones para ver, editar, compartir y eliminar sus suscripciones. En cualquier momento, si decide no recibir el correo electrónico, puede cancelar su suscripción de recibir también el correo electrónico.
+
+Una vez activada la suscripción, deberá seleccionar una fecha de inicio al agregar una suscripción. El resumen mensual del correo electrónico ofrece una vista de las acciones de comprobación del estado, renovación, actualización y estado excepcionales. Puede confirmar la dirección de correo electrónico y que se ha enviado el correo electrónico a la dirección de correo electrónico especificada. También tiene la opción de eliminar suscripciones.
+
+
+NOTE: Esta función solo está disponible a través de las ofertas de servicio SupportEdge Advisor y SupportEdge Expert de NetApp.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Revisión de bienestar*.
+. Haga clic en *Agregar suscripción*.
+. Proporcione la información necesaria en los campos *Nombre de los campos Suscripción*, *elegir categoría*, *Buscar cliente* y *correo electrónico* del cuadro de diálogo *Agregar nueva suscripción*.
+. Haga clic en *Suscribirse*.
++
+Una vez que la suscripción se haya realizado correctamente, recibirá un mensaje *Suscripción ha sido añadida*.
+
+

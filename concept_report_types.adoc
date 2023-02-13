@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: concept_report_types.html 
+keywords: reports, report types, reporting, performance reports 
+summary: Proporciona información acerca de los diferentes tipos de informes que están disponibles para el usuario. 
+---
+= Tipos de informes
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor ofrece distintas opciones de generación de informes que permiten supervisar y gestionar el estado y el éxito operativo del sistema.
+
+A continuación se muestran los tipos de informes que están disponibles en el Asesor digital:
+
+[cols="30,70"]
+|===
+| Nombre del informe | Descripción 
+
+
+| Bienestar | Proporciona información sobre los riesgos pendientes y reconocidos, detalles de riesgos, acciones correctivas y sistemas afectados. 
+
+
+| Bienestar – agregado | Proporciona un resumen de los riesgos pendientes y el número de sistemas afectados. 
+
+
+| Planes de asesor de actualización de 7-Mode | Proporciona un informe acerca del plan del asesor de actualización para los sistemas 7-Mode. En este informe se incluye información sobre el partner de alta disponibilidad. 
+
+
+| Inventario de Ansible | Proporciona un archivo de inventario de Ansible que enumera todos los detalles del inventario del sistema por región o sitio. Este archivo se puede utilizar para la automatización. 
+
+
+| FabricPool | Proporciona información sobre inactivo, en frío, activo, activo, por niveles y datos sin supervisar. Este informe también incluye el libro de estrategia de Ansible para habilitar la generación de informes de datos inactivos en agregados deshabilitados. 
+
+
+| Inventario | Proporciona información acerca de la base de instalación para una lista de observación seleccionada, el cliente, el sitio, los niveles de grupo. Este informe se puede generar como descarga directa desde la página de detalles de inventario o desde la página Informes. 
+
+
+| Contratos de soporte/finalización del servicio de hardware | Proporciona información sobre la lista de controladoras, bandejas y discos que han llegado al final de soporte (EOS). 
+
+
+| Configuración recomendada | Proporciona información sobre diversos vacíos de configuración recomendados para la configuración de gestión remota, unidades y repuestos, par de alta disponibilidad y estado de SVM. 
+
+
+| Detalles de casos técnicos | Proporciona un informe anual sobre todos los casos técnicos y su estado. 
+
+
+| Recomendaciones de actualización (SW y FW) | Informe con varias pestañas sobre la moneda de software y firmware, y las versiones recomendadas de cada controladora o serie en los criterios de búsqueda. 
+
+
+| Informe de ClusterViewer | Proporciona información sobre uno o varios clústeres a nivel de cliente y lista de observación. Puede generar este informe solo para la lista de observación con hasta 100 nodos. 
+
+
+| Capacidad y eficiencia | Proporciona información sobre los detalles de capacidad y eficiencia a nivel de clúster, cliente, sitio, grupo, lista de observación y nodo. 
+
+
+| Informe de rendimiento de volumen | Proporciona información sobre los detalles de rendimiento de los volúmenes en el nivel del clúster. 
+
+
+| Informe de rendimiento | Proporciona información, a nivel de lista de control, sobre el rendimiento de un clúster, nodo, nivel local (agregado) y volumen. Puede generar este informe solo para la lista de observación con hasta 100 nodos. 
+
+
+| Densidad de I/O. | El informe de densidad de I/o proporciona información sobre las operaciones de máximo rendimiento de entrada/salida para clientes en términos de consumo y densidad de datos y metadatos. 
+|===

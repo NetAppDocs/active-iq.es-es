@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: Proporciona información para agregar una plantilla de deriva de configuración. 
+---
+= Agregue una plantilla de desviación de configuración
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Debe añadir una plantilla para comparar las configuraciones del sistema y del clúster, y detectar las desviaciones de la configuración prácticamente en tiempo real. Las plantillas de configuración de deriva se agregan utilizando sistemas que ejecutan datos de AutoSupport.
+
+*Acerca de esta tarea*
+
+Los atributos de una plantilla de deriva de configuración son editables y los siguientes grupos de la plantilla admiten expresiones regulares para algunas secciones:
+
+[cols="3*"]
+|===
+| Grupo | Sección | Atributo 
+
+
+| *AGREGADO* | AGGR-INFO.XML | nombre 
+
+
+| *CLUSTER* | CLUSTER-INFO.XML | nombre del clúster 
+
+
+| *LUN* | LUN.XML | nombre 
+
+
+| *VSERVER* | VSERVER-INFO.XML | vserver 
+
+
+| *RED* | NETWORK-INTERFACE.XML | vif 
+
+
+| *DNS* | DNS.XML | dominios 
+
+
+| *VOLUMEN* | VOLUME.XML | vol 
+|===
+Mediante una expresión regular, un usuario puede crear un informe de desviación de configuración que incluya desviaciones derivadas de la nomenclatura de volúmenes, agregados, clústeres, etc. Por ejemplo, si se menciona una expresión regular *aggr-name** para el atributo *Nombre* para la sección *AGGR-INFO.XML* en el grupo *AGREGADO*, entonces los valores del atributo sin el prefijo *aggr-name* se marcan como una deriva cuando se genera el informe de deriva de la configuración.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Config Drift*.
+. Haga clic en *Agregar plantilla*.
+. Proporcione los valores solicitados.
+. Opcional: Puede personalizar la plantilla editando los grupos o eliminando los grupos no necesarios para una plantilla.
+. Haga clic en *Agregar plantilla*.
+

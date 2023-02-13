@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_using_docker.html 
+keywords: Ansible Playbook, Ansible, Playbook, docker 
+summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones de Ansible con la imagen del Docker. 
+---
+= Ejecute el libro de aplicaciones de Ansible con la imagen de Docker de NetApp
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Antes de ejecutar el libro de aplicaciones de Ansible, asegúrese de que se ha extraído el archivo *NetApp_Ansible_**.*zip* y que el servidor web con archivos de firmware de disco o bandeja está listo.
+
+
+
+== Antes de empezar
+
+Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, debe:
+
+* link:task_update_AFF_FAS_firmware.html["Descargue el paquete de automatización de Ansible con firmware AFF y FAS"]
+* link:task_hosting_firmware_files_using_web_server.html["Aloja los archivos de firmware mediante el servidor web"]
+* link:concept_working_with_inventory_file.html["Trabaje con el archivo de inventario"]
+* Compruebe que NetApp Docker esté instalado.
+
+
+.Pasos
+. link:https://docs.docker.com/get-started/["Configure Docker"].
+. Tire de la imagen de NetApp Docker desde DockerHub ejecutando el siguiente comando:
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:lates
+----
++
+Para obtener más información acerca del comando docker pull, consulte link:https://docs.docker.com/engine/reference/commandline/pull/["Documentación de Docker Pull"].
+
+. Ejecute la imagen de Docker como contenedor e inicie sesión en el contenedor para ejecutar el libro de aplicaciones de Ansible.
+. Copie la ruta de la carpeta que contiene el libro de aplicaciones de Ansible y los archivos de inventario extraídos, por ejemplo, *ruta_de_libro_descargados*. El libro de aplicaciones de Ansible y los archivos de inventario deben estar en la misma carpeta para una ejecución correcta.
+. Monte la carpeta como un volumen en el contenedor Docker. Por ejemplo, para montar la carpeta *Container_PATH*, debe ejecutar el siguiente comando:
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+El contenedor se inicia y la consola se encuentra ahora en el shell bash del contenedor. Si quiere más información acerca del comando Docker Run, consulte link:https://docs.docker.com/engine/reference/run/["Documentación de Docker Run"].
+
+. Ejecute el libro de aplicaciones de Ansible dentro del contenedor con el comando *ansible-playbook*:
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Si hay un conjunto de clústeres con credenciales de inicio de sesión diferentes, debe ejecutarse el libro de aplicaciones de Ansible en cada clúster. No es necesario realizar ningún cambio en el archivo de inventario, ya que el libro de aplicaciones de Ansible omite los clústeres para los que no se ha podido iniciar sesión.
+
+
+
+Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"] Y para ejecutar la tableta Ansible playbook en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"].
+
+Después de ejecutar el libro de aplicaciones de Ansible, consulte link:task_validate_firmware_installation.html["Validaciones de instalación del firmware"] para obtener instrucciones posteriores a la ejecución.

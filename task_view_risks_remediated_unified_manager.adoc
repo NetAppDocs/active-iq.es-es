@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_view_risks_remediated_unified_manager.html 
+keywords: risks, actions, remediation, corrective action, unified manager 
+summary: Proporciona información para ver los riesgos que se pueden solucionar automáticamente mediante Unified Manager. 
+---
+= Vea los riesgos que se pueden mitigar automáticamente con Unified Manager o el libro de aplicaciones de Ansible
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede analizar su sistema de almacenamiento controlando las acciones y riesgos y mitigarlo con Active IQ Unified Manager o el libro de aplicaciones de Ansible.
+
+video::XusFvXM7h-E[youtube,width=848,height=480]
+.Pasos
+. Haga clic en *Ver todas las acciones* en el panel.
+. Haga clic en *acciones* para ver los riesgos asociados con las acciones, haga clic en *riesgos* para ver todos los riesgos, o haga clic en *sistemas afectados* para ver los sistemas que requieren atención.
++
+Si el riesgo se puede mitigar con Active IQ Unified Manager, el image:spanner.png["Llave inglesa"] El icono se resalta y, si el riesgo se puede mitigar con el libro de aplicaciones de Ansible, el image:update_ansible.png["Actualice Ansible"] icono resaltado.
+
+
+
+[cols="50,50"]
+|===
+| Para mitigar el riesgo con Unified Manager | Para mitigar los riesgos con el libro de aplicaciones de Ansible 
+
+
+ a| 
+. Haga clic en la image:spanner.png["Llave inglesa"] .
+. Haga clic en *Fix it* para iniciar Active IQ Unified Manager.
+. Haga clic en *instalar* para instalar Active IQ Unified Manager 9.7 o posterior para utilizar la opción *reparar*.
+. Haga clic en *Actualizar* para actualizar a Active IQ Unified Manager 9.7 o posterior para utilizar la opción *reparar*.
+
+ a| 
+. Haga clic en la image:update_ansible.png["Actualice Ansible"] .
+. Haga clic en *Descargar* para descargar el paquete de automatización de Ansible del firmware AFF y FAS.
+
+
+|===
+
+NOTE: Se requiere un contrato de SupportEdge Advisor o SupportEdge Expert para utilizar la opción *Fix it* y las características del libro de aplicaciones de Ansible.

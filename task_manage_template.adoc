@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: Proporciona información para administrar plantillas. 
+---
+= Administrar una plantilla
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede clonar una plantilla, compartir una plantilla, editar los detalles de una plantilla existente y eliminar una plantilla.
+
+Compartir una plantilla ahorra el tiempo y el esfuerzo necesarios para crear y personalizar una plantilla que ya ha creado un usuario. Los usuarios compartidos pueden cambiar las plantillas de forma mutua, lo que permite a varios usuarios realizar modificaciones en una única plantilla dorada.
+
+*Acerca de esta tarea*
+
+* El acceso a las plantillas compartidas se puede revocar en cualquier momento.
+* Los usuarios compartidos pueden eliminar esta plantilla de su cuenta en cualquier momento.
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *Config Drift*.
+. Haga clic en image:clone_icon.png["clonar"] para hacer una copia de la plantilla.
+. Haga clic en image:share_icon.png["share"] e introduzca los nombres de usuario con los que desea compartir la plantilla.
++
+
+NOTE: Si introduce la dirección de correo electrónico del usuario en lugar del nombre de usuario, la plantilla no se compartirá.
+
+. Haga clic en image:edit_icon.png["editar"] para actualizar los detalles de la plantilla.
+. Haga clic en image:delete_icon.png["eliminar"] para eliminar la plantilla.
+

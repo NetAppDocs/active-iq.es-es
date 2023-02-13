@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_protect_systems_against_ransomware_risks.html 
+keywords: ransomware, risks, ransomware risks 
+summary:  
+---
+= Proteja los sistemas contra riesgos de ransomware
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Al iniciar sesión en el Asesor Digital, puede ver las *acciones* resaltadas en el widget *Defensa de Ransomware*, que muestra los recuentos de riesgo.
+
+Puede ver los riesgos de creación, retención y FPolicy de ONTAP y, a continuación, realizar acciones para corregirlos.
+
+.Pasos
+. Inicie sesión en Digital Advisor.
+. Haga clic en *acciones* en el widget *Defensa de Ransomware*.
+. Para los riesgos que se muestran, compruebe el nivel de impacto y siga las acciones recomendadas.
+. Haga clic en la ficha riesgos únicos y en el enlace de la columna *Acción Correctiva*.
+. Haga clic en la ficha *sistemas afectados* para ver sistemas con riesgos.
+. Siga las acciones de corrección que se recomiendan para proteger los sistemas.
+

@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_view_and_acknowledge_risks.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
+summary: Ofrece información para ver y analizar el estado de su sistema de almacenamiento y reconocer los riesgos. 
+---
+= Ver y reconocer el riesgo
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas y mitigar manualmente el riesgo.
+
+.Pasos
+. Haga clic en el widget wellness Attribute del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.
+. Consulte las *acciones* y *riesgos* asociadas con el atributo wellness.
+. Haga clic en *acciones* para ver los riesgos asociados con las acciones, haga clic en *riesgos* para ver todos los riesgos, o haga clic en *sistemas afectados* para ver los sistemas que requieren atención.
+. Haga clic en el riesgo para ver el resumen de riesgos.
+. Haga clic en *Ack* para confirmar el riesgo.
++
+La información detallada del resumen de riesgos se proporciona junto con acciones correctivas que deben realizarse manualmente para mitigar el riesgo.
+
+. Si no desea o no puede mitigar el riesgo en este momento, proporcione los valores para los campos y haga clic en *reconocer*.
++
+El riesgo se añadirá a los riesgos reconocidos.
+
+
+
+
+NOTE: Si ya no desea que se reconozca un riesgo, puede ignorar el riesgo haciendo clic en *un-Ack* y siguiendo los mismos pasos.

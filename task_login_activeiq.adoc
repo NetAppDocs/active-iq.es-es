@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_login_activeiq.html 
+keywords: login, log in 
+summary: Proporciona información para iniciar sesión en Digital Advisor. 
+---
+= Inicie sesión en Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Debe disponer de una credencial válida del sitio de soporte de NetApp para iniciar sesión en Digital Advisor. Si no tiene una cuenta y va a comenzar, haga clic en link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["aquí"].
+
+.Pasos
+. Haga clic en link:https://activeiq.netapp.com/?source=onlinedocs["aquí"] Para acceder a Digital Advisor.
++
+Digital Advisor muestra los sistemas con un contrato de soporte válido. Si los contratos caducan, se da un período de gracia de 90 días en el que los sistemas continúan siendo visibles. A partir de entonces, los sistemas no se pueden buscar ni son visibles en Digital Advisor.
+
+. Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
+

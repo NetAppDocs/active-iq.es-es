@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Proporciona información para administrar listas de observación. 
+---
+= Administrar una lista de observación
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede ver el panel de control de diferentes listas de observación, editar los detalles de una lista de observación existente y eliminar una lista de observación.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Listas de comprobaciones*.
++
+Aparece la pantalla *Administrar lista de observación*.
+
+. Haga clic en el nombre de la lista de observación para ver los detalles del panel de control de la lista de observación.
+. Haga clic en *Editar* para actualizar los detalles de la lista de observación.
+. Haga clic en *Eliminar* para eliminar la lista de observación.
+

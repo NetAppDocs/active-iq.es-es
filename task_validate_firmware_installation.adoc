@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: Proporciona información para validar la instalación del firmware. 
+---
+= Validar la instalación del firmware
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Tras ejecutar el libro de estrategia, inicie sesión en el clúster como administrador del clúster.
+
+
+
+== Validar la instalación del firmware de disco
+
+.Pasos
+. Compruebe que el firmware de la unidad esté instalado:
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[Storage disk show].
+
+. Compruebe que el nuevo firmware de Flash Cache de NVMe esté instalado:
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[system Controller Flash-cache show].
+
+
+
+
+
+== Validar la instalación del firmware de la bandeja
+
+.Pasos
+. Compruebe que el nuevo firmware de la bandeja se haya actualizado:
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+En el resultado, verifique que el firmware de cada bandeja se actualice al nivel deseado. Por ejemplo:
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[system node run].
+
+. Compruebe que se haya actualizado el nuevo firmware de ACP:
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[módulo acp de bandeja de almacenamiento show].
+
+. Compruebe que el modo ACP deseado esté configurado:
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[storage shelf acp show].
+
+. Cambie el modo ACP (canal):
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+Para obtener más información sobre el comando, consulte {link-with-subraya}[Storage shelf acp configure].
+
+
+
+
+
+== Validar la instalación del firmware del SP/BMC
+
+El libro de aplicaciones de Ansible para las actualizaciones del firmware del procesador de servicios/BMC está habilitado con una opción para verificar la instalación del firmware más reciente del SP/BMC en la controladora. Una vez finalizada la verificación (las actualizaciones pueden tardar dos horas en completarse), el libro de aplicaciones de Ansible PlayBook aplica las actualizaciones de firmware del switch interno conectando con la consola del SP/BMC.
+
+La información de fallo y éxito del firmware del SP/BMC y de las instalaciones de firmware de switch internas recibirán una notificación al final de la ejecución del libro de aplicaciones de Ansible. Siga los pasos mencionados en el libro de aplicaciones de Ansible en caso de que se produzca un error en la instalación del firmware del SP/BMC/switch interno.

@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: 'Digital Advisor enables you to optimize your data infrastructure across your global hybrid cloud by delivering actionable predictive analytics and proactive support through a cloud-based portal and mobile app. Digital Advisor"s cloud-based services leverage community wisdom and peer comparisons that are drawn from NetApp"s massive installed base, combining these insights with AutoSupport telemetry and My AutoSupport features to deliver an advanced set of unparalleled analytics services.' 
+summary: El asesor digital le permite optimizar su infraestructura de datos en el cloud híbrido global mediante análisis predictivos aplicables y soporte proactivo a través de un portal basado en cloud y una aplicación móvil. Los servicios basados en cloud de Digital Advisor aprovechan los conocimientos de la comunidad y las comparaciones por pares que se extraen de la enorme base instalada de NetApp, combinando estas estadísticas con la telemetría AutoSupport y las funciones de My AutoSupport para ofrecer un conjunto avanzado de servicios de análisis sin precedentes. 
+---
+= Documentación de Digital Advisor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

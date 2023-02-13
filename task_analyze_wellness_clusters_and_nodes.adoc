@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: Proporciona información sobre ClusterViewer. 
+---
+= Analizar el bienestar de los clústeres y los nodos
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede analizar el bienestar de los clústeres y los nodos mediante ClusterViewer, un origen único para obtener información sobre la configuración física y lógica de los clústeres y los nodos.
+
+ClusterViewer proporciona información, como diagramas de pilas de sus nodos, uso del almacenamiento y eficiencia, margen adicional en la capacidad del hardware, etc., que le ayuda a tomar decisiones informadas para mejorar el bienestar de sus clústeres y nodos.
+
+Puede ver visualizaciones o representaciones gráficas de la configuración física de sus nodos en niveles de cable, pila y disco RAID. También puede descargar las visualizaciones en formato SVG.
+
+video::FVbb2bbIY9E[youtube,width=848,height=480]
+.Pasos
+. En el widget *Inventario*, seleccione el clúster o nodo (host) que desee.
+. En el nivel de clúster o nodo, haga clic en *ClusterViewer* junto al widget *Configuración*.
+. Haga clic en la ficha *visualización* para ver una representación gráfica del clúster.
+

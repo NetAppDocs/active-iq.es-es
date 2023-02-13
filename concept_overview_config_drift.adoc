@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: Proporciona una descripción general de la característica de deriva de configuración 
+---
+= Entender la desviación de la configuración
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La función de desviación de configuración identifica las desviaciones de configuración comparando una plantilla del sistema con una plantilla del sistema "dorado" o base. Puede programar informes de desviaciones semanales o mensuales, o bien generar informes bajo demanda. Puede mitigar algunas desviaciones utilizando los Libros de estrategia de Ansible, que se proporcionan en el informe de deriva de configuración.
+
+Esta función solo está disponible para sistemas con contratos de asesor y soporte experto.
+
+Puede consultar el siguiente diagrama para comprender el flujo de trabajo a fin de identificar las desviaciones de la configuración y generar el informe.
+
+image:config_drift.png["flujo de trabajo de desviación de configuración"]
+
+Puede ver el siguiente vídeo para generar y ejecutar una libro de aplicaciones de Ansible para solucionar las desviaciones de la configuración:
+
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]

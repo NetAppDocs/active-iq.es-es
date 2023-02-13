@@ -1,0 +1,320 @@
+---
+sidebar: sidebar 
+permalink: reference_aiq_faq.html 
+keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
+summary: Estas preguntas frecuentes pueden ser de ayuda si solo está buscando una respuesta rápida a una pregunta. 
+---
+= Preguntas frecuentes sobre el Asesor Digital
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Las siguientes preguntas proporcionan respuestas a sus preguntas frecuentes acerca de Digital Advisor.
+
+
+
+== Caso no técnico
+
+*¿Qué es un caso no técnico?*
+
+Cuestiones como la imposibilidad de ver los sistemas en el inventario, las fechas de los plazos de contrato incorrectas, etc., que no son de carácter técnico, se clasifican como casos no técnicos.
+
+*¿Cuándo necesito crear un caso no técnico?*
+
+Se debe crear un caso no técnico para los siguientes casos:
+
+* No se puede acceder a ciertas funciones
+* Faltan sistemas en el inventario
+* Retirada de un sistema de la base de instalación
+* Fechas de término del contrato incorrectas o faltantes
+* Oferta de soporte incorrecta
+
+
+*¿Cómo creo un caso no técnico?*
+
+. Haga clic en link:https://mysupport.netapp.com/site/help["aquí"] Para abrir la herramienta de comentarios no técnicos en el sitio de soporte de NetApp.
+. Seleccione la categoría adecuada en la lista desplegable *Categoría de comentarios*.
+. Introduzca los detalles necesarios y proporcione información adicional en la casilla "Comentarios".
+. Haga clic en *Enviar*.
+
+
+Se crea un caso y se proporciona un número de caso para su referencia.
+
+*¿Cómo puedo proporcionar comentarios o hacer otras preguntas relacionadas con el asesor digital?*
+
+Para proporcionar comentarios o hacer preguntas, envíe un correo electrónico a mailto:ng-activeiq-feedback@netapp.com[.underline]#ng-activeiq-feedback@netapp.com#].
+
+
+
+== Eficiencia del almacenamiento
+
+*¿Cómo puedo acceder a la eficiencia del almacenamiento en Digital Advisor?*
+
+. Abra la página de inicio de link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"].
+. Busque un cliente, sitio, grupo, clúster o nodo en el cuadro de búsqueda superior derecho para acceder a la consola correspondiente.
+. Haga clic en *eficiencia de almacenamiento* en la navegación de la izquierda.
+
+
+
+NOTE: Los paneles creados con una lista de observación no se mostrarán en el widget Storage Efficiency.
+
+*¿Se muestran las relaciones de visualización del asesor digital para todos los sistemas ONTAP?*
+
+El asesor digital muestra las proporciones de los sistemas que ejecutan ONTAP 9.1 y versiones posteriores.
+
+*¿Cuál es la casilla de verificación ‘sin instantáneas’ en el tablero de mandos de eficiencia?*
+
+De forma predeterminada, Digital Advisor Efficiency Dashboard calcula la proporción general a nivel de cliente, sitio, grupo, clúster y nodo. La tasa general incluye la proporción de las siguientes tecnologías de eficiencia del almacenamiento:
+
+* Deduplicación
+* Compresión
+* Compactación de datos
+* Clones
+* Snapshot
+
+
+Si selecciona la casilla de verificación *sin instantáneas*, Digital Advisor calculará la relación de eficiencia (proporción de tecnologías de deduplicación, compresión, compactación de datos y eficiencia del almacenamiento de clones) a nivel de cliente, sitio, grupo, clúster y nodo.
+
+*¿Qué son los datos físicos utilizados y los lógicos?*
+
+* Bloques físicos consumidos/datos físicos utilizados
++
+** Cantidad de espacio que se utiliza para los datos ahora (en lugar de reservarse para uso futuro)
+** Incluye el espacio utilizado por las copias de Snapshot agregadas
+** El espacio consumido/escrito realmente por el cliente
+
+
+* Datos lógicos totales utilizados
++
+** Muestra el tamaño lógico utilizado en el agregado.
+** Esto incluye volúmenes, clones y snapshots en el agregado.
+** El tamaño lógico se calcula según el uso físico (escrituras reales) y el ahorro que se obtiene en el agregado.
+** No incluir el espacio reservado para uso futuro
+
+
+
+
+*¿Qué instancias de AutoSupport se utilizan para calcular las relaciones de eficiencia?*
+
+Los cálculos se realizan utilizando las instancias de AutoSupport más recientes semanales o activadas por el usuario que tienden a contener la mayoría de las secciones necesarias para calcular las relaciones.
+
+*¿Qué volúmenes o agregados están excluidos de los cálculos de eficiencia?*
+
+No se tienen en cuenta los objetos siguientes al calcular las tasas de eficiencia:
+
+* Agregados raíz
+* Volúmenes sin conexión
+* Volúmenes raíz/administrador de Vserver
+* Volúmenes de configuración de MCC
+
+
+*¿Cómo puedo ver la tendencia en las relaciones de eficiencia?*
+
+Actualmente, las ratios de eficiencia se calculan en función de la instancia de AutoSupport más reciente, semanal o activada por el usuario. La tendencia de la eficiencia se puede tener en cuenta para una futura versión.
+
+*¿Cómo se calculan las relaciones a nivel de cliente y los ahorros en eficiencia?*
+
+La consola de eficiencia del almacenamiento a nivel de cliente proporciona la eficiencia con y sin copias Snapshot para sistemas AFF y distintos de AFF, y se combinan en la base instalada de clientes para sistemas que ejecuten ONTAP 9.1 y versiones posteriores. Los parámetros necesarios para los siguientes cálculos se toman de ONTAP AutoSupport:
+
+Sin copias snapshot (calculadas primero por agregado):
+
+|===
+| *Funcionamiento* | *Fórmula* 
+
+
+| Aggr Logical se utiliza sin copias snapshot | Tamaño lógico utilizado por volúmenes, clones y copias de Snapshot en el agregado: Tamaño lógico utilizado por las copias de Snapshot 
+
+
+| Agrupación física utilizada sin copias snapshot | Total físico utilizado: (Tamaño físico utilizado por las copias snapshot / ratio de reducción de datos agregados de se) 
+
+
+| Ratio de eficiencia de clientes sin copias Snapshot | SUM [Aggr Logical used without snapshot copies for all aggregates and for all nodes of a customer] / Sum [Aggr Physical used without snapshot copies for all aggregates and for all nodes of a customer] : 1 
+|===
+Con copias Snapshot:
+
+|===
+| *Funcionamiento* | *Fórmula* 
+
+
+| Tamaño lógico del cliente con copias Snapshot | Suma [Tamaño lógico utilizado por volúmenes, clones y copias snapshot de todos los agregados y de todos los nodos de un cliente] 
+
+
+| Tamaño físico del cliente utilizado con las copias Snapshot | Suma [Tamaño físico total utilizado para todas las agrupaciones y todos los nodos de un cliente] 
+
+
+| Ratio de eficiencia de clientes con copias Snapshot | Tamaño lógico del cliente con copias y clones Snapshot / Tamaño físico del cliente utilizado con copias y clones Snapshot : 1 
+|===
+Cálculos de tablas de eficiencia:
+
+|===
+| *Funcionamiento* | *Fórmula* 
+
+
+| El espacio físico utilizado por el cliente | Suma de espacio físico utilizado por la agrupación para todas las agrupaciones y todos los nodos de un cliente 
+
+
+| Tamaño lógico del cliente utilizado sin copias snapshot | Suma de tamaño lógico utilizado por volúmenes, clones y copias snapshot: Tamaño lógico utilizado por las copias snapshot para todos los agregados de todos los nodos de un cliente 
+
+
+| Tamaño lógico del cliente utilizado con las copias de Snapshot | Suma de Tamaño lógico usado por volúmenes, clones y copias snapshot en el agregado de todos los agregados de todos los nodos de un cliente 
+
+
+| Ahorro total de espacio | Espacio lógico total utilizado: Espacio físico total utilizado 
+
+
+| Ahorro con la deduplicación | Suma de espacio ahorrado por deduplicación de volumen + espacio ahorrado por detección de patrones cero en línea de cada agregado de todos los nodos de un cliente 
+
+
+| Ahorros en compresión | Suma de espacio ahorrado por compresión de volumen de cada agregado de todos los nodos de un cliente 
+
+
+| Ahorro de compactación (para ONTAP 9.1) | Suma de espacio ahorrado por compactación agregada de cada agregado de todos los nodos de un cliente 
+
+
+| Ahorro de compactación (para ONTAP 9.2 y versiones posteriores) | Suma de espacio ahorrado por reducción de datos agregada de cada agregado de todos los nodos de un cliente 
+
+
+| Ahorro de FlexClone | Suma de (tamaño lógico utilizado por los volúmenes FlexClone, tamaño físico utilizado por los volúmenes FlexClone) de cada agregado de todos los nodos de un cliente 
+
+
+| Copias Snapshot Backup Ahorro | Suma de (tamaño lógico utilizado por las copias snapshot - Tamaño físico utilizado por las copias snapshot) de todos los agregados de todos los nodos de un cliente 
+|===
+*¿Por qué añadir todos los ahorros en eficiencia individual no representa el total de datos ahorrados por la eficiencia del almacenamiento?*
+
+El ahorro de eficiencia se muestra en la consola de eficiencia del almacenamiento para volúmenes y niveles locales (agregados). No puede añadir ahorros en el volumen ni agregados, puesto que ambos se producen en diferentes objetos de almacenamiento.
+
+*¿Por qué se informó de que las eficiencias de almacenamiento eran más altas o incorrectamente antes de actualizar a ONTAP?*
+
+La eficiencia de almacenamiento se muestra más alta cuando los volúmenes de protección de datos están presentes en el nodo debido a un error en ONTAP. El problema se solucionó en ONTAP 9.3P11. La eficiencia de almacenamiento informa de valores correctos o inferiores cuando se actualiza desde versiones de ONTAP anteriores a 9.3P11 y cuando hay volúmenes de protección de datos en el nodo.
+
+
+
+== Capacidad
+
+*¿Cómo se calculan las capacidades en el asesor digital?* las capacidades en el asesor digital se calculan para el clúster y el nodo, excluyendo la raíz e incluyendo copias Snapshot
+
+|===
+| *Capacidad* | *Calculado agregando cada agregado…* 
+
+
+| Capacidad bruta | Todos los Phys (MB/bks) de “SYSCONFIG -R” 
+
+
+| Capacidad utilizable | Kbytes (asignados) de "DF -A" 
+
+
+| Capacidad utilizada (con reserva) | Se utiliza con “DF -A” 
+
+
+| Capacidad disponible | Disp. De “DF -A” 
+
+
+| Capacidad física (real) | Total físico utilizado de “AGGR-EFFICIENCY.XML” 
+
+
+| Capacidad lógica (efectiva) | Tamaño lógico utilizado por volúmenes, clones y copias snapshot en el agregado de “AGGR-EFFICIENCY.XML” 
+|===
+*Para nivel local (agregado con copias Snapshot)*
+
+|===
+| *Capacidad* | *Calculado usando…* 
+
+
+| Capacidad utilizable | Kbytes (asignados) de "DF -A" 
+
+
+| Capacidad utilizada (con reserva) | Se utiliza con “DF -A” 
+
+
+| Capacidad disponible | Disp. De “DF -A” 
+
+
+| Capacidad física (real) | Total físico utilizado de “AGGR-EFFICIENCY.XML” 
+
+
+| Capacidad lógica (efectiva) | Tamaño lógico utilizado por volúmenes, clones y copias snapshot en el agregado de “AGGR-EFFICIENCY.XML” 
+|===
+*Para volumen (volumen con copias Snapshot)*
+
+|===
+
+
+| *Capacidad* | *Calculado usando…* 
+
+
+| Capacidad de un volumen | Tamaño del volumen de “VOLUME.XML” 
+
+
+| Capacidad utilizada (con reserva) | Tamaño usado de "VOLUME.XML" 
+
+
+| Capacidad disponible | Tamaño disponible de “VOLUME.XML” 
+
+
+| Capacidad física (real) | Uso físico total de “vol STATUS -S” 
+
+
+| Capacidad lógica (efectiva) | Tamaño lógico usado de “VOLUME.XML” 
+|===
+*¿Qué son la capacidad física (real), la capacidad lógica (efectiva) y la capacidad utilizada (con reserva)?*
+
+* Bloques físicos consumidos/capacidad física utilizada (real)
++
+** Cantidad de espacio que se utiliza para los datos ahora (en lugar de reservarse para uso futuro)
+** Incluye el espacio utilizado por las copias de Snapshot agregadas
+** El espacio consumido o escrito realmente por el cliente
+
+
+* Datos lógicos (efectivos) utilizados
++
+** Muestra el tamaño lógico utilizado en el agregado
+** El agregado incluye volúmenes, clones y copias Snapshot.
+** El tamaño lógico se calcula según el uso físico (escrituras reales) y el ahorro que se obtiene en el agregado.
+
+
+
+
+
+NOTE: No incluye el espacio reservado para uso futuro.
+
+* Capacidad total de datos usados/capacidad utilizada (con reserva)
++
+** La suma de todo el espacio usado o reservado en el agregado por volúmenes, metadatos o copias de Snapshot
+
+
+
+
+
+NOTE: Incluye espacio reservado para volúmenes de tipo de garantía de archivo o volumen. Incluye retardados, aggr blog, y metadatos además de las reservas. Se muestra como espacio utilizado hasta que se purguen los bloques libres retrasados. Una vez purgado, el espacio utilizado disminuye.
+
+*¿Cómo se calcula el pronóstico de capacidad?* el pronóstico de capacidad utiliza datos de capacidad utilizada durante el último año para calcular la tasa media de crecimiento semanal de un sistema. A continuación, esta tasa de cambio en el uso del sistema se extrapolará a partir de la capacidad utilizada actual, para demostrar cómo se espera que la utilización del sistema cambie en los próximos 6 meses (suponiendo que la capacidad útil total siga siendo la misma).
+
+*¿Por qué la capacidad utilizada añadida de cada volumen no coincide con la capacidad utilizada agregada a nivel de nodo?* la capacidad utilizada a nivel de nodo incluye espacio reservado por volúmenes, metadatos y copias Snapshot. También incluye espacio reservado para volúmenes: Tipo de garantía de archivo o volumen. Por lo tanto, es posible que ambos no coincidan.
+
+*Son capacidades mostradas en Digital Advisor base 2 o base 10?* todas las capacidades mostradas en Digital Advisor son base 2 (dividir por 1024) y representan capacidades en GIB/TIB. Las soluciones de almacenamiento de ONTAP y otros productos de NetApp también muestran el uso de capacidad en la base 2.
+
+Para StorageGRID, las capacidades se muestran en base 10 y la unidad de capacidad se expresa en TB.
+
+
+
+== Inventario
+
+*¿Por qué no puedo encontrar ciertos sistemas en la página de inventario?* es posible que no pueda ver ciertos sistemas en la página de inventario debido a una de las siguientes razones:
+
+* Los nuevos sistemas tardan más de un día en reflexionar en Digital Advisor cuando se han agregado o actualizado en SAP.
+* Los sistemas son seguros y no está autorizado a ver los sistemas seguros.
+* No tiene derecho a ver los sistemas.
+* Los sistemas están inactivos
+
+
+Si no puede ver sistemas por cualquier otro motivo, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>

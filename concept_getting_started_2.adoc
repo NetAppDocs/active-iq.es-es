@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: Le ayuda a comprender los flujos de trabajo y a comenzar a utilizar el asesor digital. 
+---
+= Inicio rápido para Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor se ha mejorado y rediseñado para ayudarle a realizar las tareas de manera más eficaz. La interfaz de usuario se ha desarrollado para guiarle a alcanzar los objetivos deseados.
+
+Puede consultar el siguiente diagrama para comprender los flujos de trabajo de Digital Advisor.
+
+image:activeiq2_workflow.png["Flujo de trabajo del asesor digital"]
+
+Puede ver el siguiente vídeo para empezar a utilizar Digital Advisor:
+
+video::rEPtldosjWM[youtube,width=848,height=480]
+Todos los widgets de Digital Advisor no son compatibles con todas las plataformas. Digital Advisor identifica la plataforma del sistema de almacenamiento y muestra únicamente el conjunto de tareas que se pueden realizar en el sistema de almacenamiento.
+
+Lea la siguiente información para conocer los widgets compatibles con el sistema de almacenamiento.
+
+[cols="4*"]
+|===
+| *Widget* | *Cliente* | *Cluster* | *Nodo* 
+
+
+| Bienestar | Compatible con todas las plataformas | Compatible con todas las plataformas | Compatible con todas las plataformas 
+
+
+| Renovaciones | Compatible con todas las plataformas | Compatible con todas las plataformas | Compatible con todas las plataformas 
+
+
+| Adiciones de capacidad | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) 
+
+
+| Inventario | Compatible con todas las plataformas | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
+
+
+| Actualizaciones | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
+|===

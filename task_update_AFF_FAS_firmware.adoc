@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: Proporciona información sobre cómo actualizar el firmware de AFF y FAS. 
+---
+= Descargue el paquete de automatización de Ansible con firmware AFF y FAS
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Debe actualizar el firmware de AFF y FAS con Ansible para reducir los riesgos identificados y mantener actualizado el sistema de almacenamiento.
+
+
+
+== Antes de empezar
+
+Antes de actualizar el firmware de AFF y FAS con Ansible, debe:
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Instale y configure Ansible en el sistema de almacenamiento"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Instale Ansible 2.9 con colecciones en el sistema de almacenamiento"]
+* Actualice su sistema de almacenamiento a ONTAP 9.1 o posterior
+* Configure su cuenta con una función de administrador
+
+
+.Pasos
+. Haga clic en cualquier widget de bienestar del panel o haga clic en *Ver todas las acciones* para ver una lista de todas las acciones y riesgos.
+. Haga clic en *actualización del firmware* para ver todos los riesgos de actualización del firmware.
+. Haga clic en *Actualizar AFF y firmware de FAS* para ver todos los paquetes de actualización disponibles o haga clic en image:update_ansible.png["Actualice Ansible"] junto a cada riesgo para actualizar el paquete específico de ese riesgo.
+. Haga clic en *Descargar* para descargar los archivos zip y actualizar el sistema de almacenamiento.
++
+El archivo zip contiene lo siguiente:
+
++
+** Libro de aplicaciones de Ansible: Archivo YLMA que contiene el script de Ansible para realizar actualizaciones del firmware del procesador de servicio, de la bandeja y del disco.
+** Inventario: Archivo YAML que contiene los detalles de los sistemas que se aplican para las actualizaciones de firmware.
+** Los paquetes de firmware de disco, estante y procesador de servicio/BMC se denominan *all.zip*, *all_shelf_fw.zip* y *<SP/BMC>_<version_number>_fw.zip* respectivamente.
+
+
+
+
+
+NOTE: No se admite la adición manual de clústeres y controladoras al archivo de inventario.

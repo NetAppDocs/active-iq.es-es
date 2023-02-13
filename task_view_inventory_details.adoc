@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_inventory_details.html 
+keywords: inventory, platforms, systems, clusters, sites 
+summary: Proporciona información sobre el inventario general de su propiedad. 
+---
+= Ver detalles de inventario
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El widget *Inventario* le proporciona un resumen de los sistemas totales que posee. Esto incluye productos habilitados para Digital Advisor y no habilitados.
+
+También puede generar el informe de la lista de observación seleccionada y enviarlo por correo electrónico a un máximo de 5 destinatarios.
+
+video::ttbpbT5uTBI[youtube,width=848,height=480]
+.Pasos
+. En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.
+. Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.
+. Descargue el informe *Inventory* para ver los detalles del sistema en formato .xls.
+. Descargue el informe *Ansible Inventory* para ver los detalles del sistema en los formatos .yml y .ini a nivel de región o sitio.
++
+Los archivos de inventario de Ansible pueden utilizarse con archivos personalizados del libro de aplicaciones de Ansible para hacer cambios en la configuración de la infraestructura.
+
+

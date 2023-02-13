@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html 
+keywords: protection, hackers, ransomware, ransomware attacks, attack 
+summary: Proporciona información sobre cómo aumentar la protección contra hackers y ataques de ransomware. 
+---
+= Detectar vulnerabilidad de seguridad
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El sitio de seguridad de NetApp es la fuente de la verdad para la seguridad de los productos de NetApp: link:https://security.netapp.com[""]
+
+Digital Advisor utiliza datos de telemetría y avisos de seguridad de productos publicados para detectar problemas de seguridad para productos cubiertos* y con derecho a asistencia. Los datos de telemetría de productos deben transmitirse a NetApp a través de AutoSupport para permitir que el Asesor digital detecte riesgos.
+
+Si desea obtener más información sobre la seguridad de los productos de NetApp, incluidos los productos no cubiertos por Digital Advisor, visite link:https://security.netapp.com[""]
+
+*Productos cubiertos: ONTAP 9 (en las instalaciones y el cloud), Software de controladora del sistema operativo SANtricity, SolidFire de NetApp (software Element), StorageGRID, Active IQ Unified Manager, Herramientas de ONTAP para VMware (OTV)
+
+.Pasos
+. Inicie sesión en Digital Advisor.
+. Haga clic en *acciones* en el widget *vulnerabilidades de seguridad*.image:Security_Image 1 Ransomware attacks.png["Widget vulnerabilidades de seguridad"]
++
+Para los riesgos de seguridad de alto impacto, siga las acciones recomendadas que consiste en actualizar el sistema operativo.
+
+. Haga clic en la ficha *riesgos únicos* y, a continuación, haga clic en el vínculo de la columna *Acción Correctiva*.image:Corrective Action_Image 2 Ransomware attacks.png["Columna Acción correctiva"]
++
+El riesgo se fija en ONTAP 9.7P8 y posteriormente.image:Remediations_Image 3 Ransomware attacks.png["Pestaña de corrección"]
+
+. El paso más importante es planificar la actualización del sistema operativo en el *Asesor de actualizaciones* en Digital Advisor.
+

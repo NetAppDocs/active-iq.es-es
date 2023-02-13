@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: Proporciona información acerca del rendimiento. 
+---
+= Analizar gráficos de rendimiento
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Los gráficos de rendimiento permiten analizar el rendimiento de sus dispositivos de almacenamiento. Es posible ver gráficos detallados de rendimiento para un clúster de ONTAP o varios nodos de un clúster de ONTAP y controladoras E-Series. Estos gráficos proporcionan datos de rendimiento históricos que pueden utilizarse para comprender las tendencias de rendimiento y el análisis de patrones. Puede seleccionar una fecha del calendario para ver gráficos de rendimiento de un día, una semana, un mes, dos meses y doce meses. Puede seleccionar varios nodos para ver un gráfico determinado al mismo tiempo.
+
+Tiene una opción para establecer preferencias; por ejemplo, puede ver un gráfico de tres nodos o dos gráficos de tres nodos.
+
+Cuando se muestra el gráfico por primera vez, se preselecciona una ficha de 1 semana y presenta datos de una semana en formato gráfico para facilitar la comprensión de grandes cantidades de datos y su relación entre las distintas series de datos. Si desea restablecer el intervalo de fechas, por ejemplo, puede hacer clic en la ficha de 1 mes y seleccionar fechas en el calendario.
+
+También tiene la opción de ampliar el gráfico de rendimiento; se muestran los puntos de datos individuales.
+
+video::fWrHYX17xT8[youtube,width=848,height=480]
+.Pasos
+. En el Panel de control, haga clic en *rendimiento*.
++
+Para sistemas ONTAP, puede hacer clic en la ficha *nodo* para ver el rendimiento de un solo nodo de un clúster ONTAP, hacer clic en la ficha *nivel local* para ver el rendimiento del nivel local o hacer clic en la ficha *volumen* para ver el rendimiento del volumen. De manera predeterminada, se muestra el rendimiento del clúster.
+
++
+Para los sistemas E-Series, solo puede ver los gráficos a nivel de controladora.
+
+
+
+. Seleccione 1 día, 1 semana, 1 mes, 2 meses o 12 meses, en el calendario, para ver los datos de rendimiento en un formato gráfico.
++
+Por ejemplo, seleccione la pestaña 2 meses para ver datos de 2 meses. Esto le permite ver datos específicos para una duración en función de sus requisitos de rendimiento.
+
+. Los siguientes gráficos de rendimiento con las métricas necesarias están disponibles para los nodos y clústeres de ONTAP:
+
+
+[cols="25,25,25,25"]
+|===
+| Para clúster | Para nodo | Para nivel local | Para el volumen 
+
+
+| IOPS | Uso de CPU: Máximo rendimiento (margen adicional) | Rendimiento promedio | IOPS 
+
+
+| Rendimiento de la red | Latencia | Uso promedio | Latencia 
+
+
+|  | IOPS |  |  
+
+
+|  | Protocolo IOPS |  |  
+
+
+|  | Rendimiento de la red |  |  
+|===
+
+NOTE: Los gráficos de rendimiento de latencia de nodo y los gráficos de rendimiento del volumen solo se admiten en sistemas que ejecutan ONTAP 9.2 y versiones posteriores.
+
+. Los siguientes gráficos de rendimiento con métricas obligatorias están disponibles para las controladoras E-Series:
++
+** Uso de CPU
+** Latencia
+** IOPS
+** Rendimiento
+
+
+

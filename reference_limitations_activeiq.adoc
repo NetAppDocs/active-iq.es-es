@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: Proporciona información acerca de las limitaciones de la versión. 
+---
+= Limitaciones conocidas
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente.
+
+Existen las siguientes limitaciones:
+
+* Para sistemas de almacenamiento Data ONTAP que funcionan solo en 7-Mode (sistemas de almacenamiento Data ONTAP que funcionan en 7-Mode casi al final de su vida útil)
++
+** Gráficos de rendimiento
+** Eficiencia del almacenamiento
+
+
+* Upgrade Advisor no admitirá planes de actualización de Clustered ONTAP anteriores a 9.0.
+
+
+
+
+== La edición de una lista de observación puede tardar 60 minutos en reflejarla en el Asesor Digital
+
+La edición de una lista de observación no actualiza inmediatamente la información en Digital Advisor. Los cambios pueden tardar hasta 60 minutos en reflejarse en el asesor digital.
+
+
+
+== Se muestra un informe en blanco mientras se programan los informes
+
+Los informes programados solo están disponibles con un contrato de soporte de SupportEdge Advisor o SupportEdge Expert. Si sus sistemas no están bajo SupportEdge Advisor o un contrato de soporte de SupportEdge Expert, puede obtener un informe en blanco mientras programa informes.
+
+
+
+== Los riesgos reconocidos y no reconocidos pueden tardar 60 minutos en reflexionar en el Asesor Digital
+
+La situación de los riesgos reconocidos y no reconocidos no se refleja inmediatamente en el Asesor Digital. Los cambios pueden tardar hasta 60 minutos en reflexionar en el Asesor Digital y en el informe de bienestar.

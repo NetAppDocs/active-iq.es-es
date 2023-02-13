@@ -1,0 +1,949 @@
+---
+sidebar: sidebar 
+permalink: reference_new_activeiq.html 
+keywords: 'what"s new, features, new' 
+summary: Proporciona información acerca de las nuevas funciones de la versión. 
+---
+= Novedades de Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Las siguientes características y mejoras se han introducido en el Asesor digital:
+
+
+
+== 12 de enero de 2023
+
+
+
+=== Informes de rendimiento
+
+Es posible ver operaciones medias de lectura, escritura y otras en los informes de rendimiento a nivel de volumen.
+
+
+
+== 01 de noviembre de 2022
+
+
+
+=== Asesor digital que se integra con BlueXP
+
+El asesor digital de Active IQ ha cambiado a asesor digital y ahora se integra en BlueXP, la consola de gestión unificada de NetApp para entornos multicloud híbridos. link:digital-advisor-integration-with-bluexp.html["Leer más"].
+
+
+
+== 25 de agosto de 2022
+
+
+
+=== Inventario
+
+La información de activos de VMware en vCenter, hosts ESXi y máquinas virtuales ahora se incluye en los detalles del inventario, para proporcionar un inventario de la pila completo y comprobaciones de interoperabilidad. link:task-integrating-with-cloud-insights-to-view-vm-details.html["Vea cómo"].
+
+
+
+=== Mejora de varios saltos
+
+Para algunas actualizaciones automatizadas no disruptivas (ANDU) a versiones no adyacentes, puede instalar la imagen de software para una versión intermedia, así como para la versión de destino. El proceso de actualización automatizado utiliza la imagen intermedia en segundo plano para completar la actualización a la versión de destino. Por ejemplo, si el clúster ejecuta 9.3 y desea actualizar a 9.7, deberá cargar los paquetes de instalación de ONTAP para 9.5 y 9.7, a continuación, iniciar ANDU en 9.7. ONTAP luego actualiza automáticamente el clúster primero a 9.5 y después a 9.7. Debe esperar varias operaciones de toma de control/devolución y reinicios relacionados durante el proceso.
+
+
+
+== 14 de julio de 2022
+
+
+
+=== Consola de comprobación del estado
+
+* Ahora puede ver los detalles técnicos de los casos creados para los sistemas Cloud Volumes ONTAP en la Consola de comprobación de estado.
+* Se han agregado nuevas pestañas de plataforma para ayudarle a navegar fácilmente entre los KPI de diferentes plataformas.
+
+
+
+
+=== Sistemas E-Series
+
+Puede ver la versión del sistema operativo SANtricity en la versión recomendada y los KPI de comprobación de estado.
+
+
+
+=== Bienestar
+
+El código de color introducido permite identificar de forma rápida y sencilla sistemas que no requieren actualizaciones de versión de software o firmware.
+
+
+
+=== Actualizar el flujo de trabajo
+
+Ahora puede ver las recomendaciones de actualización para los sistemas E-Series.
+
+
+
+== 22 de junio de 2022
+
+
+
+=== StorageGRID
+
+Se ha incluido en EL visor DE CUADRÍCULA la gestión del ciclo de vida de la información (ILM) para StorageGRID.
+
+
+
+=== Recomendaciones de cloud
+
+Ofrece recomendaciones para las cargas de trabajo y sus volúmenes respectivos que se pueden trasladar a Cloud Volumes ONTAP de NetApp, Cloud Volumes Service de NetApp y Cloud Backup de NetApp (anteriormente AltaVault) mediante la replicación de datos de SnapMirror. link:task-informed-decisions-based-on-cloud-recommendations.html["Vea cómo"].
+
+
+
+=== Leídos
+
+* Ahora puede generar informes utilizando los criterios definidos para un informe ya generado.
+* Ahora puede realizar 3 intentos para volver a generar informes fallidos.
+* El período de retención de los informes generados ha aumentado de 3 días a 90 días.
+
+
+
+
+== 01 de junio de 2022
+
+
+
+=== Inventario
+
+* Ahora puede ver la información del representante de ventas de los sistemas en Inventario.
+* Los sistemas de Astra Control Center están ahora disponibles en Inventario.
+
+
+
+
+== 12 de mayo de 2022
+
+
+
+=== StorageGRID
+
+Se incluyen métricas de capacidad adicionales en los informes de capacidad y capacidad de StorageGRID.
+
+
+
+=== ClusterViewer
+
+El Visor de clústeres incluye ahora un resumen de SnapMirror (protección de datos) para los clústeres.
+
+
+
+=== Actualizar el flujo de trabajo
+
+Ahora puede utilizar el flujo de trabajo de actualización para ver las recomendaciones de actualización y un resumen de las nuevas funciones disponibles en la versión de E-Series de destino.
+
+
+
+=== Bienestar
+
+* Se han mejorado los libros de estrategia de Ansible para mitigar los riesgos de la configuración del software.
+* Los filtros se han consolidado en las acciones de bienestar y riesgos.
+
+
+
+
+== 07 de abril de 2022
+
+
+
+=== Bienestar
+
+* Se ha reducido la puntuación de las recomendaciones clave para la última versión del sistema operativo y los KPI de 6 meses para los contratos de soporte y el fin de soporte para alinearse con su menor urgencia de resolver.
+* Las recomendaciones clave para la gestión remota y el par de alta disponibilidad (configuración recomendada) se han actualizado para incluir URL en el sitio de soporte de NetApp para el autoservicio del cliente.
+
+
+
+
+== 31 de marzo de 2022
+
+
+
+=== StorageGRID
+
+Puede ver información sobre los arrendatarios y los cucharones en EL Visor DE CUADRÍCULA.
+
+
+
+== 24 de marzo de 2022
+
+
+
+=== Consola de comprobación del estado
+
+* Mejoras y correcciones de errores en el PPT de resumen ejecutivo de la evaluación de la salud.
+* Capacidad para generar un plan de actualización de versión mínimo recomendado.
+* Mejoras en los iconos de comprobación del estado para identificar el número de nodos que requieren atención para cada KPI.
+
+
+
+
+=== StorageGRID
+
+Puede ver los detalles de configuración de la cuadrícula en EL Visor de CUADRÍCULA.
+
+
+
+=== BlueXP
+
+Los usuarios de BlueXP pueden ahora abrir enlaces de Digital Advisor en nuevas pestañas, siempre que sea aplicable, similares a las funciones existentes en Digital Advisor.
+
+
+
+== 12 de enero de 2022
+
+
+
+=== Desviación de config
+
+* Puede clonar una plantilla para hacer una copia de la plantilla original.
+* Puede compartir plantillas maestras con otros usuarios con derechos con acceso completo o de sólo lectura a estas plantillas.link:task_manage_template.html["Vea cómo"].
+
+
+
+
+== 15 de diciembre de 2021
+
+
+
+=== Leídos
+
+* *Informe del Visor de clústeres*: Este informe proporciona información sobre un único clúster o varios clústeres a nivel de cliente y de lista de observación. Puede utilizar el informe ClusterViewer para descargar toda la información de un único archivo. Puede generar este informe solo para la lista de observación con hasta 100 nodos.
+* *Informe de rendimiento*: Este informe proporciona información, a nivel de lista de observación, sobre el rendimiento de un clúster, nodo, nivel local (agregado) y volumen en un único archivo zip. Cada archivo zip contiene datos de rendimiento de un solo clúster, lo que ayuda al usuario a analizar datos de cada clúster. Puede generar este informe solo para la lista de observación con hasta 100 nodos.
+
+
+
+
+=== Integración con sistemas E-Series
+
+Puede ver los detalles de capacidad y el gráfico de rendimiento de un sistema E-Series seleccionado en Digital Advisor.
+
+
+
+== 18 de noviembre de 2021
+
+
+
+=== Eficiencia del almacenamiento
+
+Puede ver los detalles de la eficiencia del almacenamiento de los nodos que mantiene y supervisa Cloud Insights de NetApp.
+
+
+
+== 11 de noviembre de 2021
+
+
+
+=== Consola de comprobación del estado
+
+* Se han añadido iconos en los iconos de comprobación de estado, que solo se aplican a sistemas con las ofertas de soporte de SupportEdge Advisor y SupportEdge Expert. Las mejoras se han realizado en las secciones Software–Moneda de Software recomendado y Moneda de firmware, Configuración recomendada y prácticas recomendadas.
+* Se ha agregado un banner de datos confidenciales para usuarios internos y externos (clientes y socios) en la pantalla Digital Advisor–Reports.
+
+
+
+
+=== Wellness and Upgrade Widgets
+
+Se ha mejorado la consola con las recomendaciones de actualización de E-Series y la fecha de activación del riesgo añadida a la columna de Wellness Action History.
+
+
+
+=== ClusterViewer
+
+El módulo de visualización de pila ClusterViewer se ha mejorado para incluir la función acercar/alejar y guardar imagen.
+
+
+
+=== Eficiencia del almacenamiento
+
+Puede ver los detalles de la eficiencia del almacenamiento de los sistemas que mantiene y supervisa Cloud Insights de NetApp.
+
+
+
+== 14 de octubre de 2021
+
+
+
+=== Inventario de Ansible
+
+Ahora puede generar archivos de inventario de Ansible en formatos de archivo .yml y .ini a nivel de región y de sitio. link:task_view_inventory_details.html["Vea cómo"].
+
+
+
+=== Informes de datos inactivos (IDR)
+
+Desde la pantalla FabricPool Advisor, puede activar la generación de informes de datos inactivos (IDR) para supervisar agregados y generar una libro de aplicaciones de Ansible. link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["Leer más"]
+
+
+
+=== Informe de escala de tiempo de deriva
+
+Puede comparar los datos de AutoSupport de los últimos 90 días y generar un informe de línea de tiempo de deriva. link:task_generate_drift_timeline_report.html["Vea cómo"].
+
+
+
+=== Cambio de sistemas conforme a la normativa
+
+El panel de comprobación de estado se ha mejorado con un conmutador para las pestañas de SO mínimo y SO más reciente, de forma que pueda ver los sistemas que cumplen y no cumplen con los requisitos mínimos de la versión recomendada y más reciente.
+
+
+
+=== Resumen de las recomendaciones clave
+
+En la consola de comprobación del estado, puede ver un resumen de las 5 recomendaciones generales de claves.
+
+
+
+=== Pestañas para las plataformas Cloud Volumes ONTAP y E-Series de NetApp
+
+La consola de comprobación de estado se ha mejorado con las pestañas Cloud Volumes ONTAP ** y E-Series para que pueda ver los KPI y detalles de comprobación de estado de esas plataformas.
+
+También se ha agregado una ficha para 'ONTAP' junto con otras plataformas, que ahora están habilitadas.
+
+
+
+=== Capacidad
+
+Puede ver los detalles de capacidad acerca de los sistemas Cloud Volumes ONTAP de NetApp en Digital Advisor.
+
+
+
+=== Leídos
+
+El plazo de presentación de informes se ha ampliado a 12 meses. También recibirá una notificación cuando el informe de horario esté a punto de caducar.
+
+
+
+== 30 de septiembre de 2021
+
+
+
+=== Versión calificada del cliente
+
+La versión completa de los clientes ayuda a un Support Account Manager (SAM) a gestionar una parte de la base de instalaciones de su cliente, que aloja aplicaciones que requieren:
+
+* Una versión de ONTAP anterior y a veces no compatible
+* O la base instalada de un cliente, probada y certificada para usar una determinada versión del sistema operativo.
+
+
+
+
+=== Flujo de trabajo de casos técnicos
+
+Tanto en el panel como en la pantalla de exploración, se han realizado mejoras gráficas en el gráfico de datos y en el gráfico de líneas. También puede ver esos datos en un gráfico de barras. En la ventana del gráfico de líneas, puede ver, seleccionar y anular la selección de los gráficos para casos abiertos, cerrados y totales en ambas interfaces de usuario.
+
+
+
+=== Gráficos de rendimiento
+
+Ahora puede descargar los gráficos de rendimiento en formato PNG y JPG, además del formato CSV.
+
+
+
+=== Controladoras con fin de soporte (EOS) más de 12 meses
+
+Se ha mejorado el panel de comprobaciones del estado con una pestaña en la que se muestran las controladoras con una finalización del servicio superior a 12 meses.
+
+
+
+== 16 de septiembre de 2021
+
+
+
+=== Bienestar
+
+* El widget Defensa de Ransomware ahora forma parte del flujo de trabajo de bienestar en lugar de un widget independiente.
+* En el correo electrónico de Wellness Review, encontrará información sobre la defensa de Ransomware en lugar de las renovaciones.
+
+
+
+
+=== Capacidad
+
+Puede ver los detalles de capacidad acerca de los sistemas ONTAP® Select de NetApp en el asesor digital.
+
+
+
+=== ClusterViewer
+
+Puede ver los errores de cableado y otros errores en la ficha visualización de ClusterViewer.
+
+
+
+== 06 de septiembre de 2021
+
+
+
+=== StorageGRID
+
+* View AutoSupport: Vea los registros de AutoSupport para el StorageGRID y los nodos subyacentes.
+* Detalles del dispositivo StorageGRID: Consulte los detalles del dispositivo StorageGRID, como el tipo de nodo, el modelo de dispositivo, el tamaño de unidad, el tipo de unidad, el modo RAID, Y así sucesivamente en LA sección Visor de CUADRÍCULA - Inventario DE CUADRÍCULA.
+* Renovaciones: Permite ver la lista de grids y los nodos subyacentes que vencen para su renovación.
+* Riesgos del SANtricity de E-Series: Consulte los riesgos del SANtricity de E-Series para los nodos subyacentes en la sección Panel DE GRID: Bienestar.
+
+
+
+
+=== Previsión de la capacidad
+
+El widget de previsión de capacidad se ha actualizado con un algoritmo mejorado que tiene en cuenta mejor las reconfiguraciones del sistema. link:reference_aiq_faq.html#capacity["Leer más"].
+
+
+
+== 26 de agosto de 2021
+
+
+
+=== Aplicación móvil de asesor digital
+
+Ahora puede habilitar la autenticación biométrica en la aplicación móvil de Digital Advisor. Las opciones disponibles para la autenticación varían en función de las funciones compatibles con el teléfono móvil.
+
+Descargue la aplicación para obtener más información:link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Aplicación móvil de Digital Advisor (Android)"]
+link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Aplicación móvil de asesor digital (iOS)"]
+
+
+
+=== Bienestar
+
+El widget de bienestar se ha mejorado con el atributo de defensa de Ransomware. Ahora puede ver riesgos y acciones correctivas asociados con la detección, prevención y recuperación de ransomware.
+
+
+
+== 16 de agosto de 2021
+
+
+
+=== Revisión de bienestar
+
+Ahora puede generar el informe bajo demanda. Además, puede descargar el último informe programado de la pantalla de suscripción de Wellness Review.
+
+
+
+=== Inventario
+
+En la ficha Inventario de cuadrícula, ahora puede ver los detalles del nodo en función del nivel del sitio en un formato ampliable y plegable.
+
+
+
+=== Indicador de clúster de modelo mixto
+
+En los clústeres de modelos de hardware mixto, la versión de sistema operativo aplicada en el clúster es la que pueden usar todos los nodos. Como resultado, la versión del SO de algunos nodos de modelos de hardware más recientes puede ser descendente desde donde se deberían. Para que estos clústeres de modelo mixto sean más visibles, hemos aplicado un icono de "modelo mixto".
+
+
+
+=== Configuración recomendada/estado de la máquina virtual de almacenamiento (SVM): Resumen de nivel de volumen
+
+Al hacer clic en el cuadro azul ‘Resumen de volumen’ de la tabla SVM, aparece una ventana emergente que muestra información detallada sobre los volúmenes alojados o conectados al número de serie o al nodo físico específicos.
+
+
+
+== 12 de julio de 2021
+
+
+
+=== Firmware del sistema
+
+Ahora puede ver información sobre el firmware del sistema que se suministra junto con las versiones principal y de revisión de ONTAP. Puede acceder a esta función desde el menú vínculos rápidos.
+
+
+
+=== Consola de comprobación del estado
+
+* Se ha mejorado la consola de comprobación del estado para incluir un banner azul en el que se notifica a los usuarios que los sistemas no compatibles con SupportEdge Advisor y SupportEdge Expert no se tendrán en cuenta al calcular la puntuación de estado.
+* El widget Recommended Configuration se ha mejorado para ofrecer un análisis en profundidad de las comprobaciones fallidas de la máquina virtual de almacenamiento (SVM) y le permite realizar las acciones correctivas recomendadas para cada riesgo.
+* La versión de ONTAP de destino recomendada es ahora la misma para todos los nodos en un clúster configurado con diferentes modelos de hardware. La versión de destino es compatible en todos los nodos.
+* Ahora puede ampliar la línea de tiempo de EOS para las controladoras, los discos y las bandejas mediante la compra de un PVR. Las fechas y los detalles de las extensiones de PVR, cuando se han adquirido, se pueden ver en el widget "fin de soporte". Los detalles del PVR también se proporcionan como parte del informe de la EOSL.
+
+
+
+
+=== Inventario
+
+Puede ver las fechas de finalización de los contratos de soporte para su hardware, software y discos no retornables en la página detallada del inventario.
+
+
+
+=== Actualización de la oferta de asistencia técnica
+
+* La interfaz de usuario se ha mejorado para mostrar la oferta de soporte específica a la que está suscrito en Digital Advisor.
+* Ahora puede solicitar la actualización de la suscripción a la oferta de soporte desde el panel del sistema para acceder a más funciones. link:task_upgrade_support_offering.html["Vea cómo"].
+
+
+
+
+== 25 de junio de 2021
+
+
+
+=== Widget de suscripción Flex
+
+* Si ha optado por ONTAP Collector para obtener datos sobre su uso de la capacidad, puede ver los detalles de sus recursos compartidos de archivos y discos en las pestañas comparticiones y discos. Puede ahorrar espacio de almacenamiento identificando ésos que están casi comprometidos con la capacidad.
+* El uso de la capacidad, que se muestra en la consola de utilización de la capacidad de Keystone y se utiliza para la facturación, ahora se basa en la capacidad lógica.
+
+
+
+
+== 17 de junio de 2021
+
+
+
+=== Leídos
+
+Ahora puede generar informes de rendimiento de volúmenes agregados para todos los volúmenes en una máquina virtual de almacenamiento durante cualquier día, semana o mes.
+
+
+
+=== Correo electrónico de revisión del estado de salud
+
+El correo electrónico de revisión del estado se ha mejorado para incluir información sobre el soporte y los derechos de las acciones de comprobación del estado y actualización.
+
+
+
+=== Actualizar el flujo de trabajo
+
+* La interfaz de usuario se ha mejorado para proporcionarle una vista de tabla de la información.
+* Ahora puede ver información acerca del fin de soporte de la versión de ONTAP en la pantalla Detalles de la actualización.
+
+
+
+
+=== Desviación de config
+
+* Config Drift ahora admite más de 200 secciones de AutoSupport para crear plantillas maestras y generar informes de deriva en clientes, sitio, grupo, lista de observación, clúster, y host.
+* La desviación de configuración le permite mitigar las desviaciones con los libros de estrategia de Ansible, que se incluyen en la carga útil del informe de desviación de configuración.
+
+
+
+
+=== Consola de comprobación del estado
+
+Esta función se ha mejorado para comparar la máquina virtual de almacenamiento (SVM) con un catálogo predefinido de riesgos para evaluar las deficiencias y recomendar las acciones correctivas asociadas.
+
+
+
+== 09 de junio de 2021
+
+
+
+=== Consola de comprobación del estado
+
+Ahora puede ver el número de sistemas en función del cual se calcula la puntuación de estado. Esta mejora se aplica a todos los atributos de la Consola de comprobación de estado.
+
+
+
+== 20 de mayo de 2021
+
+
+
+=== Chat de drift para solicitudes de adición de capacidad
+
+Para obtener ayuda en tiempo real sobre sus solicitudes de adición de capacidad, chatee con un vendedor directamente desde su panel. link:task_identify_capacity_system.html["Vea cómo"].
+
+
+
+== 29 de abril de 2021
+
+* Aquí está cómo proteger sus sistemas contra hackers y ataques de Ransomware. link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["Vea cómo"].
+* Puede evitar los tiempos de inactividad y la posible pérdida de datos. link:task_avoid_the_downtime_and_possible_data_loss.html["Vea cómo"].
+* Aprenda a evitar que se llene un volumen para evitar una interrupción. link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["Vea cómo"].
+
+
+
+
+== 07 de abril de 2021
+
+
+
+=== Lista de observación
+
+Cuando acceda a Digital Advisor por primera vez, debe crear una lista de observación en lugar de un panel. También puede ver el panel de control para diferentes listas de observación, editar los detalles de una lista de observación existente y eliminar una lista de observación.
+
+
+
+== 24 de febrero de 2021
+
+
+
+=== Desviación de config
+
+Esta versión ofrece la siguiente funcionalidad:
+
+* Capacidad para editar atributos durante la creación de plantillas.
+* Agrupación de secciones AutoSupport.
+* Generar o programar un informe de desviación de configuración en clientes, sitios, grupos, listas de observación, clúster, y nombre de host. link:task_compare_config_drift_template.html["Vea cómo"].
+
+
+
+
+=== Leídos
+
+Puede generar o programar informes de capacidad y eficiencia para ver información detallada sobre los ahorros en capacidad y eficiencia del almacenamiento del sistema.
+
+
+
+== 10 de febrero de 2021
+
+
+
+=== StorageGRID
+
+La consola de StorageGRID se habilita mediante el marco de trabajo de la API de NextGen.
+
+Puede utilizar el Panel de StorageGRID para ver información a nivel de lista de observación, cliente, grupo y sitio.
+
+Esta versión ofrece la siguiente funcionalidad:
+
+* *Widget de inventario:* Ver inventario de sistemas StorageGRID disponibles bajo el nivel seleccionado.
+* *Widget de Bienestar:* Ver todos los riesgos y acciones, incluyendo los relacionados con StorageGRID si son aplicables en base a las reglas existentes del ARS para los sistemas disponibles.
+* *Widget de planificación:*
++
+** *Adición de capacidad:* para cualquier sitio DE RED QUE supere el umbral del 70% de la capacidad existente, se le notificará. Tiene la opción de añadir capacidad para los StorageGRID en el sitio, durante los próximos 1, 3 y 6 meses si es probable que el umbral de capacidad supere el 70 %.
+** *Renovaciones:* para cualquier sistema StorageGRID para el que el contrato de licencia haya caducado o esté a punto de expirar en los próximos 6 meses, se le notificará. Puede seleccionar uno o varios sistemas para presentar una solicitud de renovación al equipo de soporte de NetApp.
+
+
+* *Panel DE GRID:* el tablero de GRID proporciona detalles de salud, planificación y configuración para la RED seleccionada.
+* *Widget de configuración:* proporciona detalles básicos del StorageGRID seleccionado en el widget, como NOMBRE DE CUADRÍCULA, nombre de host, número de serie, modelo, versión del SO, Nombre del cliente, ubicación de envío y datos de contacto.
+* *VISOR DE CUADRÍCULA:* desde el widget *Configuración*, puede ver la configuración de LA CUADRÍCULA en detalle haciendo clic en el enlace *Visor de CUADRÍCULA*. Desde el widget *Configuración*, puede descargar los detalles del sitio y los detalles de capacidad del StorageGRID seleccionado haciendo clic en el botón *Descargar* de la pantalla *Visor de cuadrícula*.
+* *Detalles del sitio:* esta ficha proporciona los nodos de almacenamiento y resumen de cuadrícula disponibles para cada sitio.
+* *Resumen DE GRID:* contiene información básica, como Tipo de licencia, capacidad de licencia, número de nodos instalados, plazo de soporte (Fecha de terminación del contrato de licencia), nodo de administración principal y Sitio principal del nodo de administración principal. Esta pestaña también proporciona el nombre del sitio y el número de nodos de almacenamiento etiquetados en el sitio correspondiente. En esta versión, puede ver la lista de nombres de nodos al hacer clic en el hipervínculo disponible para ver los nodos de almacenamiento del sitio correspondiente.
+* *Ficha Detalles de capacidad:* proporciona los detalles de nivel de cuadrícula y capacidad de sitio configurados para LA CUADRÍCULA. Los detalles de la capacidad, como la capacidad de almacenamiento instalada, la capacidad de almacenamiento disponible, la capacidad de almacenamiento total utilizada y la capacidad utilizada para datos y metadatos. Estos datos están disponibles tanto a nivel de cuadrícula como de sitio.
+
+
+
+
+=== Asesor de FabricPool
+
+El botón de datos de nivel se ha añadido al panel de FabricPool y le permite organizar los datos en niveles en niveles de almacenamiento de objetos de bajo coste mediante NetApp BlueXP.
+
+
+
+=== Cargas de trabajo preparadas para el cloud
+
+Se pueden ver los distintos tipos de cargas de trabajo disponibles en el sistema de almacenamiento e identificar las cargas de trabajo listas para el cloud.
+
+
+
+== 21 de diciembre de 2020
+
+
+
+=== Consola de comprobación del estado
+
+Se han añadido los siguientes widgets al panel:
+
+* Software recomendado: Este widget proporciona una lista consolidada de todas las actualizaciones de software y firmware y recomendaciones sobre monedas.
+* Pérdida de señal: Este widget proporciona puntuaciones e información sobre los sistemas, que han dejado de enviar datos de AutoSupport por algún motivo. Proporciona información si no se ha recibido ningún dato de AutoSupport de un nombre de host en un periodo de 7 días.
+
+
+
+
+== 12 de noviembre de 2020
+
+
+
+=== Integrar datos mediante API
+
+Puede utilizar las API de Digital Advisor para extraer datos de interés e integrarlos directamente en el flujo de trabajo de su empresa. link:concept_overview_API_service.html["Leer más"].
+
+
+
+=== Widget Wellness - actualizaciones
+
+Las pestañas Asesor de riesgos y Asesor de actualizaciones mejorados le permiten ver todos los riesgos del sistema y ayudarle a planificar una actualización para reducir todos los riesgos.
+
+
+
+=== Consola de comprobación del estado
+
+El widget Recommended Configuration se ha añadido a la consola y proporciona un resumen del número de sistemas supervisados en cuanto a riesgos de administración remota, riesgos de unidades con fallos y repuestos, y riesgos de pares de alta disponibilidad.
+
+
+
+=== Asesor de FabricPool
+
+Puede reducir el espacio de almacenamiento y los costes asociados mediante la supervisión de los clústeres, que se han clasificado en cuatro categorías: Datos de nivel local inactivos (agregados), datos de volumen inactivos, datos organizados en niveles y los que no están habilitados para IDR.
+
+
+
+=== Localización en chino simplificado y japonés
+
+Digital Advisor ya está disponible en tres idiomas: Chino, inglés y japonés.
+
+
+
+=== Leídos
+
+Puede generar o programar informes ClusterViewer para ver información detallada sobre la configuración física y lógica de los sistemas. link:task_generate_reports.html["Vea cómo"].
+
+
+
+== 15 de octubre de 2020
+
+
+
+=== Consola de comprobación del estado
+
+La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general. Puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar una planificación a largo plazo y mejorar el estado de su base instalada en función de la puntuación de comprobación del estado. link:concept_understand_health_check_assessment_dashboard.html["Leer más"].
+
+
+
+=== Desviación de config
+
+Esta función le permite comparar las configuraciones del sistema y del clúster y detectar desviaciones de la configuración prácticamente en tiempo real. link:task_add_config_drift_template.html["Aprenda a agregar una plantilla de deriva de configuración"].
+
+
+
+=== AutoSupport
+
+Pueden ver sus datos de AutoSupport y revisar sus detalles.
+
+
+
+=== Suscripción a la revisión de bienestar
+
+Puede suscribirse a recibir notificaciones mensuales por correo electrónico que resumen el estado de bienestar de los sistemas. Estos están próximos a las fechas de renovación y requieren una actualización de los productos de NetApp en su base instalada. link:task_subscribe_to_wellness_review_email.html["Suscríbase ahora"].
+
+
+
+=== Leídos
+
+Puede utilizar la función de informes para generar informes inmediatamente o programar un informe para que se genere semanalmente o mensualmente. link:task_generate_reports.html["Vea cómo"].
+
+
+
+=== Carga manual de AutoSupport
+
+Se ha mejorado la carga manual de AutoSupport para mejorar la experiencia del usuario. Se ha proporcionado una columna adicional para comentarios sobre el estado de carga.
+
+
+
+=== Widget de suscripción Flex
+
+Puede supervisar la capacidad de almacenamiento comprometida, consumida y en ráfaga de su servicio de suscripción flexible de NetApp Keystone.
+
+
+
+== 30 de septiembre de 2020
+
+
+
+=== Firmware de AFF y FAS con Ansible PlayBook
+
+La documentación se ha mejorado para incluir información sobre la descarga, la instalación y la ejecución del paquete de automatización de Ansible del firmware AFF y FAS.
+
+link:task_update_AFF_FAS_firmware.html["Descubra cómo actualizar el firmware AFF y FAS con el libro de aplicaciones de Ansible"].
+
+
+
+== 18 de agosto de 2020
+
+
+
+=== Rendimiento
+
+Se han mejorado los gráficos de rendimiento para poder evaluar el rendimiento del volumen. Puede desplazarse y alternar entre las pestañas Node, Cluster, la pestaña local Tier y la pestaña Volume en la misma pantalla. link:task_view_performance_graphs.html["Vea cómo"].
+
+
+
+=== Firmware de AFF y FAS con Ansible PlayBook
+
+La pantalla de firmware de AFF y FAS se ha mejorado para proporcionar una mejor experiencia de usuario.
+
+
+
+== 17 de julio de 2020
+
+
+
+=== Rendimiento
+
+Se han mejorado los gráficos de rendimiento para poder evaluar el rendimiento del nivel local. Puede desplazarse y alternar entre las pestañas Node, Cluster y local Tier en la misma pantalla.
+
+
+
+=== Bienestar
+
+Los atributos de bienestar se han mejorado para ver todos los sistemas afectados sin tener que profundizar en las acciones y los riesgos.
+
+
+
+== 19 de junio de 2020
+
+
+
+=== Generar informe para inventario
+
+Ahora puede generar un informe de la lista de observación seleccionada y enviar el informe por correo electrónico a un máximo de 5 destinatarios. link:task_view_inventory_details.html["Vea cómo"].
+
+
+
+=== Rendimiento
+
+Se han mejorado los gráficos de rendimiento para poder evaluar el rendimiento del clúster del sistema de almacenamiento. Puede desplazarse y cambiar entre la pestaña nodo y la pestaña clúster en la misma pantalla.
+
+
+
+=== Eficiencia del almacenamiento
+
+El widget de eficiencia del almacenamiento se ha mejorado para poder ver la tasa de eficiencia del almacenamiento y los ahorros a nivel de clúster. Puede desplazarse y cambiar entre la pestaña nodo y la pestaña clúster en la misma pantalla.
+
+
+
+=== Actualice la página de inicio predeterminada
+
+Ahora puede aportar sus comentarios y comunicarnos el motivo por el que está actualizando la pantalla de página de inicio predeterminada para Digital Advisor.
+
+
+
+=== Actualice al widget de inventario
+
+El widget de inventario se ha mejorado para mejorar la experiencia del usuario, proporcionando formatos de fecha fáciles de usar, columnas adicionales para compatibilidad con el fin de plataformas y compatibilidad con el fin de versiones.
+
+
+
+== 19 de mayo de 2020
+
+
+
+=== Defina la página de inicio predeterminada
+
+Ahora puede establecer la pantalla de página de inicio predeterminada para Digital Advisor. Puede establecerlo en Asesor digital o Clásico.
+
+
+
+=== Eficiencia del almacenamiento
+
+Puede ver la proporción de eficiencia del almacenamiento y el ahorro de su sistema de almacenamiento con y sin copias Snapshot para sistemas AFF, sistemas distintos de AFF o ambos. Puede ver la información de eficiencia del almacenamiento a nivel de nodo. link:task_analyze_storage_efficiency.html["Vea cómo"].
+
+
+
+=== Rendimiento
+
+Los gráficos de rendimiento le permiten evaluar el rendimiento de sus dispositivos de almacenamiento en diferentes áreas importantes.
+
+
+
+=== Actualizaciones de firmware de AFF y FAS con Ansible PlayBook
+
+Actualice el firmware de AFF y FAS con Ansible en el sistema de almacenamiento para mitigar los riesgos identificados y mantener el sistema de almacenamiento actualizado.
+
+
+
+=== Desactivación de la función de puntuación de bienestar
+
+La función de puntuación de bienestar se está deshabilitando temporalmente para mejorar el algoritmo de puntuación y simplificar la experiencia general.
+
+
+
+== 02 de abril de 2020
+
+
+
+=== Vídeo de resumen de incorporación
+
+El vídeo de incorporación ayuda a los usuarios a familiarizarse rápidamente con las opciones y funciones de Digital Advisor.
+
+
+
+=== Puntuación de bienestar
+
+La puntuación de estado proporciona a los clientes una puntuación consolidada de su base instalada basada en el número de riesgos elevados y los contratos vencidos. La puntuación puede ser buena, promedio o mala.
+
+
+
+=== Resumen de riesgos
+
+El resumen de riesgos proporciona información detallada sobre el riesgo, el impacto del riesgo y las acciones correctivas.
+
+
+
+=== Apoyo para reconocer y desatender los riesgos
+
+Ofrece la opción de reconocer un riesgo si desea mitigar o no puede mitigar el riesgo.
+
+
+
+== 19 de marzo de 2020
+
+
+
+=== Actualizar el flujo de trabajo
+
+Es posible usar el flujo de trabajo de actualización para ver las recomendaciones de actualización y un resumen de las nuevas funciones disponibles en la versión de ONTAP de destino. link:task_view_upgrade.html["Vea cómo"].
+
+
+
+=== Información valiosa
+
+Puede ver el resumen de las ventajas que ha recibido a través de Digital Advisor y su contrato de soporte. En el caso de los sistemas seleccionados, el informe de valores consolida los beneficios del último año. link:task_view_valuable_insight_widget.html["Ver ahora"].
+
+
+
+=== Acceda a la información en profundidad
+
+Proporciona información más detallada, que es una manera poderosa de profundizar en los datos y obtener información inmediata sobre la preparación de la información agregada según sea necesario.
+
+
+
+=== Adiciones de capacidad
+
+Puede identificar proactivamente los sistemas que han superado la capacidad o están cerca del 90 % de la capacidad y enviar una solicitud para aumentar la capacidad.
+
+
+
+== 29 de febrero de 2020
+
+
+
+=== Interfaces de usuario mejoradas
+
+Las últimas consolas de Digital Advisor ofrecen una experiencia personalizada. Permite una navegación fluida y fluida, con su intuición, en diferentes paneles, widgets y pantallas. Proporciona una experiencia todo en uno. Comunica comparaciones, relaciones y tendencias. Proporciona información que le ayuda a detectar y validar relaciones importantes y diferencias significativas basándose en los datos que presentan diferentes paneles.
+
+
+
+=== Paneles personalizables
+
+Ayuda a supervisar los sistemas de un vistazo proporcionando información y análisis clave sobre los datos en una o más páginas o pantallas. También puede crear hasta 10 paneles y tomar decisiones empresariales efectivas.
+
+link:concept_overview_dashboard.html["Leer más"].
+
+
+
+=== Reduzca los riesgos con Active IQ Unified Manager
+
+Puede ver los riesgos y rectificarlos utilizando Active IQ Unified Manager. link:task_view_risks_remediated_unified_manager.html["Vea cómo"].
+
+
+
+=== Bienestar
+
+Proporciona información detallada acerca del estado del sistema de almacenamiento clasificado en los siguientes 6 widgets:
+
+* Rendimiento y eficiencia
+* Disponibilidad y protección
+* Capacidad
+* Configuración
+* Seguridad
+* Renovaciones
+
+
+Consulte link:concept_overview_wellness.html["Analizar atributos de bienestar"] para obtener más detalles.
+
+
+
+=== Búsquedas más inteligentes y rápidas
+
+Permite buscar parámetros, como el número de serie, el ID del sistema, el nombre de host, el nombre del sitio, el nombre del grupo, y el nombre del clúster utilizando la vista de un único sistema. También puede buscar grupos de sistemas, además, puede buscar por nombre de cliente, nombre de sitio o nombre de grupo por grupo de sistemas.

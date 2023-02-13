@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: Proporciona información para generar informes de escala de tiempo de deriva. 
+---
+= Generar un informe de escala de tiempo de deriva
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede comparar los datos de AutoSupport de los últimos 90 días y generar un informe que proporcione información sobre los eventos y las desviaciones de configuración que se han producido.
+
+.Pasos
+. En el panel izquierdo, haga clic en *Config Drift*.
+. Seleccione el tipo de informe *línea de tiempo de deriva*.
+. Generar un informe de escala de tiempo de deriva
++
+Puede generar un informe inmediatamente o programar el informe para que se genere semanalmente o mensualmente.
+
+
+
+[cols="50,50"]
+|===
+| Para generar un informe inmediatamente | Programar el informe para que se genere semanalmente o mensualmente 
+
+
+ a| 
+. Seleccione una categoría y proporcione los valores solicitados para el informe.
+. Seleccione la opción *incluir sólo los derivs* para descargar sólo los cambios de desviación de la configuración.
+. Haga clic en *Enviar*.
+. link:task_generate_reports.html["Descargue y vea el informe de la escala de tiempo de deriva"].
+
+ a| 
+. Haga clic en la ficha *Informe de programación*.
+. Seleccione una categoría y proporcione los valores solicitados para el informe.
+. Seleccione la opción *incluir sólo los derivs* para descargar sólo los cambios de desviación de la configuración.
+. Seleccione la frecuencia del informe.
+. Seleccione la fecha de inicio y la fecha de finalización del informe.
+. Haga clic en *Enviar*.
+. link:task_generate_reports.html["Descargue y vea el informe de la escala de tiempo de deriva"].
+
+
+|===

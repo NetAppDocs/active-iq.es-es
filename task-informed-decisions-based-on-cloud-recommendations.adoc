@@ -1,0 +1,108 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
+summary: Proporciona recomendaciones basadas en las cuales se pueden tomar decisiones informadas. 
+---
+= Tome decisiones documentadas basadas en recomendaciones de cloud
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El asesor digital analiza constantemente su sistema y le ofrece recomendaciones para mejorar el rendimiento, la eficiencia y el estado de su sistema.
+
+
+NOTE: Digital Advisor le navega a BlueXP para implementar las recomendaciones.
+
+
+
+== Migración
+
+Proporciona información sobre los distintos tipos de cargas de trabajo disponibles en el sistema de almacenamiento e identificar las cargas de trabajo listas para el cloud. Mover las cargas de trabajo al cloud implica ahorrar costes y proporcionar recuperación ante desastres en el cloud.
+
+Para la migración a Cloud Volumes ONTAP (CVO) y Cloud Volumes Service (CVS), se recomiendan los volúmenes que cumplan con los siguientes criterios:
+
+* Los volúmenes deben utilizar los protocolos NFS, SMB, CIFS, FCP o iSCSI
+* Se excluyen los volúmenes raíz
+* Las cargas de trabajo del volumen se etiquetan como ORACLE, SAP, SAP HANA, MSSQL, MYSQL, SHAREPOINT, RECURSOS COMPARTIDOS DE ARCHIVOS, VIRTUALIZACIÓN Y TRIDENT
+* La edad del sistema es superior a 1 año
+* El contrato de soporte finaliza en 6 meses
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *recomendaciones en la nube*.
+. Haga clic en cualquiera de los enlaces del panel *migración*.
+. Haga clic en *migrar a la nube* para iniciar *BlueXP*.
+
+
+
+
+== Organización en niveles
+
+Proporciona información sobre datos de nivel local (agregados) inactivos, datos de volúmenes inactivos, datos en niveles y datos no supervisados. Puede reducir el espacio de almacenamiento y los costes asociados mediante la supervisión y la organización en niveles de los datos inactivos en niveles de almacenamiento de objetos de bajo coste.
+
+
+NOTE: Puede habilitar Inactive Data Reporting (IDR) para generar un archivo zip con un archivo de libro de aplicaciones de Ansible. Esta información está disponible en el cliente, sitio, grupo, lista de observación, grupo, y los niveles de nodo.
+
+Para la organización en niveles, se recomiendan los volúmenes que cumplen con los siguientes criterios:
+
+* Los volúmenes deben utilizar los protocolos NFS, SMB o CIFS
+* Se excluyen los volúmenes raíz
+* Los datos inactivos son más del 50 %
+* La capacidad del agregado es superior al 50 %
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *recomendaciones en la nube*.
+. Haga clic en cualquier enlace del panel *segmentación*.
+. Haga clic en *datos de nivel* para iniciar *BlueXP*.
+
+
+Para obtener más información sobre FabricPool, consulte link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Prácticas recomendadas de FabricPool"].
+
+
+
+== Backup y archivado
+
+Proporciona información acerca de los sistemas que se deben realizar backups en el cloud. Puede usar Cloud Backup de NetApp para proteger sus sistemas y restaurarlos cuando sea necesario.
+
+Se recomienda utilizar los volúmenes que cumplen los siguientes criterios para realizar un backup en el cloud:
+
+* Se excluyen los volúmenes raíz
+* Se excluyen los volúmenes de origen y los sistemas de destino y los volúmenes que tienen un backup de SnapVault.
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *recomendaciones en la nube*.
+. Haga clic en cualquiera de los enlaces del panel *copia de seguridad y archivo*.
+. Haga clic en *copia de seguridad en la nube* para iniciar *BlueXP*.
+
+
+
+
+== Replicación
+
+Proporciona información sobre los datos que se deben replicar en el cloud para ayudar en caso de desastre.
+
+Se recomienda utilizar los volúmenes que cumplen los siguientes criterios para la replicación en el cloud:
+
+* Se excluyen los volúmenes raíz
+* Se excluyen los volúmenes de origen de SnapMirror
+* Se excluyen los volúmenes de destino de SnapMirror (tipo de volumen LS y DP)
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *recomendaciones en la nube*.
+. Haga clic en cualquiera de los enlaces del panel *recuperación ante desastres*.
+. Haga clic en *replicar en la nube* para iniciar *BlueXP*.
+

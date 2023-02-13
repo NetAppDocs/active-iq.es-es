@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: Proporciona información sobre cómo actualizar la oferta de soporte. 
+---
+= Actualice la oferta de soporte
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede adquirir una actualización de la oferta de soporte para acceder a más funciones y funcionalidades del asesor digital.
+
+Puede actualizar su oferta de soporte actual para optimizar su base instalada con la ayuda de las prácticas recomendadas y las correcciones, la automatización de actualizaciones con los libros de estrategia de Ansible, los informes y las revisiones aplicables, el soporte personalizado, etc. La actualización se puede adquirir al renovar los contratos de soporte o en cualquier otro momento desde el panel del sistema (nodo).
+
+
+NOTE: Solo puede optar por la actualización de AIQ si actualmente usa las ofertas de soporte seguro de SupportEdge Premium o SupportEdge.
+
+.Pasos
+. Haga clic en *Ver todos los sistemas* junto al widget *Inventario*.
+. En Inventory Dashboard, seleccione el nodo (host) que desea actualizar. Se le redirigirá a la consola del sistema o del nodo.
+. Haga clic en *Actualizar* en el widget *Configuración*.
++
+image:Configuration widget_Support offering upgrade.PNG["Widget de configuración"]
+
+. Si lo desea, haga clic en *Comparar ofertas de soporte* para ver la tabla de comparación y seleccionar la oferta de soporte que se ajuste a sus necesidades. También puede hacer clic en *Support Offerings* en el menú de navegación de la izquierda para ver el gráfico comparativo.
+. Seleccione el tipo de actualización que desea.
++
+.. Añada la actualización de AIQ a sus ofertas de soporte seguro de SupportEdge Premium o SupportEdge
+.. Cualquier otra solicitud de actualización
+
+
+. Añada los comentarios que tenga y haga clic en *Enviar*. Se enviará una solicitud para adquirir la actualización de la oferta de soporte al equipo de renovaciones de NetApp.
+

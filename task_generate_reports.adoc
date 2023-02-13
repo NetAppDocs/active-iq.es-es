@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: Proporciona información para generar informes. 
+---
+= Generar informes
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede generar informes inmediatamente o programar un informe para que se genere semanalmente o mensualmente. Los informes se pueden generar en diferentes formatos. Según el informe seleccionado, se muestran los formatos disponibles.
+
+*Acerca de esta tarea*
+
+* Los informes no se pueden editar en el Asesor digital. Debe eliminar el informe existente y crear un nuevo informe.
+
+
+.Pasos
+. En el panel izquierdo, haga clic en *Informes*.
+. Haga clic en *Crear informe* para generar un nuevo informe.
++
+Puede generar un informe inmediatamente o programar el informe para que se genere semanalmente o mensualmente.
+
+
+
+[cols="50,50"]
+|===
+| Para generar un informe inmediatamente | Programar el informe para que se genere semanalmente o mensualmente 
+
+
+ a| 
+. Seleccione el tipo de informe y proporcione los valores solicitados para el informe.
+. Seleccione el formato del informe.
+. Haga clic en *Enviar*.
+
+
+
+NOTE: El informe se guarda en Digital Advisor durante 3 días.
+ a| 
+. Haga clic en la ficha *Informe de programación*.
+. Seleccione el tipo de informe y proporcione los valores solicitados para el informe.
+. Seleccione el formato del informe.
+. Seleccione la frecuencia del informe.
+. Seleccione la fecha de inicio y la fecha de finalización del informe.
+. Haga clic en *Enviar*.
+
+
+
+NOTE: Los informes programados existentes se sustituirán cuando se generen los nuevos informes.
+
+|===
