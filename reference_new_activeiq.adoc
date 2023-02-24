@@ -23,6 +23,22 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 22 de febrero de 2023
+
+
+
+=== Gráficos de rendimiento
+
+Es posible ver un promedio de operaciones de lectura, escritura y otras en el gráfico IOPS de volúmenes.
+
+
+
+=== Eficiencia del almacenamiento
+
+La eficiencia del almacenamiento SAN y NAS está disponible, a nivel de nodo, para sistemas ONTAP que incluyen AFF A-Series, AFF C190, cabinas All SAN y FAS2500 con ONTAP 9.10 y versiones posteriores.
+
+
+
 == 12 de enero de 2023
 
 

@@ -1270,4 +1270,7 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vídeos de asistencia digital</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Comunidad de NetApp: Asesor digital</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
+  <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de febrero de 2023</block>
+  <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Es posible ver un promedio de operaciones de lectura, escritura y otras en el gráfico IOPS de volúmenes.</block>
+  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">La eficiencia del almacenamiento SAN y NAS está disponible, a nivel de nodo, para sistemas ONTAP que incluyen AFF A-Series, AFF C190, cabinas All SAN y FAS2500 con ONTAP 9.10 y versiones posteriores.</block>
 </blocks>
