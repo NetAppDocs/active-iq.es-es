@@ -301,7 +301,7 @@ Ahora puede generar archivos de inventario de Ansible en formatos de archivo .ym
 
 === Informes de datos inactivos (IDR)
 
-Desde la pantalla FabricPool Advisor, puede activar la generación de informes de datos inactivos (IDR) para supervisar agregados y generar una libro de aplicaciones de Ansible. link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["Leer más"]
+Desde la pantalla FabricPool Advisor, puede activar la generación de informes de datos inactivos (IDR) para supervisar agregados y generar una libro de aplicaciones de Ansible.
 
 
 
@@ -427,8 +427,8 @@ El widget de previsión de capacidad se ha actualizado con un algoritmo mejorado
 
 Ahora puede habilitar la autenticación biométrica en la aplicación móvil de Digital Advisor. Las opciones disponibles para la autenticación varían en función de las funciones compatibles con el teléfono móvil.
 
-Descargue la aplicación para obtener más información:link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Aplicación móvil de Digital Advisor (Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Aplicación móvil de asesor digital (iOS)"]
+Descargue la aplicación para obtener más información:link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Aplicación móvil de Digital Advisor (Android)"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["Aplicación móvil de asesor digital (iOS)"^]
 
 
 
@@ -504,7 +504,7 @@ Puede ver las fechas de finalización de los contratos de soporte para su hardwa
 
 
 
-=== Widget de suscripción Flex
+=== Widget de suscripción de Keystone
 
 * Si ha optado por ONTAP Collector para obtener datos sobre su uso de la capacidad, puede ver los detalles de sus recursos compartidos de archivos y discos en las pestañas comparticiones y discos. Puede ahorrar espacio de almacenamiento identificando ésos que están casi comprometidos con la capacidad.
 * El uso de la capacidad, que se muestra en la consola de utilización de la capacidad de Keystone y se utiliza para la facturación, ahora se basa en la capacidad lógica.
@@ -712,7 +712,7 @@ Puede generar o programar informes ClusterViewer para ver información detallada
 
 === Consola de comprobación del estado
 
-La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general. Puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar una planificación a largo plazo y mejorar el estado de su base instalada en función de la puntuación de comprobación del estado. link:concept_understand_health_check_assessment_dashboard.html["Leer más"].
+La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general. Puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar una planificación a largo plazo y mejorar el estado de su base instalada en función de la puntuación de comprobación del estado.
 
 
 
@@ -746,9 +746,9 @@ Se ha mejorado la carga manual de AutoSupport para mejorar la experiencia del us
 
 
 
-=== Widget de suscripción Flex
+=== Widget de suscripción de Keystone
 
-Puede supervisar la capacidad de almacenamiento comprometida, consumida y en ráfaga de su servicio de suscripción flexible de NetApp Keystone.
+Puede supervisar la capacidad de almacenamiento comprometida, consumida y en ráfaga para su servicio de suscripción de NetApp Keystone.
 
 
 

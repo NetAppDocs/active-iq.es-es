@@ -193,9 +193,9 @@ homepage:
     - title: Consulte las recomendaciones de actualización de ONTAP
       url: task_view_upgrade.html
     - title: Tome decisiones documentadas basadas en recomendaciones de cloud
-      url: "/task-informed-decisions-based-on-cloud-recommendations.html"
-    - title: Vea el uso de la capacidad con la suscripción flexible de NetApp Keystone
-      url: task_view_keystone_capacity_utilization.html
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: Vea el uso de la capacidad con la suscripción a NetApp Keystone
+      url: view_keystone_capacity_utilization.html
   - title: Más recursos
     links:
     - title: Portal Web de asesor digital

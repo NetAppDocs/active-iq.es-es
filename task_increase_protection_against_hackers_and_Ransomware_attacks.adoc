@@ -19,11 +19,11 @@ summary: Proporciona información sobre cómo aumentar la protección contra hac
 
 
 [role="lead"]
-El sitio de seguridad de NetApp es la fuente de la verdad para la seguridad de los productos de NetApp: link:https://security.netapp.com[""]
+El sitio de seguridad de NetApp es la fuente de la verdad para la seguridad de los productos de NetApp: link:https://security.netapp.com["Seguridad de los productos de NetApp"^]
 
 Digital Advisor utiliza datos de telemetría y avisos de seguridad de productos publicados para detectar problemas de seguridad para productos cubiertos* y con derecho a asistencia. Los datos de telemetría de productos deben transmitirse a NetApp a través de AutoSupport para permitir que el Asesor digital detecte riesgos.
 
-Si desea obtener más información sobre la seguridad de los productos de NetApp, incluidos los productos no cubiertos por Digital Advisor, visite link:https://security.netapp.com[""]
+Si desea obtener más información sobre la seguridad de los productos de NetApp, incluidos los productos no cubiertos por Digital Advisor, visite link:https://security.netapp.com["Seguridad de los productos de NetApp"^]
 
 *Productos cubiertos: ONTAP 9 (en las instalaciones y el cloud), Software de controladora del sistema operativo SANtricity, SolidFire de NetApp (software Element), StorageGRID, Active IQ Unified Manager, Herramientas de ONTAP para VMware (OTV)
 
