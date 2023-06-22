@@ -23,6 +23,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 21 de junio de 2023
+
+
+
+=== Panel de control de sostenibilidad
+
+El panel de sostenibilidad del asesor digital proporciona información muy valiosa sobre la sostenibilidad medioambiental de su sistema de almacenamiento. Puede ver la información, como la puntuación de sostenibilidad, el porcentaje de mitigación de carbono, el uso proyectado de energía, el carbono directo y el calor. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Al evaluar la puntuación de sostenibilidad, puede evaluar la eficiencia general de su sistema de almacenamiento y alinearla con las acciones recomendadas de NetApp para mejorar la sostenibilidad. link:concept_understand_sustainability_dashboard.html["Leer más"].
+
+
+
 == 22 de febrero de 2023
 
 

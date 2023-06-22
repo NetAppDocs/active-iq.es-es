@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_sustainability_dashboard.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp 
+summary: Proporciona información para familiarizarse con el Panel de Sustainability. 
+---
+= Obtén más información sobre el servicio de sostenibilidad de BlueXP
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La sostenibilidad, como servicio, le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. De este modo, puede alinear sus sistemas de almacenamiento con prácticas ecológicas y lograr los objetivos de sostenibilidad.
+
+
+
+== Qué puedes hacer con el servicio de sostenibilidad
+
+Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. Basándose en la puntuación de sostenibilidad, puede evaluar su postura general de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación.
+
+También puede ver la puntuación de sostenibilidad en el nivel de clúster. Los datos proporcionados a nivel de clúster también pueden ayudar a identificar clústeres que se pueden trasladar a un almacenamiento más eficiente y así lograr el equilibrio correcto entre rendimiento y eficiencia energética.
+
+
+
+== Accede al servicio de sostenibilidad
+
+Puede acceder a este servicio de dos formas:
+
+* *Accede al servicio de sostenibilidad en Digital Advisor*
+Puedes iniciar sesión en el asesor digital y acceder al servicio de sostenibilidad desde la consola del asesor digital.
++
+image:sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que ofrece una descripción general del panel de control de Sustainability."]
+
++
+Para obtener más información acerca de iniciar sesión en Digital Advisor, consulte link:task_login_activeiq.adoc["Inicie sesión en Digital Advisor"].
+
+* *Accede al servicio de sostenibilidad en BlueXP*
+Puedes iniciar sesión en BlueXP y acceder al servicio de sostenibilidad desde la categoría *Gobernanza* disponible en la navegación izquierda de BlueXP.
++
+image:sustainability_dashboard_bluexp.png["Una captura de pantalla de la interfaz de usuario que ofrece una descripción general del panel de Sustainability de BlueXP."]
+
++
+Para iniciar sesión en BlueXP, puede utilizar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en cloud de NetApp con su correo electrónico y una contraseña. link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^].
+
+
+
+
+
+== Beneficios de utilizar el servicio de sostenibilidad
+
+El servicio de sostenibilidad ofrece las siguientes ventajas:
+
+* Acelerar el rendimiento
+* Menor gasto en almacenamiento
+* Reducir la huella de carbono
+* Mejorar la eficiencia energética
+* Información clara sobre tu postura de sostenibilidad
+* Recomendaciones prácticas impulsadas por IA/ML
+
+
+
+
+== Coste
+
+NetApp no te cobra por usar el servicio de sostenibilidad de BlueXP. Puede utilizarlo con su contrato de soporte activo.
+
+
+
+== Licencia
+
+No se requiere ninguna licencia especial para acceder a este servicio. Puede utilizarlo con el contrato de soporte activo si ha habilitado AutoSupport en sus sistemas.

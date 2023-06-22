@@ -314,7 +314,7 @@ Para StorageGRID, las capacidades se muestran en base 10 y la unidad de capacida
 * Los nuevos sistemas tardan más de un día en reflexionar en Digital Advisor cuando se han agregado o actualizado en SAP.
 * Los sistemas son seguros y no está autorizado a ver los sistemas seguros.
 * No tiene derecho a ver los sistemas.
-* Los sistemas no están activos en SAP.
+* Los sistemas están inactivos o se decomisionan en SAP.
 
 
 Si no puede ver sistemas por cualquier otro motivo, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>

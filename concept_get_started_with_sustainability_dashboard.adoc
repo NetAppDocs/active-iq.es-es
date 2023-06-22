@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: Proporciona información sobre el panel de control, la puntuación de sostenibilidad, los entornos de trabajo y las acciones recomendadas. 
+---
+= Comience con el Panel de Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La consola proporciona una evaluación del entorno de su sistema de almacenamiento e información procesable para mejorar la forma de acciones recomendadas por NetApp.
+
+*Puntuación de sostenibilidad*: Muestra la puntuación total que indica la sostenibilidad medioambiental de sus sistemas de almacenamiento. Puede evaluar el nivel de sostenibilidad de sus sistemas de almacenamiento en función de la siguiente gama:
+
+* 76 - 100: Indica que la sostenibilidad es una prioridad.
+* 51 - 75: Indica un alto nivel de inversión en iniciativas de sostenibilidad.
+* 26 - 50: Indica un buen progreso hacia las iniciativas de sostenibilidad.
+* Menos de 25: Indica la necesidad de mejora en las prácticas de sostenibilidad.
+
+
+Puede ver la representación gráfica de la puntuación durante un máximo de 5 semanas, que se actualiza semanalmente. También puede ver el motivo del aumento o disminución de la puntuación de sostenibilidad pasando el cursor por encima del gráfico.
+
+image:sustainability_score.png["Una captura de pantalla que muestra la puntuación de sostenibilidad junto con el gráfico."]
+
+*Indicadores ambientales*: Muestra proyecciones de su energía, uso directo de carbono y emisión de calor para evaluar el estado ambiental de su sistema de almacenamiento. Puede ver estas proyecciones mensualmente, trimestralmente o anualmente seleccionando el marco de tiempo deseado en la lista desplegable en la esquina superior derecha de esta sección.
+
+*Porcentajes de mitigación de carbono*: Muestra el porcentaje de mitigación de carbono en cada sitio/ciudad, y los valores de referencia presentados se basan en su ubicación. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos haciendo clic en el image:edit_icon_1.png["Una captura de pantalla que muestra un icono editable."] icono situado junto a los valores de porcentaje, y los números de carbono se ajustarán automáticamente en consecuencia.
+
+*Acciones recomendadas*: Muestra la lista de acciones recomendadas para mejorar la puntuación de sostenibilidad de tu sistema de almacenamiento. Estas acciones se pueden realizar inmediatamente seleccionando el *Fix*. Puedes expandir la vista haciendo clic en *Fix* o en la flecha hacia abajo, y puedes ver el nombre del clúster, la puntuación de sostenibilidad y el aumento posterior si continúas con la opción *Fix*. En la vista expandida, también puede ver un mensaje informativo de continuar con la opción *Fix*.
+
+image:recommended_actions.png["Una captura de pantalla que muestra la lista de acciones en la vista expandida."]
+
+Si planea abordar estas acciones más tarde, puede moverlas a la pestaña *Acciones para más tarde* seleccionando *Más tarde*. Estas acciones se pospondrán por 30 días. Después de 30 días, estas acciones se moverán automáticamente de nuevo a la pestaña *Acciones recomendadas*. También puede revisar las acciones pospuestas en cualquier momento y puede moverlos de nuevo a la pestaña *Acciones recomendadas* haciendo clic en *Considerar*.
+
+* Entornos de trabajo*: Muestra varios parámetros ambientales a nivel de clúster de su base instalada. Puede ver la puntuación de sostenibilidad a nivel de clúster, acceder a *ClusterViewer* seleccionando el nombre del clúster, tomar acciones recomendadas específicas desde aquí para mejorar la sostenibilidad.
+
+
+NOTE: Por ahora, son compatibles los sistemas ONTAP con AFF, FAS y CVO.
