@@ -199,6 +199,21 @@ La eficiencia de almacenamiento se muestra más alta cuando los volúmenes de pr
 
 
 
+== Inventario
+
+*¿Por qué no puedo encontrar ciertos sistemas en Digital Advisor? *
+Es posible que no pueda buscar ciertos sistemas o verlos en la página de inventario debido a una de las siguientes razones:
+
+* Los nuevos sistemas tardan más de un día en reflexionar en Digital Advisor cuando se han agregado o actualizado en SAP.
+* Los sistemas son seguros y no está autorizado a ver los sistemas seguros.
+* No tiene derecho a ver los sistemas.
+* Los sistemas están inactivos, archivados o decomisionados en SAP.
+
+
+Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea solicitar acceso, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>
+
+
+
 == Capacidad
 
 *¿Cómo se calculan las capacidades en el asesor digital?* las capacidades en el asesor digital se calculan para el clúster y el nodo, excluyendo la raíz e incluyendo copias Snapshot
@@ -304,17 +319,3 @@ NOTE: Incluye espacio reservado para volúmenes de tipo de garantía de archivo 
 *Son capacidades mostradas en Digital Advisor base 2 o base 10?* todas las capacidades mostradas en Digital Advisor son base 2 (dividir por 1024) y representan capacidades en GIB/TIB. Las soluciones de almacenamiento de ONTAP y otros productos de NetApp también muestran el uso de capacidad en la base 2.
 
 Para StorageGRID, las capacidades se muestran en base 10 y la unidad de capacidad se expresa en TB.
-
-
-
-== Inventario
-
-*¿Por qué no puedo encontrar ciertos sistemas en la página de inventario?* es posible que no pueda ver ciertos sistemas en la página de inventario debido a una de las siguientes razones:
-
-* Los nuevos sistemas tardan más de un día en reflexionar en Digital Advisor cuando se han agregado o actualizado en SAP.
-* Los sistemas son seguros y no está autorizado a ver los sistemas seguros.
-* No tiene derecho a ver los sistemas.
-* Los sistemas están inactivos o se decomisionan en SAP.
-
-
-Si no puede ver sistemas por cualquier otro motivo, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>
