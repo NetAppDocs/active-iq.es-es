@@ -20,7 +20,7 @@ summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones 
 
 .Pasos
 [role="lead"]
-. Instale link:https://docs.python.org/3/using/windows.html["Python"] y.. link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
+. Instale link:https://docs.python.org/3/using/windows.html["Python"^] y.. link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
 . Instale los paquetes Python necesarios utilizando *pip*:
 +
 [listing]
@@ -43,7 +43,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-Para obtener más información sobre el comando ansible-galy, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentación de Ansible Galaxy"] Si desea obtener más información sobre la colección de Ansible de NetApp, consulte link:https://galaxy.ansible.com/netapp/ontap["Página de la colección Ansible de NetApp"].
+Para obtener más información sobre el comando ansible-galy, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentación de Ansible Galaxy"^] Si desea obtener más información sobre la colección de Ansible de NetApp, consulte link:https://galaxy.ansible.com/netapp/ontap["Página de la colección Ansible de NetApp"^].
 
 . Ejecute el libro de aplicaciones de Ansible con el comando * ansible-playbook*:
 +
@@ -63,6 +63,6 @@ NOTE: Si hay un conjunto de clústeres con credenciales de inicio de sesión dif
 
 
 
-Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"] Y para ejecutar el libro de aplicaciones de Ansible en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"].
+Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"^] Y para ejecutar el libro de aplicaciones de Ansible en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"^].
 
 Tras ejecutar el libro de estrategia, consulte link:task_validate_firmware_installation.html["Validaciones de instalación del firmware"] para obtener instrucciones posteriores a la ejecución.

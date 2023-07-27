@@ -21,8 +21,8 @@ summary: Proporciona más información sobre Ansible.
 [role="lead"]
 Puede obtener ayuda y encontrar más información mediante varios recursos.
 
-* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Información sobre solución de problemas"]
-* link:https://netapp.io/["Espacio de trabajo Slack"]
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Información sobre solución de problemas"^]
+* link:https://netapp.io/["Espacio de trabajo Slack"^]
 * Correo:ng-active-iq-feedback@netapp.com[correo electrónico]
 * Botón de asistencia técnica del asesor digital para obtener asistencia y comentarios.
 

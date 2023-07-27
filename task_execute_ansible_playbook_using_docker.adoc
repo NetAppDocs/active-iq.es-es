@@ -34,7 +34,7 @@ Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, d
 
 
 .Pasos
-. link:https://docs.docker.com/get-started/["Configure Docker"].
+. link:https://docs.docker.com/get-started/["Configure Docker"^].
 . Tire de la imagen de NetApp Docker desde DockerHub ejecutando el siguiente comando:
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-Para obtener más información acerca del comando docker pull, consulte link:https://docs.docker.com/engine/reference/commandline/pull/["Documentación de Docker Pull"].
+Para obtener más información acerca del comando docker pull, consulte link:https://docs.docker.com/engine/reference/commandline/pull/["Documentación de Docker Pull"^].
 
 . Ejecute la imagen de Docker como contenedor e inicie sesión en el contenedor para ejecutar el libro de aplicaciones de Ansible.
 . Copie la ruta de la carpeta que contiene el libro de aplicaciones de Ansible y los archivos de inventario extraídos, por ejemplo, *ruta_de_libro_descargados*. El libro de aplicaciones de Ansible y los archivos de inventario deben estar en la misma carpeta para una ejecución correcta.
@@ -57,7 +57,7 @@ Para obtener más información acerca del comando docker pull, consulte link:htt
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-El contenedor se inicia y la consola se encuentra ahora en el shell bash del contenedor. Si quiere más información acerca del comando Docker Run, consulte link:https://docs.docker.com/engine/reference/run/["Documentación de Docker Run"].
+El contenedor se inicia y la consola se encuentra ahora en el shell bash del contenedor. Si quiere más información acerca del comando Docker Run, consulte link:https://docs.docker.com/engine/reference/run/["Documentación de Docker Run"^].
 
 . Ejecute el libro de aplicaciones de Ansible dentro del contenedor con el comando *ansible-playbook*:
 +
@@ -77,6 +77,6 @@ NOTE: Si hay un conjunto de clústeres con credenciales de inicio de sesión dif
 
 
 
-Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"] Y para ejecutar la tableta Ansible playbook en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"].
+Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"^] Y para ejecutar la tableta Ansible playbook en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"^].
 
 Después de ejecutar el libro de aplicaciones de Ansible, consulte link:task_validate_firmware_installation.html["Validaciones de instalación del firmware"] para obtener instrucciones posteriores a la ejecución.

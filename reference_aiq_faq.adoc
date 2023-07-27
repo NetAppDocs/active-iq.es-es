@@ -42,7 +42,7 @@ Se debe crear un caso no técnico para los siguientes casos:
 
 *¿Cómo creo un caso no técnico?*
 
-. Haga clic en link:https://mysupport.netapp.com/site/help["aquí"] Para abrir la herramienta de comentarios no técnicos en el sitio de soporte de NetApp.
+. Haga clic en link:https://mysupport.netapp.com/site/help["aquí"^] Para abrir la herramienta de comentarios no técnicos en el sitio de soporte de NetApp.
 . Seleccione la categoría adecuada en la lista desplegable *Categoría de comentarios*.
 . Introduzca los detalles necesarios y proporcione información adicional en la casilla "Comentarios".
 . Haga clic en *Enviar*.
@@ -60,7 +60,7 @@ Para proporcionar comentarios o hacer preguntas, envíe un correo electrónico a
 
 *¿Cómo puedo acceder a la eficiencia del almacenamiento en Digital Advisor?*
 
-. Abra la página de inicio de link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"].
+. Abra la página de inicio de link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^].
 . Busque un cliente, sitio, grupo, clúster o nodo en el cuadro de búsqueda superior derecho para acceder a la consola correspondiente.
 . Haga clic en *eficiencia de almacenamiento* en la navegación de la izquierda.
 
@@ -210,7 +210,7 @@ Es posible que no pueda buscar ciertos sistemas o verlos en la página de invent
 * Los sistemas están inactivos, archivados o decomisionados en SAP.
 
 
-Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea solicitar acceso, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>
+Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea solicitar acceso, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"^]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>
 
 
 

@@ -25,7 +25,7 @@ Mediante un token de acceso válido y las entradas correctas para los campos req
 
 .Pasos
 . En el menú *Enlaces rápidos*, haga clic en *Servicios API*.
-. Haga clic en link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Examinar*"] Bajo el icono *API Catalog*.
+. Haga clic en link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Examinar*"^] Bajo el icono *API Catalog*.
 +
 Se muestra el catálogo de API.
 

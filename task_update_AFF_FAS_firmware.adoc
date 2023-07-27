@@ -27,8 +27,8 @@ Debe actualizar el firmware de AFF y FAS con Ansible para reducir los riesgos id
 
 Antes de actualizar el firmware de AFF y FAS con Ansible, debe:
 
-* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Instale y configure Ansible en el sistema de almacenamiento"]
-* link:https://netapp.io/2019/09/17/coming-together-nicely/["Instale Ansible 2.9 con colecciones en el sistema de almacenamiento"]
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Instale y configure Ansible en el sistema de almacenamiento"^]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Instale Ansible 2.9 con colecciones en el sistema de almacenamiento"^]
 * Actualice su sistema de almacenamiento a ONTAP 9.1 o posterior
 * Configure su cuenta con una función de administrador
 

@@ -68,7 +68,7 @@ Para la organización en niveles, se recomiendan los volúmenes que cumplen con 
 . Haga clic en *datos de nivel* para iniciar *BlueXP*.
 
 
-Para obtener más información sobre FabricPool, consulte link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Prácticas recomendadas de FabricPool"].
+Para obtener más información sobre FabricPool, consulte link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Prácticas recomendadas de FabricPool"^].
 
 
 

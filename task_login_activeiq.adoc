@@ -19,10 +19,13 @@ summary: Proporciona información para iniciar sesión en Digital Advisor.
 
 
 [role="lead"]
-Debe disponer de una credencial válida del sitio de soporte de NetApp para iniciar sesión en Digital Advisor. Si no tiene una cuenta y va a comenzar, haga clic en link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["aquí"].
+Puede iniciar sesión en el asesor digital desde una consola basada en web para crear una lista de vigilancia donde pueda ver el estado general de su sistema de almacenamiento.
+
+.Antes de empezar
+Debe disponer de una credencial válida del sitio de soporte de NetApp para iniciar sesión en Digital Advisor. Si no tiene una cuenta y se está iniciando, continúe con link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["cree una cuenta"^].
 
 .Pasos
-. Haga clic en link:https://activeiq.netapp.com/?source=onlinedocs["aquí"] Para acceder a Digital Advisor.
+. Vaya a la link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] página de inicio de sesión.
 +
 Digital Advisor muestra los sistemas con un contrato de soporte válido. Si los contratos caducan, se da un período de gracia de 90 días en el que los sistemas continúan siendo visibles. A partir de entonces, los sistemas no se pueden buscar ni son visibles en Digital Advisor.
 
