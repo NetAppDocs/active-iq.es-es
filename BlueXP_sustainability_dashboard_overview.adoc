@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: BlueXP_sustainability_dashboard_overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: Proporciona información sobre el panel de control, la puntuación de sostenibilidad, los entornos de trabajo y las acciones recomendadas. 
+---
+= Información general del panel de sostenibilidad
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La consola de sostenibilidad proporciona una evaluación del entorno de su sistema de almacenamiento e información procesable para mejorar la forma de acciones recomendadas por NetApp.
+
+image:get_started_sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que muestra el panel de sostenibilidad."]
+
+
+NOTE: Para obtener los mejores resultados desde la consola, debe habilitar AutoSupport. Si AutoSupport no está habilitado, los datos se basarán en las especificaciones del producto. Para obtener detalles energéticos en tiempo real, debe habilitar Cloud Insights. Para obtener más información sobre cómo habilitar Cloud Insights, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+
+*Puntuación de sostenibilidad*: Muestra la puntuación total que indica la sostenibilidad medioambiental de sus sistemas de almacenamiento. Puede evaluar el nivel de sostenibilidad de sus sistemas de almacenamiento en función de la siguiente gama:
+
+* 76 - 100: Indica que la sostenibilidad es una prioridad.
+* 51 - 75: Indica un alto nivel de inversión en iniciativas de sostenibilidad.
+* 26 - 50: Indica un buen progreso hacia las iniciativas de sostenibilidad.
+* Menos de 25: Indica la necesidad de mejora en las prácticas de sostenibilidad.
+
+
+Puede ver la representación gráfica de la puntuación durante un máximo de 5 semanas, que se actualiza semanalmente. También puede ver el motivo del aumento o disminución de la puntuación de sostenibilidad pasando el cursor por encima del gráfico.
+
+image:sustainability_score.png["Una captura de pantalla que muestra la puntuación de sostenibilidad junto con el gráfico."]
+
+*Indicadores ambientales*: Muestra proyecciones de su energía, uso directo de carbono y emisión de calor para evaluar el estado ambiental de su sistema de almacenamiento. Estas proyecciones se basan en la potencia real, si no están disponibles, los valores de potencia típicos. Puede ver estas proyecciones mensualmente, trimestralmente o anualmente seleccionando la opción deseada en la lista desplegable en la esquina superior derecha de esta sección.
+
+*Porcentajes de mitigación de carbono*: Muestra el porcentaje de mitigación de carbono en cada sitio/ciudad, y los valores de referencia presentados se basan en su ubicación. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos haciendo clic en el image:edit_icon_1.png["Una captura de pantalla que muestra un icono editable."] icono situado junto a los valores de porcentaje, y los números de carbono se ajustarán automáticamente en consecuencia.
+
+image:carbon_mitigation_percentage.png["Una captura de pantalla que muestra el porcentaje de mitigación de carbono de los sitios y cómo editar este porcentaje."]
+
+*Acciones recomendadas*: Muestra la lista de acciones recomendadas para mejorar la puntuación de sostenibilidad de tu sistema de almacenamiento. Estas acciones se pueden realizar inmediatamente o más tarde.
+Para obtener más información sobre cómo mejorar la puntuación de sostenibilidad, consulte link:improve_sustainability_score.html["Mejorar la puntuación en sostenibilidad"].
+
+*Entornos de trabajo*: Muestra parámetros ambientales en la tabla que pueden ayudar a identificar clústeres para pasar a un almacenamiento más eficiente. Desde esta tabla, puede:
+
+* Vea la puntuación de sostenibilidad a nivel de clúster, seleccione el nombre del clúster para acceder a *ClusterViewer*, tome acciones recomendadas específicas para mejorar la sostenibilidad. Para obtener más información, consulte link:improve_sustainability_score.html["Mejore la puntuación de sostenibilidad a nivel de clúster"].
++
+image:working_environments.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
+
+* Habilite la supervisión desde el coslumn *Real-Time Power* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+

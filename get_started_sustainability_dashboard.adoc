@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a BlueXP o al asesor digital. 
+---
+= Comience con el panel de control de Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El panel de Sustainability proporciona informes y puntuaciones habilitados para AIOps con información práctica que mejora tu posición de sostenibilidad. Puedes utilizar BlueXP o el asesor digital de NetApp para ver el panel de sostenibilidad.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Para iniciar sesión en BlueXP, puede utilizar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en cloud de NetApp con su correo electrónico y una contraseña. Más información acerca de link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Inicio de sesión en BlueXP"^].
+
+.Pasos
+. Abra un explorador web y vaya a link:https://console.bluexp.netapp.com/["Consola BlueXP"^].
+Aparece la página de inicio de sesión de NetApp BlueXP.
+. Inicie sesión en BlueXP.
+. En la navegación de la izquierda de BlueXP, selecciona *Gobernanza* > *Sostenibilidad*.
+  Aparece el panel de control de Sustainability.
+  +
+image:sustainability_dashboard_bluexp.png["Una captura de pantalla de la interfaz de usuario que ofrece información general del panel de sostenibilidad de BlueXP."]
+
+
+
+NOTE: Si el panel de control de Sustainability no está configurado, aparece la opción *Agregar cuenta NSS*. Proporciona tus credenciales del sitio de soporte de NetApp (NSS) para ver tu consola de Sustainability y los sistemas asociados con tu cuenta.
+
+--
+.Asesor digital
+--
+Para iniciar sesión en el asesor digital, puede usar sus credenciales del sitio de soporte de NetApp.
+
+.Pasos
+. Abra un explorador web y vaya a link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] página de inicio de sesión.
+. Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
+. En la navegación de la izquierda, selecciona *STORAGE HEALTH* > *Sustainability*.
++
+image:sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que ofrece información general del panel de sostenibilidad."]
+
+
+
+
+NOTE: La opción *Sustainability* está desactivada si la lista de comprobaciones no está configurada. Para activarlo, puede crear una lista de comprobaciones o realizar una búsqueda utilizando el nombre del cliente, el nombre del sitio, el nombre del grupo, StorageGRID, el nombre del host, clúster, número de serie o ID del sistema. link:concept_overview_dashboard.html["Obtenga más información sobre la lista de seguimiento"].
+
+--
+====

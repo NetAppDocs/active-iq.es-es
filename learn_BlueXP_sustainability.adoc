@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: learn_BlueXP_sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+summary: Proporciona información sobre sostenibilidad que le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. 
+---
+= Aprende sobre sostenibilidad
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La sostenibilidad, como servicio, le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. De este modo, puede alinear sus sistemas de almacenamiento con prácticas ecológicas y lograr los objetivos de sostenibilidad.
+
+Puede utilizar el panel de control de Sustainability para lograr sus objetivos medioambientales. Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de control de sostenibilidad. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación. Para obtener más información sobre el panel de control de Sustainability, vaya a. link:get_started_sustainability_dashboard.html["Comience con el panel de control de Sustainability"].
+
+
+NOTE: La sostenibilidad es compatible con los sistemas AFF, tanto A-series como C-series, sistemas FAS y Cloud Volumes ONTAP (CVO).
+
+
+
+== Beneficios de la sostenibilidad
+
+La sostenibilidad ofrece los siguientes beneficios:
+
+* Acelere el rendimiento reduciendo el número de dispositivos de almacenamiento para almacenar la misma cantidad de datos.
+* Reducir los costes de almacenamiento gracias a la optimización del uso de los sistemas de almacenamiento.
+* Reduce la huella de carbono mediante el uso de energías renovables en los centros de datos.
+* Mejorar la eficiencia energética mediante la implementación de políticas de eficiencia energética.
+
+
+
+
+== Coste y licencia
+
+Puede acceder al servicio de sostenibilidad con su contrato de soporte activo si ha habilitado AutoSupport en sus sistemas.

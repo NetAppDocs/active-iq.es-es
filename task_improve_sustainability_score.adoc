@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp 
+summary: Proporciona los pasos necesarios para abordar las acciones recomendadas inmediatamente o más tarde. 
+---
+= Mejorar la puntuación en sostenibilidad
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+El panel de sostenibilidad de BlueXP genera acciones recomendadas que puedes utilizar para mejorar tu postura de sostenibilidad general. Puedes ver estas acciones recomendadas en BlueXP o el asesor digital de NetApp.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Ve a *Sustainability* de la categoría *Governance* disponible en la navegación izquierda de BlueXP.
+. Vaya a la pestaña *Acciones recomendadas*.
++
+** Puede realizar estas acciones inmediatamente seleccionando *Fix*, o dirección más tarde seleccionando *later*.
+** Si planeas abordar las acciones inmediatamente, selecciona *Fix*.
++
+*** Expande la vista de la acción recomendada seleccionada. También puede expandir la vista de acción recomendada con la flecha hacia abajo. En la vista expandida, puede ver el nombre del clúster, la puntuación de sostenibilidad y el aumento posterior si continúa con la opción *Fix*. También puede ver un mensaje informativo de continuar con la opción *Fix*.
+  +
+image:recommended_actions.png["Una captura de pantalla que muestra la lista de acciones en la vista expandida."]
+*** Desde la vista expandida, puede seleccionar *Fix* para abordar la acción inmediatamente.
+
+
+** Si planea abordar las acciones más tarde, seleccione *Más tarde*.
++
+*** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
+*** También puedes revisar las acciones pospuestas en cualquier momento y moverlas a la pestaña *Acciones recomendadas* haciendo clic en *Considerar*.
+ +
+image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
+
+
+
+
+
+
+--
+.Asesor digital
+--
+. Vaya a *Sustainability* desde la categoría *STORAGE HEALTH* disponible en la navegación izquierda del panel de Digital Advisor.
+. Vaya a la pestaña *Acciones recomendadas*.
++
+** Puede realizar estas acciones inmediatamente seleccionando *Fix*, o dirección más tarde seleccionando *later*.
+** Si planeas abordar las acciones inmediatamente, selecciona *Fix*.
++
+*** La vista de la acción recomendada seleccionada se expande. También puede expandir la vista de acción recomendada con la flecha hacia abajo. En la vista expandida, puede ver el nombre del clúster, la puntuación de sostenibilidad y el aumento posterior si continúa con la opción *Fix*. También puede ver un mensaje informativo de continuar con la opción *Fix*.
+  +
+image:recommended_actions.png["Una captura de pantalla que muestra la lista de acciones en la vista expandida."]
+*** Desde la vista expandida, puede seleccionar *Fix* para abordar la acción inmediatamente.
+
+
+** Si planea abordar las acciones más tarde, seleccione *Más tarde*.
++
+*** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
+*** También puedes revisar las acciones pospuestas en cualquier momento y moverlas a la pestaña *Acciones recomendadas* haciendo clic en *Considerar*.
+ +
+image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
+
+
+
+
+
+
+--
+====

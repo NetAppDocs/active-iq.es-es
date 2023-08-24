@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights, working environments 
+summary: Proporciona información sobre diversos parámetros de entorno en los entornos de trabajo que ayudan a identificar el clúster que se puede mover a un almacenamiento más eficiente. 
+---
+= Gestionar entornos de trabajo
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La tabla *Entornos de trabajo* incluye varios parámetros ambientales que ayudan a identificar el clúster que se puede mover a un almacenamiento más eficiente. Puede agregar o eliminar los parámetros ambientales para personalizar la tabla *Entornos de trabajo*.
+
+Puede analizar la puntuación de sostenibilidad a nivel del clúster. También puedes implementar las acciones recomendadas a nivel de clúster de tu base instalada para mejorar la puntuación de sostenibilidad a nivel de clúster. Para obtener más información, consulte link:improve_sustainability_score.html["Mejore la puntuación de sostenibilidad a nivel de clúster"].
+
+Para personalizar y obtener una mejor comprensión de la tabla *Entornos de trabajo*, siga estos pasos:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Ve a *Sustainability* de la categoría *Governance* disponible en la navegación izquierda de BlueXP.
+. Vaya a la tabla *Entornos de trabajo*.
++
+** Puede agregar o eliminar los parámetros ambientales para personalizar la tabla *Entornos de trabajo* utilizando el image:add_icon.png["Un icono más para agregar o eliminar los parámetros"] .
+** Puede ver la puntuación de sostenibilidad a nivel de clúster, seleccionar el nombre del clúster para acceder a *ClusterViewer*, tomar acciones recomendadas específicas desde aquí para mejorar la puntuación de sostenibilidad a nivel de clúster. Para obtener más información, consulte link:improve_sustainability_score.html["Mejore la puntuación de sostenibilidad a nivel de clúster"].
+** Puede seleccionar *Activar Monitoreo* en la columna *Potencia en tiempo real* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+  +
+image:working_environments.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
+** Puede exportar esta tabla con formato de valores separados por comas (.csv) mediante la image:download_icon.png["Símbolo de descarga para exportar el parámetro"] .
+
+
+
+
+--
+.Asesor digital
+--
+. Vaya a *Sustainability* desde la categoría *STORAGE HEALTH* disponible en la navegación izquierda del panel de Digital Advisor.
+. Vaya a la tabla *Entornos de trabajo*.
++
+** Puede agregar o eliminar los parámetros ambientales para personalizar la tabla *Entornos de trabajo* utilizando el image:add_icon.png["Un icono más para agregar o eliminar los parámetros"] .
+** Puede ver la puntuación de sostenibilidad a nivel de clúster, seleccionar el nombre del clúster para acceder a *ClusterViewer*, tomar acciones recomendadas específicas desde aquí para mejorar la puntuación de sostenibilidad a nivel de clúster. Para obtener más información, consulte link:improve_sustainability_score.html["Mejore la puntuación de sostenibilidad a nivel de clúster"].
+** Puede seleccionar *Activar Monitoreo* en la columna *Potencia en tiempo real* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+  +
+image:working_environments.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
+** Puede exportar esta tabla con formato de valores separados por comas (.csv) mediante la image:download_icon.png["Símbolo de descarga para exportar el parámetro"] .
+
+
+
+
+--
+====
