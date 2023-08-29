@@ -508,13 +508,6 @@
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">Haga clic en cualquiera de los enlaces del panel *recuperación ante desastres*.</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">Haga clic en *replicar en la nube* para iniciar *BlueXP*.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Vea el uso de la capacidad con la suscripción a NetApp Keystone</block>
-  <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Si está suscrito al servicio de suscripción de Keystone, puede ver el widget Suscripción de Keystone en el panel de Digital Advisor.</block>
-  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">El widget de suscripción de Keystone le ofrece un resumen del uso de la capacidad de su cuenta. Está formado por gráficos de uso de la capacidad con respecto a la capacidad física, la snapshot se redondea a los últimos cinco minutos. La utilización por encima y por encima de la capacidad comprometida (la capacidad de ráfaga) está marcada en rojo.</block>
-  <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">niveles de servicios</block>
-  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Capacidad del servicio de suscripción Keystone</block>
-  <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">Como usuario del asesor digital, puede elegir entre colector de ONTAP y AutoSupport para obtener datos sobre el uso de su capacidad.</block>
-  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Panel de suscripción de Keystone e informes</block>
-  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Para obtener más información sobre la suscripción de Keystone, consulte <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">Ofrece información para ver y analizar el estado de su sistema de almacenamiento y mitigar los riesgos.</block>
   <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">Vea el riesgo y realice manualmente acciones correctivas</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas asociadas y mitigar manualmente el riesgo.</block>
@@ -1162,8 +1155,6 @@
   <block id="30becc7ff660741781b33df4424a976b" category="paragraph">El sitio de seguridad de NetApp es la fuente de la verdad para la seguridad de los productos de NetApp: <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="1a0fefe07d105bbdb30fd8b35268ac5f" category="paragraph">Si desea obtener más información sobre la seguridad de los productos de NetApp, incluidos los productos no cubiertos por Digital Advisor, visite <block ref="5e78a47b9f3f07f171347317054eb0a4" category="inline-link-macro-rx"></block></block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Proporciona información sobre su uso de la capacidad con la suscripción a NetApp Keystone.</block>
-  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">Puede ver el panel *Keystone - utilización de la capacidad*, que analiza los datos en el widget y representa gráficamente la tendencia de utilización de la capacidad y el uso para todo el almacenamiento suscrito <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>, Como Premium, Extreme y Standard, asociado con su cuenta de suscripción de NetApp Keystone.</block>
-  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">Puede ver la <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> y el uso de cada servicio suscrito para su bloque, servicios de archivos o almacenamiento de objetos en el panel.</block>
   <block id="1583e3cf3d8d7b04d46e1fc4c3378657" category="paragraph">Desde la pantalla FabricPool Advisor, puede activar la generación de informes de datos inactivos (IDR) para supervisar agregados y generar una libro de aplicaciones de Ansible.</block>
   <block id="a44ea0c484f7b46a675c3900938f5c9e" category="paragraph">Descargue la aplicación para obtener más información:<block ref="9f34f1e9a1a1b7a5470e007139e444f5" category="inline-link-macro-rx"></block>
 <block ref="45e5ff1f89e77ef1cc1575bf78209669" category="inline-link-macro-rx"></block></block>
@@ -1418,4 +1409,7 @@ Aparece la página de inicio de sesión de NetApp BlueXP.</block>
   <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>.</block>
   <block id="37cce083eef0841e779db21ca8daef7e" category="paragraph">Puede ver los riesgos y rectificarlos utilizando Active IQ Unified Manager. <block ref="f4086b11d800cf115240026fc88182a0" category="inline-link-macro-rx"></block>.</block>
   <block id="68eadb44b69eeb166a72c254148cc4c3" category="paragraph">Consulte <block ref="b0240cce700bb082e59a979e57faa1fc" category="inline-link-macro-rx"></block> para obtener más detalles.</block>
+  <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Si está suscrito a los servicios de STaaS de NetApp Keystone, puede ver el widget Suscripción de Keystone en la consola del asesor digital.</block>
+  <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone y asesor digital</block>
+  <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">El widget de suscripción de Keystone le ofrece un resumen del uso de la capacidad de su cuenta. Consta de gráficos de utilización de la capacidad con respecto a la capacidad física. Para obtener más información sobre los distintos niveles de datos de suscripción e información de uso, consulte <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
 </blocks>

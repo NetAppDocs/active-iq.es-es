@@ -19,15 +19,6 @@ summary: Proporciona información sobre su uso de la capacidad con la suscripci�
 
 
 [role="lead"]
-Si está suscrito al servicio de suscripción de Keystone, puede ver el widget Suscripción de Keystone en el panel de Digital Advisor.
+Si está suscrito a los servicios de STaaS de NetApp Keystone, puede ver el widget Suscripción de Keystone en la consola del asesor digital.
 
-El widget de suscripción de Keystone le ofrece un resumen del uso de la capacidad de su cuenta. Está formado por gráficos de uso de la capacidad con respecto a la capacidad física, la snapshot se redondea a los últimos cinco minutos. La utilización por encima y por encima de la capacidad comprometida (la capacidad de ráfaga) está marcada en rojo.
-
-Puede ver el panel *Keystone - utilización de la capacidad*, que analiza los datos en el widget y representa gráficamente la tendencia de utilización de la capacidad y el uso para todo el almacenamiento suscrito link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["niveles de servicios"^], Como Premium, Extreme y Standard, asociado con su cuenta de suscripción de NetApp Keystone.
-
-Puede ver la link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Capacidad del servicio de suscripción Keystone"^] y el uso de cada servicio suscrito para su bloque, servicios de archivos o almacenamiento de objetos en el panel.
-
-
-NOTE: Como usuario del asesor digital, puede elegir entre colector de ONTAP y AutoSupport para obtener datos sobre el uso de su capacidad.
-
-Para obtener más información sobre la suscripción de Keystone, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Panel de suscripción de Keystone e informes"^].
+El widget de suscripción de Keystone le ofrece un resumen del uso de la capacidad de su cuenta. Consta de gráficos de utilización de la capacidad con respecto a la capacidad física. Para obtener más información sobre los distintos niveles de datos de suscripción e información de uso, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html["Keystone y asesor digital"^].
