@@ -23,6 +23,22 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 27 de septiembre de 2023
+
+
+
+=== Asesor de actualizaciones
+
+Puede acceder a la página Asesor de actualizaciones de su lista de comprobaciones o la consola predeterminadas mediante el link:https://activeiq.netapp.com/redirect/upgrade-advisor["Asesor de actualizaciones"^] enlace. Si no dispone de una lista de comprobaciones o un panel de control predeterminados, al hacer clic en el enlace se le redirigirá a la página de búsqueda.
+
+
+
+=== Plan de actualización
+
+El plan de actualización se ha optimizado para eliminar los pasos de actualización redundantes, modificar la información y las advertencias, y simplificar el plan de interrupción. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección Información general. Para ver el plan mejorado, genere el plan de actualización siguiendo los pasos mencionados en link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Actualice la versión de ONTAP con el plan de actualización"].
+
+
+
 == 16 de julio de 2023
 
 
