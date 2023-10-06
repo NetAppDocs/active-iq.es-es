@@ -29,13 +29,9 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 === Asesor de actualizaciones
 
-Puede acceder a la página Asesor de actualizaciones de su lista de comprobaciones o la consola predeterminadas mediante el link:https://activeiq.netapp.com/redirect/upgrade-advisor["Asesor de actualizaciones"^] enlace. Si no dispone de una lista de comprobaciones o un panel de control predeterminados, al hacer clic en el enlace se le redirigirá a la página de búsqueda.
+* Puede acceder a la página Upgrade Advisor para su lista de comprobaciones predeterminada mediante el link:https://activeiq.netapp.com/redirect/upgrade-advisor["Asesor de actualizaciones"^] enlace.
+* El plan de actualización está optimizado para eliminar los pasos de actualización redundantes y simplificar el plan de inversión. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección de información general del plan de actualización. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Aprenda a generar y ver el plan de actualización"].
 
-
-
-=== Plan de actualización
-
-El plan de actualización se ha optimizado para eliminar los pasos de actualización redundantes, modificar la información y las advertencias, y simplificar el plan de interrupción. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección Información general. Para ver el plan mejorado, genere el plan de actualización siguiendo los pasos mencionados en link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Actualice la versión de ONTAP con el plan de actualización"].
 
 
 
@@ -58,7 +54,7 @@ El plan de actualización se ha optimizado para eliminar los pasos de actualizac
 
 === Panel de sostenibilidad
 
-Sustainability Dashboard proporciona información muy valiosa sobre la sostenibilidad medioambiental de su sistema de almacenamiento. Puede ver la información, como la puntuación de sostenibilidad, el porcentaje de mitigación de carbono, el uso proyectado de energía, el carbono directo y el calor. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Al evaluar la puntuación de sostenibilidad, puede evaluar la eficiencia general de su sistema de almacenamiento y alinearla con las acciones recomendadas de NetApp para mejorar la sostenibilidad. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Leer más"].
+El panel de sostenibilidad proporciona información muy valiosa sobre la sostenibilidad medioambiental de su sistema de almacenamiento. Puede ver la información, como la puntuación de sostenibilidad, el porcentaje de mitigación de carbono, el uso proyectado de energía, el carbono directo y el calor. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la eficiencia general de su sistema de almacenamiento y alinearla con las acciones recomendadas de NetApp para mejorar la sostenibilidad. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Leer más"].
 
 
 
