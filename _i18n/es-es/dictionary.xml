@@ -1113,7 +1113,6 @@
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Análisis del rendimiento del almacenamiento</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analice el estado del sistema de almacenamiento</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Actualice para optimizar su base instalada</block>
-  <block id="1d6e1053c3a5ac9c901ad8624d357a85" category="sidebar">Actualice la versión ONTAP del sistema de almacenamiento</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Actualice el firmware de AFF y FAS con el libro de aplicaciones de Ansible</block>
   <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible con firmware AFF y FAS (usuarios con experiencia)</block>
   <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible del firmware AFF y FAS (principiantes)</block>
@@ -1179,7 +1178,6 @@
   <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">Compruebe la compatibilidad de los hosts y proporcione recomendaciones de actualización para los sistemas operativos del host, los controladores y .</block>
   <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">Llega exactamente a lo que quieres encontrar de una manera más inteligente y rápida.</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">21 de junio de 2023</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analice la sostenibilidad de su sistema de almacenamiento</block>
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">*¿Por qué no puedo encontrar ciertos sistemas en Digital Advisor? *
 Es posible que no pueda buscar ciertos sistemas o verlos en la página de inventario debido a una de las siguientes razones:</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">Los sistemas están inactivos, archivados o decomisionados en SAP.</block>
@@ -1402,22 +1400,13 @@ Aparece la página de inicio de sesión de NetApp BlueXP.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Si está suscrito a los servicios de STaaS de NetApp Keystone, puede ver el widget Suscripción de Keystone en la consola del asesor digital.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone y asesor digital</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">El widget de suscripción de Keystone le ofrece un resumen del uso de la capacidad de su cuenta. Consta de gráficos de utilización de la capacidad con respecto a la capacidad física. Para obtener más información sobre los distintos niveles de datos de suscripción e información de uso, consulte <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
-  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">Puede ver las actualizaciones pendientes del sistema de almacenamiento y actualizar a una versión más reciente de ONTAP con un plan de actualización. También puede ver la lista de riesgos en la pestaña *Asesor de riesgos*, que se mitigará debido a la actualización.</block>
   <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">En el panel de control, en el widget *Asesor de actualizaciones*, haz clic en el número de acciones para ver las actualizaciones pendientes.</block>
   <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">Seleccione la opción de actualización requerida.</block>
   <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">Haga clic en el número de sistemas compatibles de la opción de actualización seleccionada para ir a la página *Detalles de actualización* para generar un plan de actualización.</block>
   <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Asesor de riesgos</block>
-  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">Puede ir a la pestaña *Asesor de riesgos* para ver la lista de riesgos junto con su nivel de gravedad, que se mitigará debido a la actualización.
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">Puede hacer clic en el número de riesgos totales para ver la lista de riesgos en la pestaña *Asesor de riesgos* si la opción de actualización seleccionada incluye *Riesgos totales*.</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Riesgos totales</block>
   <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">En la pestaña *Asesor de actualizaciones*, haz clic en *Generar plan de actualización*.</block>
-  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el informe del plan de actualización.</block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización</block>
   <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">Vaya a *Informes*. Puede supervisar el estado del plan de actualización y descargarlo una vez que esté disponible.</block>
@@ -1429,4 +1418,17 @@ Aparece la página de inicio de sesión de NetApp BlueXP.</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Aprenda a generar y ver el plan de actualización</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">El plan de actualización está optimizado para eliminar los pasos de actualización redundantes y simplificar el plan de inversión. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección de información general del plan de actualización. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>.</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">El panel de sostenibilidad proporciona información muy valiosa sobre la sostenibilidad medioambiental de su sistema de almacenamiento. Puede ver la información, como la puntuación de sostenibilidad, el porcentaje de mitigación de carbono, el uso proyectado de energía, el carbono directo y el calor. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la eficiencia general de su sistema de almacenamiento y alinearla con las acciones recomendadas de NetApp para mejorar la sostenibilidad. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
+  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">Actualice la versión ONTAP de sus sistemas de almacenamiento</block>
+  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">Puede usar Upgrade Advisor para ver las actualizaciones recomendadas y crear un plan de actualización para sus sistemas de almacenamiento. Puede ver la lista de riesgos en la pestaña Asesor de riesgos asociado con sus sistemas de almacenamiento y mitigar dichos riesgos si actualiza sus sistemas de almacenamiento a una versión más reciente de ONTAP.</block>
+  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">Seleccione la opción de actualización.</block>
+  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">Haga clic en el número de sistemas compatibles para generar un plan de actualización.
+Se muestra la página *Detalles de actualización*.</block>
+  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">Puede ir a la pestaña *Asesor de riesgos* para ver la lista de riesgos junto con su nivel de gravedad.
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">Puede hacer clic en el número de riesgos totales para ver la lista de riesgos en la pestaña *Asesor de riesgos* si la opción de actualización incluye *Riesgos totales*.</block>
+  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">En la pestaña *Upgrade Advisor*, seleccione los sistemas para actualizar.</block>
+  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Haga clic en *Generar plan de actualización*.</block>
+  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el plan de actualización.</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analice la sostenibilidad de sus sistemas de almacenamiento</block>
 </blocks>

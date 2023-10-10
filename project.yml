@@ -66,7 +66,7 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: Analizar el bienestar de los clústeres y los nodos
       url: "/task_analyze_wellness_clusters_and_nodes.html"
-  - title: Analice la sostenibilidad de su sistema de almacenamiento
+  - title: Analice la sostenibilidad de sus sistemas de almacenamiento
     entries:
     - title: Aprende sobre sostenibilidad
       url: "/learn_BlueXP_sustainability.html"
@@ -126,7 +126,7 @@ sidebar:
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: Actualice para optimizar su base instalada
     entries:
-    - title: Actualice la versión ONTAP del sistema de almacenamiento
+    - title: Actualice la versión ONTAP de sus sistemas de almacenamiento
       url: "/task_view_upgrade.html"
     - title: Actualice la oferta de soporte
       url: "/task_upgrade_support_offering.html"

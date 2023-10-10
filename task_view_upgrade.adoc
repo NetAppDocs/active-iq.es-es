@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: Proporciona información para ver y actualizar la versión de ONTAP del sistema de almacenamiento. 
 ---
-= Actualice la versión ONTAP del sistema de almacenamiento
+= Actualice la versión ONTAP de sus sistemas de almacenamiento
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,33 +19,35 @@ summary: Proporciona información para ver y actualizar la versión de ONTAP del
 
 
 [role="lead"]
-Puede ver las actualizaciones pendientes del sistema de almacenamiento y actualizar a una versión más reciente de ONTAP con un plan de actualización. También puede ver la lista de riesgos en la pestaña *Asesor de riesgos*, que se mitigará debido a la actualización.
+Puede usar Upgrade Advisor para ver las actualizaciones recomendadas y crear un plan de actualización para sus sistemas de almacenamiento. Puede ver la lista de riesgos en la pestaña Asesor de riesgos asociado con sus sistemas de almacenamiento y mitigar dichos riesgos si actualiza sus sistemas de almacenamiento a una versión más reciente de ONTAP.
 
 .Pasos
 . En el panel de control, en el widget *Asesor de actualizaciones*, haz clic en el número de acciones para ver las actualizaciones pendientes.
 +
 image:upgrade_advisor_widget.png["Asesor de actualizaciones"]
 
-. Seleccione la opción de actualización requerida.
+. Seleccione la opción de actualización.
 +
 image:upgrade_options.png["Opciones de actualización"]
 
-. Haga clic en el número de sistemas compatibles de la opción de actualización seleccionada para ir a la página *Detalles de actualización* para generar un plan de actualización.
+. Haga clic en el número de sistemas compatibles para generar un plan de actualización.
+Se muestra la página *Detalles de actualización*.
 +
 image:generate_upgrade_plan.png["Genere un plan de actualización"]
 
 +
-** Puede ir a la pestaña *Asesor de riesgos* para ver la lista de riesgos junto con su nivel de gravedad, que se mitigará debido a la actualización.
+** Puede ir a la pestaña *Asesor de riesgos* para ver la lista de riesgos junto con su nivel de gravedad.
   +
 image:view_risks.png["Asesor de riesgos"]
-** Puede hacer clic en el número de riesgos totales para ver la lista de riesgos en la pestaña *Asesor de riesgos* si la opción de actualización seleccionada incluye *Riesgos totales*.
+** Puede hacer clic en el número de riesgos totales para ver la lista de riesgos en la pestaña *Asesor de riesgos* si la opción de actualización incluye *Riesgos totales*.
 +
 image:total_risks.png["Riesgos totales"]
 
 
 
-. En la pestaña *Asesor de actualizaciones*, haz clic en *Generar plan de actualización*.
-. Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el informe del plan de actualización.
+. En la pestaña *Upgrade Advisor*, seleccione los sistemas para actualizar.
+. Haga clic en *Generar plan de actualización*.
+. Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el plan de actualización.
 +
 image:details_upgrade_plan.png["Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización"]
 
