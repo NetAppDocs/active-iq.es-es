@@ -23,6 +23,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 04 de octubre de 2023
+
+
+
+=== Widget de planificación
+
+Los recuentos de recomendaciones de actualización tecnológica se incluyen en el widget de planificación del panel de nivel de cliente. Estas recomendaciones ayudan a planificar las actividades de actualización tecnológica del hardware cuando el hardware se queda sin soporte o está cerca del final del soporte.
+
+
+
 == 27 de septiembre de 2023
 
 

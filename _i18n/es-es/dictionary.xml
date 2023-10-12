@@ -1137,7 +1137,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portal Web de asesor digital</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vídeos de asistencia digital</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Comunidad de NetApp: Asesor digital</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de febrero de 2023</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Es posible ver un promedio de operaciones de lectura, escritura y otras en el gráfico IOPS de volúmenes.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">La eficiencia del almacenamiento SAN y NAS está disponible, a nivel de nodo, para sistemas ONTAP que incluyen AFF A-Series, AFF C190, cabinas All SAN y FAS2500 con ONTAP 9.10 y versiones posteriores.</block>
@@ -1431,4 +1430,7 @@ Se muestra la página *Detalles de actualización*.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Haga clic en *Generar plan de actualización*.</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el plan de actualización.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analice la sostenibilidad de sus sistemas de almacenamiento</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 de octubre de 2023</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget de planificación</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">Los recuentos de recomendaciones de actualización tecnológica se incluyen en el widget de planificación del panel de nivel de cliente. Estas recomendaciones ayudan a planificar las actividades de actualización tecnológica del hardware cuando el hardware se queda sin soporte o está cerca del final del soporte.</block>
 </blocks>
