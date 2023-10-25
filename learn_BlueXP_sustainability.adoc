@@ -24,7 +24,7 @@ La sostenibilidad, como servicio, le permite reducir el consumo de energía y le
 Puede utilizar el panel de control de Sustainability para lograr sus objetivos medioambientales. Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de control de sostenibilidad. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación. Para obtener más información sobre el panel de control de Sustainability, vaya a. link:get_started_sustainability_dashboard.html["Comience con el panel de control de Sustainability"].
 
 
-NOTE: La sostenibilidad es compatible con los sistemas AFF, tanto A-series como C-series, sistemas FAS y Cloud Volumes ONTAP (CVO).
+NOTE: La sostenibilidad es compatible con los sistemas AFF, tanto A-Series como C-Series, los sistemas FAS y Cloud Volumes ONTAP (CVO).
 
 
 

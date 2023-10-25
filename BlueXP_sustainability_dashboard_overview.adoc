@@ -53,5 +53,5 @@ Para obtener más información sobre cómo mejorar la puntuación de sostenibili
 +
 image:working_environments.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
 
-* Habilite la supervisión desde el coslumn *Real-Time Power* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+* Active la supervisión desde la columna *Potencia en tiempo real* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 
