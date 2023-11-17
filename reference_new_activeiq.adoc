@@ -23,13 +23,31 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 16 de noviembre de 2023
+
+
+
+== Lista de observación
+
+Ahora puede crear un máximo de 100 listas de comprobaciones.
+
+
+
+=== Widget de planificación
+
+* Las recomendaciones de actualizaciones tecnológicas ahora están disponibles en las consolas de lista, sitio y grupo.
+* Ahora puede ver posibles candidatos a actualizaciones tecnológicas si el recuento de recomendaciones de actualizaciones tecnológicas es cero.
+
+
+
+
 == 04 de octubre de 2023
 
 
 
 === Widget de planificación
 
-Los recuentos de recomendaciones de actualización tecnológica se incluyen en el widget de planificación del panel de nivel de cliente. Estas recomendaciones ayudan a planificar las actividades de actualización tecnológica del hardware cuando el hardware se queda sin soporte o está cerca del final del soporte.
+Los recuentos de recomendaciones de actualización tecnológica se incluyen en el widget de planificación del panel de nivel de cliente. Estas recomendaciones ayudan a planificar actividades de actualización tecnológica de hardware cuando el hardware se queda sin soporte o está cerca del final del soporte.
 
 
 
