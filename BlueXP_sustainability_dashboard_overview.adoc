@@ -24,7 +24,7 @@ La consola de sostenibilidad proporciona una evaluación del entorno de su siste
 image:get_started_sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que muestra el panel de sostenibilidad."]
 
 
-NOTE: Para obtener los mejores resultados desde la consola, debe habilitar AutoSupport. Si AutoSupport no está habilitado, los datos se basarán en las especificaciones del producto. Para obtener detalles energéticos en tiempo real, debe habilitar Cloud Insights. Para obtener más información sobre cómo habilitar Cloud Insights, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+NOTE: AutoSupport debe estar activado para un cálculo preciso de la puntuación de sostenibilidad.
 
 *Puntuación de sostenibilidad*: Muestra la puntuación total que indica la sostenibilidad medioambiental de sus sistemas de almacenamiento. Puede evaluar el nivel de sostenibilidad de sus sistemas de almacenamiento en función de la siguiente gama:
 

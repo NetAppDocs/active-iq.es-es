@@ -19,12 +19,10 @@ summary: Proporciona pasos para mejorar la puntuación de sostenibilidad a trav�
 
 
 [role="lead"]
-El panel de control de sostenibilidad genera acciones recomendadas que puede utilizar para mejorar la puntuación de sostenibilidad. Puedes ver e implementar estas acciones recomendadas en BlueXP de NetApp o el asesor digital.
-
-Puede mejorar la puntuación de sostenibilidad general y la puntuación de sostenibilidad a nivel de clúster.
+El panel de Sustainability proporciona acciones recomendadas que puede implementar para mejorar la puntuación de sostenibilidad general y la puntuación de sostenibilidad a nivel de clúster.
 
 
-NOTE: La función AutoSupport debe estar habilitada para calcular la puntuación de sostenibilidad general y la puntuación de sostenibilidad a nivel del clúster.
+NOTE: Para obtener los mejores resultados desde la consola, debe habilitar AutoSupport. Si AutoSupport no está habilitado, los datos se basarán en las especificaciones del producto. Para obtener detalles energéticos en tiempo real, debe habilitar Cloud Insights. Para obtener más información sobre cómo habilitar Cloud Insights, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 
 
 

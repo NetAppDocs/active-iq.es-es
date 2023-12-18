@@ -21,11 +21,14 @@ summary: Proporciona información sobre sostenibilidad que le permite reducir el
 [role="lead"]
 La sostenibilidad, como servicio, le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. De este modo, puede alinear sus sistemas de almacenamiento con prácticas ecológicas y lograr los objetivos de sostenibilidad.
 
-Puede utilizar el panel de control de Sustainability para lograr sus objetivos medioambientales. Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de control de sostenibilidad. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación. Para obtener más información sobre el panel de control de Sustainability, vaya a. link:get_started_sustainability_dashboard.html["Comience con el panel de control de Sustainability"].
+Puede utilizar el panel de control de Sustainability para ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de control de sostenibilidad. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación. Para obtener más información sobre el panel de control de Sustainability, vaya a. link:BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"].
 
 
 NOTE: La sostenibilidad es compatible con los sistemas AFF, tanto A-Series como C-Series, los sistemas FAS y Cloud Volumes ONTAP (CVO).
 
+Puede ver el siguiente vídeo para comprender el panel de control de Sustainability:
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
 == Beneficios de la sostenibilidad
@@ -37,9 +40,3 @@ La sostenibilidad ofrece los siguientes beneficios:
 * Reduce la huella de carbono mediante el uso de energías renovables en los centros de datos.
 * Mejorar la eficiencia energética mediante la implementación de políticas de eficiencia energética.
 
-
-
-
-== Coste y licencia
-
-Puede acceder al servicio de sostenibilidad con su contrato de soporte activo si ha habilitado AutoSupport en sus sistemas.

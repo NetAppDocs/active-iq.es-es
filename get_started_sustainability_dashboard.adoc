@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a BlueXP o al asesor digital. 
 ---
-= Comience con el panel de control de Sustainability
+= Acceda al panel de control de Sustainability
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a Blue
 
 
 [role="lead"]
-El panel de Sustainability proporciona informes y puntuaciones habilitados para AIOps con información práctica que mejora tu posición de sostenibilidad. Puedes utilizar BlueXP o el asesor digital de NetApp para ver el panel de sostenibilidad.
+El panel de Sustainability proporciona informes y puntuaciones habilitados para AIOps con información práctica que mejora tu posición de sostenibilidad. Puedes acceder a la consola de sostenibilidad a través de BlueXP de NetApp o el asesor digital.
 
 [role="tabbed-block"]
 ====
