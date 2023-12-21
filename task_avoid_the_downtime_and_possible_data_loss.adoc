@@ -5,17 +5,14 @@ keywords: downtime, data loss, avoid downtime, avoid data loss
 summary: Proporciona información sobre cómo evitar el tiempo de inactividad y la posible pérdida de datos. 
 ---
 = Evite el tiempo de inactividad y la posible pérdida de datos
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

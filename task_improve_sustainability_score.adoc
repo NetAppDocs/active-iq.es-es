@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: Proporciona los pasos necesarios para abordar las acciones recomendadas inmediatamente o más tarde. 
 ---
 = Mejorar la puntuación en sostenibilidad
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

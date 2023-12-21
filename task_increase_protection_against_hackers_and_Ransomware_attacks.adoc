@@ -5,17 +5,14 @@ keywords: protection, hackers, ransomware, ransomware attacks, attack
 summary: Proporciona información sobre cómo aumentar la protección contra hackers y ataques de ransomware. 
 ---
 = Detectar vulnerabilidad de seguridad
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

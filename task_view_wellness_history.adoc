@@ -5,17 +5,14 @@ keywords: wellness history, risks, wellness, view all actions, risk history,
 summary: Proporciona información sobre los riesgos del sistema y cómo ver la historia del bienestar. 
 ---
 = Ver la historia del bienestar
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: templates, share template, clone template, edit template, delete templ
 summary: Proporciona información para administrar plantillas. 
 ---
 = Administrar una plantilla
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

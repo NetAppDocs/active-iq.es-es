@@ -5,17 +5,14 @@ keywords: overview, planning, increate capacity, renew, software, hardware, expi
 summary: Proporciona información para identificar la capacidad del sistema, así como el software y el hardware que están a punto de expirar. 
 ---
 = Comprenda la planificación
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

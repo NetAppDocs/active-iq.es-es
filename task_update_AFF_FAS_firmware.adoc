@@ -5,17 +5,14 @@ keywords: update, AFF, FAS firmware, firmware
 summary: Proporciona información sobre cómo actualizar el firmware de AFF y FAS. 
 ---
 = Descargue el paquete de automatización de Ansible con firmware AFF y FAS
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

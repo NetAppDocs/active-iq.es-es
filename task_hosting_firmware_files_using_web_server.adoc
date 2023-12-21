@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: Proporciona información sobre cómo alojar los archivos de firmware mediante un servidor Web. 
 ---
 = Aloja los archivos de firmware mediante el servidor web
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

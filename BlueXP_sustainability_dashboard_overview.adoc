@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, sustainabili
 summary: Proporciona información sobre el panel de control, la puntuación de sostenibilidad, los entornos de trabajo y las acciones recomendadas. 
 ---
 = Información general del panel de sostenibilidad
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

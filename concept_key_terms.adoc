@@ -5,17 +5,14 @@ keywords: overview, inventory, wellness, widgets, actions
 summary: Proporciona información sobre los términos clave utilizados en el Asesor digital. 
 ---
 = Conceptos clave
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

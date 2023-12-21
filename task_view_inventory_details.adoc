@@ -5,17 +5,14 @@ keywords: inventory, platforms, systems, clusters, sites
 summary: Proporciona información sobre el inventario general de su propiedad. 
 ---
 = Ver detalles de inventario
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

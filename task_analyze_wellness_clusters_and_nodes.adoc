@@ -5,17 +5,14 @@ keywords: cluster, node, clusterviewer, configuration
 summary: Proporciona información sobre ClusterViewer. 
 ---
 = Analizar el bienestar de los clústeres y los nodos
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

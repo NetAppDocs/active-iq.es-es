@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, health ch
 summary: Proporciona información para familiarizarse con la consola de comprobación del estado. 
 ---
 = Consulte la Consola de comprobación del estado
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

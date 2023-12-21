@@ -5,17 +5,14 @@ keywords: valuable insight, support cases, storage efficiency savings, mitigated
 summary: Proporciona información sobre el valioso widget de información. 
 ---
 = Vea información valiosa
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

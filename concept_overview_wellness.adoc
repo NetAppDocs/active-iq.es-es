@@ -5,17 +5,14 @@ keywords: overview, wellness, risk types, risk definition, mitigate risks, perfo
 summary: Ofrece información sobre el bienestar y los tipos de riesgo, que ayudan a mejorar su sistema de almacenamiento. 
 ---
 = Entender el bienestar
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

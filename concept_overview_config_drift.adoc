@@ -5,17 +5,14 @@ keywords: config drift, configuration deviation, add template, compare template
 summary: Proporciona una descripción general de la característica de deriva de configuración 
 ---
 = Entender la desviación de la configuración
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

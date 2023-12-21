@@ -5,17 +5,14 @@ keywords: wellness, performance, efficiency, availability, capacity, security vu
 summary: Ofrece información para ver y analizar el estado de su sistema de almacenamiento y reconocer los riesgos. 
 ---
 = Ver y reconocer el riesgo
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

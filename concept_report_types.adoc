@@ -5,17 +5,14 @@ keywords: reports, report types, reporting, performance reports
 summary: Proporciona información acerca de los diferentes tipos de informes que están disponibles para el usuario. 
 ---
 = Tipos de informes
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

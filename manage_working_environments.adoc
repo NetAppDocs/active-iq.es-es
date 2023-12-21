@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, clusterviewe
 summary: Proporciona información sobre diversos parámetros de entorno en los entornos de trabajo que ayudan a identificar el clúster que se puede mover a un almacenamiento más eficiente. 
 ---
 = Gestionar entornos de trabajo
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

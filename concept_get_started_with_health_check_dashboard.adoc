@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, autosuppo
 summary: Proporciona información sobre el panel, las puntuaciones de estado, las funciones y los widgets. 
 ---
 = Comience a utilizar la consola de comprobación del estado
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

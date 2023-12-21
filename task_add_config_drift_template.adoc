@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, add template
 summary: Proporciona información para agregar una plantilla de deriva de configuración. 
 ---
 = Agregue una plantilla de desviación de configuración
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

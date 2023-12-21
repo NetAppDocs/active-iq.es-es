@@ -5,17 +5,14 @@ keywords: reports, generate reports, drift timeline, drift timeline report, Auto
 summary: Proporciona información para generar informes de escala de tiempo de deriva. 
 ---
 = Generar un informe de escala de tiempo de deriva
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

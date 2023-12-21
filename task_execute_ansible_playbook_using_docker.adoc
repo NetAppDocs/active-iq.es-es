@@ -5,17 +5,14 @@ keywords: Ansible Playbook, Ansible, Playbook, docker
 summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones de Ansible con la imagen del Docker. 
 ---
 = Ejecute el libro de aplicaciones de Ansible con la imagen de Docker de NetApp
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

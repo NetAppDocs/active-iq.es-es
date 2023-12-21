@@ -5,17 +5,14 @@ keywords: faq, frequently asked questions, non-technical, non-technical case, in
 summary: Estas preguntas frecuentes pueden ser de ayuda si solo está buscando una respuesta rápida a una pregunta. 
 ---
 = Preguntas frecuentes sobre el Asesor Digital
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
