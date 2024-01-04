@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: upgrade_advisor_overview.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+summary: Proporcionar una descripción general del asesor de actualizaciones que simplifica la planificación de una actualización de ONTAP. 
+---
+= Descripción general
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+El asesor de actualizaciones permite generar un plan de actualización que incluya información detallada y detallada paso a paso necesaria para una actualización o una reversión de ONTAP correcta.
+
+Puede generar planes de actualización automatizados no disruptivos para un solo clúster y varios clústeres. Puede ver la recomendación de actualización solo para un solo clúster, lo que incluye una lista de riesgos asociados con un clúster, un informe de comprobación previa a la actualización que contenga una lista de bloqueadores y advertencias de actualización e información sobre nuevas funciones y mejoras. Para obtener más información, consulte link:generate_upgrade_plan_single_multiple_clusters.html["Genere un plan de actualización para un único clúster y varios clústeres"].
+
+
+NOTE: Para cada clúster de una configuración MetroCluster, genere un plan de actualización individual para recibir instrucciones de actualización completas.
+
+Puede generar planes de actualización automatizados, sin interrupciones y sin interrupciones para nodos (sistemas de almacenamiento). Puede revisar las rutas de actualización recomendadas y generar un plan de actualización. Para obtener más información, consulte link:task_view_upgrade.html["Genere un plan de actualización para los nodos"].
+
+Antes de generar un plan de actualización, debe preparar una actualización de ONTAP. Una preparación adecuada ayuda a identificar y mitigar los posibles riesgos o bloqueos de actualización antes de comenzar el proceso de actualización. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Prepárese para una actualización de ONTAP"^].

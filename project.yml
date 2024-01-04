@@ -76,6 +76,14 @@ sidebar:
       url: "/BlueXP_sustainability_dashboard_overview.html"
     - title: Mejorar la puntuación en sostenibilidad
       url: "/improve_sustainability_score.html"
+  - title: Genere un plan de actualización
+    entries:
+    - title: Descripción general
+      url: "/upgrade_advisor_overview.html"
+    - title: Genere un plan de actualización para un único clúster y varios clústeres
+      url: "/generate_upgrade_plan_single_multiple_clusters.html"
+    - title: Genere un plan de actualización para los nodos
+      url: "/task_view_upgrade.html"
   - title: Ver detalles del sistema
     entries:
     - title: Ver detalles de inventario
@@ -126,8 +134,6 @@ sidebar:
       url: "/task_renew_support_contracts_for_your_systems.html"
   - title: Actualice para optimizar su base instalada
     entries:
-    - title: Actualice la versión ONTAP de sus sistemas de almacenamiento
-      url: "/task_view_upgrade.html"
     - title: Actualice la oferta de soporte
       url: "/task_upgrade_support_offering.html"
     - title: Actualice el firmware de AFF y FAS con el libro de aplicaciones de Ansible

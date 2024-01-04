@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: Proporcione los pasos necesarios para generar un plan de actualización para que una actualización o una reversión de ONTAP se realicen correctamente para un solo clúster y varios clústeres. 
+---
+= Genere un plan de actualización para un único clúster y varios clústeres
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede usar el asesor de actualizaciones para ver la lista de clústeres que son elegibles o no elegibles para una actualización. Puede ver la recomendación de actualización de un clúster elegible y generar un plan de actualización. Puede solucionar los problemas con un clúster no elegible para que sea apto para una actualización.
+
+Puede seguir estos pasos para generar un plan de actualización para un solo clúster y varios clústeres:
+
+[role="tabbed-block"]
+====
+.En un único clúster
+--
+. En el panel de control, haga clic en Número de clústeres en el widget *Upgrade Advisor*.
++
+image:ua_widget.png["Una captura de pantalla que muestra el número de clusters."]
+
++
+Aparece la página *Upgrade Advisor-ONTAP*.
+
+. Verifique que el conmutador *Asesor de actualizaciones mejorado* esté habilitado.
++
+image:r_enhanced_ua_toggle.png["Una captura de pantalla que muestra el conmutador Asesor de actualizaciones mejorado está activado."]
+
++
+Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
+
+. Seleccione un clúster para actualizar.
+La columna *Target OS Version* muestra la versión recomendada del SO de destino. Haga clic en el image:edit_icon.png["Imagen del botón de edición"] Para seleccionar otra versión de sistema operativo de destino de un clúster.
++
+image:r_ua_select_target_OS_version_single_cluster.png["Imagen que muestra cómo seleccionar la versión de destino."]
+
++
+** Puede hacer clic en el número de nodos en la columna *nodes* para ver el resumen de nodo de un cluster.
+** Puede hacer clic en *Resolver problemas* en la columna *Acción recomendada* para corregir los problemas con un clúster no elegible para que sea elegible para una actualización.
+ +
+image:r_ua_resolve_issue.png["Imagen que muestra el tipo de problema y la resolución necesaria para solucionarlo."]
+
+
+. Haga clic en *Generar plan de actualización*.
+Se le redirigirá a la página *Recomendación de actualización*.
+. En la página *Recomendación de actualización*, puede ver los detalles de los riesgos asociados a un clúster a través de la pestaña *Asesor de riesgos*. Puede ver los bloqueadores de actualización, las advertencias de actualización y las acciones requeridas a través de la pestaña *Comprobación previa a la actualización*, e información sobre las nuevas características y mejoras que son relevantes para la versión de SO de destino seleccionada a través de la pestaña *Características ONTAP mejoradas y actualizadas*.
++
+image:r_ua_upgrade_recommendation_page.png["Una captura de pantalla que muestra la vista general de la página de recomendaciones de actualización."]
+
++
+** Puede seleccionar otra versión del sistema operativo de destino y ver el resumen de riesgos, el informe de comprobación previa a la actualización e información sobre nuevas funciones y mejoras relacionadas con esa versión del sistema operativo de destino.
+** Haga clic en el image:ua_export_icon.png["botón exportar"] Para exportar el resumen de riesgos a una hoja de Excel.
+
+
+. Haga clic en *Generar plan de actualización* en la página *Recomendación de actualización*.
+. Proporcione los detalles en la ventana emergente que se muestra.
+  +
+image:ua_generate_single_clusters_plan.png["Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización."]
+. Haga clic en *generar*.
+Serás redirigido a la página *Informes*.
+. Puede descargar el plan de actualización desde la página *Informes* una vez que esté disponible.
++
+
+TIP: Puede hacer clic en *Ver informes del Asesor de actualizaciones* para ir a la página *Informes*.
+ +
+image:r_ua_view_reports.png["Una captura de pantalla que muestra la posición en la que se encuentra View Upgrade Advisor para hacer clic. "]
+
+
+
+Hay algunas tareas que debe realizar para confirmar la preparación del clúster después de actualizar ONTAP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Qué hacer después de una actualización de ONTAP"].
+
+--
+.Múltiples clústeres
+--
+. En el panel de control, haga clic en Número de clústeres en el widget *Upgrade Advisor*.
++
+image:ua_widget.png["Una captura de pantalla que muestra el número de clusters."]
+
++
+Aparece la página *Upgrade Advisor-ONTAP*.
+
+. Verifique que el conmutador *Asesor de actualizaciones mejorado* esté habilitado.
++
+image:r_enhanced_ua_toggle.png["Una captura de pantalla que muestra el conmutador Asesor de actualizaciones mejorado está activado."]
+
++
+Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
+
+. Seleccione los clústeres para actualizar.
+La columna *Target OS Version* muestra la versión recomendada del SO de destino. Puede hacer clic en image:edit_icon.png["Imagen del botón de edición"] Para seleccionar otra versión de sistema operativo de destino de un clúster.
++
+image:r_ua_select_target_OS_version.png["Imagen que muestra cómo seleccionar la versión de destino."]
+
++
+** Puede hacer clic en el número de nodos en la columna *nodes* para ver el resumen de nodo de un cluster.
+** Puede hacer clic en *Resolver problemas* en la columna *Acción recomendada* para corregir los problemas con clústeres no elegibles para hacerlos elegibles para una actualización.
+ +
+image:r_ua_resolve_issue.png["Imagen que muestra el tipo de problema y la resolución necesaria para solucionarlo."]
+
+
+. Haga clic en *Generar plan de actualización*.
+. Proporcione los detalles en la ventana emergente que se muestra.
+  +
+image:ua_generate_multiple_clusters_plan.png["Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización."]
+. Haga clic en *generar*.
+Serás redirigido a la página *Informes*.
+. Puede descargar el plan de actualización desde la página *Informes* una vez que esté disponible.
++
+
+TIP: Puede hacer clic en *Ver informes del Asesor de actualizaciones* para ir a la página *Informes*.
+ +
+image:r_ua_view_reports.png["Una captura de pantalla que muestra la posición en la que se encuentra View Upgrade Advisor para hacer clic. "]
+
+
+
+Hay algunas tareas que debe realizar para confirmar la preparación del clúster después de actualizar ONTAP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Qué hacer después de una actualización de ONTAP"].
+
+--
+====

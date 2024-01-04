@@ -16,10 +16,11 @@ summary: Proporciona información para iniciar sesión en Digital Advisor.
 
 
 [role="lead"]
-Puede iniciar sesión en el asesor digital desde una consola basada en web para crear una lista de vigilancia donde pueda ver el estado general de su sistema de almacenamiento.
+Puede iniciar sesión en el asesor digital desde una consola basada en web para ver el estado general de su sistema de almacenamiento.
 
 .Antes de empezar
-Debe disponer de una credencial válida del sitio de soporte de NetApp para iniciar sesión en Digital Advisor. Si no tiene una cuenta y se está iniciando, continúe con link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["cree una cuenta"^].
+Debe disponer de una credencial válida del sitio de soporte de NetApp para iniciar sesión en Digital Advisor. Si no tiene una cuenta y está empezando, consulte el siguiente artículo de la base de conocimientos para crear una cuenta:
+link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["Cómo registrarse para obtener una cuenta del sitio de soporte de NetApp como cliente o usuario invitado"^].
 
 .Pasos
 . Vaya a la link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] página de inicio de sesión.

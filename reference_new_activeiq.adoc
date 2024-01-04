@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 03 de enero de 2024
+
+
+
+== Asesor de actualizaciones
+
+Upgrade Advisor se ha mejorado para ofrecer planes de actualización automatizados y no disruptivos para un solo clúster y varios clústeres. Puede ver la recomendación de actualización solo para un solo clúster, lo que incluye un resumen de riesgos, un informe de comprobación previo a la actualización e información sobre nuevas funciones y mejoras. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Aprenda a ver la recomendación de actualización y a generar un plan de actualización."]
+
+
+
 == 16 de noviembre de 2023
 
 
@@ -55,7 +65,7 @@ Los recuentos de recomendaciones de actualización tecnológica se incluyen en e
 === Asesor de actualizaciones
 
 * Puede acceder a la página Upgrade Advisor para su lista de comprobaciones predeterminada mediante el link:https://activeiq.netapp.com/redirect/upgrade-advisor["Asesor de actualizaciones"^] enlace.
-* El plan de actualización está optimizado para eliminar los pasos de actualización redundantes y simplificar el plan de inversión. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección de información general del plan de actualización. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Aprenda a generar y ver el plan de actualización"].
+* El plan de actualización está optimizado para eliminar los pasos de actualización redundantes y simplificar el plan de inversión. Los pasos comunes en todos los nodos de un clúster se consolidan y están disponibles en la sección de información general del plan de actualización. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Aprenda a generar y ver el plan de actualización"].
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
-summary: Proporciona información para ver y actualizar la versión de ONTAP del sistema de almacenamiento. 
+summary: 'Proporciona información para ver y actualizar la versión de ONTAP de los nodos (sistema de almacenamiento).' 
 ---
-= Actualice la versión ONTAP de sus sistemas de almacenamiento
+= Genere un plan de actualización para los nodos
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,44 +16,49 @@ summary: Proporciona información para ver y actualizar la versión de ONTAP del
 
 
 [role="lead"]
-Puede usar Upgrade Advisor para ver las actualizaciones recomendadas y crear un plan de actualización para sus sistemas de almacenamiento. Puede ver la lista de riesgos en la pestaña Asesor de riesgos asociado con sus sistemas de almacenamiento y mitigar dichos riesgos si actualiza sus sistemas de almacenamiento a una versión más reciente de ONTAP.
+Puede usar Upgrade Advisor para ver actualizaciones recomendadas y generar un plan de actualización para los nodos (sistemas de almacenamiento). Puede ver la lista de riesgos en la pestaña Asesor de riesgos asociado a nodos y mitigar estos riesgos si actualiza a una versión más reciente de ONTAP.
 
 .Pasos
-. En el panel de control, en el widget *Asesor de actualizaciones*, haz clic en el número de acciones para ver las actualizaciones pendientes.
+. En el panel de control, haga clic en Número de clústeres en el widget *Upgrade Advisor*.
 +
-image:upgrade_advisor_widget.png["Asesor de actualizaciones"]
+image:ua_widget.png["Una captura de pantalla que muestra el número de clusters."]
+
++
+Aparece la página *Upgrade Advisor-ONTAP*.
+
+. Desactive la opción *Asesor de actualizaciones mejorado*.
++
+image:ua_disable_toggle.png["Se desactiva una captura de pantalla que muestra el conmutador Asesor de actualizaciones mejorado."]
 
 . Seleccione la opción de actualización.
 +
-image:upgrade_options.png["Opciones de actualización"]
+image:ua_upgrade_options.png["Opciones de actualización"]
 
 . Haga clic en el número de sistemas compatibles para generar un plan de actualización.
 Se muestra la página *Detalles de actualización*.
 +
-image:generate_upgrade_plan.png["Genere un plan de actualización"]
+image:r_ua_generate_upgrade_plan.png["Genere un plan de actualización"]
 
 +
+** Haga clic en el image:edit_icon.png["Imagen del botón de edición"] Icono de la *Versión de SO de destino* para seleccionar otra versión de SO de destino de un clúster.
 ** Puede ir a la pestaña *Asesor de riesgos* para ver la lista de riesgos junto con su nivel de gravedad.
   +
-image:view_risks.png["Asesor de riesgos"]
+image:ua_view_risks.png["Asesor de riesgos"]
 ** Puede hacer clic en el número de riesgos totales para ver la lista de riesgos en la pestaña *Asesor de riesgos* si la opción de actualización incluye *Riesgos totales*.
 +
-image:total_risks.png["Riesgos totales"]
+image:ua_total_risks.png["Riesgos totales"]
 
 
 
-. En la pestaña *Upgrade Advisor*, seleccione los sistemas para actualizar.
+. En la pestaña *Asesor de actualizaciones*, seleccione los sistemas para una actualización.
 . Haga clic en *Generar plan de actualización*.
 . Proporcione los detalles en la ventana emergente que se muestra. También puede seleccionar la casilla de verificación *Revert Plan* para incluir el plan de interrupción en el plan de actualización.
 +
-image:details_upgrade_plan.png["Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización"]
+image:ua_details_upgrade_plan.png["Una ventana emergente para rellenar los detalles para enviar la solicitud para generar el plan de actualización"]
 
 . Haga clic en *Enviar*.
-. Vaya a *Informes*. Puede supervisar el estado del plan de actualización y descargarlo una vez que esté disponible.
-+
-También recibirá un correo electrónico con el plan de actualización una vez que se genere.
-
-+
-image:download_upgrade_plan.png["Captura de pantalla que muestra el estado del informe del plan de actualización"]
+Serás redirigido a la página *Informes*.
+. Puede descargar el plan de actualización desde la página *Informes* una vez que esté disponible.
 
 
+Hay algunas tareas que debe realizar para confirmar la preparación del clúster después de actualizar ONTAP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Qué hacer después de una actualización de ONTAP"].
