@@ -316,3 +316,10 @@ NOTE: Incluye espacio reservado para volúmenes de tipo de garantía de archivo 
 *Son capacidades mostradas en Digital Advisor base 2 o base 10?* todas las capacidades mostradas en Digital Advisor son base 2 (dividir por 1024) y representan capacidades en GIB/TIB. Las soluciones de almacenamiento de ONTAP y otros productos de NetApp también muestran el uso de capacidad en la base 2.
 
 Para StorageGRID, las capacidades se muestran en base 10 y la unidad de capacidad se expresa en TB.
+
+
+
+== Miscelánea
+
+*¿Por qué las características bajo ESTADO DE ALMACENAMIENTO en el panel de navegación izquierdo están deshabilitadas? *
+La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depende del tipo y nivel del sistema. Por ejemplo, ClusterViewer está disponible para los sistemas ONTAP y Cloud Volumes ONTAP (CVO) a nivel de clúster y nodo. Puede pasar el ratón sobre el icono *i* junto a cada función para obtener información sobre los tipos y niveles de sistema aplicables.

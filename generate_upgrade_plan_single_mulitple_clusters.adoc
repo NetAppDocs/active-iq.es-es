@@ -79,7 +79,7 @@ image:r_ua_view_reports.png["Una captura de pantalla que muestra la posición en
 Hay algunas tareas que debe realizar para confirmar la preparación del clúster después de actualizar ONTAP. Para obtener más información, consulte link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Qué hacer después de una actualización de ONTAP"].
 
 --
-.Múltiples clústeres
+.Varios clústeres
 --
 . En el panel de control, haga clic en Número de clústeres en el widget *Upgrade Advisor*.
 +
