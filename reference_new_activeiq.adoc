@@ -24,7 +24,7 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
-== Asesor de actualizaciones
+=== Asesor de actualizaciones
 
 Upgrade Advisor se ha mejorado para ofrecer planes de actualización automatizados y no disruptivos para un solo clúster y varios clústeres. Puede ver la recomendación de actualización solo para un solo clúster, lo que incluye un resumen de riesgos, un informe de comprobación previo a la actualización e información sobre nuevas funciones y mejoras. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Aprenda a ver la recomendación de actualización y a generar un plan de actualización."]
 
@@ -34,7 +34,7 @@ Upgrade Advisor se ha mejorado para ofrecer planes de actualización automatizad
 
 
 
-== Lista de observación
+=== Lista de observación
 
 Ahora puede crear un máximo de 100 listas de comprobaciones.
 
