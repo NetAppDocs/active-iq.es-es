@@ -20,6 +20,22 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 08 de febrero de 2024
+
+
+
+=== Panel de sostenibilidad
+
+Ahora puede acceder a las métricas de Sustainability de su panel de control predeterminado o lista de comprobaciones directamente mediante la link:https://activeiq.netapp.com/redirect/sustainability["Panel de control de sostenibilidad"^] enlace.
+
+
+
+=== ClusterViewer
+
+Ahora puede ver la información de RPM de disco en la sección Resumen de disco, que está disponible en el separador Almacenamiento y en los informes de ClusterViewer.
+
+
+
 == 03 de enero de 2024
 
 

@@ -180,50 +180,6 @@ sidebar:
     url: "/concept_get_more_information.html"
   - title: Avisos legales
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Manos a la obra
-    links:
-    - title: Más información sobre el asesor digital
-      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
-    - title: Inicio rápido para Digital Advisor
-      url: concept_getting_started_2.html
-    - title: Conceptos clave
-      url: concept_key_terms.html
-    - title: Cree una lista de observación
-      url: task_add_watchlist.html
-  - title: Utilice el Asesor digital
-    links:
-    - title: Consulte los riesgos y tome medidas correctivas
-      url: task_view_risk_and_take_action.html
-    - title: Detectar las desviaciones de la configuración
-      url: task_compare_config_drift_template.html
-    - title: Solucione riesgos de seguridad críticos
-      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
-    - title: Análisis del rendimiento del almacenamiento
-      url: task_view_performance_graphs.html
-    - title: Generar informes
-      url: task_generate_reports.html
-  - title: Analice mediante el Asesor Digital
-    links:
-    - title: Consulte las recomendaciones de actualización de ONTAP
-      url: task_view_upgrade.html
-    - title: Tome decisiones documentadas basadas en recomendaciones de cloud
-      url: task-informed-decisions-based-on-cloud-recommendations.html
-    - title: Vea el uso de la capacidad con la suscripción a NetApp Keystone
-      url: view_keystone_capacity_utilization.html
-  - title: Más recursos
-    links:
-    - title: Portal Web de asesor digital
-      url: https://mysupport.netapp.com/myautosupport/home.html
-    - title: Vídeos de asistencia digital
-      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
-    - title: 'Comunidad de NetApp: Asesor digital'
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
-    - title: Aplicación móvil de Digital Advisor (Android)
-      url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
-    - title: Aplicación móvil de asesor digital (iOS)
-      url: https://apps.apple.com/us/app/active-iq/id1230542480
 product-family:
   name: BlueXP
   repo: cloud-manager-family

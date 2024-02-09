@@ -1123,18 +1123,6 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Genere tokens para acceder a las API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generar informes personalizados</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Preguntas frecuentes</block>
-  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Más información sobre el asesor digital</block>
-  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utilice el Asesor digital</block>
-  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Consulte los riesgos y tome medidas correctivas</block>
-  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Detectar las desviaciones de la configuración</block>
-  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Solucione riesgos de seguridad críticos</block>
-  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analice mediante el Asesor Digital</block>
-  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Consulte las recomendaciones de actualización de ONTAP</block>
-  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Tome decisiones documentadas basadas en recomendaciones de cloud</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Más recursos</block>
-  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portal Web de asesor digital</block>
-  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vídeos de asistencia digital</block>
-  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Comunidad de NetApp: Asesor digital</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de febrero de 2023</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Es posible ver un promedio de operaciones de lectura, escritura y otras en el gráfico IOPS de volúmenes.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">La eficiencia del almacenamiento SAN y NAS está disponible, a nivel de nodo, para sistemas ONTAP que incluyen AFF A-Series, AFF C190, cabinas All SAN y FAS2500 con ONTAP 9.10 y versiones posteriores.</block>
@@ -1402,7 +1390,6 @@ Se muestra la página *Detalles de actualización*.</block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">Active la supervisión desde la columna *Potencia en tiempo real* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>.</block>
-  <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">La sostenibilidad es compatible con los sistemas AFF, tanto A-Series como C-Series, los sistemas FAS y Cloud Volumes ONTAP (CVO).</block>
   <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">16 de noviembre de 2023</block>
   <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">Ahora puede crear un máximo de 100 listas de comprobaciones.</block>
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">Las recomendaciones de actualizaciones tecnológicas ahora están disponibles en las consolas de lista, sitio y grupo.</block>
@@ -1506,4 +1493,9 @@ La columna *Target OS Version* muestra la versión recomendada del SO de destino
   <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*¿Por qué las características bajo ESTADO DE ALMACENAMIENTO en el panel de navegación izquierdo están deshabilitadas? *
 La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depende del tipo y nivel del sistema. Por ejemplo, ClusterViewer está disponible para los sistemas ONTAP y Cloud Volumes ONTAP (CVO) a nivel de clúster y nodo. Puede pasar el ratón sobre el icono *i* junto a cada función para obtener información sobre los tipos y niveles de sistema aplicables.</block>
   <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Varios clústeres</block>
+  <block id="d873b57150944650b53661161f297953" category="admonition">La sostenibilidad es compatible con los sistemas AFF, tanto A-Series como C-Series, los sistemas FAS y Cloud Volumes ONTAP.</block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">08 de febrero de 2024</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Panel de control de sostenibilidad</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Ahora puede acceder a las métricas de Sustainability de su panel de control predeterminado o lista de comprobaciones directamente mediante la <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> enlace.</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Ahora puede ver la información de RPM de disco en la sección Resumen de disco, que está disponible en el separador Almacenamiento y en los informes de ClusterViewer.</block>
 </blocks>
