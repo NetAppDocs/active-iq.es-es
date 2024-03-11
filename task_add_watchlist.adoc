@@ -16,7 +16,10 @@ summary: Proporciona información para agregar una lista de observación al pane
 
 
 [role="lead"]
-Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede combinar el conjunto de sistemas en función de la categoría o ubicación.
+Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede agregar los sistemas según la categoría o el número de serie.
+
+
+NOTE: Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.
 
 .Pasos
 . En el panel izquierdo, haga clic en *Listas de comprobaciones*
@@ -25,9 +28,15 @@ Aparece la pantalla *Administrar lista de observación*.
 
 . Haga clic en *Crear lista de observación*.
 . Introduzca un nombre para la lista de observación.
-. Proporcione los detalles de los sistemas que desea añadir a la lista de observación.
+. Seleccione una de las siguientes opciones para agregar sistemas a la lista de comprobaciones:
 +
-Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.
+** *Categoría*: Esta opción le permite agregar todo el inventario asociado a una categoría específica, como cliente, sitio, grupo o suscripciones de Keystone. a la lista de seguimiento.
++
+
+NOTE: La opción *Suscripciones de Keystone* te permite incluir cualquier número de suscripción asociado con las suscripciones de Keystone. Al buscar por una lista de seguimiento, puede ver las suscripciones en el widget *Suscripciones de Keystone* en el panel del asesor digital. Para obtener más información, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html#search-by-keystone-watchlists["Busca por listas de comprobaciones de Keystone"^].
+
+** *Número de serie*: Esta opción le permite incluir inventario en su lista de seguimiento basado en números de serie especificados. Puede introducir el número de serie directamente o seleccionar números de serie de categorías como cliente, sitio o grupo.
+
 
 . Haga clic en *Crear lista de observación*.
 +

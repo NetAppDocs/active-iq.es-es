@@ -80,7 +80,6 @@
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">El informe de densidad de I/o proporciona información sobre las operaciones de máximo rendimiento de entrada/salida para clientes en términos de consumo y densidad de datos y metadatos.</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Proporciona información sobre el panel, las listas de observación y los widgets.</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Entender la lista de observación</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">Las listas de observación se utilizan para acceder a los sistemas preseleccionados dentro de Digital Advisor de forma rápida y sencilla. Si ve a un cliente determinado o un conjunto de sistemas con frecuencia, le recomendamos que cree listas de observación. Puede crear hasta 50 listas de observación y cada lista de observación puede contener hasta 15,000 sistemas por categoría o 500 sistemas por números de serie.</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Proporciona información para familiarizarse con la consola de comprobación del estado.</block>
   <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">Consulte la Consola de comprobación del estado</block>
   <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general.</block>
@@ -212,12 +211,10 @@
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Actualizaciones</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Proporciona información para agregar una lista de observación al panel de control.</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">Cree una lista de observación</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede combinar el conjunto de sistemas en función de la categoría o ubicación.</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">En el panel izquierdo, haga clic en *Listas de comprobaciones*</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">Aparece la pantalla *Administrar lista de observación*.</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Haga clic en *Crear lista de observación*.</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Introduzca un nombre para la lista de observación.</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">Proporcione los detalles de los sistemas que desea añadir a la lista de observación.</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Aparecerá el panel de control de la lista de observación.</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">Proporciona información sobre cómo evitar que se llene un volumen para evitar una interrupción.</block>
@@ -623,7 +620,6 @@
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">Pestaña de corrección</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">El riesgo se fija en ONTAP 9.7P8 y posteriormente.<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">El paso más importante es planificar la actualización del sistema operativo en el *Asesor de actualizaciones* en Digital Advisor.</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">El asesor digital le permite optimizar su infraestructura de datos en el cloud híbrido global mediante análisis predictivos aplicables y soporte proactivo a través de un portal basado en cloud y una aplicación móvil. Los servicios basados en cloud de Digital Advisor aprovechan los conocimientos de la comunidad y las comparaciones por pares que se extraen de la enorme base instalada de NetApp, combinando estas estadísticas con la telemetría AutoSupport y las funciones de My AutoSupport para ofrecer un conjunto avanzado de servicios de análisis sin precedentes.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Documentación de Digital Advisor</block>
   <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">Proporciona información para generar informes.</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">Generar informes</block>
@@ -1498,4 +1494,27 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Panel de control de sostenibilidad</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Ahora puede acceder a las métricas de Sustainability de su panel de control predeterminado o lista de comprobaciones directamente mediante la <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> enlace.</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Ahora puede ver la información de RPM de disco en la sección Resumen de disco, que está disponible en el separador Almacenamiento y en los informes de ClusterViewer.</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 de febrero de 2024</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">Ahora puedes crear una lista de seguimiento basada en los números de suscripción de Keystone y buscar una suscripción a Keystone usando los tres primeros caracteres de un número de suscripción o un nombre de lista de seguimiento.</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">Las listas de observación se utilizan para acceder a los sistemas preseleccionados dentro de Digital Advisor de forma rápida y sencilla. Si ve a un cliente determinado o un conjunto de sistemas con frecuencia, le recomendamos que cree listas de observación. Puede crear hasta 100 listas de comprobaciones y cada lista de comprobaciones puede contener hasta 15.000 sistemas por categoría o 500 sistemas por números de serie.</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Cuando accede por primera vez al Asesor Digital, puede crear una lista de comprobaciones o buscar un nombre de cliente, nombre de sitio, nombre de grupo, StorageGRID, nombre de host, clúster, número de serie, ID del sistema o suscripción de Keystone.</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede agregar los sistemas según la categoría o el número de serie.</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">Seleccione una de las siguientes opciones para agregar sistemas a la lista de comprobaciones:</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*Categoría*: Esta opción le permite agregar todo el inventario asociado a una categoría específica, como cliente, sitio, grupo o suscripciones de Keystone. a la lista de seguimiento.</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Busca por listas de comprobaciones de Keystone</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">La opción *Suscripciones de Keystone* te permite incluir cualquier número de suscripción asociado con las suscripciones de Keystone. Al buscar por una lista de seguimiento, puede ver las suscripciones en el widget *Suscripciones de Keystone* en el panel del asesor digital. Para obtener más información, consulte <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>.</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*Número de serie*: Esta opción le permite incluir inventario en su lista de seguimiento basado en números de serie especificados. Puede introducir el número de serie directamente o seleccionar números de serie de categorías como cliente, sitio o grupo.</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">El asesor digital de Active IQ (también conocido como asesor digital) le permite optimizar su infraestructura de datos en el cloud híbrido global mediante análisis predictivos muy prácticos y soporte proactivo a través de un portal basado en cloud y una aplicación móvil. Los servicios basados en cloud de Digital Advisor aprovechan los conocimientos de la comunidad y las comparaciones por pares que se extraen de la enorme base instalada de NetApp, combinando estas estadísticas con la telemetría AutoSupport y las funciones de My AutoSupport para ofrecer un conjunto avanzado de servicios de análisis sin precedentes.</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Más información sobre el asesor digital</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utilice el Asesor digital</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Consulte los riesgos y tome medidas correctivas</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Detectar las desviaciones de la configuración</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Solucione riesgos de seguridad críticos</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analice mediante el Asesor Digital</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Consulte las recomendaciones de actualización de ONTAP</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Tome decisiones documentadas basadas en recomendaciones de cloud</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Más recursos</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portal Web de asesor digital</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Vídeos de asistencia digital</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Comunidad de NetApp: Asesor digital</block>
 </blocks>

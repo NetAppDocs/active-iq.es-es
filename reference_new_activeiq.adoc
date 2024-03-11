@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 29 de febrero de 2024
+
+
+
+=== Lista de observación
+
+Ahora puedes crear una lista de seguimiento basada en los números de suscripción de Keystone y buscar una suscripción a Keystone usando los tres primeros caracteres de un número de suscripción o un nombre de lista de seguimiento.
+
+
+
 == 08 de febrero de 2024
 
 
