@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: evaluate-tech-refresh.html 
+keywords: tech refresh, tech support contract, hardware 
+summary: Proporciona información para evaluar la actualización tecnológica del hardware o contrato de soporte técnico 
+---
+= Evaluar una actualización tecnológica
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si desea identificar si se recomienda una actualización de tecnología para su contrato de soporte técnico o hardware, puede utilizar la opción de actualización tecnológica.
+
+
+NOTE: Puede acceder a esta función mediante la eficiencia económica de BlueXP (*Gobernanza > Eficiencia económica > Actualización tecnológica*) o mediante el asesor digital de NetApp (*Consola > widget Planificación > actualización tecnológica*).
+
+Para obtener más información sobre esta función, consulte link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Evaluar una actualización tecnológica"] En la documentación de BlueXP.
