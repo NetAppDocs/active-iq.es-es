@@ -50,13 +50,13 @@ A medida que empiece a utilizar el Asesor Digital, es importante que entienda al
 |===
 * *Widget de bienestar:* muestra información sobre el rendimiento, la eficiencia, la capacidad, la configuración, las vulnerabilidades de seguridad, y otros. Determina de forma proactiva los sistemas que han superado la capacidad o que superan el 90 %. Asimismo, proporciona información sobre software y hardware que han caducado o han establecido caducar en los próximos 6 meses.
 +
+** *Seguridad y defensa contra ransomware:* Proporciona información sobre riesgos y acciones correctivas asociadas con vulnerabilidades de seguridad, detección de ransomware, prevención y recuperación.
 ** *Rendimiento y eficiencia:* muestra información sobre el rendimiento y la eficiencia del sistema de almacenamiento.
 ** *Disponibilidad y protección:* muestra información sobre la disponibilidad y protección del sistema de almacenamiento.
 ** *Capacidad:* consta de riesgos con un atributo de capacidad para los valores del área de impacto.
 ** *Configuración:* se compone de riesgos con un atributo de configuración para los valores del área de impacto clasificados con el mayor impacto en la parte superior.
-** *Vulnerabilidades de seguridad:* se compone de riesgos con un atributo de seguridad para los valores del área de impacto.
+** *Sostenibilidad:* Muestra el número de acciones recomendadas para mejorar la puntuación de sostenibilidad a nivel de cliente, lista de seguimiento, sitio y grupo.
 ** * Historia del Bienestar:* muestra información sobre los riesgos del sistema que ocurren en los últimos tres meses, para que pueda aprender cómo están criando horas extra.
-** * Defensa de ransomware:* proporciona información sobre los riesgos y acciones correctivas asociadas con la detección, prevención y recuperación de ransomware.
 ** *Reconocer riesgos (Ack):* le permite reconocer los riesgos y sistemas que han sido afectados. Puede reconocer estos riesgos y familiarizarse con las acciones que puede llevar a cabo para mitigar estos riesgos.
 ** *No reconocer riesgos (desac-ack):* le permite no reconocer los riesgos y sistemas que han sido reconocidos.
 ** *Fix it:* corrige los riesgos al sistema mediante el Administrador Unido de Active IQ (UM) 9.7 o superior. Haga clic en este botón para iniciar UM y siga los pasos para mitigar los riesgos.

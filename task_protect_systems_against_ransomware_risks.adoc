@@ -16,13 +16,14 @@ summary:
 
 
 [role="lead"]
-Al iniciar sesión en el Asesor Digital, puede ver las *acciones* resaltadas en el widget *Defensa de Ransomware*, que muestra los recuentos de riesgo.
+Al iniciar sesión en el Asesor digital, puede ver las *Acciones* resaltadas en el widget *Seguridad y defensa contra ransomware*, que muestra el recuento de riesgos.
 
 Puede ver los riesgos de creación, retención y FPolicy de ONTAP y, a continuación, realizar acciones para corregirlos.
 
 .Pasos
 . Inicie sesión en Digital Advisor.
-. Haga clic en *acciones* en el widget *Defensa de Ransomware*.
+. Haga clic en *Acciones* en el widget *Seguridad y defensa contra ransomware*.
+. Desactive la casilla de verificación *Vulnerabilidades de seguridad*.
 . Para los riesgos que se muestran, compruebe el nivel de impacto y siga las acciones recomendadas.
 . Haga clic en la ficha riesgos únicos y en el enlace de la columna *Acción Correctiva*.
 . Haga clic en la ficha *sistemas afectados* para ver sistemas con riesgos.

@@ -20,13 +20,31 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 15 de marzo de 2024
+
+
+
+=== Bienestar
+
+* El flujo de trabajo de bienestar ahora incluye el widget de sostenibilidad, que proporciona el recuento de acciones recomendadas en los niveles de cliente, lista de seguimiento, sitio y grupo. Puede hacer clic en el número de acciones para obtener una vista detallada de estas acciones recomendadas en el panel de control de Sustainability. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analice la sostenibilidad de sus sistemas de almacenamiento"].
+* Las vulnerabilidades de seguridad y los widgets de defensa contra ransomware del flujo de trabajo de bienestar se combinan en un único widget, que ahora se denomina seguridad y defensa contra ransomware.
+
+
+
+
+=== Consola de comprobación del estado
+
+La cronología de casos técnicos se mejora para ver el historial completo de casos de 6 o 12 meses.
+
+
+
 == 29 de febrero de 2024
 
 
 
 === Lista de observación
 
-Ahora puedes crear una lista de seguimiento basada en los números de suscripción de Keystone y buscar una suscripción a Keystone usando los tres primeros caracteres de un número de suscripción o un nombre de lista de seguimiento.
+Ahora puedes crear una lista de seguimiento basada en los números de suscripción de Keystone y buscar una suscripción de Keystone utilizando los tres primeros caracteres de un número de suscripción o un nombre de lista de seguimiento.
 
 
 

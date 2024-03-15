@@ -26,10 +26,10 @@ Si desea obtener más información sobre la seguridad de los productos de NetApp
 
 .Pasos
 . Inicie sesión en Digital Advisor.
-. Haga clic en *acciones* en el widget *vulnerabilidades de seguridad*.image:Security_Image 1 Ransomware attacks.png["Widget vulnerabilidades de seguridad"]
-+
-Para los riesgos de seguridad de alto impacto, siga las acciones recomendadas que consiste en actualizar el sistema operativo.
-
+. Haga clic en *Acciones* en el widget *Seguridad y defensa contra ransomware*.
+image:Security_Image 2 Ransomware attacks.png["Widget vulnerabilidades de seguridad"]
+. Desactive la casilla de verificación *Ransomware Defense*.
+. Para los riesgos de seguridad de alto impacto, siga las acciones recomendadas que consiste en actualizar el sistema operativo.
 . Haga clic en la ficha *riesgos únicos* y, a continuación, haga clic en el vínculo de la columna *Acción Correctiva*.image:Corrective Action_Image 2 Ransomware attacks.png["Columna Acción correctiva"]
 +
 El riesgo se fija en ONTAP 9.7P8 y posteriormente.image:Remediations_Image 3 Ransomware attacks.png["Pestaña de corrección"]
