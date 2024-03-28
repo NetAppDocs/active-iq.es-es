@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 28 de marzo de 2024
+
+
+
+=== Asesor de actualizaciones
+
+La versión anterior de Upgrade Advisor ya no está disponible. Puede utilizar la versión mejorada de Upgrade Advisor para generar planes de actualización para un solo clúster y de varios clústeres. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Descubra cómo ver las recomendaciones de actualización y generar un plan de actualización."]
+
+
+
 == 15 de marzo de 2024
 
 
@@ -70,7 +80,7 @@ Ahora puede ver la información de RPM de disco en la sección Resumen de disco,
 
 === Asesor de actualizaciones
 
-Upgrade Advisor se ha mejorado para ofrecer planes de actualización automatizados y no disruptivos para un solo clúster y varios clústeres. Puede ver la recomendación de actualización solo para un solo clúster, lo que incluye un resumen de riesgos, un informe de comprobación previo a la actualización e información sobre nuevas funciones y mejoras. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Aprenda a ver la recomendación de actualización y a generar un plan de actualización."]
+Upgrade Advisor se ha mejorado para ofrecer planes de actualización automatizados y no disruptivos para un solo clúster y varios clústeres. Puede ver la recomendación de actualización solo para un solo clúster, lo que incluye un resumen de riesgos, un informe de comprobación previo a la actualización e información sobre nuevas funciones y mejoras. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Descubra cómo ver las recomendaciones de actualización y generar un plan de actualización."]
 
 
 

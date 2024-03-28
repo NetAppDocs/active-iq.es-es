@@ -62,7 +62,7 @@ Por ejemplo, seleccione la pestaña 2 meses para ver datos de 2 meses. Esto le p
 |  | Rendimiento de la red |  |  
 |===
 
-NOTE: Los gráficos de rendimiento de latencia de nodo y los gráficos de rendimiento del volumen solo se admiten en sistemas que ejecutan ONTAP 9.2 y versiones posteriores.
+NOTE: La latencia de nodos, el nivel local (agregado) y los gráficos de rendimiento del volumen solo se admiten en sistemas que ejecutan ONTAP 9,2 y versiones posteriores.
 
 . Los siguientes gráficos de rendimiento con métricas obligatorias están disponibles para las controladoras E-Series:
 +

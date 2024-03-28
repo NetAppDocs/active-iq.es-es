@@ -16,7 +16,7 @@ summary: Proporcione los pasos necesarios para generar un plan de actualización
 
 
 [role="lead"]
-Puede usar el asesor de actualizaciones para ver la lista de clústeres que son elegibles o no elegibles para una actualización. Puede ver la recomendación de actualización de un clúster elegible y generar un plan de actualización. Puede solucionar los problemas con un clúster no elegible para que sea apto para una actualización.
+Puede usar el asesor de actualizaciones para ver la lista de clústeres que son elegibles o no elegibles para una actualización. Es posible ver las recomendaciones de actualización de un clúster elegible y generar un plan de actualización. Puede solucionar los problemas con un clúster no elegible para que sea apto para una actualización.
 
 Puede seguir estos pasos para generar un plan de actualización para un solo clúster y varios clústeres:
 
@@ -31,12 +31,9 @@ image:ua_widget.png["Una captura de pantalla que muestra el número de clusters.
 +
 Aparece la página *Upgrade Advisor-ONTAP*.
 
-. Verifique que el conmutador *Asesor de actualizaciones mejorado* esté habilitado.
+. Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
 +
 image:r_enhanced_ua_toggle.png["Una captura de pantalla que muestra el conmutador Asesor de actualizaciones mejorado está activado."]
-
-+
-Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
 
 . Seleccione un clúster para actualizar.
 La columna *Target OS Version* muestra la versión recomendada del SO de destino. Haga clic en el image:edit_icon.png["Imagen del botón de edición"] Para seleccionar otra versión de sistema operativo de destino de un clúster.
@@ -88,12 +85,9 @@ image:ua_widget.png["Una captura de pantalla que muestra el número de clusters.
 +
 Aparece la página *Upgrade Advisor-ONTAP*.
 
-. Verifique que el conmutador *Asesor de actualizaciones mejorado* esté habilitado.
+. Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
 +
 image:r_enhanced_ua_toggle.png["Una captura de pantalla que muestra el conmutador Asesor de actualizaciones mejorado está activado."]
-
-+
-Puede ver una lista de clústeres elegibles e inelegibles para actualizar.
 
 . Seleccione los clústeres para actualizar.
 La columna *Target OS Version* muestra la versión recomendada del SO de destino. Puede hacer clic en image:edit_icon.png["Imagen del botón de edición"] Para seleccionar otra versión de sistema operativo de destino de un clúster.
