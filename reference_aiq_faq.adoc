@@ -20,17 +20,42 @@ Las siguientes preguntas proporcionan respuestas a sus preguntas frecuentes acer
 
 
 
+== Caso práctico técnico
+
+*Cuándo creo un caso técnico?*
+
+Los casos técnicos se crean para solicitar ayuda con cualquiera de los productos de NetApp sobre problemas técnicos relacionados con las interrupciones del hardware, un rendimiento deficiente, problemas con datos o solicitudes de información técnica.
+
+* ¿Cómo puedo crear un caso técnico?*
+
+. Haga clic en link:https://mysupport.netapp.com/site/global/dashboard["aquí"^] Para abrir el sitio de soporte de NetApp.
+. En el menú superior, haz clic en *Mis casos*.
+. Haga clic en *Crear un caso*.
+. Seleccione una categoría, proporcione los detalles requeridos y haga clic en *Nueva búsqueda* para buscar un sistema de su inventario.
+. En la lista de sistemas mostrados, seleccione el sistema para crear el caso.
+. Seleccione la prioridad del nuevo caso.
+. Seleccione la categoría apropiada de la lista desplegable *Categoría del problema*.
+. Introduzca la descripción del problema en el campo Descripción del problema y haga clic en *Proseguir*.
+. Proporcione detalles adicionales sobre el problema.
+. Haga clic en *Seleccionar archivos* para cargar archivos o imágenes que puedan ayudar a diagnosticar el problema.
+. Haga clic en *proseguir*.
+. Proporcione sus datos de contacto.
+. Haga clic en *Crear caso*.
+
+
+
+
 == Caso no técnico
 
 *¿Qué es un caso no técnico?*
 
 Cuestiones como la imposibilidad de ver los sistemas en el inventario, las fechas de los plazos de contrato incorrectas, etc., que no son de carácter técnico, se clasifican como casos no técnicos.
 
-*¿Cuándo necesito crear un caso no técnico?*
+*Cuándo creo un caso no técnico?*
 
 Se debe crear un caso no técnico para los siguientes casos:
 
-* No se puede acceder a ciertas funciones
+* No se puede acceder a determinadas funciones ni se necesita ayuda con ninguna función del asesor digital
 * Faltan sistemas en el inventario
 * Retirada de un sistema de la base de instalación
 * Fechas de término del contrato incorrectas o faltantes
