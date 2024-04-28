@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_identify_capacity_system.html 
-keywords: capacity, space, increase, 
+keywords: capacity, space, increase, ONTAP systems, StorageGRID 
 summary: Proporciona información para aumentar la capacidad del sistema. 
 ---
 = Identifique los sistemas que alcanzan los límites de capacidad
@@ -16,17 +16,19 @@ summary: Proporciona información para aumentar la capacidad del sistema.
 
 
 [role="lead"]
-Identifique de manera proactiva los sistemas que alcanzan los límites de capacidad y envíe una solicitud mediante chat en directo con el fin de aumentar la capacidad de su sistema de almacenamiento.
+Identifique de manera proactiva los sistemas que alcanzan los límites de capacidad y envíe una solicitud para aumentar la capacidad de su sistema de almacenamiento.
 
-Puede ver sistemas que han superado el 90% de la capacidad o que superan el 90% en 1, 3 y 6 meses. Chatee con un vendedor para aumentar fácilmente las solicitudes de adición de capacidad y obtener asistencia en tiempo real.
+En ONTAP, se pueden ver sistemas que han superado el 90% de su capacidad o que deben superar el 90% de su capacidad en 1, 3 y 6 meses. En StorageGRID, se pueden ver sistemas que han superado el 70% de su capacidad o que deben superar el 70% de su capacidad en 1, 3 y 6 meses.
 
 .Pasos
-. En el widget *Planificación*, haga clic en *adiciones de capacidad* para ver los sistemas que han superado el 90% de la capacidad o que están cerca del 90% de la capacidad.
+. En el widget *Planning*, haz clic en *Adición de capacidad*.
 +
-Puede ver la cantidad de sistemas que han superado el 90% de capacidad o que superan el 90% en los próximos 1, 3 y 6 meses.
+De forma predeterminada, se muestran los sistemas de ONTAP que han superado el 90 % de su capacidad o que se acercan al 90 %.
 
-. Seleccione una tarjeta para ver los sistemas.
-. Seleccione los sistemas para los que desea aumentar la capacidad y haga clic en *Contacto con Ventas*.
-. Compruebe sus datos de contacto.
-. Copie y pegue hasta cinco nombres de host en el chat para aumentar las solicitudes de ampliación de capacidad.
+. Haga clic en la pestaña *StorageGRID* para ver los sistemas StorageGRID que han superado el 70% de capacidad o que están cerca del 70% de capacidad.
+. Seleccione los sistemas para los que desea aumentar la capacidad.
+. Haga clic en *Ver pronóstico de capacidad* para ver el pronóstico de capacidad para los próximos 6 meses.
+. Haga clic en *Solicitar para agregar capacidad*.
+. De manera opcional, introduzca cualquier comentario.
+. Haga clic en *Enviar* para enviar la solicitud al equipo de almacenamiento de NetApp para ayudar con la adición de capacidad para los sistemas seleccionados.
 

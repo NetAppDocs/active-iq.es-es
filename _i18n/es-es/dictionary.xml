@@ -973,14 +973,6 @@
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport y AutoSupport bajo demanda</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">Proporciona información para aumentar la capacidad del sistema.</block>
   <block id="9438f616517805af3f4c395324944dff" category="doc">Identifique los sistemas que alcanzan los límites de capacidad</block>
-  <block id="9112a7f041cc3afbe8bca565f29fc0a9" category="paragraph">Identifique de manera proactiva los sistemas que alcanzan los límites de capacidad y envíe una solicitud mediante chat en directo con el fin de aumentar la capacidad de su sistema de almacenamiento.</block>
-  <block id="99a992296fff4706d4ef607ee5c43843" category="paragraph">Puede ver sistemas que han superado el 90% de la capacidad o que superan el 90% en 1, 3 y 6 meses. Chatee con un vendedor para aumentar fácilmente las solicitudes de adición de capacidad y obtener asistencia en tiempo real.</block>
-  <block id="7f5131aab7fa520fc9551135afbbe9e3" category="list-text">En el widget *Planificación*, haga clic en *adiciones de capacidad* para ver los sistemas que han superado el 90% de la capacidad o que están cerca del 90% de la capacidad.</block>
-  <block id="64130d6cdb0009d5982c553eaac6efd4" category="paragraph">Puede ver la cantidad de sistemas que han superado el 90% de capacidad o que superan el 90% en los próximos 1, 3 y 6 meses.</block>
-  <block id="050156d031ad136ed72a48cba4a7a4cf" category="list-text">Seleccione una tarjeta para ver los sistemas.</block>
-  <block id="60dc2e9f7ab275abe0ffe373abf95dae" category="list-text">Seleccione los sistemas para los que desea aumentar la capacidad y haga clic en *Contacto con Ventas*.</block>
-  <block id="a234330eca66f8c170189efebab23db1" category="list-text">Compruebe sus datos de contacto.</block>
-  <block id="19f756ea7d458dddec483de6c8fb3ddc" category="list-text">Copie y pegue hasta cinco nombres de host en el chat para aumentar las solicitudes de ampliación de capacidad.</block>
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">Proporciona información sobre cómo actualizar la oferta de soporte.</block>
   <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">Actualice la oferta de soporte</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">Puede adquirir una actualización de la oferta de soporte para acceder a más funciones y funcionalidades del asesor digital.</block>
@@ -1520,4 +1512,14 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">Haga clic en *Crear caso*.</block>
   <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">*Cuándo creo un caso no técnico?*</block>
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">No se puede acceder a determinadas funciones ni se necesita ayuda con ninguna función del asesor digital</block>
+  <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">Identifique de manera proactiva los sistemas que alcanzan los límites de capacidad y envíe una solicitud para aumentar la capacidad de su sistema de almacenamiento.</block>
+  <block id="64c0215a49227967002da65613b613e8" category="paragraph">En ONTAP, se pueden ver sistemas que han superado el 90% de su capacidad o que deben superar el 90% de su capacidad en 1, 3 y 6 meses. En StorageGRID, se pueden ver sistemas que han superado el 70% de su capacidad o que deben superar el 70% de su capacidad en 1, 3 y 6 meses.</block>
+  <block id="c8a74c1549aa26d254c47b2fe445b5be" category="list-text">En el widget *Planning*, haz clic en *Adición de capacidad*.</block>
+  <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">De forma predeterminada, se muestran los sistemas de ONTAP que han superado el 90 % de su capacidad o que se acercan al 90 %.</block>
+  <block id="8774a5436b96ad3e78450845bce43111" category="list-text">Haga clic en la pestaña *StorageGRID* para ver los sistemas StorageGRID que han superado el 70% de capacidad o que están cerca del 70% de capacidad.</block>
+  <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">Seleccione los sistemas para los que desea aumentar la capacidad.</block>
+  <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">Haga clic en *Ver pronóstico de capacidad* para ver el pronóstico de capacidad para los próximos 6 meses.</block>
+  <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">Haga clic en *Solicitar para agregar capacidad*.</block>
+  <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">De manera opcional, introduzca cualquier comentario.</block>
+  <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">Haga clic en *Enviar* para enviar la solicitud al equipo de almacenamiento de NetApp para ayudar con la adición de capacidad para los sistemas seleccionados.</block>
 </blocks>
