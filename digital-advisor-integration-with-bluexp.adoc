@@ -33,7 +33,7 @@ A partir de noviembre de 2022, se alentará a los usuarios de Digital Advisor a 
 Puede acceder a Digital Advisor desde BlueXP para gestionar su clúster.
 
 .Pasos
-. Abra un explorador web y vaya a. https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^]
+. Abra un explorador web y vaya a. https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^].
 . Seleccione *Iniciar sesión con sus credenciales del sitio de soporte de NetApp* e introduzca sus credenciales.
 +
 Si anteriormente creó un inicio de sesión de BlueXP con un correo electrónico y una contraseña, deberá continuar utilizando esa opción de inicio de sesión en su lugar.
@@ -52,4 +52,4 @@ Se muestran todas sus listas de observación y configuraciones existentes y ahor
 
 == Más información sobre BlueXP
 
-https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["Vaya a la documentación de BlueXP para obtener más información"^]
+https://docs.netapp.com/us-en/bluexp-family/index.html["Vaya a la documentación de BlueXP para obtener más información"^]

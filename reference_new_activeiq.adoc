@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 15 de mayo de 2024
+
+
+
+=== Panel de sostenibilidad
+
+Ahora, la sostenibilidad es compatible con los sistemas E-Series y StorageGRID. Puede ver una lista de acciones recomendadas e indicadores ambientales que muestran proyecciones de energía, uso directo de carbono y calor desde el panel de control de Sustainability para estos sistemas. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"^].
+
+
+
 == 28 de marzo de 2024
 
 
