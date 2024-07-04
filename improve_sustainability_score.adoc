@@ -23,6 +23,17 @@ NOTE: Para obtener los mejores resultados desde la consola, debe habilitar AutoS
 
 
 
+== Cálculo de puntuación de sostenibilidad
+
+La puntuación de sostenibilidad se calcula en función de una serie de reglas relacionadas con los sistemas de almacenamiento, donde cada regla se enfrenta a riesgos específicos y se ofrecen acciones recomendadas para la mitigación. A cada regla se le da una puntuación para reflejar su importancia. Por ejemplo, si hay tres reglas asociadas con los sistemas de almacenamiento: Mantener la temperatura ambiente, garantizar un uso ideal de la capacidad y utilizar una fuente de alimentación de titanio, con puntuaciones de 30, 40 y 30 puntos, respectivamente. La suma de estas puntuaciones da un total de 100 puntos, que actúa como denominador.
+
+Si los sistemas de almacenamiento cumplen perfectamente todos los criterios lograrían una puntuación de sostenibilidad del 100%. Si los sistemas funcionan a la mitad, el nivel óptimo podría alcanzar una puntuación del 50%. Los puntos totales sirven como estándar, y se utiliza para comparar el rendimiento real con el rendimiento ideal. Puede implementar las acciones recomendadas para mejorar el cumplimiento de estas reglas, lo que mejorará la puntuación de sostenibilidad.
+
+
+NOTE: La puntuación de sostenibilidad se calcula inicialmente en el nivel de clúster y después se agrega a otros niveles, como el nivel de cliente y lista de seguimiento.
+
+
+
 == Mejore la puntuación general de sostenibilidad
 
 Puede seguir estos pasos para mejorar la puntuación general de sostenibilidad y centrarse en los esfuerzos de sostenibilidad a nivel de empresa:

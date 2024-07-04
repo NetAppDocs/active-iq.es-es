@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: digital-advisor-integration-with-bluexp.html 
 keywords: digital advisor, integration, bluexp 
-summary: 'El asesor digital (anteriormente asesor digital de Active IQ) ahora está totalmente integrado con BlueXP. Ahora puede gestionar los clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario de BlueXP.' 
+summary: El asesor digital está ahora totalmente integrado con BlueXP. Ahora puede gestionar los clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario de BlueXP. 
 ---
 = Integración con Digital Advisor con BlueXP
 :hardbreaks:
@@ -16,7 +16,7 @@ summary: 'El asesor digital (anteriormente asesor digital de Active IQ) ahora es
 
 
 [role="lead"]
-El asesor digital (anteriormente asesor digital de Active IQ) ahora está totalmente integrado con BlueXP. Ahora puede gestionar los clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario de BlueXP.
+El asesor digital está ahora totalmente integrado con BlueXP. Ahora puede gestionar los clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario de BlueXP.
 
 Con BlueXP, los expertos en TECNOLOGÍA y arquitectos de cloud pueden gestionar de forma centralizada su infraestructura multicloud híbrida. Todo lo que necesita es una cuenta del sitio de soporte de NetApp (NSS) para acceder al asesor digital en BlueXP.
 
