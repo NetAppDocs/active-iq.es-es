@@ -1170,8 +1170,6 @@ Es posible que no pueda buscar ciertos sistemas o verlos en la página de invent
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
-  <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
-  <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Información general del panel de sostenibilidad</block>
   <block id="ca83c30c00a0e9764753dfe902966c87" category="inline-image-macro">Una captura de pantalla de la interfaz de usuario que muestra el panel de sostenibilidad.</block>
   <block id="3cab16f01bfdfc4bc2969c6d95293181" category="paragraph"><block ref="3cab16f01bfdfc4bc2969c6d95293181" category="inline-image-macro-rx" type="image"></block></block>
@@ -1529,4 +1527,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">04 de julio de 2024</block>
   <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">Los indicadores ambientales que proporcionan información sobre el estado ambiental de sus sistemas de almacenamiento ahora proporcionan valores más precisos para el uso de energía proyectado, el uso directo de carbono y la emisión de calor basados en un modelo predictivo avanzado. Para obtener más información, consulte <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>.</block>
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">Ahora, la sostenibilidad es compatible con los sistemas E-Series y StorageGRID. Puede ver una lista de acciones recomendadas e indicadores ambientales que muestran proyecciones de energía, uso directo de carbono y calor desde el panel de control de Sustainability para estos sistemas. Para obtener más información, consulte <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>.</block>
+  <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
+  <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
 </blocks>
