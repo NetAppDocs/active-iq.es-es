@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 21 de agosto de 2024
+
+
+
+=== Leídos
+
+El informe *7-Mode Upgrade Advisor Plans* ya no está disponible ya que los sistemas 7-Mode han llegado al final del soporte limitado. Para obtener más información, consulte link:https://mysupport.netapp.com/site/info/version-support["Compatibilidad con versiones de software"^]. Más información sobre link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["Actualizar los sistemas de almacenamiento Data ONTAP funcionando en 7-Mode"^].
+
+
+
 == 04 de julio de 2024
 
 

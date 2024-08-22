@@ -52,8 +52,6 @@
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Proporciona información sobre los riesgos pendientes y reconocidos, detalles de riesgos, acciones correctivas y sistemas afectados.</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Bienestar – agregado</block>
   <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Proporciona un resumen de los riesgos pendientes y el número de sistemas afectados.</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">Planes de asesor de actualización de 7-Mode</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">Proporciona un informe acerca del plan del asesor de actualización para los sistemas 7-Mode. En este informe se incluye información sobre el partner de alta disponibilidad.</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="cell">Inventario de Ansible</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Proporciona un archivo de inventario de Ansible que enumera todos los detalles del inventario del sistema por región o sitio. Este archivo se puede utilizar para la automatización.</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
@@ -202,7 +200,6 @@
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Compatible con todas las plataformas</block>
   <block id="61583caaac5d274ab78d4c71e3dc0ae8" category="cell">Renovaciones</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Adiciones de capacidad</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP)</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Solo compatible en Clustered Data ONTAP</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Actualizaciones</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Proporciona información para agregar una lista de observación al panel de control.</block>
@@ -1529,4 +1526,8 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">Ahora, la sostenibilidad es compatible con los sistemas E-Series y StorageGRID. Puede ver una lista de acciones recomendadas e indicadores ambientales que muestran proyecciones de energía, uso directo de carbono y calor desde el panel de control de Sustainability para estos sistemas. Para obtener más información, consulte <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>.</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 de agosto de 2024</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Compatibilidad con versiones de software</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Actualizar los sistemas de almacenamiento Data ONTAP funcionando en 7-Mode</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">El informe *7-Mode Upgrade Advisor Plans* ya no está disponible ya que los sistemas 7-Mode han llegado al final del soporte limitado. Para obtener más información, consulte <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Más información sobre <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
 </blocks>

@@ -25,9 +25,6 @@ A continuación se muestran los tipos de informes que están disponibles en el A
 | Nombre del informe | Descripción 
 
 
-| Planes de asesor de actualización de 7-Mode | Proporciona un informe acerca del plan del asesor de actualización para los sistemas 7-Mode. En este informe se incluye información sobre el partner de alta disponibilidad. 
-
-
 | Inventario de Ansible | Proporciona un archivo de inventario de Ansible que enumera todos los detalles del inventario del sistema por región o sitio. Este archivo se puede utilizar para la automatización. 
 
 

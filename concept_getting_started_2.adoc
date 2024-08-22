@@ -40,7 +40,7 @@ Lea la siguiente información para conocer los widgets compatibles con el sistem
 | Renovaciones | Compatible con todas las plataformas | Compatible con todas las plataformas | Compatible con todas las plataformas 
 
 
-| Adiciones de capacidad | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) | Solo compatible en plataformas ONTAP (Data ONTAP en 7-Mode y Clustered Data ONTAP) 
+| Adiciones de capacidad | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
 
 
 | Inventario | Compatible con todas las plataformas | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
