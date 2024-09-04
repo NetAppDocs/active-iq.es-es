@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: Proporciona información sobre ClusterViewer. 
 ---
-= Analizar el bienestar de los clústeres y los nodos
+= Analice el estado de clústeres y nodos
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

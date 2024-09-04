@@ -79,10 +79,7 @@
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Proporciona información sobre el panel, las listas de observación y los widgets.</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Entender la lista de observación</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Proporciona información para familiarizarse con la consola de comprobación del estado.</block>
-  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">Consulte la Consola de comprobación del estado</block>
-  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general.</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">Basándose en la puntuación de comprobación del estado, puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar la planificación a largo plazo. Le ayuda a supervisar todos los sistemas que se ejecutan en software y hardware a través de una interfaz de usuario centralizada. Las puntuaciones de la comprobación de estado le permiten obtener información rápidamente sobre los riesgos del sistema. Las recomendaciones clave y las prácticas recomendadas le ayudan a tomar acciones para mejorar el estado de su base instalada.</block>
-  <block id="73b22abb2810760940bcbce346e76523" category="admonition">Solo puede acceder a la consola de comprobación del estado a través de las ofertas de servicios SupportEdge Advisor y SupportEdge Expert de NetApp.</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">Proteja los sistemas contra riesgos de ransomware</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Puede ver los riesgos de creación, retención y FPolicy de ONTAP y, a continuación, realizar acciones para corregirlos.</block>
@@ -110,10 +107,6 @@
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Antes de ejecutar el libro de aplicaciones de Ansible, asegúrese de que se ha extraído el archivo *NetApp_Ansible_**.*zip* y que el servidor web con archivos de firmware de disco o bandeja está listo.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">Antes de empezar</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, debe:</block>
-  <block id="439d63cd3905d44125be50793bdd3ab5" category="inline-link-macro">Descargue el paquete de automatización de Ansible con firmware AFF y FAS</block>
-  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
-  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">Aloja los archivos de firmware mediante el servidor web</block>
-  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">Trabaje con el archivo de inventario</block>
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">Compruebe que NetApp Docker esté instalado.</block>
@@ -149,7 +142,6 @@
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">El libro de aplicaciones de Ansible detecta automáticamente el nombre de archivo.</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Asesor de actualizaciones</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">Proporciona información acerca de las API disponibles en el catálogo de API.</block>
-  <block id="99690ba41792c97440fb7507094c827d" category="doc">Utilice el catálogo de API para ejecutar las API</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">El catálogo de la API permite examinar las categorías y las API disponibles dentro de cada una de esas categorías.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Mediante un token de acceso válido y las entradas correctas para los campos requeridos, puede realizar una llamada de prueba para una API.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">En el menú *Enlaces rápidos*, haga clic en *Servicios API*.</block>
@@ -281,14 +273,12 @@
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Correo:ng-active-iq-feedback@netapp.com[correo electrónico]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Botón de asistencia técnica del asesor digital para obtener asistencia y comentarios.</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">Proporciona información para renovar el software y el hardware del sistema de almacenamiento.</block>
-  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">Renueve el software y el hardware del sistema de almacenamiento</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">Puede identificar de forma proactiva el software y el hardware que ha caducado o que está a punto de expirar en los próximos 6 meses, y enviar una solicitud para renovar el hardware y el software.</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">Haga clic en *Renewals* en el widget *Planificación*.</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">Seleccione los sistemas que desea renovar y haga clic en *renovar*.</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">Si lo desea, puede introducir comentarios adicionales.</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">Haga clic en *Enviar*.</block>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">Proporciona información sobre cómo evitar el tiempo de inactividad y la posible pérdida de datos.</block>
-  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">Evite el tiempo de inactividad y la posible pérdida de datos</block>
   <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">Cuando inicie sesión en el asesor digital y observe la insignia roja en el widget *disponibilidad y Protección*, puede tomar medidas para solucionar riesgos críticos. Sin la corrección de firmware, estas unidades son vulnerables a dejar de funcionar después de ciertas horas de encendido. De este modo se evitarían tanto el tiempo de inactividad como la posible pérdida de datos.</block>
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Inicie sesión en el asesor digital.</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">Widget de protección de &amp;amp; disponibilidad</block>
@@ -485,9 +475,7 @@
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">Se excluyen los volúmenes de destino de SnapMirror (tipo de volumen LS y DP)</block>
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">Haga clic en cualquiera de los enlaces del panel *recuperación ante desastres*.</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">Haga clic en *replicar en la nube* para iniciar *BlueXP*.</block>
-  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Vea el uso de la capacidad con la suscripción a NetApp Keystone</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">Ofrece información para ver y analizar el estado de su sistema de almacenamiento y mitigar los riesgos.</block>
-  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">Vea el riesgo y realice manualmente acciones correctivas</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas asociadas y mitigar manualmente el riesgo.</block>
   <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">Haga clic en el widget *Wellness* del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.</block>
   <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">Haga clic en el nombre del riesgo para ver información sobre el riesgo.</block>
@@ -591,7 +579,6 @@
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">Ejecute el libro de aplicaciones de Ansible con el comando * ansible-playbook*:</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">Tras ejecutar el libro de estrategia, consulte <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> para obtener instrucciones posteriores a la ejecución.</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Proporciona información sobre el panel, las puntuaciones de estado, las funciones y los widgets.</block>
-  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">Comience a utilizar la consola de comprobación del estado</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Este panel proporciona un resumen de un vistazo de la base instalada mediante los siguientes widgets:</block>
   <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*Adopción de AutoSupport*: Muestra el número y el porcentaje de sistemas con AutoSupport activado. También puede ver los sistemas marcados como ‘Dealineado’, aquellos con *HTTPS* y *AutoSupport On Demand* activado, así como *pérdida de señal* para aquellos sistemas que han dejado de enviar datos AutoSupport en los últimos 7 días. Para ver su puntuación de comprobación de estado e información sobre los sistemas de su base instalada, haga clic en el widget *adopción de AutoSupport*.</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*Configuración recomendada*: Muestra los sistemas que son compatibles y no compatibles según el widget *Configuración recomendada*. Le ayuda a tomar medidas para garantizar que sus sistemas estén bien configurados en la base instalada. Puede ver la calificación proporcionada en el panel y tomar las medidas necesarias en función de las recomendaciones clave que se proporcionen por orden de prioridad.</block>
@@ -600,7 +587,6 @@
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*Mejores prácticas*: Muestra la puntuación de comprobación de estado evaluando los atributos de mejores prácticas del sistema de almacenamiento: Vulnerabilidades de rendimiento y eficiencia, disponibilidad y protección, capacidad, configuración y seguridad. Las prácticas recomendadas de NetApp ayudan a sostener el estado del sistema, que optimiza el rendimiento de la base instalada.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">Sitio de soporte de NetApp</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">Proporciona información sobre cómo aumentar la protección contra hackers y ataques de ransomware.</block>
-  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">Detectar vulnerabilidad de seguridad</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor utiliza datos de telemetría y avisos de seguridad de productos publicados para detectar problemas de seguridad para productos cubiertos* y con derecho a asistencia. Los datos de telemetría de productos deben transmitirse a NetApp a través de AutoSupport para permitir que el Asesor digital detecte riesgos.</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*Productos cubiertos: ONTAP 9 (en las instalaciones y el cloud), Software de controladora del sistema operativo SANtricity, SolidFire de NetApp (software Element), StorageGRID, Active IQ Unified Manager, Herramientas de ONTAP para VMware (OTV)</block>
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">Widget vulnerabilidades de seguridad</block>
@@ -953,7 +939,6 @@
   <block id="4d3bf8b6bdc26afdb2aa1d58bbe4ee2d" category="inline-link-macro">Descargue y vea el informe de la escala de tiempo de deriva</block>
   <block id="0ee9ccb81e2b9003939ac6aa09488241" category="list-text"><block ref="ab5a1cc12fe7d947d0930f0a2ef72091" category="inline-link-macro-rx"></block>.</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Proporciona información sobre ClusterViewer.</block>
-  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">Analizar el bienestar de los clústeres y los nodos</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">Puede analizar el bienestar de los clústeres y los nodos mediante ClusterViewer, un origen único para obtener información sobre la configuración física y lógica de los clústeres y los nodos.</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer proporciona información, como diagramas de pilas de sus nodos, uso del almacenamiento y eficiencia, margen adicional en la capacidad del hardware, etc., que le ayuda a tomar decisiones informadas para mejorar el bienestar de sus clústeres y nodos.</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">Puede ver visualizaciones o representaciones gráficas de la configuración física de sus nodos en niveles de cable, pila y disco RAID. También puede descargar las visualizaciones en formato SVG.</block>
@@ -1070,31 +1055,16 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Inicio rápido</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Aprovisionar lista de observación</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Descripción general</block>
-  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Vea los riesgos que se pueden mitigar automáticamente con Active IQ Unified Manager o el libro de aplicaciones de Ansible</block>
-  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">Renueve el software y el hardware</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">Ver detalles del sistema</block>
-  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">Integración con Cloud Insights para ver detalles de máquinas virtuales</block>
-  <block id="6721d14778dfec7598747969baedc497" category="sidebar">Consulte el uso de la capacidad de la suscripción de Keystone</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">Identifique de manera proactiva los requisitos del sistema</block>
-  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">Identifique las desviaciones de configuración</block>
-  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">Generar informe de escala de tiempo de deriva</block>
   <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">Mejore la eficiencia y el rendimiento de su sistema de almacenamiento</block>
-  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">Analizar el ahorro en capacidad y eficiencia</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Análisis del rendimiento del almacenamiento</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analice el estado del sistema de almacenamiento</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Actualice para optimizar su base instalada</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Actualice el firmware de AFF y FAS con el libro de aplicaciones de Ansible</block>
-  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible con firmware AFF y FAS (usuarios con experiencia)</block>
-  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible del firmware AFF y FAS (principiantes)</block>
-  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">Alojar archivos de firmware mediante el servidor web</block>
-  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">Trabajar con archivo de inventario</block>
   <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">Ejecute el libro de estrategia de Ansible con la imagen de Docker de NetApp</block>
-  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">Ejecute el libro de estrategia de Ansible sin Docker</block>
-  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">Solución de problemas, comentarios y soporte técnico</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">Integrar datos mediante API</block>
-  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Genere tokens para acceder a las API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generar informes personalizados</block>
-  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Preguntas frecuentes</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de febrero de 2023</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">Es posible ver un promedio de operaciones de lectura, escritura y otras en el gráfico IOPS de volúmenes.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">La eficiencia del almacenamiento SAN y NAS está disponible, a nivel de nodo, para sistemas ONTAP que incluyen AFF A-Series, AFF C190, cabinas All SAN y FAS2500 con ONTAP 9.10 y versiones posteriores.</block>
@@ -1355,7 +1325,6 @@ Aparece la página de inicio de sesión de NetApp BlueXP.</block>
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">El panel de Sustainability proporciona acciones recomendadas que puede implementar para mejorar la puntuación de sostenibilidad general y la puntuación de sostenibilidad a nivel de clúster.</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">Puede ver el siguiente vídeo para comprender el panel de control de Sustainability:</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport debe estar activado para un cálculo preciso de la puntuación de sostenibilidad.</block>
-  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Acceda al panel de control de Sustainability</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">El panel de Sustainability proporciona informes y puntuaciones habilitados para AIOps con información práctica que mejora tu posición de sostenibilidad. Puedes acceder a la consola de sostenibilidad a través de BlueXP de NetApp o el asesor digital.</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">En el panel de control, haga clic en Número de clústeres en el widget *Upgrade Advisor*.</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Una captura de pantalla que muestra el número de clusters.</block>
@@ -1530,4 +1499,29 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Compatibilidad con versiones de software</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Actualizar los sistemas de almacenamiento Data ONTAP funcionando en 7-Mode</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">El informe *7-Mode Upgrade Advisor Plans* ya no está disponible ya que los sistemas 7-Mode han llegado al final del soporte limitado. Para obtener más información, consulte <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Más información sobre <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
+  <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Comenzar con la consola de comprobación de estado</block>
+  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">Consulte la consola de comprobación del estado</block>
+  <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">El panel Comprobación del estado del asesor digital proporciona una revisión puntual de tu entorno global.</block>
+  <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">Solo puede acceder a la consola de comprobación de estado a través de las ofertas de servicio NetApp SupportEdge Advisor y SupportEdge Expert.</block>
+  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">Comience con el panel de control de Sustainability</block>
+  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">Analice el estado de clústeres y nodos</block>
+  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">Evite el tiempo de inactividad y las posibles pérdidas de datos</block>
+  <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">Descargue el firmware del AFF y el paquete de automatización de Ansible FAS</block>
+  <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
+  <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">Alojar los archivos de firmware mediante el servidor web</block>
+  <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
+  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">Detectar vulnerabilidad de seguridad</block>
+  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">Renueve el software y el hardware del sistema de almacenamiento</block>
+  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">Utilice el catálogo de API para ejecutar las API</block>
+  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">Vea el riesgo y realice manualmente acciones correctivas</block>
+  <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">Vea el uso de la capacidad con la suscripción a NetApp Keystone</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">Preguntas frecuentes</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analice la sostenibilidad de su sistema de almacenamiento</block>
+  <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">Identificar la desviación de configuración</block>
+  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible (usuarios experimentados) de firmware de AFF y FAS</block>
+  <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible (principiantes) firmware de AFF y FAS</block>
+  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">ejecute el libro de estrategia de Ansible sin imagen de Docker de NetApp</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">Regístrese para recibir soporte</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">Obtenga ayuda</block>
 </blocks>

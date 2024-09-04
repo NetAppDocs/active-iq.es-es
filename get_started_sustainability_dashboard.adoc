@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a BlueXP o al asesor digital. 
 ---
-= Acceda al panel de control de Sustainability
+= Comience con el panel de control de Sustainability
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

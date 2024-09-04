@@ -24,8 +24,8 @@ Antes de ejecutar el libro de aplicaciones de Ansible, asegúrese de que se ha e
 
 Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, debe:
 
-* link:task_update_AFF_FAS_firmware.html["Descargue el paquete de automatización de Ansible con firmware AFF y FAS"]
-* link:task_hosting_firmware_files_using_web_server.html["Aloja los archivos de firmware mediante el servidor web"]
+* link:task_update_AFF_FAS_firmware.html["Descargue el firmware del AFF y el paquete de automatización de Ansible FAS"]
+* link:task_hosting_firmware_files_using_web_server.html["Alojar los archivos de firmware mediante el servidor web"]
 * link:concept_working_with_inventory_file.html["Trabaje con el archivo de inventario"]
 * Compruebe que NetApp Docker esté instalado.
 

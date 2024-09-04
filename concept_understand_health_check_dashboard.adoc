@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: Proporciona información para familiarizarse con la consola de comprobación del estado. 
 ---
-= Consulte la Consola de comprobación del estado
+= Consulte la consola de comprobación del estado
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,9 +16,9 @@ summary: Proporciona información para familiarizarse con la consola de comproba
 
 
 [role="lead"]
-La consola de comprobación del estado del asesor digital proporciona una revisión puntual de su entorno general.
+El panel Comprobación del estado del asesor digital proporciona una revisión puntual de tu entorno global.
 
 Basándose en la puntuación de comprobación del estado, puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar la planificación a largo plazo. Le ayuda a supervisar todos los sistemas que se ejecutan en software y hardware a través de una interfaz de usuario centralizada. Las puntuaciones de la comprobación de estado le permiten obtener información rápidamente sobre los riesgos del sistema. Las recomendaciones clave y las prácticas recomendadas le ayudan a tomar acciones para mejorar el estado de su base instalada.
 
 
-NOTE: Solo puede acceder a la consola de comprobación del estado a través de las ofertas de servicios SupportEdge Advisor y SupportEdge Expert de NetApp.
+NOTE: Solo puede acceder a la consola de comprobación de estado a través de las ofertas de servicio NetApp SupportEdge Advisor y SupportEdge Expert.
