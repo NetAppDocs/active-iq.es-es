@@ -1,0 +1,9 @@
+= Ofertas de soporte
+:allow-uri-read: 
+
+
+
+
+=== Ofertas de soporte
+
+La oferta de servicios NetApp SupportEdge Basic ahora incluye todas las funciones del asesor digital disponibles en SupportEdge Advisor y SupportEdge Expert, excepto en la topología de pila completa (VMware), que no ofrece visibilidad de la supervisión de pila completa de VMware, incluso si está activada.

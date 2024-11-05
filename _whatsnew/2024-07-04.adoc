@@ -1,0 +1,9 @@
+= Panel de sostenibilidad
+:allow-uri-read: 
+
+
+
+
+=== Panel de sostenibilidad
+
+Los indicadores ambientales que proporcionan información sobre el estado ambiental de sus sistemas de almacenamiento ahora proporcionan valores más precisos para el uso de energía proyectado, el uso directo de carbono y la emisión de calor basados en un modelo predictivo avanzado. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"].

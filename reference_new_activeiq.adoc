@@ -46,7 +46,7 @@ El informe *7-Mode Upgrade Advisor Plans* ya no está disponible ya que los sist
 
 === Panel de sostenibilidad
 
-Los indicadores ambientales que proporcionan información sobre el estado ambiental de sus sistemas de almacenamiento ahora proporcionan valores más precisos para el uso de energía proyectado, el uso directo de carbono y la emisión de calor basados en un modelo predictivo avanzado. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"^].
+Los indicadores ambientales que proporcionan información sobre el estado ambiental de sus sistemas de almacenamiento ahora proporcionan valores más precisos para el uso de energía proyectado, el uso directo de carbono y la emisión de calor basados en un modelo predictivo avanzado. Para obtener más información, consulte link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"].
 
 
 
@@ -736,6 +736,10 @@ Para obtener ayuda en tiempo real sobre sus solicitudes de adición de capacidad
 
 
 == 29 de abril de 2021
+
+
+
+=== Protéjase contra hackers y ataques
 
 * Aquí está cómo proteger sus sistemas contra hackers y ataques de Ransomware. link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["Vea cómo"].
 * Puede evitar los tiempos de inactividad y la posible pérdida de datos. link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["Vea cómo"].
