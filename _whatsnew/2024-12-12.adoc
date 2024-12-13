@@ -1,0 +1,9 @@
+= Asesor de actualizaciones
+:allow-uri-read: 
+
+
+
+
+=== Asesor de actualizaciones
+
+Ahora puede ver el firmware de almacenamiento, el firmware de SP/BMC y el paquete autónomo de ransomware (ARP) que se recomiendan para una actualización. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Aprenda a ver las recomendaciones de actualización de firmware"].

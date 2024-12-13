@@ -20,6 +20,16 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 12 de diciembre de 2024
+
+
+
+=== Asesor de actualizaciones
+
+Ahora puede ver el firmware de almacenamiento, el firmware de SP/BMC y el paquete autónomo de ransomware (ARP) que se recomiendan para una actualización. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Aprenda a ver las recomendaciones de actualización de firmware"].
+
+
+
 == 23 de septiembre de 2024
 
 
