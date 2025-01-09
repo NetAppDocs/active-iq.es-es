@@ -46,3 +46,21 @@ Los informes programados solo están disponibles con un contrato de soporte de S
 == Los riesgos reconocidos y no reconocidos pueden tardar 60 minutos en reflexionar en el Asesor Digital
 
 La situación de los riesgos reconocidos y no reconocidos no se refleja inmediatamente en el Asesor Digital. Los cambios pueden tardar hasta 60 minutos en reflexionar en el Asesor Digital y en el informe de bienestar.
+
+
+
+== El widget AutoSupport no está disponible para los números de serie y de clúster
+
+El widget AutoSupport no proporciona alertas para las búsquedas del clúster y del número de serie.
+
+
+
+== El widget AutoSupport no puede profundizar en los detalles de AutoSupport de nivel de serie
+
+En la página AutoSupport Reporting, al hacer clic en cualquiera de los estados, los sistemas que han dejado de enviar recientemente o los sistemas que tienen AutoSupport desactivado no se accede a la pantalla de comprobación de estado.
+
+
+
+== El filtrado y la ordenación no están disponibles en el widget Inventario
+
+No puede filtrar ni ordenar datos en el widget de inventario. No se muestran datos si selecciona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select en el menú desplegable Filtrar por.

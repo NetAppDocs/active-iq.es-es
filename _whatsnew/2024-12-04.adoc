@@ -1,0 +1,9 @@
+= Widget AutoSupport
+:allow-uri-read: 
+
+
+
+
+=== Widget AutoSupport
+
+El widget AutoSupport se ha agregado a la pantalla del panel principal para alertar a los clientes sobre los problemas relacionados con el estado de AutoSupport.

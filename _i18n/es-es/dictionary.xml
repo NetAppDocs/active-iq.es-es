@@ -1538,4 +1538,13 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Haga clic en *Ver Recomendaciones* para ver la lista de recomendaciones.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">En la columna *Update Status*, haz clic en *See Progress* para ver los clusters que son elegibles para una actualización.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">En caso de cualquier problema, haga clic en los enlaces respectivos para ver los pasos para mitigar los problemas.</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">El widget AutoSupport se ha agregado a la pantalla del panel principal para alertar a los clientes sobre los problemas relacionados con el estado de AutoSupport.</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">El widget AutoSupport no está disponible para los números de serie y de clúster</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">El widget AutoSupport no proporciona alertas para las búsquedas del clúster y del número de serie.</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">El widget AutoSupport no puede profundizar en los detalles de AutoSupport de nivel de serie</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">En la página AutoSupport Reporting, al hacer clic en cualquiera de los estados, los sistemas que han dejado de enviar recientemente o los sistemas que tienen AutoSupport desactivado no se accede a la pantalla de comprobación de estado.</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">El filtrado y la ordenación no están disponibles en el widget Inventario</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">No puede filtrar ni ordenar datos en el widget de inventario. No se muestran datos si selecciona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select en el menú desplegable Filtrar por.</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 de diciembre de 2024</block>
 </blocks>
