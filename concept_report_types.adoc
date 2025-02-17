@@ -20,49 +20,61 @@ Digital Advisor ofrece distintas opciones de generación de informes que permite
 
 A continuación se muestran los tipos de informes que están disponibles en el Asesor digital:
 
-[cols="30,70"]
+[cols="20,50,10,10,10"]
 |===
-| Nombre del informe | Descripción 
+| Nombre del informe | Descripción | Disponible en ONTAP | Disponible en E-Series | Disponible en StorageGRID 
 
 
-| Inventario de Ansible | Proporciona un archivo de inventario de Ansible que enumera todos los detalles del inventario del sistema por región o sitio. Este archivo se puede utilizar para la automatización. 
+| Inventario de Ansible | Proporciona un archivo de inventario de Ansible que enumera todos los detalles del inventario del sistema por región o sitio. Este archivo se puede utilizar para la automatización. | Sí | No | No 
 
 
-| Capacidad y eficiencia | Proporciona información sobre los detalles de capacidad y eficiencia a nivel de clúster, cliente, sitio, grupo, lista de observación y nodo. 
+| Capacidad y eficiencia | Proporciona información sobre los detalles de capacidad y eficiencia a nivel de clúster, cliente, sitio, grupo, lista de observación y nodo. | Sí | Sí | Sí 
 
 
-| Informe de ClusterViewer | Proporciona información sobre uno o varios clústeres a nivel de cliente y lista de observación. Puede generar este informe solo para la lista de observación con hasta 100 nodos. 
+| Recomendaciones de cloud | Ofrece información y recomendaciones para optimizar los recursos cloud. Incluye detalles sobre recuperación de desastres, backup, organización en niveles y migración. | Sí | No | No 
 
 
-| FabricPool | Proporciona información sobre inactivo, en frío, activo, activo, por niveles y datos sin supervisar. Este informe también incluye el libro de estrategia de Ansible para habilitar la generación de informes de datos inactivos en agregados deshabilitados. 
+| ClusterViewer | Proporciona información sobre uno o varios clústeres a nivel de cliente y lista de observación. Puede generar este informe solo para la lista de observación con hasta 100 nodos. | Sí | No | No 
 
 
-| Inventario | Proporciona información acerca de la base de instalación para una lista de observación seleccionada, el cliente, el sitio, los niveles de grupo. Este informe se puede generar como descarga directa desde la página de detalles de inventario o desde la página Informes. 
+| Desviación de config | Permite a los usuarios establecer una «línea base maestra» para las configuraciones del sistema y avisarles cuando se producen las desviaciones con respecto a esta línea base. Ayuda a identificar y solucionar los cambios de configuración que pueden afectar al rendimiento o la seguridad del sistema. | Sí | No | No 
 
 
-| Densidad de I/O. | El informe de densidad de I/o proporciona información sobre las operaciones de máximo rendimiento de entrada/salida para clientes en términos de consumo y densidad de datos y metadatos. 
+| Logística de entrega | Proporciona información sobre la logística de la entrega de productos y servicios. | Sí | Sí | No 
 
 
-| Informe de rendimiento | Proporciona información, a nivel de lista de control, sobre el rendimiento de un clúster, nodo, nivel local (agregado) y volumen. Puede generar este informe solo para la lista de observación con hasta 100 nodos. 
+| Resumen ejecutivo de evaluación de la salud | Proporciona información sobre varios KPI de Active IQ en formato PowerPoint (PPT), con diferentes KPI que se describen en diferentes diapositivas. | Sí | Sí | No 
 
 
-| Configuración recomendada | Proporciona información sobre diversos vacíos de configuración recomendados para la configuración de gestión remota, unidades y repuestos, par de alta disponibilidad y estado de SVM. 
+| Inventario | Proporciona información acerca de la base de instalación para una lista de observación seleccionada, el cliente, el sitio, los niveles de grupo. Este informe se puede generar como descarga directa desde la página de detalles de inventario o desde la página Informes. | Sí | Sí | Sí 
 
 
-| Contratos de soporte/finalización del servicio de hardware | Proporciona información sobre la lista de controladoras, bandejas y discos que han llegado al final de soporte (EOS). 
+| Densidad de I/O. | El informe de densidad de I/o proporciona información sobre las operaciones de máximo rendimiento de entrada/salida para clientes en términos de consumo y densidad de datos y metadatos. | Sí | No | No 
 
 
-| Detalles de casos técnicos | Proporciona un informe anual sobre todos los casos técnicos y su estado. 
+| Rendimiento | Proporciona información, a nivel de lista de control, sobre el rendimiento de un clúster, nodo, nivel local (agregado) y volumen. Puede generar este informe solo para la lista de observación con hasta 100 nodos. | Sí | Sí | No 
 
 
-| Recomendaciones de actualización (SW y FW) | Informe con varias pestañas sobre la moneda de software y firmware, y las versiones recomendadas de cada controladora o serie en los criterios de búsqueda. 
+| Resumen periódico | Resume periódicamente métricas clave e información. Incluye datos del rendimiento, la capacidad y la eficiencia del sistema. | Sí | No | No 
 
 
-| Informe de rendimiento de volumen | Proporciona información sobre los detalles de rendimiento de los volúmenes en el nivel del clúster. 
+| Configuración recomendada | Proporciona información sobre las diversas lagunas de configuración recomendadas para la configuración de gestión remota, los repuestos y unidades, el par de alta disponibilidad, el estado de la SVM, el estado de la batería y los asesores de Recovery Guru. | Sí | Sí | No 
 
 
-| Bienestar | Proporciona información sobre los riesgos pendientes y reconocidos, detalles de riesgos, acciones correctivas y sistemas afectados. 
+| Contratos de soporte/finalización del servicio de hardware | Proporciona información sobre los detalles del contrato y la lista de controladoras, bandejas y discos que hayan alcanzado la finalización del soporte (EOS). | Sí | Sí | No 
 
 
-| Bienestar – agregado | Proporciona un resumen de los riesgos pendientes y el número de sistemas afectados. 
+| Detalles de casos técnicos | Proporciona un informe anual sobre todos los casos técnicos y su estado. | Sí | Sí | Sí 
+
+
+| Plan de actualización | Ofrece recomendaciones para actualizaciones de software y firmware. Incluye detalles sobre las últimas versiones recomendadas, posibles problemas y pasos para realizar actualizaciones. | Sí | No | No 
+
+
+| Recomendaciones de actualización (SW y FW) | Informe con varias pestañas sobre la moneda de software y firmware, y las versiones recomendadas de cada controladora o serie en los criterios de búsqueda. | Sí | Sí | No 
+
+
+| Rendimiento de volumen | Proporciona información sobre los detalles de rendimiento de los volúmenes en el nivel del clúster. | Sí | No | No 
+
+
+| Bienestar | Proporciona información sobre los riesgos pendientes y reconocidos, detalles de riesgos, acciones correctivas y sistemas afectados. | Sí | Sí | Sí 
 |===
