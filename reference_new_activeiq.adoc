@@ -20,6 +20,18 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 05 de marzo de 2025
+
+
+
+=== Asesor de actualizaciones
+
+* Con Disk Qualification Package (DQP), ahora puede actualizar automáticamente los controladores de disco y el firmware del dispositivo de almacenamiento según los criterios de estado y rendimiento predefinidos. Esto reduce los fallos potenciales y mejora la fiabilidad general del sistema.
+* Se ha introducido la base de datos de zona horaria (DB) para mantener automáticamente la alineación del sistema con las últimas definiciones de zona horaria. Esto garantiza que las operaciones dependientes del tiempo continúen sin problemas incluso cuando las reglas de zona horaria cambien.
+
+
+
+
 == 12 de diciembre de 2024
 
 

@@ -1556,4 +1556,7 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">Plan de actualización</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Ofrece recomendaciones para actualizaciones de software y firmware. Incluye detalles sobre las últimas versiones recomendadas, posibles problemas y pasos para realizar actualizaciones.</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Rendimiento de volumen</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Con Disk Qualification Package (DQP), ahora puede actualizar automáticamente los controladores de disco y el firmware del dispositivo de almacenamiento según los criterios de estado y rendimiento predefinidos. Esto reduce los fallos potenciales y mejora la fiabilidad general del sistema.</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">Se ha introducido la base de datos de zona horaria (DB) para mantener automáticamente la alineación del sistema con las últimas definiciones de zona horaria. Esto garantiza que las operaciones dependientes del tiempo continúen sin problemas incluso cuando las reglas de zona horaria cambien.</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 de marzo de 2025</block>
 </blocks>
