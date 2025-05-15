@@ -1,0 +1,21 @@
+= Widget de AutoSupport
+:allow-uri-read: 
+
+
+
+
+=== Widget de AutoSupport
+
+El widget AutoSupport se ha mejorado para incluir una ventana emergente que proporciona detalles sobre los sistemas que han dejado de enviar datos AutoSupport. Al habilitar AutoSupport se reducen los riesgos de tiempo de inactividad y se admite la gestión proactiva del estado del sistema.
+
+
+
+=== Informe de contratos de soporte
+
+El informe de contratos de soporte se ha mejorado para incluir el nuevo campo de indicador ASP/LSG. Este campo le permite filtrar e identificar los sistemas cubiertos por un partner de soporte autorizado, también conocido como certificado de servicios de ciclo de vida.
+
+
+
+=== Panel de sostenibilidad
+
+Ahora puede iniciar el panel de Sustainability utilizando el enlace incluido en la presentación de Sustainability.
