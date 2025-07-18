@@ -20,6 +20,24 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 9 de julio de 2025
+
+
+
+=== Asesor de actualizaciones
+
+* Se ha incluido una opción de descarga multiformato para los planes del Asesor de Actualizaciones, lo que simplifica la planificación de actualizaciones de ONTAP y soluciona posibles obstáculos o advertencias. Ahora puede descargar los planes del Asesor de Actualizaciones en formato Excel, PDF y JSON.
+* En el formato Excel del plan Upgrade Advisor, se han realizado las siguientes mejoras:
++
+** Puede ver las comprobaciones previas realizadas en el clúster y marcar los resultados con indicadores como "Aprobado", "Fallido" u "Omitido". Esto garantiza que el clúster esté en óptimas condiciones para completar la actualización de ONTAP .
+** Puede ver las últimas actualizaciones de firmware recomendadas aplicables al clúster, junto con la versión enviada con la versión de destino de ONTAP .
+** Se ha incluido una nueva pestaña que ofrece comprobaciones de interoperabilidad para clústeres SAN. Ofrece una vista de las versiones del sistema operativo host compatibles con la versión de ONTAP de destino seleccionada.
+
+
+
+
+
+
 == 08 de mayo de 2025
 
 
