@@ -20,6 +20,34 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+== 06 de agosto de 2025
+
+
+
+=== Soporte para conmutadores con derechos
+
+Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte.  Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda a ver los interruptores con derecho a soporte"] .
+
+
+
+=== Umbral para los datos de RSS AutoSupport
+
+El límite de envíos recientemente detenidos (RSS), en el widget AutoSupport , se ha ampliado de 48 horas (2 días) a 216 horas (9 días) antes de que un sistema sea marcado como RSS.  Esto se hace para dar cabida a plataformas como StorageGRID que solo envían datos de AutoSupport semanales.
+
+
+
+=== Sección de API obsoleta en el catálogo de API de Digital Advisor
+
+Una nueva sección de API obsoleta está disponible en el catálogo de API de Digital Advisor .  Se enumeran las API que están programadas para quedar obsoletas, junto con los cronogramas de obsolescencia y las API alternativas.
+
+
+
+=== Pronóstico de capacidad V2 y obsolescencia de los módulos API de fin de soporte
+
+Se prevé que los módulos API de pronóstico de capacidad V2 y fin de soporte queden obsoletos.  Para acceder a las API obsoletas o conocer los plazos de desuso y las API alternativas, navegue a *Servicios de API -> Explorar -> API obsoletas*.
+
+
+
 == 9 de julio de 2025
 
 

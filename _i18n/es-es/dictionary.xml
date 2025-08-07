@@ -138,7 +138,6 @@
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">En el menú *Enlaces rápidos*, haga clic en *Servicios API*.</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Examinar*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Se muestra el catálogo de API.</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">Seleccione cualquier API</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">En la parte superior de la página, deslice el botón hacia “experimento”.</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">En la navegación de la izquierda, expanda las categorías y seleccione cualquier API para ver información detallada.</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">Expanda la API.</block>
@@ -508,7 +507,6 @@
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">La información de fallo y éxito del firmware del SP/BMC y de las instalaciones de firmware de switch internas recibirán una notificación al final de la ejecución del libro de aplicaciones de Ansible. Siga los pasos mencionados en el libro de aplicaciones de Ansible en caso de que se produzca un error en la instalación del firmware del SP/BMC/switch interno.</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">Proporciona información sobre el inventario general de su propiedad.</block>
   <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">Ver detalles de inventario</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">El widget *Inventario* le proporciona un resumen de los sistemas totales que posee. Esto incluye productos habilitados para Digital Advisor y no habilitados.</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">También puede generar el informe de la lista de observación seleccionada y enviarlo por correo electrónico a un máximo de 5 destinatarios.</block>
   <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.</block>
   <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.</block>
@@ -1570,4 +1568,29 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">Puede ver las últimas actualizaciones de firmware recomendadas aplicables al clúster, junto con la versión enviada con la versión de destino de ONTAP .</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">Se ha incluido una nueva pestaña que ofrece comprobaciones de interoperabilidad para clústeres SAN. Ofrece una vista de las versiones del sistema operativo host compatibles con la versión de ONTAP de destino seleccionada.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">9 de julio de 2025</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Soporte para conmutadores con derechos</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Aprenda a ver los interruptores con derecho a soporte</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte.  Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">Umbral para los datos de RSS AutoSupport</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">El límite de envíos recientemente detenidos (RSS), en el widget AutoSupport , se ha ampliado de 48 horas (2 días) a 216 horas (9 días) antes de que un sistema sea marcado como RSS.  Esto se hace para dar cabida a plataformas como StorageGRID que solo envían datos de AutoSupport semanales.</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Sección de API obsoleta en el catálogo de API de Digital Advisor</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Una nueva sección de API obsoleta está disponible en el catálogo de API de Digital Advisor .  Se enumeran las API que están programadas para quedar obsoletas, junto con los cronogramas de obsolescencia y las API alternativas.</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">Pronóstico de capacidad V2 y obsolescencia de los módulos API de fin de soporte</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">Se prevé que los módulos API de pronóstico de capacidad V2 y fin de soporte queden obsoletos.  Para acceder a las API obsoletas o conocer los plazos de desuso y las API alternativas, navegue a *Servicios de API -&gt; Explorar -&gt; API obsoletas*.</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor está realizando la transición de las API REST a GraphQL como su plataforma API principal para mejorar el rendimiento, la flexibilidad y la escalabilidad.  La transición se realizará por etapas, con un período de superposición entre las API REST y las API GraphQL.  Para cada API REST obsoleta, se publicará un aviso de obsolescencia en el catálogo de API de Digital Advisor y usted tendrá 6 meses para migrar ese punto final específico a GraphQL.  Para revisar la lista de API programadas para quedar obsoletas, navegue a *Servicios de API -&gt; Explorar -&gt; API obsoletas*</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 de agosto de 2025</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Acceder a las API de GraphQL</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Haga clic en *GraphQL* y revise la documentación.</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">Punto final de la API de GraphQL y esquema de revisión</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Acceso<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Pruebe las API de GraphQL utilizando las consultas de muestra listas para ejecutar en<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Proporcione un token de usuario seleccionando el campo de autorización en el encabezado de la solicitud de API</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">Proporcione las variables requeridas</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">Ejecute la consulta y revise el resultado</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">Acceder a las API REST</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">Haga clic en *ActiveIQ-Public* y seleccione cualquier API</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">El widget *Inventario* le proporciona un resumen de todos los sistemas y los conmutadores con soporte técnico que posee.  Esto incluye productos habilitados y no habilitados para Digital Advisor .</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Ver detalles del cambio de soporte autorizado</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">En el widget *Inventario*, haga clic en *Conmutadores con soporte autorizado* para ver información acerca de todos los conmutadores con soporte autorizado.</block>
 </blocks>

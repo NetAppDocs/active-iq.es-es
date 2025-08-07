@@ -16,11 +16,15 @@ summary: Proporciona información sobre el inventario general de su propiedad.
 
 
 [role="lead"]
-El widget *Inventario* le proporciona un resumen de los sistemas totales que posee. Esto incluye productos habilitados para Digital Advisor y no habilitados.
+El widget *Inventario* le proporciona un resumen de todos los sistemas y los conmutadores con soporte técnico que posee.  Esto incluye productos habilitados y no habilitados para Digital Advisor .
 
 También puede generar el informe de la lista de observación seleccionada y enviarlo por correo electrónico a un máximo de 5 destinatarios.
 
 video::ttbpbT5uTBI[youtube,width=848,height=480]
+
+
+== Ver detalles del sistema
+
 .Pasos
 . En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.
 . Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.
@@ -29,4 +33,12 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 +
 Los archivos de inventario de Ansible pueden utilizarse con archivos personalizados del libro de aplicaciones de Ansible para hacer cambios en la configuración de la infraestructura.
 
+
+
+
+
+== Ver detalles del cambio de soporte autorizado
+
+.Pasos
+. En el widget *Inventario*, haga clic en *Conmutadores con soporte autorizado* para ver información acerca de todos los conmutadores con soporte autorizado.
 
