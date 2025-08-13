@@ -26,7 +26,7 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 === Soporte para conmutadores con derechos
 
-Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte.  Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda a ver los interruptores con derecho a soporte"] .
+Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte. Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda a ver los interruptores con derecho de soporte"] .
 
 
 

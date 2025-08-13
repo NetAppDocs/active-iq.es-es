@@ -1569,8 +1569,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="6276222a738837860023343f423eb60c" category="list-text">Se ha incluido una nueva pestaña que ofrece comprobaciones de interoperabilidad para clústeres SAN. Ofrece una vista de las versiones del sistema operativo host compatibles con la versión de ONTAP de destino seleccionada.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">9 de julio de 2025</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Soporte para conmutadores con derechos</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Aprenda a ver los interruptores con derecho a soporte</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte.  Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">Umbral para los datos de RSS AutoSupport</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">El límite de envíos recientemente detenidos (RSS), en el widget AutoSupport , se ha ampliado de 48 horas (2 días) a 216 horas (9 días) antes de que un sistema sea marcado como RSS.  Esto se hace para dar cabida a plataformas como StorageGRID que solo envían datos de AutoSupport semanales.</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Sección de API obsoleta en el catálogo de API de Digital Advisor</block>
@@ -1593,4 +1591,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">El widget *Inventario* le proporciona un resumen de todos los sistemas y los conmutadores con soporte técnico que posee.  Esto incluye productos habilitados y no habilitados para Digital Advisor .</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Ver detalles del cambio de soporte autorizado</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">En el widget *Inventario*, haga clic en *Conmutadores con soporte autorizado* para ver información acerca de todos los conmutadores con soporte autorizado.</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda a ver los interruptores con derecho de soporte</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Ahora puede ver información sobre los conmutadores SAN Fibre Channel de Brocade que tienen derecho a recibir soporte. Esto incluye detalles sobre el modelo del conmutador, el número de serie y el estado de soporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
 </blocks>
