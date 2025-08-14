@@ -26,12 +26,11 @@ Mediante un token de acceso válido y las entradas correctas para los campos req
 
 .Pasos
 . En el menú *Enlaces rápidos*, haga clic en *Servicios API*.
-. Haga clic en link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Examinar*"^] Bajo el icono *API Catalog*.
+. Hacer cliclink:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["Navegar"] bajo el ícono *Catálogo API*.
 +
 Se muestra el catálogo de API.
 
 . Haga clic en *GraphQL* y revise la documentación.
-. Accesolink:https://gql.aiq.netapp.com/["Punto final de la API de GraphQL y esquema de revisión"^]
 . Pruebe las API de GraphQL utilizando las consultas de muestra listas para ejecutar enlink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital Advisor GraphQL Studio"^] .
 . Proporcione un token de usuario seleccionando el campo de autorización en el encabezado de la solicitud de API
 . Proporcione las variables requeridas
@@ -44,7 +43,7 @@ Se muestra el catálogo de API.
 
 .Pasos
 . En el menú *Enlaces rápidos*, haga clic en *Servicios API*.
-. Haga clic en link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Examinar*"^] Bajo el icono *API Catalog*.
+. Hacer cliclink:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["Navegar"] bajo el ícono *Catálogo API*.
 +
 Se muestra el catálogo de API.
 
