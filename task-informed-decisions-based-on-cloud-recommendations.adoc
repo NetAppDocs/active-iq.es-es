@@ -19,7 +19,7 @@ summary: Proporciona recomendaciones basadas en las cuales se pueden tomar decis
 El asesor digital analiza constantemente su sistema y le ofrece recomendaciones para mejorar el rendimiento, la eficiencia y el estado de su sistema.
 
 
-NOTE: Digital Advisor le navega a BlueXP para implementar las recomendaciones.
+NOTE: Digital Advisor lo dirige a la consola de NetApp para implementar las recomendaciones.
 
 
 
@@ -39,7 +39,7 @@ Para la migración a Cloud Volumes ONTAP (CVO) y Cloud Volumes Service (CVS), se
 .Pasos
 . En el panel izquierdo, haga clic en *recomendaciones en la nube*.
 . Haga clic en cualquiera de los enlaces del panel *migración*.
-. Haga clic en *migrar a la nube* para iniciar *BlueXP*.
+. Haga clic en *Migrar a la nube* para iniciar la *Consola*.
 
 
 
@@ -62,7 +62,7 @@ Para la organización en niveles, se recomiendan los volúmenes que cumplen con 
 .Pasos
 . En el panel izquierdo, haga clic en *recomendaciones en la nube*.
 . Haga clic en cualquier enlace del panel *segmentación*.
-. Haga clic en *datos de nivel* para iniciar *BlueXP*.
+. Haga clic en *Datos de nivel* para iniciar la *Consola*.
 
 
 Para obtener más información sobre FabricPool, consulte link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Prácticas recomendadas de FabricPool"^].
@@ -82,7 +82,7 @@ Se recomienda utilizar los volúmenes que cumplen los siguientes criterios para 
 .Pasos
 . En el panel izquierdo, haga clic en *recomendaciones en la nube*.
 . Haga clic en cualquiera de los enlaces del panel *copia de seguridad y archivo*.
-. Haga clic en *copia de seguridad en la nube* para iniciar *BlueXP*.
+. Haga clic en *Copia de seguridad en la nube* para iniciar la *Consola*.
 
 
 
@@ -101,5 +101,5 @@ Se recomienda utilizar los volúmenes que cumplen los siguientes criterios para 
 .Pasos
 . En el panel izquierdo, haga clic en *recomendaciones en la nube*.
 . Haga clic en cualquiera de los enlaces del panel *recuperación ante desastres*.
-. Haga clic en *replicar en la nube* para iniciar *BlueXP*.
+. Haga clic en *Replicar en la nube* para iniciar la *Consola*.
 

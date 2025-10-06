@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
-permalink: learn_BlueXP_sustainability.html 
-keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: Proporciona información sobre sostenibilidad que le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. 
 ---
 = Aprende sobre sostenibilidad
@@ -16,9 +16,9 @@ summary: Proporciona información sobre sostenibilidad que le permite reducir el
 
 
 [role="lead"]
-La sostenibilidad, como servicio, le permite reducir el consumo de energía y le permite trabajar hacia sus objetivos ambientales. De este modo, puede alinear sus sistemas de almacenamiento con prácticas ecológicas y lograr los objetivos de sostenibilidad.
+La sostenibilidad le permite reducir el consumo de energía y le permite trabajar para alcanzar sus objetivos medioambientales.  Esto le permite alinear sus sistemas de almacenamiento con prácticas ecológicas y alcanzar los objetivos de sostenibilidad.
 
-Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de control de Sustainability. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos. También puede ver la puntuación de sostenibilidad en el nivel de clúster. Basándose en la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas por NetApp para mejorar la puntuación. Para obtener más información sobre el panel de control de Sustainability, vaya a. link:BlueXP_sustainability_dashboard_overview.html["Información general del panel de sostenibilidad"].
+Puede ver la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor desde el panel de sostenibilidad.  Puede ajustar el porcentaje de mitigación de carbono para sitios específicos.  También puede ver la puntuación de sostenibilidad a nivel de clúster.  Según la puntuación de sostenibilidad, puede evaluar la postura de sostenibilidad e implementar las acciones recomendadas de NetApp para mejorar la puntuación.  Para obtener más información sobre el panel de sustentabilidad, visitelink:sustainability-dashboard-overview.html["Información general del panel de sostenibilidad"] .
 
 
 NOTE: La sostenibilidad es compatible con los sistemas Cloud Volumes ONTAP, AFF (A-Series y C-Series), E-Series, FAS y StorageGRID.

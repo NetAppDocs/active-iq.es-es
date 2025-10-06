@@ -44,7 +44,7 @@ indexpage:
   - title: Analice mediante el Asesor Digital
     links:
     - title: Consulte las recomendaciones de actualización de ONTAP
-      url: task_view_upgrade.html
+      url: upgrade_advisor_overview.html
     - title: Tome decisiones documentadas basadas en recomendaciones de cloud
       url: task-informed-decisions-based-on-cloud-recommendations.html
     - title: Vea el uso de la capacidad con la suscripción a NetApp Keystone

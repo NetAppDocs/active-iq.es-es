@@ -28,7 +28,7 @@ Las siguientes son algunas de las características de Digital Advisor:
 * Obtenga información sobre todos los riesgos para su sistema de almacenamiento y las acciones para mitigar los riesgos.
 * Reduzca los riesgos con Active IQ Unified Manager.
 * Actualice su sistema de almacenamiento.
-* Consulte la puntuación de sostenibilidad y el uso previsto de energía, carbono directo y calor. Según la puntuación de sostenibilidad, evalúe la eficiencia general de sus sistemas de almacenamiento y alinéese con las acciones recomendadas por NetApp para mejorar la puntuación. link:learn_BlueXP_sustainability.html["Leer más"^].
+* Vea la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor.  Según la puntuación de sostenibilidad, evalúe la eficiencia general de sus sistemas de almacenamiento y alinéese con las acciones recomendadas de NetApp para mejorar la puntuación. link:learn-about-sustainability.html["Leer más"^] .
 * Vea la relación de reducción de datos, el espacio lógico utilizado, el espacio físico utilizado y los datos totales ahorrados para sistemas de almacenamiento que ejecutan ONTAP 9,1 y versiones posteriores.
 * Analice el rendimiento de sus dispositivos de almacenamiento visualizando el formato gráfico de los datos de rendimiento.
 * Obtenga información acerca del hardware y el software que han caducado o están próximos a su caducidad en los próximos 6 meses.

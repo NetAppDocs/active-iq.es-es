@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
-summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a BlueXP o al asesor digital. 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+summary: Comience a utilizar el panel de sustentabilidad accediendo a la consola de NetApp o a Digital Advisor. 
 ---
 = Comience con el panel de control de Sustainability
 :hardbreaks:
@@ -16,22 +16,18 @@ summary: Empieza a usar la consola de sostenibilidad de BlueXP accediendo a Blue
 
 
 [role="lead"]
-El panel de Sustainability proporciona informes y puntuaciones habilitados para AIOps con información práctica que mejora tu posición de sostenibilidad. Puedes acceder a la consola de sostenibilidad a través de BlueXP de NetApp o el asesor digital.
+El panel de sustentabilidad proporciona informes y puntuaciones habilitados para AIOps con información útil para mejorar su postura de sustentabilidad.  Puede acceder al panel de sostenibilidad a través de NetApp Console o Digital Advisor.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Consola de NetApp
 --
-Para iniciar sesión en BlueXP, puede utilizar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en cloud de NetApp con su correo electrónico y una contraseña. Más información acerca de link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Inicio de sesión en BlueXP"^].
+Para iniciar sesión en la consola, puede usar sus credenciales del sitio de soporte de NetApp o puede registrarse para iniciar sesión en la consola de NetApp usando su correo electrónico y una contraseña. Obtenga más información sobre link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Iniciar sesión en la consola"^] .
 
 .Pasos
-. Abra un explorador web y vaya a link:https://console.bluexp.netapp.com/["Consola BlueXP"^].
-Aparece la página de inicio de sesión de NetApp BlueXP.
-. Inicie sesión en BlueXP.
-. En la navegación de la izquierda de BlueXP, selecciona *Gobernanza* > *Sostenibilidad*.
-  Aparece el panel de control de Sustainability.
-  +
-image:sustainability_dashboard_bluexp.png["Una captura de pantalla de la interfaz de usuario que ofrece información general del panel de sostenibilidad de BlueXP."]
+. Abra un navegador web y vaya alink:https://console.netapp.com/["Consola"^] .  Aparece la página de inicio de sesión de la consola.
+. Iniciar sesión en la consola.
+. Desde la navegación izquierda de la consola, seleccione *Salud* > *Sustentabilidad*.  Aparece el panel de control de sostenibilidad. +image:sustainability_dashboard_console.png["Una captura de pantalla de la interfaz de usuario que ofrece una descripción general del panel de sostenibilidad en la consola."]
 
 
 
@@ -45,7 +41,7 @@ Para iniciar sesión en el asesor digital, puede usar sus credenciales del sitio
 .Pasos
 . Abra un explorador web y vaya a link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] página de inicio de sesión.
 . Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
-. En la navegación de la izquierda, selecciona *STORAGE HEALTH* > *Sustainability*.
+. Desde la navegación izquierda, seleccione *Sostenibilidad*.
 +
 image:sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que ofrece información general del panel de sostenibilidad."]
 

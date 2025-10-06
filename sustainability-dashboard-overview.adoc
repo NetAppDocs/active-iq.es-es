@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: Proporciona información sobre el panel de control, la puntuación de sostenibilidad, los entornos de trabajo y las acciones recomendadas. 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: Proporciona información sobre el tablero de control, la puntuación de sostenibilidad, los sistemas y las acciones recomendadas. 
 ---
 = Información general del panel de sostenibilidad
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: Proporciona información sobre el panel de control, la puntuación de s
 [role="lead"]
 El panel de sostenibilidad proporciona una evaluación del entorno de sus sistemas de almacenamiento e información procesable para la mejora por medio de las acciones recomendadas por NetApp.
 
-image:get_started_sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que muestra el panel de sostenibilidad."]
+image:sustainability_dashboard_console.png["Una captura de pantalla de la interfaz de usuario que ofrece una descripción general del panel de sostenibilidad en la consola."]
 
 
 NOTE: AutoSupport debe estar activado para un cálculo preciso de la puntuación de sostenibilidad.
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["Una captura de pantalla que muestra el p
 
 *Acciones recomendadas*: Muestra la lista de acciones recomendadas para mejorar la puntuación de sostenibilidad de sus sistemas de almacenamiento. Estas acciones se pueden realizar inmediatamente o más tarde. Para obtener más información sobre cómo mejorar la puntuación de sostenibilidad, consulte link:improve_sustainability_score.html["Mejorar la puntuación en sostenibilidad"].
 
-*Entornos de trabajo*: Muestra parámetros ambientales en la tabla que pueden ayudar a identificar clústeres para pasar a un almacenamiento más eficiente. Desde esta tabla, puede:
+*Sistemas*: muestra parámetros ambientales en la tabla que pueden ayudar a identificar clústeres para migrar a un almacenamiento más eficiente.  Desde esta tabla, puedes:
 
 * Vea la puntuación de sostenibilidad a nivel de clúster, seleccione el nombre del clúster para acceder a *ClusterViewer*, tome acciones recomendadas específicas para mejorar la sostenibilidad. Para obtener más información, consulte link:improve_sustainability_score.html["Mejore la puntuación de sostenibilidad a nivel de clúster"].
 +
-image:working_environments.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
+image:systems.png["Una captura de pantalla de la interfaz de usuario que muestra varios parámetros ambientales"]
 
-* Active la supervisión desde la columna *Potencia en tiempo real* para ver los detalles de energía en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+* Habilite la monitorización desde la columna *Potencia en tiempo real* para ver los detalles de potencia en tiempo real a nivel de clúster. Para obtener más información, consulte link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] .
 
