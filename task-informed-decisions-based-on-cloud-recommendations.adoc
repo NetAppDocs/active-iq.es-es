@@ -27,7 +27,7 @@ NOTE: Digital Advisor lo dirige a la consola de NetApp para implementar las reco
 
 Proporciona información sobre los distintos tipos de cargas de trabajo disponibles en el sistema de almacenamiento e identificar las cargas de trabajo listas para el cloud. Mover las cargas de trabajo al cloud implica ahorrar costes y proporcionar recuperación ante desastres en el cloud.
 
-Para la migración a Cloud Volumes ONTAP (CVO) y Cloud Volumes Service (CVS), se recomiendan los volúmenes que cumplan con los siguientes criterios:
+Se recomienda migrar a Cloud Volumes ONTAP (CVO) los volúmenes que cumplan los siguientes criterios:
 
 * Los volúmenes deben utilizar los protocolos NFS, SMB, CIFS, FCP o iSCSI
 * Se excluyen los volúmenes raíz
