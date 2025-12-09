@@ -18,6 +18,17 @@ summary: Proporcione los pasos necesarios para generar un plan de actualización
 [role="lead"]
 Puede usar el asesor de actualizaciones para ver la lista de clústeres que son elegibles o no elegibles para una actualización. Es posible ver las recomendaciones de actualización de un clúster elegible y generar un plan de actualización. Puede solucionar los problemas con un clúster no elegible para que sea apto para una actualización.
 
+
+
+== Antes de empezar
+
+Antes de generar un plan de actualización, debes:
+
+* Asegúrese de que AutoSupport (ASUP) esté habilitado y configurado correctamente, y que todas las secciones necesarias estén incluidas. Para obtener más información, consulte link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guía de resolución de problemas de AutoSupport de ONTAP"].
+* Verifique que los miembros del clúster de AutoSupport coincidan con la configuración del clúster de SAP.  Para obtener más información,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["abrir un caso no técnico"] .
+
+
+.Pasos
 Puede seguir estos pasos para generar un plan de actualización para un solo clúster y varios clústeres:
 
 [role="tabbed-block"]
