@@ -4,7 +4,7 @@ permalink: task_compare_config_drift_template.html
 keywords: config deviation, drift, configuration, compare template 
 summary: Proporciona información para comparar una plantilla de desviación de configuración. 
 ---
-= Comparar una plantilla de desviación de configuración
+= Comparar plantillas de desviación de configuración en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_generate_tokens_API_services.html
 keywords: generate token, access token, refresh token, API services 
 summary: Proporciona información sobre cómo generar token para acceder a las API. 
 ---
-= Genere tokens para usar las API
+= Generar tokens para utilizar los servicios de API de Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">Proporciona información sobre el panel, las listas de observación, las funciones y los widgets.</block>
-  <block id="f9d46621c3d43242e4a3984f6d9b49d4" category="doc">Comprender las funciones de Digital Advisor</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Puede ver el estado general de su sistema de almacenamiento, información de alto nivel sobre el estado del sistema, inventario, planificación, actualizaciones e información valiosa a nivel de lista de observación mediante Digital Advisor.</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">Cuando accede a Digital Advisor por primera vez, puede crear una lista de observación o buscar un cliente, nombre de sitio, nombre del grupo, StorageGRID, nombre de host, Clúster, número de serie o ID del sistema.</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">También debe tener en cuenta los colores aplicados a las tarjetas, que indican la gravedad y el tipo de riesgos.</block>
@@ -9,7 +8,6 @@
   <block id="49e793f563ecf7cab7768c1ec94950d2" category="list-text">Reduzca los riesgos con Active IQ Unified Manager</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">Puede actualizar la oferta de soporte desde el widget *Configuración* del panel del sistema para obtener información sobre la base instalada y recibir asistencia personalizada.</block>
   <block id="1adfed22e84a753b83628708ada03eee" category="summary">Proporciona información para agregar una plantilla de deriva de configuración.</block>
-  <block id="474c5ad2b749cb9d123843c02a15e051" category="doc">Agregue una plantilla de desviación de configuración</block>
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">Debe añadir una plantilla para comparar las configuraciones del sistema y del clúster, y detectar las desviaciones de la configuración prácticamente en tiempo real. Las plantillas de configuración de deriva se agregan utilizando sistemas que ejecutan datos de AutoSupport.</block>
   <block id="78166ce4ccceeedfbf6aeb8682851072" category="paragraph">*Acerca de esta tarea*</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Los atributos de una plantilla de deriva de configuración son editables y los siguientes grupos de la plantilla admiten expresiones regulares para algunas secciones:</block>
@@ -43,7 +41,6 @@
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">Proporcione los valores solicitados.</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Opcional: Puede personalizar la plantilla editando los grupos o eliminando los grupos no necesarios para una plantilla.</block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">Proporciona información acerca de los diferentes tipos de informes que están disponibles para el usuario.</block>
-  <block id="5205cb2f3582e719834d2230589ba0f6" category="doc">Tipos de informes</block>
   <block id="0e7d981aa2a68d23eec3e0bd5998b81a" category="paragraph">Digital Advisor ofrece distintas opciones de generación de informes que permiten supervisar y gestionar el estado y el éxito operativo del sistema.</block>
   <block id="729ee1fe065c2a9eddbc991953f9e9ea" category="paragraph">A continuación se muestran los tipos de informes que están disponibles en el Asesor digital:</block>
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">Nombre del informe</block>
@@ -68,11 +65,9 @@
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densidad de I/O.</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">El informe de densidad de I/o proporciona información sobre las operaciones de máximo rendimiento de entrada/salida para clientes en términos de consumo y densidad de datos y metadatos.</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Proporciona información sobre el panel, las listas de observación y los widgets.</block>
-  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Entender la lista de observación</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Proporciona información para familiarizarse con la consola de comprobación del estado.</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">Basándose en la puntuación de comprobación del estado, puede alinear sus sistemas de almacenamiento con las prácticas recomendadas de NetApp para facilitar la planificación a largo plazo. Le ayuda a supervisar todos los sistemas que se ejecutan en software y hardware a través de una interfaz de usuario centralizada. Las puntuaciones de la comprobación de estado le permiten obtener información rápidamente sobre los riesgos del sistema. Las recomendaciones clave y las prácticas recomendadas le ayudan a tomar acciones para mejorar el estado de su base instalada.</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">Proteja los sistemas contra riesgos de ransomware</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Puede ver los riesgos de creación, retención y FPolicy de ONTAP y, a continuación, realizar acciones para corregirlos.</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Inicie sesión en Digital Advisor.</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">Para los riesgos que se muestran, compruebe el nivel de impacto y siga las acciones recomendadas.</block>
@@ -94,7 +89,6 @@
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">Los riesgos reconocidos y no reconocidos pueden tardar 60 minutos en reflexionar en el Asesor Digital</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">La situación de los riesgos reconocidos y no reconocidos no se refleja inmediatamente en el Asesor Digital. Los cambios pueden tardar hasta 60 minutos en reflexionar en el Asesor Digital y en el informe de bienestar.</block>
   <block id="181b78869ff3c2e1d0f13fbb85809980" category="summary">Proporciona información sobre cómo ejecutar el libro de aplicaciones de Ansible con la imagen del Docker.</block>
-  <block id="ffa09fb8e8764d736920c50362846ed7" category="doc">Ejecute el libro de aplicaciones de Ansible con la imagen de Docker de NetApp</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Antes de ejecutar el libro de aplicaciones de Ansible, asegúrese de que se ha extraído el archivo *NetApp_Ansible_**.*zip* y que el servidor web con archivos de firmware de disco o bandeja está listo.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">Antes de empezar</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, debe:</block>
@@ -115,7 +109,6 @@
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">Validaciones de instalación del firmware</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">Después de ejecutar el libro de aplicaciones de Ansible, consulte <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> para obtener instrucciones posteriores a la ejecución.</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">Proporciona una descripción general de la función de servicios de API.</block>
-  <block id="de3992e6ea5d74abcf945b6f9ab19c22" category="doc">Conozca los servicios API</block>
   <block id="8fe538800aeef2cc4ce4a036305bf264" category="paragraph">Servicios de API de asesor digital utiliza la automatización para añadir eficiencia a sus flujos de trabajo. Dentro de los servicios de API reside el *catálogo de API*, que describe más de 100 puntos finales de API diferentes que se agrupan en más de 20 áreas de servicio diferentes. Estas API están a su disposición como cliente de NetApp y abarcan diversas áreas de interés, como la información del sistema, la eficiencia del almacenamiento, el rendimiento, el estado y las actualizaciones.</block>
   <block id="b55b7f8ad3b486e6903c05d80410b389" category="paragraph">Las API son interfaces que permiten escribir código sencillo que pueda ponerse en contacto con Digital Advisor mediante programación y devolver los datos a su entorno informático. Puede escribir código de forma que se contacte con Digital Advisor todos los días y devuelva los datos más recientes en las áreas que le interesen. A continuación, puede utilizar estos datos para rellenar su sistema de emisión de boletos o para crear sus propios paneles, páginas web o informes. El catálogo de API de Digital Advisor tiene muestras de código y un servicio para que pruebe las API en el explorador.</block>
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">La automatización con API es una forma excelente de añadir eficiencia y precisión a las tareas diarias o semanales. Libera sus recursos para que puedan llevar a cabo actividades más complejas o para automatizar nuevos flujos de trabajo. Por ejemplo, si usted tiene riesgos de salud del sistema que deben ser corregidos, usted puede automatizar por lo menos la extracción de esos artículos de Digital Advisor y la inserción en su sistema de emisión de boletos.</block>
@@ -125,7 +118,6 @@
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">Usar las API</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">Una vez autorizado y que pueda generar tokens, puede aprovechar los tokens para realizar consultas programáticas y recuperar datos. También puede probar una API desde el catálogo de API para ver de primera mano cómo funciona la consulta y el tipo de datos que devuelve. Esta es una excelente forma de asegurarse de entender cómo funcionará una API antes de crear el marco de código en su sistema.</block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Proporciona información sobre cómo alojar los archivos de firmware mediante un servidor Web.</block>
-  <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">Aloja los archivos de firmware mediante el servidor web</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">Después de descargar el paquete de automatización, los archivos de firmware se deben alojar en un servidor web.</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">Servidor web mediante Python</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">Paso</block>
@@ -151,8 +143,6 @@
   <block id="ed4e4f8de723a17e6e6c4047c2858152" category="admonition">Esta función solo está disponible para contratos de actualización de SupportEdge Advisor, SupportEdge Expert y Asesor digital.</block>
   <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">Haga clic en la ficha *Descripción general de la máquina virtual*.</block>
   <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">Haga clic en el *recuento de hosts ESX* para ver información sobre el host.</block>
-  <block id="cf03e3b283bc7fa70a7713acb40de102" category="doc">Suscribirse al correo electrónico de revisión de bienestar</block>
-  <block id="21ad3730eb42f0e7e97440864d89b224" category="paragraph">Puede suscribirse al correo electrónico de revisión de bienestar para recibir un correo electrónico mensual que resume el estado de bienestar, sistemas que están próximos a sus fechas de renovación y sistemas que requieren una actualización de los productos de NetApp en su base instalada. Recibirá un correo electrónico de revisión del bienestar para que pueda ver un resumen mensual y tomar medidas para sus sistemas. También tiene opciones para ver, editar, compartir y eliminar sus suscripciones. En cualquier momento, si decide no recibir el correo electrónico, puede cancelar su suscripción de recibir también el correo electrónico.</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">Una vez activada la suscripción, deberá seleccionar una fecha de inicio al agregar una suscripción. El resumen mensual del correo electrónico ofrece una vista de las acciones de comprobación del estado, renovación, actualización y estado excepcionales. Puede confirmar la dirección de correo electrónico y que se ha enviado el correo electrónico a la dirección de correo electrónico especificada. También tiene la opción de eliminar suscripciones.</block>
   <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">Esta función solo está disponible a través de las ofertas de servicio SupportEdge Advisor y SupportEdge Expert de NetApp.</block>
   <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">En el panel izquierdo, haga clic en *Revisión de bienestar*.</block>
@@ -184,17 +174,14 @@
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">Aparece la pantalla *Administrar lista de observación*.</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Haga clic en *Crear lista de observación*.</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Introduzca un nombre para la lista de observación.</block>
-  <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Aparecerá el panel de control de la lista de observación.</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">Proporciona información sobre cómo evitar que se llene un volumen para evitar una interrupción.</block>
-  <block id="a80aea1c7f0129b13ea55e329311ec63" category="doc">Evite que el volumen se llene para evitar una interrupción</block>
   <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">Cuando inicie sesión en Digital Advisor y observe la insignia roja en el widget *Configuración*. Al hacer clic en el widget, puede observar que el volumen está lleno al 98 % y que esto puede provocar una interrupción del servicio. La solución de este problema evitaría el llenado de volúmenes, lo que provocaría que se bloquee y falle la lectura, lo que provocaría que las aplicaciones accedan a él.</block>
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">Widget de configuración</block>
   <block id="60436722270a4533c09cb8939f672895" category="list-text">Haga clic en *acciones* en el widget *Configuración*.<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
   <block id="586072113125e441fad32377fb3b55fc" category="inline-image-macro">Resumen de riesgos</block>
   <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">Haga clic en la ficha *riesgos únicos*. Al hacer clic en el enlace *Acción Correctiva*, puede cambiar los umbrales de advertencia o asignar más espacio al volumen.<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">Proporciona una descripción general de la característica de deriva de configuración</block>
-  <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">Entender la desviación de la configuración</block>
   <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">La función de desviación de configuración identifica las desviaciones de configuración comparando una plantilla del sistema con una plantilla del sistema "dorado" o base. Puede programar informes de desviaciones semanales o mensuales, o bien generar informes bajo demanda. Puede mitigar algunas desviaciones utilizando los Libros de estrategia de Ansible, que se proporcionan en el informe de deriva de configuración.</block>
   <block id="00c936ae5068ea9685cb242934d6e619" category="paragraph">Esta función solo está disponible para sistemas con contratos de asesor y soporte experto.</block>
   <block id="c66fe758a8cf22beffdabb8f048395bc" category="paragraph">Puede consultar el siguiente diagrama para comprender el flujo de trabajo a fin de identificar las desviaciones de la configuración y generar el informe.</block>
@@ -202,7 +189,6 @@
   <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">Puede ver el siguiente vídeo para generar y ejecutar una libro de aplicaciones de Ansible para solucionar las desviaciones de la configuración:</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">Proporciona información acerca del trabajo con el archivo de inventario.</block>
-  <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">Trabaje con el archivo de inventario</block>
   <block id="d9d85047436d37abb6c5c8deca6fe036" category="paragraph">El archivo de inventario consta de los LIF de administración del clúster de los sistemas que pueden optar a las actualizaciones de firmware. Contiene la lista de clústeres con información de nombre de archivo del firmware de disco y bandeja donde sea aplicable.</block>
   <block id="d6c78c605ec5b1cf9ed3237663470e46" category="paragraph">Para la actualización del firmware del procesador de servicio, los nombres de host de nodos y la IP de SP/BMC se incluyen en el archivo de inventario.</block>
   <block id="4bfcc6f41dca1008b82bd33b35e9028c" category="section-title">Formato de archivo de inventario</block>
@@ -216,7 +202,6 @@
   <block id="75a224357589706495901ad497cb3098" category="paragraph">Puede ver que la clave y el valor _shelf_fw_File_ se han eliminado del cluster-1.</block>
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">No se admite la adición manual de clústeres o controladoras.</block>
   <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">Ofrece información para ver y analizar el estado de su sistema de almacenamiento y reconocer los riesgos.</block>
-  <block id="e5ec766403e277fb64b1373cde7b1e02" category="doc">Ver y reconocer el riesgo</block>
   <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas y mitigar manualmente el riesgo.</block>
   <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">Haga clic en el widget wellness Attribute del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">Consulte las *acciones* y *riesgos* asociadas con el atributo wellness.</block>
@@ -236,7 +221,6 @@
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Puede encontrar una lista actual de las patentes propiedad de NetApp en:</block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidad</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">Proporciona información sobre cómo instalar y ejecutar actualizaciones de firmware con el libro de aplicaciones de Ansible.</block>
-  <block id="c8cc6f58456eb3a7923573bb5d9a8b03" category="doc">Instalar y ejecutar el paquete de automatización de Ansible con firmware AFF y FAS (usuarios con experiencia)</block>
   <block id="c35aa20a55cbeb586909eacd3abea8d0" category="paragraph">Los usuarios con experiencia pueden instalar y ejecutar rápidamente el paquete de automatización de Ansible del firmware AFF y FAS.</block>
   <block id="2cc3e52bf2e235fe75c3143d19d34c35" category="section-title">Actualización de firmware con Ansible mediante la imagen de Docker de NetApp</block>
   <block id="bfafdb377b55f8c583e98a32ccdf8474" category="list-text">Tire de la imagen de Ansible Docker al host Linux:</block>
@@ -257,9 +241,7 @@
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Correo:ng-active-iq-feedback@netapp.com[correo electrónico]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Botón de asistencia técnica del asesor digital para obtener asistencia y comentarios.</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">Proporciona información para renovar el software y el hardware del sistema de almacenamiento.</block>
-  <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">Puede identificar de forma proactiva el software y el hardware que ha caducado o que está a punto de expirar en los próximos 6 meses, y enviar una solicitud para renovar el hardware y el software.</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">Haga clic en *Renewals* en el widget *Planificación*.</block>
-  <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">Seleccione los sistemas que desea renovar y haga clic en *renovar*.</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">Si lo desea, puede introducir comentarios adicionales.</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">Haga clic en *Enviar*.</block>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">Proporciona información sobre cómo evitar el tiempo de inactividad y la posible pérdida de datos.</block>
@@ -275,7 +257,6 @@
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">Firmware de AFF y FAS</block>
   <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">Haga clic en el icono *Ansible “A”* para generar y descargar las secuencias de comandos.<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">Proporciona información sobre cómo renovar los contratos de soporte de sus sistemas.</block>
-  <block id="fba041f597391cccf20df624e451614c" category="doc">Renueve sus contratos de soporte</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">Puede ver la calificación y el resumen de todos los contratos de soporte activos del panel. Puede realizar acciones basadas en las recomendaciones clave que se proporcionan en orden de prioridad.</block>
   <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">En el Panel de control de estado, haga clic en el widget *asistencia y derechos*.</block>
   <block id="195a1e51a63db10df6d13350df648daf" category="list-text">Si alguno de sus contratos de soporte del sistema ha caducado o está a punto de expirar, haga clic en el widget *contratos de soporte activo*.</block>
@@ -422,7 +403,6 @@
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">Informe técnico: ONTAP AutoSupport y AutoSupport On Demand</block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">Informe técnico: Seguridad y privacidad de los datos de telemetría de NetApp</block>
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">Proporciona recomendaciones basadas en las cuales se pueden tomar decisiones informadas.</block>
-  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Tome decisiones documentadas basadas en recomendaciones de cloud</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">El asesor digital analiza constantemente su sistema y le ofrece recomendaciones para mejorar el rendimiento, la eficiencia y el estado de su sistema.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">Migración</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">Proporciona información sobre los distintos tipos de cargas de trabajo disponibles en el sistema de almacenamiento e identificar las cargas de trabajo listas para el cloud. Mover las cargas de trabajo al cloud implica ahorrar costes y proporcionar recuperación ante desastres en el cloud.</block>
@@ -460,7 +440,6 @@
   <block id="f2681bd59cd373759d660366f9539908" category="list-text">Haga clic en las acciones correctivas asociadas y siga la información para resolver el riesgo.</block>
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">Los pasos para mitigar los riesgos son los mismos para todos los atributos de bienestar. Puede ver el siguiente vídeo para supervisar y solucionar problemas relacionados con la seguridad:</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">Ofrece información sobre el bienestar y los tipos de riesgo, que ayudan a mejorar su sistema de almacenamiento.</block>
-  <block id="bda4a48b47a4d90e94b87697e6455bb9" category="doc">Entender el bienestar</block>
   <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">El widget Wellness ofrece información detallada sobre el sistema de almacenamiento. Proporciona información sobre distintos atributos del sistema de almacenamiento, como el rendimiento y la eficiencia, la capacidad, la configuración, las vulnerabilidades de seguridad, las renovaciones, y otros.</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">flujo de trabajo de bienestar</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
@@ -479,7 +458,6 @@
   <block id="3c1579e4105c256057f7f7b8f1c3f947" category="cell">Desviaciones de las mejores prácticas documentadas</block>
   <block id="6fe43a0bc5267b501dd5c7825c17e1be" category="paragraph">Puede ver el siguiente vídeo para comprender la importancia de los atributos de bienestar:</block>
   <block id="d33c547719b131d3de1a17847217be28" category="summary">Proporciona información para validar la instalación del firmware.</block>
-  <block id="19f3cc5c7d290cca42fee095792dee18" category="doc">Validar la instalación del firmware</block>
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">Tras ejecutar el libro de estrategia, inicie sesión en el clúster como administrador del clúster.</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">Validar la instalación del firmware de disco</block>
   <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">Compruebe que el firmware de la unidad esté instalado:</block>
@@ -494,7 +472,6 @@
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">El libro de aplicaciones de Ansible para las actualizaciones del firmware del procesador de servicios/BMC está habilitado con una opción para verificar la instalación del firmware más reciente del SP/BMC en la controladora. Una vez finalizada la verificación (las actualizaciones pueden tardar dos horas en completarse), el libro de aplicaciones de Ansible PlayBook aplica las actualizaciones de firmware del switch interno conectando con la consola del SP/BMC.</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">La información de fallo y éxito del firmware del SP/BMC y de las instalaciones de firmware de switch internas recibirán una notificación al final de la ejecución del libro de aplicaciones de Ansible. Siga los pasos mencionados en el libro de aplicaciones de Ansible en caso de que se produzca un error en la instalación del firmware del SP/BMC/switch interno.</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">Proporciona información sobre el inventario general de su propiedad.</block>
-  <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">Ver detalles de inventario</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">También puede generar el informe de la lista de observación seleccionada y enviarlo por correo electrónico a un máximo de 5 destinatarios.</block>
   <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.</block>
   <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.</block>
@@ -519,8 +496,6 @@
   <block id="ec16ae1399b2143d882f379f451279d9" category="list-text">Los paquetes de firmware de disco, estante y procesador de servicio/BMC se denominan *all.zip*, *all_shelf_fw.zip* y *&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip* respectivamente.</block>
   <block id="3c31ca2c59ebd12781d8a3ccae41f4f7" category="admonition">No se admite la adición manual de clústeres y controladoras al archivo de inventario.</block>
   <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">Proporciona información sobre los riesgos del sistema y cómo ver la historia del bienestar.</block>
-  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">Ver la historia del bienestar</block>
-  <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">Puede ver los riesgos del sistema que se producen en los últimos tres meses, de modo que pueda aprender cómo están criando horas extra.</block>
   <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">Estos riesgos se clasifican en cuatro tipos de riesgos: *Sin resolver*, *Nuevo*, *resuelto* y *reconocido*. Se representan con colores diferentes. El resumen de estos riesgos se representa a través de un gráfico *Historial de riesgos*.</block>
   <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">En el panel de control, en el panel *Wellness*, haga clic en *Ver todas las acciones*.</block>
   <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">Haga clic en *Historial de bienestar*.</block>
@@ -528,7 +503,6 @@
   <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">Cuando se pasa el ratón por encima de las barras de colores, se muestra información sobre el número de riesgos de cada categoría. Al hacer clic en la categoría de riesgo correspondiente, la información se muestra en la tabla * Información de riesgo*.</block>
   <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">También puede descargar un resumen de riesgos en una hoja de Excel.</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">Proporciona información para administrar plantillas.</block>
-  <block id="50265178fa957fba00e89ee31583eda9" category="doc">Administrar una plantilla</block>
   <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">Puede clonar una plantilla, compartir una plantilla, editar los detalles de una plantilla existente y eliminar una plantilla.</block>
   <block id="fb9ec4a767166de614d7b27285754a9b" category="paragraph">Compartir una plantilla ahorra el tiempo y el esfuerzo necesarios para crear y personalizar una plantilla que ya ha creado un usuario. Los usuarios compartidos pueden cambiar las plantillas de forma mutua, lo que permite a varios usuarios realizar modificaciones en una única plantilla dorada.</block>
   <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">El acceso a las plantillas compartidas se puede revocar en cualquier momento.</block>
@@ -546,7 +520,6 @@
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Inicie sesión en Digital Advisor</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor muestra los sistemas con un contrato de soporte válido. Si los contratos caducan, se da un período de gracia de 90 días en el que los sistemas continúan siendo visibles. A partir de entonces, los sistemas no se pueden buscar ni son visibles en Digital Advisor.</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.</block>
-  <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">Ejecute el libro de aplicaciones de Ansible sin imagen de Docker de NetApp</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">Instale los paquetes Python necesarios utilizando *pip*:</block>
@@ -591,7 +564,6 @@
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">Seleccione la fecha de inicio y la fecha de finalización del informe.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">Los informes programados existentes se sustituirán cuando se generen los nuevos informes.</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">Proporciona información acerca del rendimiento.</block>
-  <block id="14b9230853f4485a198aadfb867fa9d2" category="doc">Analizar gráficos de rendimiento</block>
   <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">Los gráficos de rendimiento permiten analizar el rendimiento de sus dispositivos de almacenamiento. Es posible ver gráficos detallados de rendimiento para un clúster de ONTAP o varios nodos de un clúster de ONTAP y controladoras E-Series. Estos gráficos proporcionan datos de rendimiento históricos que pueden utilizarse para comprender las tendencias de rendimiento y el análisis de patrones. Puede seleccionar una fecha del calendario para ver gráficos de rendimiento de un día, una semana, un mes, dos meses y doce meses. Puede seleccionar varios nodos para ver un gráfico determinado al mismo tiempo.</block>
   <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">Tiene una opción para establecer preferencias; por ejemplo, puede ver un gráfico de tres nodos o dos gráficos de tres nodos.</block>
   <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">Cuando se muestra el gráfico por primera vez, se preselecciona una ficha de 1 semana y presenta datos de una semana en formato gráfico para facilitar la comprensión de grandes cantidades de datos y su relación entre las distintas series de datos. Si desea restablecer el intervalo de fechas, por ejemplo, puede hacer clic en la ficha de 1 mes y seleccionar fechas en el calendario.</block>
@@ -617,7 +589,6 @@
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">Uso de CPU</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">Rendimiento</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">Proporciona información para comparar una plantilla de desviación de configuración.</block>
-  <block id="07bccdf47af12c51bb370278a660f033" category="doc">Comparar una plantilla de desviación de configuración</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">Puede comparar las configuraciones del sistema y del clúster y detectar las desviaciones de la configuración casi en tiempo real.</block>
   <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">Seleccione una de las plantillas existentes o haga clic en *Agregar plantilla* para agregar una nueva plantilla.</block>
   <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">Genere un informe de desviación de configuración</block>
@@ -876,7 +847,6 @@
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">*resultado*</block>
   <block id="87fb1e35365d1159833f632569b95ca4" category="paragraph">Se muestran todas sus listas de observación y configuraciones existentes y ahora puede utilizar el asesor digital como suele hacer.</block>
   <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">Proporciona información sobre cómo generar token para acceder a las API.</block>
-  <block id="bdddfc6c707fca332fdc31a6f26637d2" category="doc">Genere tokens para usar las API</block>
   <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">Es fácil registrarse en los servicios de API y generar tokens.</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Haga clic en *Registrar*.</block>
   <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">Rellene el formulario de solicitud de autorización y haga clic en *Enviar*.</block>
@@ -885,12 +855,10 @@
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">El portal le ofrece varias formas de guardar uno o ambos tokens en el conjunto. Puede copiarlos al portapapeles, descargarlas como un archivo de texto o visualizarlos como texto sin formato.</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Debe descargar y guardar el token de acceso y actualizar el token para su uso posterior. Los tokens de acceso caducan una hora después de la generación y los tokens de actualización se deben regenerar, manualmente, cada 7 días e instalar en la aplicación. Para ello, no es necesario iniciar sesión en la aplicación. Sin embargo, después de 90 días, es necesario iniciar sesión en la aplicación para obtener un nuevo token de acceso y actualizar.</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">Proporciona información sobre el valioso widget de información.</block>
-  <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">Vea información valiosa</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">El widget *preciosing Insights* proporciona información sobre el número de casos de soporte, actualizaciones de software pendientes, ahorro en la eficiencia del almacenamiento, riesgos mitigados y otros. También muestra de forma proactiva las notificaciones de riesgos del atributo *Wellness*.</block>
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">El widget *valiosa Insights* está disponible en el panel.</block>
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">Revise la información en el widget para saber el valor empresarial y técnico que ha recibido del contrato de soporte.</block>
   <block id="fba1e9100df562973f55a49a6269cc88" category="summary">Proporciona información para identificar la capacidad del sistema, así como el software y el hardware que están a punto de expirar.</block>
-  <block id="6aacc84d89dc86cac8838dbdb3de2def" category="doc">Comprenda la planificación</block>
   <block id="ab0938c0a634e7b9a0c32175dab66cbf" category="paragraph">El widget *Planificación* ayuda a los clientes a identificar requisitos de capacidad que han superado el 90% de la capacidad o que están cerca del 90% e identificar el software y el hardware que han caducado o están cerca de su vencimiento en los próximos 6 meses. Puede enviar una solicitud para aumentar la capacidad del sistema de almacenamiento y renovar el hardware y el software.</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">Proporciona información para administrar listas de observación.</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">Administrar una lista de observación</block>
@@ -918,9 +886,7 @@
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Seguridad y privacidad de los datos de telemetría de NetApp</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport y AutoSupport bajo demanda</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">Proporciona información para aumentar la capacidad del sistema.</block>
-  <block id="9438f616517805af3f4c395324944dff" category="doc">Identifique los sistemas que alcanzan los límites de capacidad</block>
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">Proporciona información sobre cómo actualizar la oferta de soporte.</block>
-  <block id="467ddc656b1c849a40e46a0d7ee06a8f" category="doc">Actualice la oferta de soporte</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">Puede adquirir una actualización de la oferta de soporte para acceder a más funciones y funcionalidades del asesor digital.</block>
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">Puede actualizar su oferta de soporte actual para optimizar su base instalada con la ayuda de las prácticas recomendadas y las correcciones, la automatización de actualizaciones con los libros de estrategia de Ansible, los informes y las revisiones aplicables, el soporte personalizado, etc. La actualización se puede adquirir al renovar los contratos de soporte o en cualquier otro momento desde el panel del sistema (nodo).</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">Solo puede optar por la actualización de AIQ si actualmente usa las ofertas de soporte seguro de SupportEdge Premium o SupportEdge.</block>
@@ -933,7 +899,6 @@
   <block id="6b1e028800580e41be7e09af7233c6ea" category="list-text">Añada la actualización de AIQ a sus ofertas de soporte seguro de SupportEdge Premium o SupportEdge</block>
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">Cualquier otra solicitud de actualización</block>
   <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">Añada los comentarios que tenga y haga clic en *Enviar*. Se enviará una solicitud para adquirir la actualización de la oferta de soporte al equipo de renovaciones de NetApp.</block>
-  <block id="7c6137cde05014e7fab83f78a553dffa" category="doc">Analizar el ahorro en capacidad y la eficiencia del almacenamiento</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">Puede ver los detalles de capacidad y el ahorro de eficiencia del almacenamiento del sistema y tomar las acciones correspondientes. La información sobre la capacidad y la eficiencia del almacenamiento puede verse en el nivel de un clúster o de un nodo.</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">Esta función no es compatible con los sistemas E-Series.</block>
   <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">La consola de capacidad muestra los detalles de capacidad y la previsión de capacidad del sistema. La previsión de capacidad utiliza la información de capacidad histórica para identificar el uso de cada sistema. Basándose en los datos históricos (los datos de un año, si están disponibles) de la capacidad utilizada y asignada, el algoritmo considera la utilización actual de cada sistema y genera un pronóstico para la utilización del sistema en los próximos 1 a 6 meses.</block>
@@ -948,7 +913,6 @@
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">Si la tasa de eficiencia del almacenamiento de su sistema de almacenamiento es inferior a la tasa media de eficiencia del almacenamiento, haga clic en *Póngase en contacto con nosotros* para informarnos de las configuraciones de su sistema de almacenamiento.</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">Para obtener más información sobre la capacidad y la eficiencia del almacenamiento, consulte <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>.</block>
   <block id="79e58a59d5d9e700b34093a1d2e53ffb" category="summary">Proporciona información para ver los riesgos que se pueden solucionar automáticamente mediante Unified Manager.</block>
-  <block id="77e1702155a3d41741a7eee390691869" category="doc">Vea los riesgos que se pueden mitigar automáticamente con Unified Manager o el libro de aplicaciones de Ansible</block>
   <block id="45eee928d91988f1092c821e200e91e7" category="paragraph">Puede analizar su sistema de almacenamiento controlando las acciones y riesgos y mitigarlo con Active IQ Unified Manager o el libro de aplicaciones de Ansible.</block>
   <block id="da48e8a594a1d177bf4a0a523841c6bb" category="list-text">Haga clic en *Ver todas las acciones* en el panel.</block>
   <block id="a07983e266ae35893ec0d3fb2fbe58ad" category="inline-image-macro">Llave inglesa</block>
@@ -1019,17 +983,11 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Manos a la obra</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Inicio rápido</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Aprovisionar lista de observación</block>
-  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Descripción general</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">Ver detalles del sistema</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">Identifique de manera proactiva los requisitos del sistema</block>
-  <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">Mejore la eficiencia y el rendimiento de su sistema de almacenamiento</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Análisis del rendimiento del almacenamiento</block>
-  <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analice el estado del sistema de almacenamiento</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Actualice para optimizar su base instalada</block>
-  <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Actualice el firmware de AFF y FAS con el libro de aplicaciones de Ansible</block>
-  <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">Ejecute el libro de estrategia de Ansible con la imagen de Docker de NetApp</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">Integrar datos mediante API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generar informes personalizados</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de febrero de 2023</block>
@@ -1219,7 +1177,6 @@ Es posible que no pueda buscar ciertos sistemas o verlos en la página de invent
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analice la sostenibilidad de sus sistemas de almacenamiento</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 de octubre de 2023</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget de planificación</block>
-  <block id="0f39f4240371d8ece7d1695a2c16fc9b" category="doc">Qué es AutoSupport</block>
   <block id="da0ad1a41b699c5a3226f922417a0037" category="list-text"><block ref="da0ad1a41b699c5a3226f922417a0037" category="inline-link-macro-rx"></block></block>
   <block id="f1882284408a9b189100dc3da835bb13" category="list-text"><block ref="f1882284408a9b189100dc3da835bb13" category="inline-link-macro-rx"></block></block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
@@ -1307,8 +1264,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 de febrero de 2024</block>
   <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">Las listas de observación se utilizan para acceder a los sistemas preseleccionados dentro de Digital Advisor de forma rápida y sencilla. Si ve a un cliente determinado o un conjunto de sistemas con frecuencia, le recomendamos que cree listas de observación. Puede crear hasta 100 listas de comprobaciones y cada lista de comprobaciones puede contener hasta 15.000 sistemas por categoría o 500 sistemas por números de serie.</block>
   <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Cuando accede por primera vez al Asesor Digital, puede crear una lista de comprobaciones o buscar un nombre de cliente, nombre de sitio, nombre de grupo, StorageGRID, nombre de host, clúster, número de serie, ID del sistema o suscripción de Keystone.</block>
-  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede agregar los sistemas según la categoría o el número de serie.</block>
-  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">Seleccione una de las siguientes opciones para agregar sistemas a la lista de comprobaciones:</block>
   <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*Categoría*: Esta opción le permite agregar todo el inventario asociado a una categoría específica, como cliente, sitio, grupo o suscripciones de Keystone. a la lista de seguimiento.</block>
   <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Busca por listas de comprobaciones de Keystone</block>
   <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">La opción *Suscripciones de Keystone* te permite incluir cualquier número de suscripción asociado con las suscripciones de Keystone. Al buscar por una lista de seguimiento, puede ver las suscripciones en el widget *Suscripciones de Keystone* en el panel del asesor digital. Para obtener más información, consulte <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>.</block>
@@ -1395,27 +1350,15 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Actualizar los sistemas de almacenamiento Data ONTAP funcionando en 7-Mode</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">El informe *7-Mode Upgrade Advisor Plans* ya no está disponible ya que los sistemas 7-Mode han llegado al final del soporte limitado. Para obtener más información, consulte <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Más información sobre <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
   <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Comenzar con la consola de comprobación de estado</block>
-  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">Consulte la consola de comprobación del estado</block>
   <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">El panel Comprobación del estado del asesor digital proporciona una revisión puntual de tu entorno global.</block>
   <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">Solo puede acceder a la consola de comprobación de estado a través de las ofertas de servicio NetApp SupportEdge Advisor y SupportEdge Expert.</block>
-  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">Comience con el panel de control de Sustainability</block>
-  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">Analice el estado de clústeres y nodos</block>
-  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">Evite el tiempo de inactividad y las posibles pérdidas de datos</block>
   <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">Descargue el firmware del AFF y el paquete de automatización de Ansible FAS</block>
   <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
   <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">Alojar los archivos de firmware mediante el servidor web</block>
   <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
-  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">Detectar vulnerabilidad de seguridad</block>
-  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">Renueve el software y el hardware del sistema de almacenamiento</block>
-  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">Utilice el catálogo de API para ejecutar las API</block>
-  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">Vea el riesgo y realice manualmente acciones correctivas</block>
   <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">Vea el uso de la capacidad con la suscripción a NetApp Keystone</block>
-  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">Preguntas frecuentes</block>
-  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analice la sostenibilidad de su sistema de almacenamiento</block>
   <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">Identificar la desviación de configuración</block>
-  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible (usuarios experimentados) de firmware de AFF y FAS</block>
   <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">Instalar y ejecutar el paquete de automatización de Ansible (principiantes) firmware de AFF y FAS</block>
-  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">ejecute el libro de estrategia de Ansible sin imagen de Docker de NetApp</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">Regístrese para recibir soporte</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">Obtenga ayuda</block>
@@ -1507,7 +1450,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">Para obtener más detalles sobre lo que ha cambiado, consulte la<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="72f7167f9069924b2f82beb448023d6b" category="list-text">Vea la puntuación de sostenibilidad y el uso proyectado de energía, carbono directo y calor.  Según la puntuación de sostenibilidad, evalúe la eficiencia general de sus sistemas de almacenamiento y alinéese con las acciones recomendadas de NetApp para mejorar la puntuación. <block ref="88471609a02ffbaf7f222a2aedb3d7f2" category="inline-link-macro-rx"></block> .</block>
   <block id="a9aa66a7b3cfc4542dbfc9211a6c428b" category="summary">Digital Advisor ahora está completamente integrado con NetApp Console.  Ahora puede administrar sus clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario (UI) de la consola de NetApp .</block>
-  <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="doc">Integración de Digital Advisor con la consola de NetApp</block>
   <block id="ab8fdb90e4f7afafc378a1b57c166a3f" category="paragraph">Digital Advisor ahora está completamente integrado con NetApp Console.  Ahora puede administrar sus clústeres y acceder a todas las funciones de Digital Advisor desde la interfaz de usuario (UI) de la consola.</block>
   <block id="8bfbf187468875f94539de6f70320c9c" category="paragraph">Mediante la consola, los expertos en TI y los arquitectos de la nube pueden administrar de forma centralizada su infraestructura híbrida de múltiples nubes.  Todo lo que necesita es una cuenta del sitio de soporte de NetApp (NSS) para acceder a Digital Advisor en la consola.</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">Consola de NetApp</block>
@@ -1556,7 +1498,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="46bb48cd2d8ba3072152fddd39652880" category="list-text">Haga clic en *Copia de seguridad en la nube* para iniciar la *Consola*.</block>
   <block id="dca585924df6925f014c537785d04c0f" category="list-text">Haga clic en *Replicar en la nube* para iniciar la *Consola*.</block>
   <block id="7bc90abe1556491a7adc105773e5b4f5" category="summary">Proporciona información sobre las máquinas virtuales en Data Infrastructure Insights</block>
-  <block id="a0aeb93a632027e20400cead009b815c" category="doc">Integración con Data Infrastructure Insights para ver detalles de máquinas virtuales</block>
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital Advisor ahora está integrado con la versión básica de Data Infrastructure Insights para proporcionar un inventario completo y controles de interoperabilidad a los clientes.</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">En el widget *Inventario*, haga clic en *Máquinas virtuales* para ver los datos disponibles en Data Infrastructure Insights.</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Haga clic en el *Nombre de ESX* para navegar a Data Infrastructure Insights para ver más información.</block>
@@ -1566,4 +1507,112 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">Asegúrese de que AutoSupport (ASUP) esté habilitado y configurado correctamente, y que todas las secciones necesarias estén incluidas. Para obtener más información, consulte <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>.</block>
   <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">abrir un caso no técnico</block>
   <block id="ece2db758a882f00813e14d082e4552c" category="list-text">Verifique que los miembros del clúster de AutoSupport coincidan con la configuración del clúster de SAP.  Para obtener más información,<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> .</block>
+  <block id="b0898535e25a9a49559570e490a63c7d" category="doc">Obtenga más información sobre AutoSupport en Digital Advisor</block>
+  <block id="dbd378f84d7f1acefe0f16bae1460ecd" category="doc">Comience a usar el panel de control de salud de Digital Advisor</block>
+  <block id="8861ce6f982c9fa3ae18a1cca30ef813" category="doc">Conozca los servicios API de Digital Advisor</block>
+  <block id="9d0213d4e659476a7862e220e596a06e" category="doc">Detecte desviaciones de configuración para su sistema de almacenamiento con Digital Advisor</block>
+  <block id="708edaeeb34fbfa4d60b966f324e0e42" category="doc">Obtenga más información sobre las listas de seguimiento en Digital Advisor</block>
+  <block id="11af6bd4d5dd478c34b28f858f65b491" category="doc">Administre los requisitos de capacidad de su sistema de almacenamiento con el widget Planificación en Digital Advisor</block>
+  <block id="e0bd83b921f48fd90a8d833bc8f9237e" category="doc">Conozca el widget de bienestar en Digital Advisor</block>
+  <block id="364f6f00ae9e3c41d31115e2622eb0b6" category="doc">Conozca los informes de Digital Advisor</block>
+  <block id="570719b584e6e69c4931e958bef6979e" category="doc">Conozca las funciones del Digital Advisor</block>
+  <block id="8083f9b299587af579ece9bb64335b08" category="doc">Conozca el panel de control de salud en Digital Advisor</block>
+  <block id="e5961c9ba5d2ded320c587ca2be451d3" category="doc">Actualice el archivo de inventario para la actualización del firmware AFF y FAS</block>
+  <block id="17cf57a799d9d94a0c583f49a7f30df1" category="doc">Determine si se recomienda una actualización tecnológica para su sistema de almacenamiento en Digital Advisor</block>
+  <block id="2aa63ba789e73b06bdbb2c2a977b1a63" category="doc">Genere un plan de actualización de ONTAP para clústeres individuales y múltiples en Digital Advisor</block>
+  <block id="c1f1e34afc313dc547fc394981f53ffd" category="doc">Acceda al panel de Sostenibilidad en Digital Advisor</block>
+  <block id="6a67202f32080d987cdaf104a007ea9f" category="doc">Mejore la puntuación de sostenibilidad de su sistema de almacenamiento con Digital Advisor</block>
+  <block id="b74c1a114d91a8ff4c5e80925a0eb76d" category="doc">Aprenda sobre sostenibilidad con Digital Advisor</block>
+  <block id="648cf18fc359fdbd8541f549708a9e24" category="doc">Preguntas frecuentes para Digital Advisor</block>
+  <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Limitaciones conocidas en Digital Advisor</block>
+  <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">Conozca las funciones del panel de sustentabilidad en Digital Advisor</block>
+  <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">Analice el estado de su sistema de almacenamiento con recomendaciones en la nube en Digital Advisor</block>
+  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">Utilice Digital Advisor para ver los datos de máquinas virtuales disponibles en Data Infrastructure Insights</block>
+  <block id="6b067412319dd9485298444d9a34fc87" category="doc">Agregue una plantilla de desviación de configuración para su sistema de almacenamiento en Digital Advisor</block>
+  <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">Crear una lista de seguimiento en Digital Advisor</block>
+  <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">Puede crear una lista de seguimiento para acceder a un conjunto de sistemas de almacenamiento de forma rápida y sencilla. Puede agregar los sistemas de almacenamiento según la categoría o el número de serie.</block>
+  <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">Puede agregar un máximo de 15.000 sistemas de almacenamiento bajo una categoría y 500 sistemas de almacenamiento bajo un número de serie.</block>
+  <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">Seleccione una de las siguientes opciones para agregar sistemas de almacenamiento a la lista de seguimiento:</block>
+  <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">Vea los ahorros en capacidad y eficiencia de almacenamiento en Digital Advisor</block>
+  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">Visualice el estado de los clústeres y nodos mediante el widget ClusterViewer en Digitial Advisor</block>
+  <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">Administrar los umbrales de capacidad de almacenamiento de volumen en Digital Advisor</block>
+  <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">Utilice Digital Advisor para solucionar los riesgos críticos identificados en el widget Disponibilidad y protección</block>
+  <block id="65185bbce1d7f537b3c14697168318fc" category="doc">Comparar plantillas de desviación de configuración en Digital Advisor</block>
+  <block id="9ee24bf51d58897bfb757831cdbfe525" category="doc">Ejecute el playbook de Ansible usando la imagen Docker de NetApp</block>
+  <block id="1d171292f5d993b6b1a0ace428002ae8" category="doc">Ejecute el playbook de Ansible sin la imagen de Docker de NetApp</block>
+  <block id="90f3ab06fb2b5ec1e539116cfe0cd3bb" category="doc">Generar un informe de cronología de desviaciones de configuración en Digital Advisor</block>
+  <block id="1b12ad840be07a671cddf255ef0ba4a8" category="doc">Generar o programar un informe en Digital Advisor</block>
+  <block id="fcdc266661735ff673a0dd6db9dee871" category="doc">Generar tokens para utilizar los servicios de API de Digital Advisor</block>
+  <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">Alojar archivos de firmware AFF y FAS en un servidor web</block>
+  <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Identifique los sistemas de almacenamiento que se acercan a los límites de capacidad en Digital Advisor</block>
+  <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Detecta riesgos de seguridad con Digital Advisor y toma acciones correctivas</block>
+  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">Actualice el firmware de AFF y FAS mediante un paquete Ansible (usuarios experimentados)</block>
+  <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">Administrar plantillas de desviación de configuración en Digital Advisor</block>
+  <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">Administrar una lista de seguimiento en Digital Advisor</block>
+  <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Proteja los sistemas de almacenamiento administrados por Digital Advisor de los riesgos de ransomware</block>
+  <block id="b89f83893f4727447716c66a3b51f536" category="doc">Identifique las renovaciones de software y hardware para su sistema de almacenamiento desde Digital Advisor</block>
+  <block id="8c56611178fbe8b564f32305bee2660a" category="paragraph">Puede identificar de forma proactiva el software y el hardware de su sistema de almacenamiento que han vencido o están próximos a vencer en los próximos 6 meses y enviar una solicitud para renovar el hardware y el software.</block>
+  <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">Seleccione los sistemas de almacenamiento que desea renovar y haga clic en *Renovar*.</block>
+  <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Renueva tus contratos de soporte en Digital Advisor</block>
+  <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Suscríbete a las notificaciones sobre el estado del sistema de almacenamiento de Digital Advisor</block>
+  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">Puede suscribirse al correo electrónico de revisión de bienestar para recibir un correo electrónico mensual que resuma el estado de bienestar, los sistemas de almacenamiento que se acercan a sus fechas de renovación y los sistemas de almacenamiento que requieren una actualización para los productos NetApp en su base instalada. Recibirá un correo electrónico de revisión de bienestar para que pueda ver un resumen mensual y tomar medidas para sus sistemas de almacenamiento. También tienes opciones para ver, editar, compartir y eliminar tus suscripciones. En cualquier momento, si decide no recibir el correo electrónico, también puede cancelar su suscripción.</block>
+  <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Descargue el paquete de firmware Ansible AFF y FAS de Digital Advisor</block>
+  <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Actualice su oferta de soporte en Digital Advisor</block>
+  <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">Valide la instalación del firmware AFF y FAS en su sistema de almacenamiento</block>
+  <block id="e11965f61e6b60a8c6e2460a84cc204c" category="doc">Utilice el catálogo de API de Digital Advisor para ejecutar las API</block>
+  <block id="7d8cfcd1375c38dde47d477af932e6f3" category="doc">Analice los atributos de bienestar en Digital Advisor y reconozca los riesgos</block>
+  <block id="e2b13842235a9d8f6222d5443d06264d" category="doc">Vea los detalles del inventario de su sistema de almacenamiento en Digital Advisor</block>
+  <block id="55e59275438e24e489c9eedadc22e820" category="doc">Ver gráficos de rendimiento del sistema de almacenamiento en Digital Advisor</block>
+  <block id="f61c091c0b8b3a7d65b3749b4d6ff7d8" category="doc">Vea los riesgos del sistema de almacenamiento en Digital Advisor y tome medidas correctivas</block>
+  <block id="a3837bd0607e681b36ecf4e98364055e" category="doc">Visualice los riesgos de las acciones en Digital Advisor y mitigue utilizando Unified Manager o Ansible Playbook</block>
+  <block id="d5d5f1e84cb21be570db134b36f27648" category="doc">Vea casos de soporte y detalles del sistema de almacenamiento con el widget Valuable Insights en Digital Advisor</block>
+  <block id="bf913ddfb71b3c6ee1d82aca387fe57b" category="doc">Consulte el historial de riesgos de su sistema de almacenamiento en Digital Advisor</block>
+  <block id="32b133d86b8eb3fd5557c2e108cfa557" category="paragraph">Puede visualizar los riesgos del sistema de almacenamiento que ocurrieron en los últimos tres meses, para que pueda saber cómo les está yendo con el tiempo.</block>
+  <block id="a296f34f7bd8bbc9cecdb02dd3c7a98d" category="doc">Obtenga información sobre cómo generar un plan de actualización de ONTAP en Digital Advisor</block>
+  <block id="f3c8e17c53c0461b4df3e0eeb99f32a7" category="doc">Ver recomendaciones de actualización de firmware en Digital Advisor</block>
+  <block id="fe145b2d12d4d69847fa71a1cbf8e316" category="doc">Visualice la utilización de la capacidad con la suscripción a NetApp Keystone en Digital Advisor</block>
+  <block id="9d6a64b8b79990034dfd292e21cf3351" category="sidebar">Obtenga más información sobre AutoSupport</block>
+  <block id="017a3d6f875d284784730abfabf9156c" category="sidebar">Obtenga más información sobre las listas de seguimiento</block>
+  <block id="16f27994003a5fd99674095b003495ca" category="sidebar">Aprenda sobre el widget de bienestar</block>
+  <block id="6aa8f267930828d736fc43060dce3ed2" category="sidebar">Visualizar los riesgos del sistema de almacenamiento y tomar medidas correctivas</block>
+  <block id="ca94d6165165dd3749e39eb2544e92bd" category="sidebar">Detectar riesgos de seguridad y tomar medidas correctivas</block>
+  <block id="e4912b4dd78368e95a2efe840edd8cf8" category="sidebar">Proteja los sistemas de almacenamiento de los riesgos de ransomware</block>
+  <block id="5bf7a540fbc45328960280d062d53d16" category="sidebar">Analizar los atributos de bienestar y reconocer los riesgos</block>
+  <block id="de8e058114d9b334187888b0674c0ff4" category="sidebar">Ver el historial de riesgos del sistema de almacenamiento</block>
+  <block id="6c800302ee852099b731ceed29b0ff51" category="sidebar">Visualice los riesgos y mitigue los riesgos utilizando Unified Manager o Ansible Playbook</block>
+  <block id="f79af03fd1638888a127903790971ffd" category="sidebar">Utilice Digital Advisor para solucionar los riesgos críticos identificados</block>
+  <block id="e97c90acf2a807a05231bc10c80c92e6" category="sidebar">Suscribirse a notificaciones sobre el estado del sistema de almacenamiento</block>
+  <block id="817f1b924949766ab1b677366c38b65a" category="sidebar">Identificar renovaciones de software y hardware para el sistema de almacenamiento</block>
+  <block id="ed1102ac3077dfae9b2126f07c2d07ae" category="sidebar">Visualice el estado de los clústeres y nodos mediante el widget ClusterViewer</block>
+  <block id="1911c13c60c86258e36dd352cb4e1b8e" category="sidebar">Analizar la sostenibilidad del sistema de almacenamiento</block>
+  <block id="578a9f91df099dcd9187a6221c1a6727" category="sidebar">Acceda al panel de control de sostenibilidad</block>
+  <block id="30d5deda0fd445117ab4c32ff6a513b2" category="sidebar">Conozca las funciones del panel de sustentabilidad</block>
+  <block id="e7c7e4ad8baec457c1e5c62def388060" category="sidebar">Mejorar la puntuación de sostenibilidad del sistema de almacenamiento</block>
+  <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">Obtenga información sobre cómo generar un plan de actualización de ONTAP</block>
+  <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">Generar un plan de actualización de ONTAP para clústeres individuales y múltiples</block>
+  <block id="ebc19daf25c395407a52101068117655" category="sidebar">Ver detalles del inventario del sistema de almacenamiento</block>
+  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">Ver los datos de máquinas virtuales disponibles en Data Infrastructure Insights</block>
+  <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">Vea casos de soporte y detalles del sistema de almacenamiento con el widget Información valiosa</block>
+  <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">Administre los requisitos de capacidad del sistema de almacenamiento con el widget Planificación</block>
+  <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">Identificar sistemas de almacenamiento que se acercan a los límites de capacidad</block>
+  <block id="670d5d545130d51748bc5083b6b61b03" category="sidebar">Administrar los umbrales de capacidad de almacenamiento de volumen</block>
+  <block id="619122f60cc5d0d60681fb618a43634b" category="sidebar">Determinar si se recomienda una actualización tecnológica para el sistema de almacenamiento</block>
+  <block id="38ce951a3b0659ec3d5cbbb32de780f8" category="sidebar">Renovar el software y hardware del sistema de almacenamiento</block>
+  <block id="df1499afb39a1c2cf9d675ff51761e59" category="sidebar">Analice el estado del sistema de almacenamiento con recomendaciones en la nube</block>
+  <block id="29da45b00d724bc9c112a3904192176a" category="sidebar">Detectar desviaciones de configuración para el sistema de almacenamiento</block>
+  <block id="dc257426448e2fa425271fb064f19428" category="sidebar">Agregar una plantilla de deriva de configuración para el sistema de almacenamiento</block>
+  <block id="aaafdba4c0c7e26402e049623e95a726" category="sidebar">Comparar plantillas de deriva de configuración</block>
+  <block id="596faf0af4a0ea3e6b20308ed2215114" category="sidebar">Generar un informe de cronología de desviaciones de configuración</block>
+  <block id="08e20b683f96f6a10770af6e5011cd6d" category="sidebar">Administrar plantillas de desviación de configuración</block>
+  <block id="106cc9ea46ccd7a9bcef8e9ea71dff02" category="sidebar">Mejorar la eficiencia y el rendimiento del sistema de almacenamiento</block>
+  <block id="08a687618d13df36577f5389d45455d8" category="sidebar">Visualice los ahorros en capacidad y eficiencia de almacenamiento</block>
+  <block id="f3c6ba1b23c4d453a40f0fd2698619a0" category="sidebar">Ver gráficos de rendimiento del sistema de almacenamiento</block>
+  <block id="497cd649105b34f2df8142815305fab2" category="sidebar">Analizar la salud del sistema de almacenamiento</block>
+  <block id="40f0aed0699d03ae68eb635a82bdf9d8" category="sidebar">Obtenga más información sobre el panel de control de salud</block>
+  <block id="a06e3ce4add4740b8cd1019f78a7150f" category="sidebar">Renovar contratos de soporte</block>
+  <block id="370e2418d7c66dbb1459fb77fcb2de5b" category="sidebar">Oferta de soporte de actualización</block>
+  <block id="e6f1ebdad2113657694a5b8ee6b12a9a" category="sidebar">Actualice el firmware de AFF y FAS mediante Ansible Playbook</block>
+  <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">Descargue el paquete de firmware Ansible AFF y FAS</block>
+  <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">Validar la instalación del firmware AFF y FAS en el sistema de almacenamiento</block>
+  <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">Generar o programar un informe</block>
 </blocks>

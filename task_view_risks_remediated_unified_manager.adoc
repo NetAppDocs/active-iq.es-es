@@ -4,7 +4,7 @@ permalink: task_view_risks_remediated_unified_manager.html
 keywords: risks, actions, remediation, corrective action, unified manager 
 summary: Proporciona información para ver los riesgos que se pueden solucionar automáticamente mediante Unified Manager. 
 ---
-= Vea los riesgos que se pueden mitigar automáticamente con Unified Manager o el libro de aplicaciones de Ansible
+= Visualice los riesgos de las acciones en Digital Advisor y mitigue utilizando Unified Manager o Ansible Playbook
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

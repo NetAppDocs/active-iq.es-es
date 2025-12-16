@@ -22,165 +22,173 @@ sidebar:
       url: "/reference_limitations_activeiq.html"
   - title: Manos a la obra
     entries:
-    - title: Inicio rápido
+    - title: Inicio rápido para Digital Advisor
       url: "/concept_getting_started_2.html"
-    - title: Comprender las funciones de Digital Advisor
+    - title: Conozca las funciones del Digital Advisor
       url: "/concept_understand_activeiq_features.html"
-    - title: Integración de Digital Advisor con la consola de NetApp
+    - title: Acceda a Digital Advisor en la consola de NetApp
       url: "/digital-advisor-integration-with-console.html"
-    - title: Conceptos clave
+    - title: Más información sobre el asesor digital
       url: "/concept_key_terms.html"
-    - title: Qué es AutoSupport
+    - title: Obtenga más información sobre AutoSupport
       url: "/concept_autosupport.html"
     - title: Inicie sesión en Digital Advisor
       url: "/task_login_activeiq.html"
     - title: Aprovisionar lista de observación
       entries:
-      - title: Descripción general
+      - title: Obtenga más información sobre las listas de seguimiento
         url: "/concept_overview_dashboard.html"
       - title: Cree una lista de observación
         url: "/task_add_watchlist.html"
       - title: Administrar una lista de observación
         url: "/task_manage_watchlists.html"
-    - title: Preguntas frecuentes
+    - title: Preguntas frecuentes para Digital Advisor
       url: reference_aiq_faq.html
   - title: Utilice el Asesor digital
     entries:
     - title: Analizar atributos de bienestar
       entries:
-      - title: Descripción general
+      - title: Aprenda sobre el widget de bienestar
         url: "/concept_overview_wellness.html"
-      - title: Vea el riesgo y realice manualmente acciones correctivas
+      - title: Visualizar los riesgos del sistema de almacenamiento y tomar medidas
+          correctivas
         url: "/task_view_risk_and_take_action.html"
-      - title: Detectar vulnerabilidad de seguridad
+      - title: Detectar riesgos de seguridad y tomar medidas correctivas
         url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-      - title: Proteja los sistemas contra riesgos de ransomware
+      - title: Proteja los sistemas de almacenamiento de los riesgos de ransomware
         url: "/task_protect_systems_against_ransomware_risks.html"
-      - title: Ver y reconocer el riesgo
+      - title: Analizar los atributos de bienestar y reconocer los riesgos
         url: "/task_view_and_acknowledge_risks.html"
-      - title: Ver la historia del bienestar
+      - title: Ver el historial de riesgos del sistema de almacenamiento
         url: "/task_view_wellness_history.html"
-      - title: Vea los riesgos que se pueden mitigar automáticamente con Unified Manager
-          o el libro de aplicaciones de Ansible
+      - title: Visualice los riesgos y mitigue los riesgos utilizando Unified Manager
+          o Ansible Playbook
         url: "/task_view_risks_remediated_unified_manager.html"
-      - title: Evite el tiempo de inactividad y las posibles pérdidas de datos
+      - title: Utilice Digital Advisor para solucionar los riesgos críticos identificados
         url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-      - title: Suscribirse al correo electrónico de revisión de bienestar
+      - title: Suscribirse a notificaciones sobre el estado del sistema de almacenamiento
         url: "/task_subscribe_to_wellness_review_email.html"
-      - title: Renueve el software y el hardware del sistema de almacenamiento
+      - title: Identificar renovaciones de software y hardware para el sistema de
+          almacenamiento
         url: "/task_renew_software_and_hardware.html"
-      - title: Analice el estado de clústeres y nodos
+      - title: Visualice el estado de los clústeres y nodos mediante el widget ClusterViewer
         url: "/task_analyze_wellness_clusters_and_nodes.html"
-    - title: Analice la sostenibilidad de su sistema de almacenamiento
+    - title: Analizar la sostenibilidad del sistema de almacenamiento
       entries:
       - title: Aprende sobre sostenibilidad
         url: "/learn-about-sustainability.html"
-      - title: Comience con el panel de control de Sustainability
+      - title: Acceda al panel de control de sostenibilidad
         url: "/get_started_sustainability_dashboard.html"
-      - title: Información general del panel de sostenibilidad
+      - title: Conozca las funciones del panel de sustentabilidad
         url: "/sustainability-dashboard-overview.html"
-      - title: Mejorar la puntuación en sostenibilidad
+      - title: Mejorar la puntuación de sostenibilidad del sistema de almacenamiento
         url: "/improve_sustainability_score.html"
     - title: Genere un plan de actualización
       entries:
-      - title: Descripción general
+      - title: Obtenga información sobre cómo generar un plan de actualización de
+          ONTAP
         url: "/upgrade_advisor_overview.html"
-      - title: Genere un plan de actualización para un único clúster y varios clústeres
+      - title: Generar un plan de actualización de ONTAP para clústeres individuales
+          y múltiples
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
       - title: Ver recomendaciones de actualización de firmware
         url: "/view-firmware-update-recommendations.html"
     - title: Ver detalles del sistema
       entries:
-      - title: Ver detalles de inventario
+      - title: Ver detalles del inventario del sistema de almacenamiento
         url: "/task_view_inventory_details.html"
-      - title: Integración con Data Infrastructure Insights para ver detalles de máquinas
-          virtuales
+      - title: Ver los datos de máquinas virtuales disponibles en Data Infrastructure
+          Insights
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-      - title: Vea información valiosa
+      - title: Vea casos de soporte y detalles del sistema de almacenamiento con el
+          widget Información valiosa
         url: "/task_view_valuable_insight_widget.html"
       - title: Vea el uso de la capacidad con la suscripción a NetApp Keystone
         url: "/view_keystone_capacity_utilization.html"
     - title: Identifique de manera proactiva los requisitos del sistema
       entries:
-      - title: Descripción general
+      - title: Administre los requisitos de capacidad del sistema de almacenamiento
+          con el widget Planificación
         url: "/concept_overview_planning.html"
-      - title: Identifique los sistemas que alcanzan los límites de capacidad
+      - title: Identificar sistemas de almacenamiento que se acercan a los límites
+          de capacidad
         url: "/task_identify_capacity_system.html"
-      - title: Evite que el volumen se llene para evitar una interrupción
+      - title: Administrar los umbrales de capacidad de almacenamiento de volumen
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Evaluar una actualización tecnológica
+      - title: Determinar si se recomienda una actualización tecnológica para el sistema
+          de almacenamiento
         url: "/evaluate-tech-refresh.html"
-      - title: Renueve el software y el hardware del sistema de almacenamiento
+      - title: Renovar el software y hardware del sistema de almacenamiento
         url: "/task_renew_software_and_hardware.html"
-    - title: Tome decisiones documentadas basadas en recomendaciones de cloud
+    - title: Analice el estado del sistema de almacenamiento con recomendaciones en
+        la nube
       url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: Identificar la desviación de configuración
       entries:
-      - title: Descripción general
+      - title: Detectar desviaciones de configuración para el sistema de almacenamiento
         url: "/concept_overview_config_drift.html"
-      - title: Agregue una plantilla de desviación de configuración
+      - title: Agregar una plantilla de deriva de configuración para el sistema de
+          almacenamiento
         url: "/task_add_config_drift_template.html"
-      - title: Comparar una plantilla de desviación de configuración
+      - title: Comparar plantillas de deriva de configuración
         url: "/task_compare_config_drift_template.html"
-      - title: Generar un informe de escala de tiempo de deriva
+      - title: Generar un informe de cronología de desviaciones de configuración
         url: "/task_generate_drift_timeline_report.html"
-      - title: Administrar una plantilla
+      - title: Administrar plantillas de desviación de configuración
         url: "/task_manage_template.html"
-    - title: Mejore la eficiencia y el rendimiento de su sistema de almacenamiento
+    - title: Mejorar la eficiencia y el rendimiento del sistema de almacenamiento
       entries:
-      - title: Analizar el ahorro en capacidad y la eficiencia del almacenamiento
+      - title: Visualice los ahorros en capacidad y eficiencia de almacenamiento
         url: "/task_analyze_storage_efficiency.html"
-      - title: Analizar gráficos de rendimiento
+      - title: Ver gráficos de rendimiento del sistema de almacenamiento
         url: "/task_view_performance_graphs.html"
-    - title: Analice el estado del sistema de almacenamiento
+    - title: Analizar la salud del sistema de almacenamiento
       entries:
-      - title: Descripción general
+      - title: Obtenga más información sobre el panel de control de salud
         url: "/concept_understand_health_check_dashboard.html"
       - title: Comenzar con la consola de comprobación de estado
         url: "/concept_get_started_with_health_check_dashboard.html"
-      - title: Renueve sus contratos de soporte
+      - title: Renovar contratos de soporte
         url: "/task_renew_support_contracts_for_your_systems.html"
     - title: Actualice para optimizar su base instalada
       entries:
-      - title: Actualice la oferta de soporte
+      - title: Oferta de soporte de actualización
         url: "/task_upgrade_support_offering.html"
-      - title: Actualice el firmware de AFF y FAS con el libro de aplicaciones de
-          Ansible
+      - title: Actualice el firmware de AFF y FAS mediante Ansible Playbook
         entries:
-        - title: Descargue el firmware del AFF y el paquete de automatización de Ansible
-            FAS
+        - title: Descargue el paquete de firmware Ansible AFF y FAS
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: Instalar y ejecutar el paquete de automatización de Ansible (usuarios
-            experimentados) de firmware de AFF y FAS
+        - title: Actualice el firmware de AFF y FAS mediante un paquete Ansible (usuarios
+            experimentados)
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: Instalar y ejecutar el paquete de automatización de Ansible (principiantes)
             firmware de AFF y FAS
           entries:
-          - title: Aloja los archivos de firmware mediante el servidor web
+          - title: Alojar archivos de firmware AFF y FAS en un servidor web
             url: "/task_hosting_firmware_files_using_web_server.html"
-          - title: Trabaje con el archivo de inventario
+          - title: Actualice el archivo de inventario para la actualización del firmware
+              AFF y FAS
             url: "/concept_working_with_inventory_file.html"
-          - title: Ejecute el libro de estrategia de Ansible con la imagen de Docker
-              de NetApp
+          - title: Ejecute el playbook de Ansible usando la imagen Docker de NetApp
             url: "/task_execute_ansible_playbook_using_docker.html"
-          - title: ejecute el libro de estrategia de Ansible sin imagen de Docker
-              de NetApp
+          - title: Ejecute el playbook de Ansible sin la imagen de Docker de NetApp
             url: "/task_execute_ansible_playbook_without_docker.html"
-          - title: Validar la instalación del firmware
+          - title: Validar la instalación del firmware AFF y FAS en el sistema de
+              almacenamiento
             url: "/task_validate_firmware_installation.html"
     - title: Integrar datos mediante API
       entries:
-      - title: Descripción general
+      - title: Conozca los servicios API de Digital Advisor
         url: "/concept_overview_API_service.html"
-      - title: Genere tokens para usar las API
+      - title: Generar tokens para utilizar los servicios de API de Digital Advisor
         url: "/task_generate_tokens_API_services.html"
-      - title: Utilice el catálogo de API para ejecutar las API
+      - title: Utilice el catálogo de API de Digital Advisor para ejecutar las API
         url: "/task_view_API_catalog.html"
     - title: Generar informes personalizados
       entries:
-      - title: Tipos de informes
+      - title: Conozca los informes de Digital Advisor
         url: "/concept_report_types.html"
-      - title: Generar informes
+      - title: Generar o programar un informe
         url: "/task_generate_reports.html"
   - title: Conocimiento y apoyo
     entries:

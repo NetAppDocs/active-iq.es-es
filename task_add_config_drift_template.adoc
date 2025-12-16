@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: Proporciona información para agregar una plantilla de deriva de configuración. 
 ---
-= Agregue una plantilla de desviación de configuración
+= Agregue una plantilla de desviación de configuración para su sistema de almacenamiento en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

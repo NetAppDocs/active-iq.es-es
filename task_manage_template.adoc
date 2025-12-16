@@ -4,7 +4,7 @@ permalink: task_manage_template.html
 keywords: templates, share template, clone template, edit template, delete template 
 summary: Proporciona información para administrar plantillas. 
 ---
-= Administrar una plantilla
+= Administrar plantillas de desviación de configuración en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

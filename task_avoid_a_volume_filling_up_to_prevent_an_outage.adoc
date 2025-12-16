@@ -4,7 +4,7 @@ permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html
 keywords: volume filling up, prevent an outage 
 summary: Proporciona información sobre cómo evitar que se llene un volumen para evitar una interrupción. 
 ---
-= Evite que el volumen se llene para evitar una interrupción
+= Administrar los umbrales de capacidad de almacenamiento de volumen en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

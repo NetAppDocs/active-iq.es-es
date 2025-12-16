@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: Proporciona información sobre los riesgos del sistema y cómo ver la historia del bienestar. 
 ---
-= Ver la historia del bienestar
+= Consulte el historial de riesgos de su sistema de almacenamiento en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: Proporciona información sobre los riesgos del sistema y cómo ver la h
 
 
 [role="lead"]
-Puede ver los riesgos del sistema que se producen en los últimos tres meses, de modo que pueda aprender cómo están criando horas extra.
+Puede visualizar los riesgos del sistema de almacenamiento que ocurrieron en los últimos tres meses, para que pueda saber cómo les está yendo con el tiempo.
 
 Estos riesgos se clasifican en cuatro tipos de riesgos: *Sin resolver*, *Nuevo*, *resuelto* y *reconocido*. Se representan con colores diferentes. El resumen de estos riesgos se representa a través de un gráfico *Historial de riesgos*.
 

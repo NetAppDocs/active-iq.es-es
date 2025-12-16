@@ -4,7 +4,7 @@ permalink: task_view_risk_and_take_action.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
 summary: Ofrece información para ver y analizar el estado de su sistema de almacenamiento y mitigar los riesgos. 
 ---
-= Vea el riesgo y realice manualmente acciones correctivas
+= Vea los riesgos del sistema de almacenamiento en Digital Advisor y tome medidas correctivas
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

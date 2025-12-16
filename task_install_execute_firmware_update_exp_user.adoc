@@ -4,7 +4,7 @@ permalink: task_install_execute_firmware_update_exp_user.html
 keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook, docker, experienced user 
 summary: Proporciona información sobre cómo instalar y ejecutar actualizaciones de firmware con el libro de aplicaciones de Ansible. 
 ---
-= Instalar y ejecutar el paquete de automatización de Ansible con firmware AFF y FAS (usuarios con experiencia)
+= Actualice el firmware de AFF y FAS mediante un paquete Ansible (usuarios experimentados)
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

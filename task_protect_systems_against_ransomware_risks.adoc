@@ -4,7 +4,7 @@ permalink: task_protect_systems_against_ransomware_risks.html
 keywords: ransomware, risks, ransomware risks 
 summary:  
 ---
-= Proteja los sistemas contra riesgos de ransomware
+= Proteja los sistemas de almacenamiento administrados por Digital Advisor de los riesgos de ransomware
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: Proporciona información para renovar el software y el hardware del sistema de almacenamiento. 
 ---
-= Renueve el software y el hardware del sistema de almacenamiento
+= Identifique las renovaciones de software y hardware para su sistema de almacenamiento desde Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,11 +16,11 @@ summary: Proporciona información para renovar el software y el hardware del sis
 
 
 [role="lead"]
-Puede identificar de forma proactiva el software y el hardware que ha caducado o que está a punto de expirar en los próximos 6 meses, y enviar una solicitud para renovar el hardware y el software.
+Puede identificar de forma proactiva el software y el hardware de su sistema de almacenamiento que han vencido o están próximos a vencer en los próximos 6 meses y enviar una solicitud para renovar el hardware y el software.
 
 .Pasos
 . Haga clic en *Renewals* en el widget *Planificación*.
-. Seleccione los sistemas que desea renovar y haga clic en *renovar*.
+. Seleccione los sistemas de almacenamiento que desea renovar y haga clic en *Renovar*.
 . Si lo desea, puede introducir comentarios adicionales.
 . Haga clic en *Enviar*.
 

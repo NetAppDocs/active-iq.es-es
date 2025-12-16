@@ -4,7 +4,7 @@ permalink: task_analyze_storage_efficiency.html
 keywords: renew, hardware, software 
 summary: Proporciona información para renovar el software y el hardware del sistema de almacenamiento. 
 ---
-= Analizar el ahorro en capacidad y la eficiencia del almacenamiento
+= Vea los ahorros en capacidad y eficiencia de almacenamiento en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

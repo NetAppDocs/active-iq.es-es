@@ -4,7 +4,7 @@ permalink: task_generate_drift_timeline_report.html
 keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
 summary: Proporciona información para generar informes de escala de tiempo de deriva. 
 ---
-= Generar un informe de escala de tiempo de deriva
+= Generar un informe de cronología de desviaciones de configuración en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

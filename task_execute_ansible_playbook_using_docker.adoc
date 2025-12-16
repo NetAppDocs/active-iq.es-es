@@ -4,7 +4,7 @@ permalink: task_execute_ansible_playbook_using_docker.html
 keywords: Ansible Playbook, Ansible, Playbook, docker 
 summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones de Ansible con la imagen del Docker. 
 ---
-= Ejecute el libro de aplicaciones de Ansible con la imagen de Docker de NetApp
+= Ejecute el playbook de Ansible usando la imagen Docker de NetApp
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

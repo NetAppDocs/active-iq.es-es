@@ -4,7 +4,7 @@ permalink: task_generate_reports.html
 keywords: reports, generate reports 
 summary: Proporciona información para generar informes. 
 ---
-= Generar informes
+= Generar o programar un informe en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

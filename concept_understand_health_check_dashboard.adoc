@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: Proporciona información para familiarizarse con la consola de comprobación del estado. 
 ---
-= Consulte la consola de comprobación del estado
+= Conozca el panel de control de salud en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

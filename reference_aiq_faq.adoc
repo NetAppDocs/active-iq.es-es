@@ -4,7 +4,7 @@ permalink: reference_aiq_faq.html
 keywords: faq, frequently asked questions, non-technical, non-technical case, inventory, storage efficiency, capacity, performance 
 summary: Estas preguntas frecuentes pueden ser de ayuda si solo está buscando una respuesta rápida a una pregunta. 
 ---
-= Preguntas frecuentes sobre el Asesor Digital
+= Preguntas frecuentes para Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

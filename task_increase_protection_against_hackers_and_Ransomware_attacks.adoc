@@ -4,7 +4,7 @@ permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html
 keywords: protection, hackers, ransomware, ransomware attacks, attack 
 summary: Proporciona información sobre cómo aumentar la protección contra hackers y ataques de ransomware. 
 ---
-= Detectar vulnerabilidad de seguridad
+= Detecta riesgos de seguridad con Digital Advisor y toma acciones correctivas
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

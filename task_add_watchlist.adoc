@@ -4,7 +4,7 @@ permalink: task_add_watchlist.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Proporciona información para agregar una lista de observación al panel de control. 
 ---
-= Cree una lista de observación
+= Crear una lista de seguimiento en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,10 +16,10 @@ summary: Proporciona información para agregar una lista de observación al pane
 
 
 [role="lead"]
-Puede crear una lista de observación para acceder a un conjunto de sistemas de forma rápida y sencilla. Puede agregar los sistemas según la categoría o el número de serie.
+Puede crear una lista de seguimiento para acceder a un conjunto de sistemas de almacenamiento de forma rápida y sencilla. Puede agregar los sistemas de almacenamiento según la categoría o el número de serie.
 
 
-NOTE: Puede agregar un máximo de 15,000 sistemas bajo una categoría y 500 sistemas con un número de serie.
+NOTE: Puede agregar un máximo de 15.000 sistemas de almacenamiento bajo una categoría y 500 sistemas de almacenamiento bajo un número de serie.
 
 .Pasos
 . En el panel izquierdo, haga clic en *Listas de comprobaciones*
@@ -28,7 +28,7 @@ Aparece la pantalla *Administrar lista de observación*.
 
 . Haga clic en *Crear lista de observación*.
 . Introduzca un nombre para la lista de observación.
-. Seleccione una de las siguientes opciones para agregar sistemas a la lista de comprobaciones:
+. Seleccione una de las siguientes opciones para agregar sistemas de almacenamiento a la lista de seguimiento:
 +
 ** *Categoría*: Esta opción le permite agregar todo el inventario asociado a una categoría específica, como cliente, sitio, grupo o suscripciones de Keystone. a la lista de seguimiento.
 +
