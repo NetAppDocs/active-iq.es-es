@@ -61,6 +61,9 @@ A continuación se muestran los tipos de informes que están disponibles en el A
 | Configuración recomendada | Proporciona información sobre las diversas lagunas de configuración recomendadas para la configuración de gestión remota, los repuestos y unidades, el par de alta disponibilidad, el estado de la SVM, el estado de la batería y los asesores de Recovery Guru. | Sí | Sí | No 
 
 
+| Seguridad | Proporciona una visión general completa y exportable de los riesgos de seguridad del almacenamiento de ONTAP y las brechas de cumplimiento en clústeres, SVMs y volúmenes. | Sí | No | No 
+
+
 | Contratos de soporte/finalización del servicio de hardware | Proporciona información sobre los detalles del contrato y la lista de controladoras, bandejas y discos que hayan alcanzado la finalización del soporte (EOS). | Sí | Sí | No 
 
 
