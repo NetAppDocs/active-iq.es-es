@@ -43,7 +43,7 @@ Puede generar un informe inmediatamente o programar el informe para que se gener
 
 
 
-NOTE: El informe se guarda en Digital Advisor durante 3 días.
+NOTE: El informe se guarda en Digital Advisor durante 3 meses.
  a| 
 . Haga clic en la ficha *Informe de programación*.
 . Seleccione el tipo de informe y proporcione los valores solicitados para el informe.

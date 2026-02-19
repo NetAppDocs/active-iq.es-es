@@ -558,7 +558,6 @@
   <block id="d281137a49a54aa7802aec878d399810" category="cell">Programar el informe para que se genere semanalmente o mensualmente</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Seleccione el tipo de informe y proporcione los valores solicitados para el informe.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Seleccione el formato del informe.</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">El informe se guarda en Digital Advisor durante 3 días.</block>
   <block id="3d238a330bc38f038dc62d179d5a04fb" category="list-text">Haga clic en la ficha *Informe de programación*.</block>
   <block id="0462e15ed17cd7dc971f1fa1cb455fff" category="list-text">Seleccione la frecuencia del informe.</block>
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">Seleccione la fecha de inicio y la fecha de finalización del informe.</block>
@@ -1623,4 +1622,5 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor ahora permite generar planes de actualización para las versiones de ONTAP que han alcanzado el fin del soporte limitado, con un periodo de gracia de 9 meses. Esta función ayuda a los clientes a tomar medidas a tiempo y evitar interrupciones en las actualizaciones al proporcionar una orientación clara durante el periodo de transición.</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Proporciona una visión general completa y exportable de los riesgos de seguridad del almacenamiento de ONTAP y las brechas de cumplimiento en clústeres, SVMs y volúmenes.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 de febrero de 2026</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">El informe se guarda en Digital Advisor durante 3 meses.</block>
 </blocks>
