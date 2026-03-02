@@ -176,14 +176,8 @@ sidebar:
           - title: Validar la instalación del firmware AFF y FAS en el sistema de
               almacenamiento
             url: "/task_validate_firmware_installation.html"
-    - title: Integrar datos mediante API
-      entries:
-      - title: Conozca los servicios API de Digital Advisor
-        url: "/concept_overview_API_service.html"
-      - title: Generar tokens para utilizar los servicios de API de Digital Advisor
-        url: "/task_generate_tokens_API_services.html"
-      - title: Utilice el catálogo de API de Digital Advisor para ejecutar las API
-        url: "/task_view_API_catalog.html"
+    - title: Conozca los servicios API de Digital Advisor
+      url: "/concept_overview_API_service.html"
     - title: Generar informes personalizados
       entries:
       - title: Conozca los informes de Digital Advisor
