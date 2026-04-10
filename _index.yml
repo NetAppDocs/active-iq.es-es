@@ -53,6 +53,8 @@ indexpage:
     links:
     - title: Portal Web de asesor digital
       url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: NetApp Digital Advisor documentación de la API
+      url: https://docs.netapp.com/us-en/digital-advisor-automation/
     - title: Vídeos de asistencia digital
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: 'Comunidad de NetApp: Asesor digital'
