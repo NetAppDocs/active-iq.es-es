@@ -1471,7 +1471,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Se recomienda migrar a Cloud Volumes ONTAP (CVO) los volúmenes que cumplan los siguientes criterios:</block>
   <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">Antes de generar un plan de actualización, debes:</block>
   <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">Guía de resolución de problemas de AutoSupport de ONTAP</block>
-  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">Asegúrese de que AutoSupport (ASUP) esté habilitado y configurado correctamente, y que todas las secciones necesarias estén incluidas. Para obtener más información, consulte <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>.</block>
   <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">abrir un caso no técnico</block>
   <block id="ece2db758a882f00813e14d082e4552c" category="list-text">Verifique que los miembros del clúster de AutoSupport coincidan con la configuración del clúster de SAP.  Para obtener más información,<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> .</block>
   <block id="b0898535e25a9a49559570e490a63c7d" category="doc">Obtenga más información sobre AutoSupport en Digital Advisor</block>
@@ -1591,4 +1590,5 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">El informe se guarda en Digital Advisor durante 3 meses.</block>
   <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor documentación de la API</block>
   <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">Para obtener información sobre cómo acceder y usar las API de Digital Advisor, consulta <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>.</block>
+  <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">Asegúrate de que AutoSupport (ASUP) está activado y configurado correctamente, y que se incluyen todas las secciones necesarias. Para más información, consulta <block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>.</block>
 </blocks>
