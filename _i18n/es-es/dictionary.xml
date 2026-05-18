@@ -1591,4 +1591,6 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor documentación de la API</block>
   <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">Para obtener información sobre cómo acceder y usar las API de Digital Advisor, consulta <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>.</block>
   <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">Asegúrate de que AutoSupport (ASUP) está activado y configurado correctamente, y que se incluyen todas las secciones necesarias. Para más información, consulta <block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">A partir de julio de 2026, la función Wellness Review dejará de estar disponible en Digital Advisor. Para cualquier consulta, envía un correo electrónico a mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
+  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 de mayo de 2026</block>
 </blocks>
