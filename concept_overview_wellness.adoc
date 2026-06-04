@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_overview_wellness.html 
-keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, support renewal, risk, remediation 
 summary: Ofrece información sobre el bienestar y los tipos de riesgo, que ayudan a mejorar su sistema de almacenamiento. 
 ---
 = Conozca el widget de bienestar en Digital Advisor
@@ -16,7 +16,7 @@ summary: Ofrece información sobre el bienestar y los tipos de riesgo, que ayuda
 
 
 [role="lead"]
-El widget Wellness ofrece información detallada sobre el sistema de almacenamiento. Proporciona información sobre distintos atributos del sistema de almacenamiento, como el rendimiento y la eficiencia, la capacidad, la configuración, las vulnerabilidades de seguridad, las renovaciones, y otros.
+El widget Wellness proporciona información detallada sobre tu sistema de almacenamiento. Proporciona información sobre distintos atributos de tu sistema de almacenamiento, como el rendimiento y la eficiencia, la capacidad, los ajustes de configuración, las vulnerabilidades de seguridad, las renovaciones de soporte y otros.
 
 image:wellness_workflow.png["flujo de trabajo de bienestar"]
 

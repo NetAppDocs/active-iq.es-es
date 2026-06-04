@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: evaluate-tech-refresh.html 
-keywords: tech refresh, tech support contract, hardware 
-summary: Proporciona información para evaluar la actualización tecnológica del hardware o contrato de soporte técnico 
+keywords: tech refresh, tech support contract, hardware, system refresh 
+summary: Proporciona información para evaluar la actualización del sistema de tu contrato de asistencia técnica o hardware 
 ---
-= Determine si se recomienda una actualización tecnológica para su sistema de almacenamiento en Digital Advisor
+= Determina si se recomienda una actualización del sistema para tu sistema de almacenamiento en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,8 +16,8 @@ summary: Proporciona información para evaluar la actualización tecnológica de
 
 
 [role="lead"]
-Si desea identificar si se recomienda una actualización de tecnología para su contrato de soporte técnico o hardware, puede utilizar la opción de actualización tecnológica.
+Si quieres identificar si se recomienda una actualización del sistema para tu contrato de Tech Support o hardware, puedes usar la opción de actualización del sistema.
 
-Puede acceder a esta función a través de la Planificación del ciclo de vida (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Digital Advisor (*Panel de control > Widget de planificación > Actualización tecnológica*).
+Puedes acceder a esta función a través de la planificación del ciclo de vida (*Storage* > *Lifecycle planning*) o a través de Digital Advisor (*Dashboard > Planning widget > System Refresh*).
 
-Para obtener más información sobre esta función, consultelink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Evaluar una actualización tecnológica"] en la documentación de la consola.
+Para más información sobre esta función, consulta link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Evaluar una actualización del sistema"] en la documentación de la consola.

@@ -115,8 +115,7 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: Administrar los umbrales de capacidad de almacenamiento de volumen
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Determinar si se recomienda una actualización tecnológica para el sistema
-          de almacenamiento
+      - title: Determina si se recomienda una actualización para el sistema de almacenamiento
         url: "/evaluate-tech-refresh.html"
       - title: Renovar el software y hardware del sistema de almacenamiento
         url: "/task_renew_software_and_hardware.html"

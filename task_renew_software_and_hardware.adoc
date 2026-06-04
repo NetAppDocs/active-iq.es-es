@@ -19,7 +19,7 @@ summary: Proporciona información para renovar el software y el hardware del sis
 Puede identificar de forma proactiva el software y el hardware de su sistema de almacenamiento que han vencido o están próximos a vencer en los próximos 6 meses y enviar una solicitud para renovar el hardware y el software.
 
 .Pasos
-. Haga clic en *Renewals* en el widget *Planificación*.
+. Haz clic en *Support Renewals* desde el widget *Planning*.
 . Seleccione los sistemas de almacenamiento que desea renovar y haga clic en *Renovar*.
 . Si lo desea, puede introducir comentarios adicionales.
 . Haga clic en *Enviar*.

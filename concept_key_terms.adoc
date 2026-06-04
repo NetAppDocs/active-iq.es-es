@@ -67,10 +67,10 @@ A medida que empiece a utilizar el Asesor Digital, es importante que entienda al
 ** *Generar un informe:* genera el informe de la lista de observación seleccionada y envía el informe por correo electrónico a un máximo de 5 destinatarios.
 
 
-* *Widget de planificación:* muestra información sobre la adición de capacidad, software y hardware que se necesita renovar.
+* *Widget de planificación:* Muestra información sobre la ampliación del almacenamiento, el software y el hardware que necesita renovarse.
 +
-** *Adiciones de capacidad:* identifica sistemas que han superado o están cerca del 90% de capacidad y sitios DE RED que han superado o están cerca del 70% de capacidad. Puede aumentar una solicitud para aumentar la capacidad del sistema de almacenamiento.
-** *Renewals:* proporciona información sobre el software y el hardware que ha caducado o que están a punto de expirar en los próximos 6 meses.
+** *Ampliación de almacenamiento:* Identifica los sistemas que han superado o se acercan al 90% de su capacidad y los sitios GRID que han superado o se acercan al 70% de su capacidad. Puedes hacer una solicitud para aumentar la capacidad de tu sistema de almacenamiento.
+** *Renovaciones de soporte:* Proporciona información sobre el software y el hardware que ha caducado o que está próximo a caducar en los próximos 6 meses.
 
 
 * *Widget de actualizaciones:* proporciona el número de actualizaciones disponibles para los sistemas ONTAP y E-Series:
