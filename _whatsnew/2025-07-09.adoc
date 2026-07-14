@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Asesor de actualizaciones
 
 * Se ha incluido una opción de descarga multiformato para los planes del Asesor de Actualizaciones, lo que simplifica la planificación de actualizaciones de ONTAP y soluciona posibles obstáculos o advertencias. Ahora puede descargar los planes del Asesor de Actualizaciones en formato Excel, PDF y JSON.

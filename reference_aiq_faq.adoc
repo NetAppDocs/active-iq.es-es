@@ -20,6 +20,7 @@ Las siguientes preguntas proporcionan respuestas a sus preguntas frecuentes acer
 
 
 
+[[technical-case]]
 == Caso práctico técnico
 
 *Cuándo creo un caso técnico?*
@@ -45,6 +46,7 @@ Los casos técnicos se crean para solicitar ayuda con cualquiera de los producto
 
 
 
+[[non-technical-case]]
 == Caso no técnico
 
 *¿Qué es un caso no técnico?*
@@ -78,6 +80,7 @@ Para proporcionar comentarios o hacer preguntas, envíe un correo electrónico a
 
 
 
+[[storage-efficiency]]
 == Eficiencia del almacenamiento
 
 *¿Cómo puedo acceder a la eficiencia del almacenamiento en Digital Advisor?*
@@ -221,6 +224,7 @@ La reducción de datos se muestra más alta cuando hay volúmenes de protección
 
 
 
+[[inventory]]
 == Inventario
 
 *¿Por qué no puedo encontrar ciertos sistemas en Digital Advisor? *
@@ -236,6 +240,7 @@ Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea 
 
 
 
+[[capacity]]
 == Capacidad
 
 *¿Cómo se calculan las capacidades en el asesor digital?* las capacidades en el asesor digital se calculan para el clúster y el nodo, excluyendo la raíz e incluyendo copias Snapshot
@@ -344,6 +349,7 @@ Para StorageGRID, las capacidades se muestran en base 10 y la unidad de capacida
 
 
 
+[[miscellaneous]]
 == Miscelánea
 
 *¿Por qué las características bajo ESTADO DE ALMACENAMIENTO en el panel de navegación izquierdo están deshabilitadas? *

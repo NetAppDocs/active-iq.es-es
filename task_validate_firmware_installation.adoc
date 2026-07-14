@@ -20,6 +20,7 @@ Tras ejecutar el libro de estrategia, inicie sesión en el clúster como adminis
 
 
 
+[[validate-disk-firmware-installation]]
 == Validar la instalación del firmware de disco
 
 .Pasos
@@ -52,6 +53,7 @@ Para obtener más información acerca del comando, consulte {link-with-underscor
 
 
 
+[[validate-shelf-firmware-installation]]
 == Validar la instalación del firmware de la bandeja
 
 .Pasos
@@ -103,6 +105,7 @@ Para obtener más información sobre el comando, consulte {link-with-underscores
 
 
 
+[[validating-spbmc-firmware-installation]]
 == Validar la instalación del firmware del SP/BMC
 
 El libro de aplicaciones de Ansible para las actualizaciones del firmware del procesador de servicios/BMC está habilitado con una opción para verificar la instalación del firmware más reciente del SP/BMC en la controladora. Una vez finalizada la verificación (las actualizaciones pueden tardar dos horas en completarse), el libro de aplicaciones de Ansible PlayBook aplica las actualizaciones de firmware del switch interno conectando con la consola del SP/BMC.

@@ -27,6 +27,7 @@ La automatización con API es una forma excelente de añadir eficiencia y precis
 
 
 
+[[api-catalog]]
 == Catálogo de API
 
 El cambio en la parte superior de la página permite al usuario cambiar entre los dos modos para ver el catálogo. La vista Código se centra en los parámetros de entrada necesarios, el contenido y el formato de los datos devueltos y las muestras de código para que el usuario comience a utilizar el código. La vista experimento ofrece al usuario la oportunidad de “probar” la API en el navegador mediante un token generado obtenido de la página principal de Servicios API.
@@ -35,6 +36,7 @@ Cualquiera de las dos vistas permite al usuario examinar los elementos disponibl
 
 
 
+[[using-the-apis]]
 == Usar las API
 
 Una vez autorizado y que pueda generar tokens, puede aprovechar los tokens para realizar consultas programáticas y recuperar datos. También puede probar una API desde el catálogo de API para ver de primera mano cómo funciona la consulta y el tipo de datos que devuelve. Esta es una excelente forma de asegurarse de entender cómo funcionará una API antes de crear el marco de código en su sistema.

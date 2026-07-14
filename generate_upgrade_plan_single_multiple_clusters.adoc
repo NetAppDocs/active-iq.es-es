@@ -20,6 +20,7 @@ Puede usar el asesor de actualizaciones para ver la lista de clústeres que son 
 
 
 
+[[before-you-begin]]
 == Antes de empezar
 
 Antes de generar un plan de actualización, debes:

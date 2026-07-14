@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Asesor de actualizaciones
 
 * Con Disk Qualification Package (DQP), ahora puede actualizar automáticamente los controladores de disco y el firmware del dispositivo de almacenamiento según los criterios de estado y rendimiento predefinidos. Esto reduce los fallos potenciales y mejora la fiabilidad general del sistema.

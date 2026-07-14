@@ -22,6 +22,7 @@ Para la actualización del firmware del procesador de servicio, los nombres de h
 
 
 
+[[inventory-file-format]]
 == Formato de archivo de inventario
 
 A continuación se muestra un formato de archivo de inventario con actualizaciones de disco y de firmware de bandeja:
@@ -51,6 +52,7 @@ En el ejemplo, las actualizaciones de firmware de la bandeja y del disco son apl
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == Elimine un clúster del archivo de inventario
 
 En caso de que no desee aplicar actualizaciones de firmware en un clúster determinado, puede quitar el clúster del archivo de inventario.

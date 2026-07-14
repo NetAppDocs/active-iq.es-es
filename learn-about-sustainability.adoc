@@ -28,6 +28,7 @@ Puede ver el siguiente vídeo para comprender el panel de control de Sustainabil
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == Beneficios de la sostenibilidad
 
 La sostenibilidad ofrece los siguientes beneficios:

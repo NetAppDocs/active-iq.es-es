@@ -22,6 +22,7 @@ Mediante la consola, los expertos en TI y los arquitectos de la nube pueden admi
 
 
 
+[[netapp-console]]
 == Consola de NetApp
 
 Se puede acceder a Digital Advisor a través de la consola NetApp .

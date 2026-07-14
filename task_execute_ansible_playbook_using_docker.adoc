@@ -20,6 +20,7 @@ Antes de ejecutar el libro de aplicaciones de Ansible, asegúrese de que se ha e
 
 
 
+[[before-you-begin]]
 == Antes de empezar
 
 Antes de ejecutar el libro de aplicaciones de Ansible con el Docker de NetApp, debe:

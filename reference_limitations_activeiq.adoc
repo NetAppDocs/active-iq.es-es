@@ -31,36 +31,42 @@ Existen las siguientes limitaciones:
 
 
 
+[[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == La edición de una lista de observación puede tardar 60 minutos en reflejarla en el Asesor Digital
 
 La edición de una lista de observación no actualiza inmediatamente la información en Digital Advisor. Los cambios pueden tardar hasta 60 minutos en reflejarse en el asesor digital.
 
 
 
+[[a-blank-report-is-displayed-while-scheduling-reports]]
 == Se muestra un informe en blanco mientras se programan los informes
 
 Los informes programados solo están disponibles con un contrato de soporte de SupportEdge Advisor o SupportEdge Expert. Si sus sistemas no están bajo SupportEdge Advisor o un contrato de soporte de SupportEdge Expert, puede obtener un informe en blanco mientras programa informes.
 
 
 
+[[acknowledged-and-unacknowledged-risks-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Los riesgos reconocidos y no reconocidos pueden tardar 60 minutos en reflexionar en el Asesor Digital
 
 La situación de los riesgos reconocidos y no reconocidos no se refleja inmediatamente en el Asesor Digital. Los cambios pueden tardar hasta 60 minutos en reflexionar en el Asesor Digital y en el informe de bienestar.
 
 
 
+[[autosupport-widget-not-available-for-cluster-and-serial-numbers]]
 == El widget AutoSupport no está disponible para los números de serie y de clúster
 
 El widget AutoSupport no proporciona alertas para las búsquedas del clúster y del número de serie.
 
 
 
+[[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == El widget AutoSupport no puede profundizar en los detalles de AutoSupport de nivel de serie
 
 En la página AutoSupport Reporting, al hacer clic en cualquiera de los estados, los sistemas que han dejado de enviar recientemente o los sistemas que tienen AutoSupport desactivado no se accede a la pantalla de comprobación de estado.
 
 
 
+[[filtering-and-sorting-are-not-available-in-the-inventory-widget]]
 == El filtrado y la ordenación no están disponibles en el widget Inventario
 
 No puede filtrar ni ordenar datos en el widget de inventario. No se muestran datos si selecciona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select en el menú desplegable Filtrar por.

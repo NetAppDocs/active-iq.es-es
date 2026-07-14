@@ -23,6 +23,7 @@ NOTE: Digital Advisor lo dirige a la consola de NetApp para implementar las reco
 
 
 
+[[migration]]
 == Migración
 
 Proporciona información sobre los distintos tipos de cargas de trabajo disponibles en el sistema de almacenamiento e identificar las cargas de trabajo listas para el cloud. Mover las cargas de trabajo al cloud implica ahorrar costes y proporcionar recuperación ante desastres en el cloud.
@@ -44,6 +45,7 @@ Se recomienda migrar a Cloud Volumes ONTAP (CVO) los volúmenes que cumplan los 
 
 
 
+[[tiering]]
 == Organización en niveles
 
 Proporciona información sobre datos de nivel local (agregados) inactivos, datos de volúmenes inactivos, datos en niveles y datos no supervisados. Puede reducir el espacio de almacenamiento y los costes asociados mediante la supervisión y la organización en niveles de los datos inactivos en niveles de almacenamiento de objetos de bajo coste.
@@ -69,6 +71,7 @@ Para obtener más información sobre FabricPool, consulte link:https://www.netap
 
 
 
+[[backup-archive]]
 == Backup y archivado
 
 Proporciona información acerca de los sistemas que se deben realizar backups en el cloud. Puede usar Cloud Backup de NetApp para proteger sus sistemas y restaurarlos cuando sea necesario.
@@ -87,6 +90,7 @@ Se recomienda utilizar los volúmenes que cumplen los siguientes criterios para 
 
 
 
+[[replication]]
 == Replicación
 
 Proporciona información sobre los datos que se deben replicar en el cloud para ayudar en caso de desastre.

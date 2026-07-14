@@ -20,6 +20,7 @@ Debe actualizar el firmware de AFF y FAS con Ansible para reducir los riesgos id
 
 
 
+[[before-you-begin]]
 == Antes de empezar
 
 Antes de actualizar el firmware de AFF y FAS con Ansible, debe:
