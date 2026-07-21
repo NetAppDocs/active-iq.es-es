@@ -15,8 +15,12 @@ summary:
 :imagesdir: ./media/
 
 
-[role="lead"]
-Puede suscribirse al correo electrónico de revisión de bienestar para recibir un correo electrónico mensual que resuma el estado de bienestar, los sistemas de almacenamiento que se acercan a sus fechas de renovación y los sistemas de almacenamiento que requieren una actualización para los productos NetApp en su base instalada. Recibirá un correo electrónico de revisión de bienestar para que pueda ver un resumen mensual y tomar medidas para sus sistemas de almacenamiento. También tienes opciones para ver, editar, compartir y eliminar tus suscripciones. En cualquier momento, si decide no recibir el correo electrónico, también puede cancelar su suscripción.
+
+NOTE: La función Wellness Review ha quedado obsoleta y ya no está disponible en Digital Advisor desde julio de 2026.
+
+Puedes suscribirte al correo electrónico de revisión de estado para recibir mensualmente un resumen del estado de bienestar, los sistemas de almacenamiento que se acercan a sus fechas de renovación y los sistemas de almacenamiento que requieren una actualización para los productos de NetApp en tu base instalada. Recibirás un correo electrónico de revisión de estado de bienestar para que puedas ver un resumen mensual y tomar acción para tus sistemas de almacenamiento.
+
+También tienes opciones para ver, editar, compartir y eliminar tus suscripciones. En cualquier momento, si decides que no quieres recibir el correo electrónico, también puedes darte de baja.
 
 Una vez activada la suscripción, deberá seleccionar una fecha de inicio al agregar una suscripción. El resumen mensual del correo electrónico ofrece una vista de las acciones de comprobación del estado, renovación, actualización y estado excepcionales. Puede confirmar la dirección de correo electrónico y que se ha enviado el correo electrónico a la dirección de correo electrónico especificada. También tiene la opción de eliminar suscripciones.
 
