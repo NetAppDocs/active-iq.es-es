@@ -20,4 +20,4 @@ Si quieres identificar si se recomienda una actualización del sistema para tu c
 
 Puedes acceder a esta función a través de la planificación del ciclo de vida (*Storage* > *Lifecycle planning*) o a través de Digital Advisor (*Dashboard > Planning widget > System Refresh*).
 
-Para más información sobre esta función, consulta link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Evaluar una actualización del sistema"] en la documentación de la consola.
+Para más información sobre esta función, consulta link:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["Evaluar una actualización del sistema"] en la documentación de la consola.

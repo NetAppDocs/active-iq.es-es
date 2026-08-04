@@ -40,11 +40,13 @@ Lea la siguiente información para conocer los widgets compatibles con el sistem
 | Renovaciones de soporte | Compatible con todas las plataformas | Compatible con todas las plataformas | Compatible con todas las plataformas 
 
 
-| Ampliación del almacenamiento | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
+| Ampliación del almacenamiento | Solo compatible con ONTAP | Solo compatible con ONTAP | Solo compatible con ONTAP 
 
 
-| Inventario | Compatible con todas las plataformas | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
+| Inventario | Compatible con todas las plataformas | Solo compatible con ONTAP | Solo compatible con ONTAP 
 
 
-| Actualizaciones | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP | Solo compatible en Clustered Data ONTAP 
+| Actualizaciones | Solo compatible con ONTAP | Solo compatible con ONTAP | Solo compatible con ONTAP 
 |===
+
+NOTE: Todas las plataformas significa ONTAP, E-Series, StorageGRID, ONTAP Select y Cloud Volumes ONTAP.

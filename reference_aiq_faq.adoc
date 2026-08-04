@@ -95,11 +95,11 @@ NOTE: Los paneles creados con una lista de observación no se mostrarán en el w
 
 *¿Se muestran las relaciones de visualización del asesor digital para todos los sistemas ONTAP?*
 
-El asesor digital muestra las proporciones de los sistemas que ejecutan ONTAP 9.1 y versiones posteriores.
+Sí, Digital Advisor muestra los ratios de todos los sistemas ONTAP.
 
-*¿Cuál es el botón 'Con copias Snapshots' en el panel de eficiencia? *
+*¿Qué es el botón "Con copias de instantáneas" del panel de control de eficiencia?*
 
-El panel de eficiencia del asesor digital calcula la relación de reducción de datos en múltiples niveles, incluyendo cliente, sitio, grupo, clúster, y el nodo. Si activa la opción *With Snapshots copies*, el cálculo de la relación de reducción de datos incluye las siguientes tecnologías de eficiencia de almacenamiento:
+El panel de eficiencia de Digital Advisor calcula el ratio de reducción de datos en varios niveles, incluyendo cliente, sitio, grupo, clúster y nodo. Si activas la opción *Con copias de instantáneas*, el cálculo del ratio de reducción de datos incluye las siguientes tecnologías de eficiencia del almacenamiento:
 
 * Deduplicación
 * Compresión
@@ -108,21 +108,21 @@ El panel de eficiencia del asesor digital calcula la relación de reducción de 
 * Snapshot
 
 
-De forma predeterminada, el cálculo de la relación de reducción de datos no incluye la tecnología de eficiencia del almacenamiento de Snapshots.
+De forma predeterminada, el cálculo de la tasa de reducción de datos no incluye la tecnología de eficiencia del almacenamiento de instantáneas.
 
 *¿Qué son los datos físicos utilizados y los lógicos?*
 
 * Bloques físicos consumidos/datos físicos utilizados
 +
 ** Cantidad de espacio que se utiliza para los datos ahora (en lugar de reservarse para uso futuro)
-** Incluye el espacio utilizado por las copias de Snapshot agregadas
+** Incluye el espacio utilizado por las copias snapshot del agregado
 ** El espacio consumido/escrito realmente por el cliente
 
 
 * Datos lógicos totales utilizados
 +
 ** Muestra el tamaño lógico utilizado en el agregado.
-** Esto incluye volúmenes, clones y snapshots en el agregado.
+** Esto incluye volúmenes, clones e instantáneas en el agregado.
 ** El tamaño lógico se calcula según el uso físico (escrituras reales) y el ahorro que se obtiene en el agregado.
 ** No incluir el espacio reservado para uso futuro
 
@@ -149,35 +149,35 @@ Actualmente, el ratio de reducción de datos se calcula en función de la últim
 
 * ¿Cómo se calculan los ratios de nivel de cliente y los ahorros de reducción de datos?*
 
-La consola de eficiencia del almacenamiento a nivel de cliente ofrece la tasa de reducción de datos con y sin copias Snapshot para sistemas AFF o distintos de AFF, y se combinan en la base instalada del cliente para sistemas que ejecuten ONTAP 9,1 y versiones posteriores. Los parámetros necesarios para los siguientes cálculos se toman de ONTAP AutoSupport:
+El panel de control de eficiencia de almacenamiento a nivel de cliente ofrece el ratio de reducción de datos con y sin copias de instantáneas para sistemas AFF y no AFF, y se combinan en toda la base instalada de clientes. Los parámetros necesarios para los siguientes cálculos se toman de ONTAP AutoSupport:
 
-Sin copias snapshot (calculadas primero por agregado):
-
-|===
-| *Funcionamiento* | *Fórmula* 
-
-
-| Aggr Logical se utiliza sin copias snapshot | Tamaño lógico utilizado por volúmenes, clones y copias de Snapshot en el agregado: Tamaño lógico utilizado por las copias de Snapshot 
-
-
-| Agrupación física utilizada sin copias snapshot | Físico total usado (tamaño físico utilizado por las copias snapshot/Ratio de reducción de datos agregados) 
-
-
-| Ratio de eficiencia de clientes sin copias Snapshot | SUM [Aggr Logical used without snapshot copies for all aggregates and for all nodes of a customer] / Sum [Aggr Physical used without snapshot copies for all aggregates and for all nodes of a customer] : 1 
-|===
-Con copias Snapshot:
+Sin copias de instantáneas (calculado primero por cada Aggr):
 
 |===
 | *Funcionamiento* | *Fórmula* 
 
 
-| Tamaño lógico del cliente con copias Snapshot | Suma [Tamaño lógico utilizado por volúmenes, clones y copias snapshot de todos los agregados y de todos los nodos de un cliente] 
+| Aggr Logical utilizado sin copias de snapshot | Tamaño lógico utilizado por los volúmenes, clones y copias de snapshot en el agregado – Tamaño lógico utilizado por las copias de snapshot 
 
 
-| Tamaño físico del cliente utilizado con las copias Snapshot | Suma [Tamaño físico total utilizado para todas las agrupaciones y todos los nodos de un cliente] 
+| Aggr Physical utilizado sin copias de snapshot | Espacio físico total utilizado – (Espacio físico utilizado por las copias de snapshot / Aggregate Data Reduction Ratio) 
 
 
-| Ratio de eficiencia de clientes con copias Snapshot | Tamaño lógico del cliente con copias y clones Snapshot / Tamaño físico del cliente utilizado con copias y clones Snapshot : 1 
+| Índice de eficiencia de los clientes sin copias snapshot | Suma [Aggr Logical Used sin copias snapshot para todos los agregados y para todos los nodos de un cliente] / Suma [Aggr Physical Used sin copias snapshot para todos los agregados y para todos los nodos de un cliente]: 1 
+|===
+Con copias de instantáneas:
+
+|===
+| *Funcionamiento* | *Fórmula* 
+
+
+| Tamaño lógico del cliente con copias de snapshot | Suma [Tamaño lógico utilizado por los volúmenes, clones y copias de snapshot de todos los agregados y de todos los nodos de un cliente] 
+
+
+| Tamaño físico del cliente usado con copias snapshot | Suma [Tamaño físico total utilizado para todas las agrupaciones y todos los nodos de un cliente] 
+
+
+| Índice de eficiencia del cliente con copias snapshot | Tamaño lógico del cliente con copias snapshot y clones / Tamaño físico utilizado por el cliente con copias snapshot y clones: 1 
 |===
 Cálculos de tablas de eficiencia:
 
@@ -188,10 +188,10 @@ Cálculos de tablas de eficiencia:
 | El espacio físico utilizado por el cliente | Suma de espacio físico utilizado por la agrupación para todas las agrupaciones y todos los nodos de un cliente 
 
 
-| Tamaño lógico del cliente utilizado sin copias snapshot | Suma de tamaño lógico utilizado por volúmenes, clones y copias snapshot: Tamaño lógico utilizado por las copias snapshot para todos los agregados de todos los nodos de un cliente 
+| Tamaño lógico utilizado por el cliente sin copias de snapshot | Suma del tamaño lógico utilizado por los volúmenes, clones y copias de snapshot - tamaño lógico utilizado por las copias de snapshot para todos los agregados de todos los nodos de un cliente 
 
 
-| Tamaño lógico del cliente utilizado con las copias de Snapshot | Suma de Tamaño lógico usado por volúmenes, clones y copias snapshot en el agregado de todos los agregados de todos los nodos de un cliente 
+| Tamaño lógico del cliente usado con copias snapshot | Suma del tamaño lógico utilizado por los volúmenes, clones y copias de snapshot en el agregado, para todos los agregados de todos los nodos de un cliente 
 
 
 | Ahorro total de espacio | Espacio lógico total utilizado: Espacio físico total utilizado 
@@ -212,7 +212,7 @@ Cálculos de tablas de eficiencia:
 | Ahorro de FlexClone | Suma de (tamaño lógico utilizado por los volúmenes FlexClone, tamaño físico utilizado por los volúmenes FlexClone) de cada agregado de todos los nodos de un cliente 
 
 
-| Copias Snapshot Backup Ahorro | Suma de (tamaño lógico utilizado por las copias snapshot - Tamaño físico utilizado por las copias snapshot) de todos los agregados de todos los nodos de un cliente 
+| Copias Snapshot Backup Ahorro | Suma de (tamaño lógico utilizado por las copias de snapshot - tamaño físico utilizado por las copias de snapshot) de todos los agregados de todos los nodos de un cliente 
 |===
 * ¿Por qué agregar todos los ahorros individuales de reducción de datos no se suma al ahorro de reducción de datos? *
 
@@ -243,7 +243,7 @@ Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea 
 [[capacity]]
 == Capacidad
 
-*¿Cómo se calculan las capacidades en el asesor digital?* las capacidades en el asesor digital se calculan para el clúster y el nodo, excluyendo la raíz e incluyendo copias Snapshot
+*¿Cómo se calculan las capacidades en Digital Advisor?* Las capacidades en Digital Advisor se calculan para el clúster y el nodo, excluyendo la raíz e incluyendo las copias snapshot
 
 |===
 | *Capacidad* | *Calculado agregando cada agregado…* 
@@ -264,9 +264,9 @@ Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea 
 | Capacidad física (real) | Total físico utilizado de “AGGR-EFFICIENCY.XML” 
 
 
-| Capacidad lógica (efectiva) | Tamaño lógico utilizado por volúmenes, clones y copias snapshot en el agregado de “AGGR-EFFICIENCY.XML” 
+| Capacidad lógica (efectiva) | Tamaño lógico utilizado por los volúmenes, clones y copias de snapshot en el agregado "AGGR-EFFICIENCY.XML" 
 |===
-*Para nivel local (agregado con copias Snapshot)*
+*Para el nivel Local (agregado con copias de instantáneas)*
 
 |===
 | *Capacidad* | *Calculado usando…* 
@@ -284,9 +284,9 @@ Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea 
 | Capacidad física (real) | Total físico utilizado de “AGGR-EFFICIENCY.XML” 
 
 
-| Capacidad lógica (efectiva) | Tamaño lógico utilizado por volúmenes, clones y copias snapshot en el agregado de “AGGR-EFFICIENCY.XML” 
+| Capacidad lógica (efectiva) | Tamaño lógico utilizado por los volúmenes, clones y copias de snapshot en el agregado "AGGR-EFFICIENCY.XML" 
 |===
-*Para volumen (volumen con copias Snapshot)*
+*Para el volumen (volumen con copias de instantáneas)*
 
 |===
 
@@ -313,14 +313,14 @@ Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea 
 * Bloques físicos consumidos/capacidad física utilizada (real)
 +
 ** Cantidad de espacio que se utiliza para los datos ahora (en lugar de reservarse para uso futuro)
-** Incluye el espacio utilizado por las copias de Snapshot agregadas
+** Incluye el espacio utilizado por las copias snapshot del agregado
 ** El espacio consumido o escrito realmente por el cliente
 
 
 * Datos lógicos (efectivos) utilizados
 +
 ** Muestra el tamaño lógico utilizado en el agregado
-** El agregado incluye volúmenes, clones y copias Snapshot.
+** El agregado incluye volúmenes, clones y copias de snapshot.
 ** El tamaño lógico se calcula según el uso físico (escrituras reales) y el ahorro que se obtiene en el agregado.
 
 
@@ -331,7 +331,7 @@ NOTE: No incluye el espacio reservado para uso futuro.
 
 * Capacidad total de datos usados/capacidad utilizada (con reserva)
 +
-** La suma de todo el espacio usado o reservado en el agregado por volúmenes, metadatos o copias de Snapshot
+** La suma de todo el espacio utilizado o reservado en el agregado por volúmenes, metadatos o copias de instantáneas
 
 
 
@@ -341,7 +341,7 @@ NOTE: Incluye espacio reservado para volúmenes de tipo de garantía de archivo 
 
 *¿Cómo se calcula el pronóstico de capacidad?* el pronóstico de capacidad utiliza datos de capacidad utilizada durante el último año para calcular la tasa media de crecimiento semanal de un sistema. A continuación, esta tasa de cambio en el uso del sistema se extrapolará a partir de la capacidad utilizada actual, para demostrar cómo se espera que la utilización del sistema cambie en los próximos 6 meses (suponiendo que la capacidad útil total siga siendo la misma).
 
-*¿Por qué la capacidad utilizada añadida de cada volumen no coincide con la capacidad utilizada agregada a nivel de nodo?* la capacidad utilizada a nivel de nodo incluye espacio reservado por volúmenes, metadatos y copias Snapshot. También incluye espacio reservado para volúmenes: Tipo de garantía de archivo o volumen. Por lo tanto, es posible que ambos no coincidan.
+*¿Por qué la Capacidad utilizada sumada de cada volumen no coincide con la Capacidad utilizada agregada a nivel de nodo?* La Capacidad utilizada a nivel de nodo incluye el espacio reservado por los volúmenes, los metadatos y las copias de snapshot. También incluye el espacio reservado para los volúmenes, ya sea por garantía de archivo o de volumen. Por eso, puede que no coincidan.
 
 *Son capacidades mostradas en Digital Advisor base 2 o base 10?* todas las capacidades mostradas en Digital Advisor son base 2 (dividir por 1024) y representan capacidades en GIB/TIB. Las soluciones de almacenamiento de ONTAP y otros productos de NetApp también muestran el uso de capacidad en la base 2.
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: view_keystone_capacity_utilization.html 
-keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
+keywords: keystone, capacity utilization, service tiers, keystone subscription, keystone subscription, shares, disks 
 summary: Proporciona información sobre su uso de la capacidad con la suscripción a NetApp Keystone. 
 ---
 = Visualice la utilización de la capacidad con la suscripción a NetApp Keystone en Digital Advisor

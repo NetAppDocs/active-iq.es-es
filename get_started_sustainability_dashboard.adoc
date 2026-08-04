@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, netapp console 
 summary: Comience a utilizar el panel de sustentabilidad accediendo a la consola de NetApp o a Digital Advisor. 
 ---
 = Acceda al panel de Sostenibilidad en Digital Advisor

@@ -43,7 +43,7 @@ A continuación se muestran los tipos de informes que están disponibles en el A
 | Logística de entrega | Proporciona información sobre la logística de la entrega de productos y servicios. | Sí | Sí | No 
 
 
-| Resumen ejecutivo de evaluación de la salud | Proporciona información sobre varios KPI de Active IQ en formato PowerPoint (PPT), con diferentes KPI que se describen en diferentes diapositivas. | Sí | Sí | No 
+| Resumen ejecutivo de evaluación de la salud | Ofrece información sobre varios KPI de Digital Advisor en formato PowerPoint (PPT), con diferentes KPI descritos en distintas diapositivas. | Sí | Sí | No 
 
 
 | Inventario | Proporciona información acerca de la base de instalación para una lista de observación seleccionada, el cliente, el sitio, los niveles de grupo. Este informe se puede generar como descarga directa desde la página de detalles de inventario o desde la página Informes. | Sí | Sí | Sí 
