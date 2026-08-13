@@ -548,7 +548,6 @@
   <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>.</block>
   <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">Ejecute el libro de aplicaciones de Ansible (incluido como parte del informe de la deriva de configuración) para mitigar los goteos.</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">Se envía un correo electrónico con los detalles de la desviación de la configuración entre los sistemas seleccionados.</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">Proporciona información acerca de las nuevas funciones de la versión.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Novedades de Digital Advisor</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Las siguientes características y mejoras se han introducido en el Asesor digital:</block>
   <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">12 de enero de 2023</block>
@@ -979,7 +978,6 @@ Es posible que no pueda buscar ciertos sistemas o verlos en la página de invent
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Para obtener más información acerca del comando *ansible-playbook*, consulte <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> Y para ejecutar el libro de aplicaciones de Ansible en el modo de comprobación (ejecución en seco), consulte <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Información general del panel de sostenibilidad</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Una captura de pantalla que muestra el porcentaje de mitigación de carbono de los sitios y cómo editar este porcentaje.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@ La disponibilidad de las características bajo *ESTADO DEL ALMACENAMIENTO* depen
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">El panel de control de eficiencia de almacenamiento muestra la proporción de reducción de datos, el espacio lógico utilizado, el espacio físico utilizado y el total de datos ahorrados. Puedes ver la proporción de reducción de datos y el ahorro con y sin copias de snapshot para sistemas AFF, sistemas que no son AFF o ambos. El ahorro total de datos en el almacenamiento del cliente se puede ver por función de eficiencia, como la deduplicación de volúmenes, la compresión de volúmenes, la compactación, los volúmenes FlexClone y las copias de snapshot. Puedes ver los 5 sistemas de almacenamiento con la mejor proporción de eficiencia. También puedes ver la eficiencia de SAN y NAS sin copias de snapshot a nivel de nodo para sistemas ONTAP, incluidos AFF A-Series, AFF C190, All SAN Array y FAS500.</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Puedes ver los riesgos relacionados con la creación y retención de instantáneas y los riesgos de ONTAP FPolicy, y luego tomar medidas para solucionarlos.</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Consulta las recomendaciones de actualización del firmware de almacenamiento, el firmware de SP/BMC, los archivos del sistema y los archivos de seguridad.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de obsolescencia de Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">La función «Config Drift» dejará de estar disponible en Digital Advisor en septiembre de 2026.</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Descubre las nuevas funciones y mejoras en Digital Advisor.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
 </blocks>
