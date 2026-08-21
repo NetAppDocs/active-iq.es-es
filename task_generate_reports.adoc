@@ -24,8 +24,8 @@ Puede generar informes inmediatamente o programar un informe para que se genere 
 
 
 .Pasos
-. En el panel izquierdo, haga clic en *Informes*.
-. Haga clic en *Crear informe* para generar un nuevo informe.
+. En el panel de la izquierda, selecciona *Reports*.
+. Selecciona *Crear informe* para generar un nuevo informe.
 +
 Puede generar un informe inmediatamente o programar el informe para que se genere semanalmente o mensualmente.
 
@@ -39,18 +39,18 @@ Puede generar un informe inmediatamente o programar el informe para que se gener
  a| 
 . Seleccione el tipo de informe y proporcione los valores solicitados para el informe.
 . Seleccione el formato del informe.
-. Haga clic en *Enviar*.
+. Selecciona *Submit*.
 
 
 
 NOTE: El informe se guarda en Digital Advisor durante 3 meses.
  a| 
-. Haga clic en la ficha *Informe de programación*.
+. Selecciona la pestaña *Programar informe*.
 . Seleccione el tipo de informe y proporcione los valores solicitados para el informe.
 . Seleccione el formato del informe.
 . Seleccione la frecuencia del informe.
 . Seleccione la fecha de inicio y la fecha de finalización del informe.
-. Haga clic en *Enviar*.
+. Selecciona *Submit*.
 
 
 

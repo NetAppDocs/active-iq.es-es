@@ -50,9 +50,9 @@ Los atributos de una plantilla de deriva de configuración son editables y los s
 Mediante una expresión regular, un usuario puede crear un informe de desviación de configuración que incluya desviaciones derivadas de la nomenclatura de volúmenes, agregados, clústeres, etc. Por ejemplo, si se menciona una expresión regular *aggr-name** para el atributo *Nombre* para la sección *AGGR-INFO.XML* en el grupo *AGREGADO*, entonces los valores del atributo sin el prefijo *aggr-name* se marcan como una deriva cuando se genera el informe de deriva de la configuración.
 
 .Pasos
-. En el panel izquierdo, haga clic en *Config Drift*.
-. Haga clic en *Agregar plantilla*.
+. En el panel de la izquierda, selecciona *Config Drift*.
+. Selecciona *Add Template*.
 . Proporcione los valores solicitados.
 . Opcional: Puede personalizar la plantilla editando los grupos o eliminando los grupos no necesarios para una plantilla.
-. Haga clic en *Agregar plantilla*.
+. Selecciona *Add Template*.
 

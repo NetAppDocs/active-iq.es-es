@@ -21,8 +21,8 @@ Ahora los clientes pueden ahorrar tiempo y esfuerzo al permitir que Control Towe
 Los clientes recibirán notificaciones y alertas oportunas sobre el estado de las actualizaciones de firmware, con opciones para habilitar AutoSupport y la configuración de actualización automática.
 
 .Pasos
-. En la página del panel de control, haga clic en *Otras recomendaciones* en el widget *Asesor de actualizaciones*.
-. Haga clic en *Ver Recomendaciones* para ver la lista de recomendaciones.
-. En la columna *Update Status*, haz clic en *See Progress* para ver los clusters que son elegibles para una actualización.
-. En caso de cualquier problema, haga clic en los enlaces respectivos para ver los pasos para mitigar los problemas.
+. En la página del panel de control, selecciona *Otras recomendaciones* en el widget *Upgrade Advisor*.
+. Selecciona *Ver recomendaciones* para ver la lista de recomendaciones.
+. En la columna *Estado de la actualización*, selecciona *Ver progreso* para ver los clústeres que cumplen los requisitos para una actualización.
+. En caso de que surja algún problema, selecciona los enlaces correspondientes para consultar los pasos que debes seguir para solucionar los problemas.
 

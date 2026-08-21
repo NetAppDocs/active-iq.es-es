@@ -1,0 +1,125 @@
+---
+sidebar: sidebar 
+permalink: task_view_value_insights_dashboard.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: Consulta el panel de control Value Insights para acceder a información sobre el estado, el ahorro, la estabilidad y la seguridad de tu sistema ONTAP. 
+---
+= Ver el panel de control de Value Insights
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Consulta el panel de control Value Insights para acceder a información sobre el estado, el ahorro, la estabilidad y la seguridad de tu sistema ONTAP.
+
+.Pasos
+. Selecciona *Customer Success > Value Insights*.
+. En la sección *Estado general y cómo NetApp puede ayudar*, puedes consultar la puntuación del estado general de tu sistema ONTAP como porcentaje. Esta puntuación se basa en los KPI.
++
+** Selecciona *Más recomendaciones* para ver todos los KPI:
++
+[cols="2*"]
+|===
+| KPI | Descripción 
+
+
+| Sugerencias para operaciones sostenibles | Ofrece recomendaciones para un funcionamiento sostenible del sistema. 
+
+
+| Resuelve los riesgos de refuerzo de seguridad en tus clústeres | Evalúa los riesgos de seguridad asociados a cada sistema. 
+
+
+| Planifica las actualizaciones del firmware y de los archivos del sistema | Comprueba si los sistemas tienen instalado el firmware más reciente y sugiere actualizaciones. Esto incluye una vista detallada para planificar las actualizaciones de firmware. 
+
+
+| Revisa las opciones de renovación tecnológica (fin de vida útil) | Evalúa la necesidad de actualizaciones tecnológicas. 
+
+
+| Habilitar AutoSupport (ASUP) en tus clústeres | Supervisa el estado de AutoSupport (ASUP) en los clústeres. 
+
+
+| Planifica una actualización a la última versión recomendada de ONTAP | Evalúa la versión del software de los sistemas y recomienda actualizaciones. 
+
+
+| Evalúa las opciones de ampliación del almacenamiento | Evalúa la eficiencia actual del almacenamiento y las necesidades de ampliación. Ofrece previsiones sobre los requisitos de capacidad futuros. 
+
+
+| Renovaciones de contratos | Evalúa el estado de los contratos de soporte y ofrece recomendaciones para renovaciones. 
+
+
+| Supervisa proactivamente para evitar tiempos de inactividad no planificados en el clúster | Proporciona el número de paradas no planificadas en todos los clústeres. 
+|===
+** Selecciona «*¿Cómo se calcula esto?*» para ver los cálculos específicos de los KPI. Desplázate hacia abajo para ver los detalles del sistema, incluyendo: puntuación completa, puntuación parcial y puntuación cero.
+
+
+. Selecciona *NetApp delivered savings and stability* para ver los detalles sobre tu retorno de la inversión (ROI).
++
+[cols="2*"]
+|===
+| Característica | Descripción 
+
+
+| image:edit_icon.png["Imagen del botón de edición"] | Selecciona para editar el coste o gasto por TiB. 
+
+
+| Valor de eficiencia de almacenamiento | Selecciona para abrir el panel de control de ROI. 
+
+
+| Valor del tiempo de actividad del almacenamiento | Consulta el valor y selecciona el valor de Número de sistema para obtener más detalles. 
+
+
+| ID de ASUP | Si procede, selecciona esta opción para ver el problema o el evento que está provocando el tiempo de inactividad o una interrupción. 
+
+
+| Riesgos detectados y evitados | Selecciona para ver los datos asociados de los últimos 3 meses. 
+
+
+| Ver historial de bienestar | Selecciona para ver un resumen. 
+
+
+| Valor del riesgo | Selecciona cada valor de riesgo para acceder a los datos correspondientes de los últimos 3 meses. 
+|===
+. Selecciona la sección *Seguridad y planificación para el futuro* para consultar información sobre seguridad.
++
+[cols="2*"]
+|===
+| Característica | Descripción 
+
+
+| Amenazas de seguridad neutralizadas | Selecciona para ver los detalles de seguridad. 
+
+
+| Problemas de seguridad resueltos | Selecciona para abrir la página de historial de bienestar. 
+
+
+| Actualizaciones automáticas de firmware | Selecciona para abrir los tipos de firmware y los detalles de la actualización. 
+
+
+| Modelo de IA/ML para la protección autónoma contra el ransomware | Selecciona para abrir los detalles sobre el modelo. 
+
+
+| Ahorros previstos gracias a la mejora de la eficiencia  a| 
+** Selecciona el icono image:edit_icon.png["Imagen del botón de edición"] situado junto a Forecasted storage efficiency savings para editar el coste por PiB.
+** Selecciona el porcentaje de margen de capacidad de almacenamiento para abrir la página Capacidad y eficiencia.
+** Selecciona *Planificación del ciclo de vida*.
+** Selecciona los valores de las herramientas para abrir las páginas de detalles correspondientes de ONTAP: Actualización del sistema, Ampliación del almacenamiento y Renovaciones de soporte.
++
+
+NOTE: Esta función es exclusiva de los sistemas ONTAP y no está disponible para plataformas como Cloud Volumes ONTAP, ONTAP Select, StorageGRID o E-Series.
+
+
+
+|===
+. Selecciona *How to maximize infrastructure value* para ver información sobre las capacidades activas y la optimización disponible.
++
+** Selecciona *Funcionalidades activas* para ver los detalles del sistema.
+** Selecciona *Oportunidades de optimización disponibles* para ver las sugerencias.
+
+
+

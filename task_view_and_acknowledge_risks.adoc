@@ -19,19 +19,19 @@ summary: Ofrece información para ver y analizar el estado de su sistema de alma
 Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas y mitigar manualmente el riesgo.
 
 .Pasos
-. Haga clic en el widget wellness Attribute del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.
+. Selecciona el widget de atributos de bienestar en el panel de control o selecciona *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.
 . Consulte las *acciones* y *riesgos* asociadas con el atributo wellness.
-. Haga clic en *acciones* para ver los riesgos asociados con las acciones, haga clic en *riesgos* para ver todos los riesgos, o haga clic en *sistemas afectados* para ver los sistemas que requieren atención.
-. Haga clic en el riesgo para ver el resumen de riesgos.
-. Haga clic en *Ack* para confirmar el riesgo.
+. Selecciona *Acciones* para ver los riesgos asociados a las acciones, selecciona *Riesgos* para ver todos los riesgos o selecciona *Sistemas afectados* para ver los sistemas que requieren atención.
+. Selecciona el riesgo para ver el resumen del riesgo.
+. Selecciona *Ack* para reconocer el riesgo.
 +
 La información detallada del resumen de riesgos se proporciona junto con acciones correctivas que deben realizarse manualmente para mitigar el riesgo.
 
-. Si no desea o no puede mitigar el riesgo en este momento, proporcione los valores para los campos y haga clic en *reconocer*.
+. Si no deseas o no puedes mitigar el riesgo en este momento, introduce los valores en los campos y selecciona *Acknowledge*.
 +
 El riesgo se añadirá a los riesgos reconocidos.
 
 
 
 
-NOTE: Si ya no desea que se reconozca un riesgo, puede ignorar el riesgo haciendo clic en *un-Ack* y siguiendo los mismos pasos.
+NOTE: Si ya no quieres que se reconozca un riesgo, puedes ignorar el riesgo seleccionando *Desreconocer* y siguiendo los mismos pasos.

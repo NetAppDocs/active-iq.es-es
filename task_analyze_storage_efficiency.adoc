@@ -27,7 +27,7 @@ El panel de control de eficiencia de almacenamiento muestra la proporción de re
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Pasos
-. En el panel izquierdo, haga clic en *capacidad y eficiencia*.
+. En el panel de la izquierda, selecciona *Capacidad y eficiencia*.
 +
 De forma predeterminada, se selecciona la ficha *capacidad*.
 
@@ -37,13 +37,13 @@ De forma predeterminada, se selecciona la ficha *capacidad*.
 +
 Para los sistemas ONTAP, la información sobre la capacidad BRUTA está disponible en ClusterViewer.
 
-.. Haga clic en *Añadir capacidad* para enviar una notificación a NetApp o a su partner para añadir capacidad.
 
 
+. Selecciona *Add Capacity* para enviar una notificación a NetApp o a tu socio para añadir capacidad.
 . Vea la eficiencia del almacenamiento y el ahorro de datos del sistema de almacenamiento.
 +
-.. Si la proporción de eficiencia del almacenamiento de su sistema de almacenamiento es superior a la media en la proporción de eficiencia del almacenamiento, haga clic en *Comparta su caso de cliente* para informarnos de las mejores prácticas seguidas.
-.. Si la tasa de eficiencia del almacenamiento de su sistema de almacenamiento es inferior a la tasa media de eficiencia del almacenamiento, haga clic en *Póngase en contacto con nosotros* para informarnos de las configuraciones de su sistema de almacenamiento.
+.. Si el índice de eficiencia de almacenamiento de tu sistema de almacenamiento es superior al índice medio de eficiencia de almacenamiento, selecciona *Comparte tu historia de éxito* para contarnos cuáles son las mejores prácticas que has seguido.
+.. Si el índice de eficiencia de almacenamiento de tu sistema de almacenamiento es inferior al índice medio de eficiencia de almacenamiento, selecciona *Contact Us* para contarnos las configuraciones de tu sistema de almacenamiento.
 
 
 

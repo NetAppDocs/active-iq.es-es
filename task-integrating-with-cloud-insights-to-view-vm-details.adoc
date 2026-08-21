@@ -29,8 +29,8 @@ Las ventajas de esta integración son:
 NOTE: Esta función solo está disponible para contratos de actualización de SupportEdge Advisor, SupportEdge Expert y Asesor digital.
 
 .Pasos
-. En el widget *Inventario*, haga clic en *Máquinas virtuales* para ver los datos disponibles en Data Infrastructure Insights.
-. Haga clic en la ficha *Descripción general de la máquina virtual*.
-. Haga clic en el *recuento de hosts ESX* para ver información sobre el host.
-. Haga clic en el *Nombre de ESX* para navegar a Data Infrastructure Insights para ver más información.
+. En el widget *Inventario*, selecciona *Máquinas virtuales* para ver los datos disponibles en Data Infrastructure Insights.
+. Selecciona la pestaña *Resumen de la máquina virtual*.
+. Selecciona *Count of ESX Hosts* para ver información sobre el host.
+. Selecciona el *nombre del ESX* para navegar a Data Infrastructure Insights y ver más información.
 

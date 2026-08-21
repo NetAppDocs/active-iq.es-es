@@ -27,13 +27,13 @@ Compartir una plantilla ahorra el tiempo y el esfuerzo necesarios para crear y p
 
 
 .Pasos
-. En el panel izquierdo, haga clic en *Config Drift*.
-. Haga clic en image:clone_icon.png["clonar"] para hacer una copia de la plantilla.
-. Haga clic en image:share_icon.png["share"] e introduzca los nombres de usuario con los que desea compartir la plantilla.
+. En el panel de la izquierda, selecciona *Config Drift*.
+. Selecciona image:clone_icon.png["clonar"] para crear una copia de la plantilla.
+. Selecciona image:share_icon.png["share"] e introduce los nombres de usuario con los que quieres compartir la plantilla.
 +
 
 NOTE: Si introduce la dirección de correo electrónico del usuario en lugar del nombre de usuario, la plantilla no se compartirá.
 
-. Haga clic en image:edit_icon.png["editar"] para actualizar los detalles de la plantilla.
-. Haga clic en image:delete_icon.png["eliminar"] para eliminar la plantilla.
+. Selecciona image:edit_icon.png["editar"] para actualizar los datos de la plantilla.
+. Selecciona image:delete_icon.png["eliminar"] para eliminar la plantilla.
 

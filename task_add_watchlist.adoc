@@ -22,11 +22,11 @@ Puede crear una lista de seguimiento para acceder a un conjunto de sistemas de a
 NOTE: Puede agregar un máximo de 15.000 sistemas de almacenamiento bajo una categoría y 500 sistemas de almacenamiento bajo un número de serie.
 
 .Pasos
-. En el panel izquierdo, haga clic en *Listas de comprobaciones*
+. En el panel de la izquierda, selecciona *Listas de seguimiento*
 +
 Aparece la pantalla *Administrar lista de observación*.
 
-. Haga clic en *Crear lista de observación*.
+. Selecciona *Crear lista de seguimiento*.
 . Introduzca un nombre para la lista de observación.
 . Seleccione una de las siguientes opciones para agregar sistemas de almacenamiento a la lista de seguimiento:
 +
@@ -38,7 +38,7 @@ NOTE: La opción *Suscripciones de Keystone* te permite incluir cualquier númer
 ** *Número de serie*: Esta opción le permite incluir inventario en su lista de seguimiento basado en números de serie especificados. Puede introducir el número de serie directamente o seleccionar números de serie de categorías como cliente, sitio o grupo.
 
 
-. Haga clic en *Crear lista de observación*.
+. Selecciona *Crear lista de seguimiento*.
 +
 Aparecerá el panel de control de la lista de observación.
 

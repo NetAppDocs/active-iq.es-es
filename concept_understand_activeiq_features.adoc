@@ -38,6 +38,7 @@ Las siguientes son algunas de las características de Digital Advisor:
 * Proporcionar información e información entre pilas que sean beneficiosas para la solución de problemas, las evaluaciones de actualización, la validación de soluciones y la migración.
 * Compruebe la compatibilidad de los hosts y proporcione recomendaciones de actualización para los sistemas operativos del host, los controladores y .
 * Llega exactamente a lo que quieres encontrar de una manera más inteligente y rápida.
+* link:concept_value_insights.html["Descubre información valiosa"], que ofrece información general sobre el estado, el ahorro, la estabilidad y la seguridad de tu sistema ONTAP.
 
 
 

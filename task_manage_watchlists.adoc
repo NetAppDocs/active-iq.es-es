@@ -19,11 +19,11 @@ summary: Proporciona información para administrar listas de observación.
 Puede ver el panel de control de diferentes listas de observación, editar los detalles de una lista de observación existente y eliminar una lista de observación.
 
 .Pasos
-. En el panel izquierdo, haga clic en *Listas de comprobaciones*.
+. En el panel de la izquierda, selecciona *Listas de seguimiento*.
 +
 Aparece la pantalla *Administrar lista de observación*.
 
-. Haga clic en el nombre de la lista de observación para ver los detalles del panel de control de la lista de observación.
-. Haga clic en *Editar* para actualizar los detalles de la lista de observación.
-. Haga clic en *Eliminar* para eliminar la lista de observación.
+. Selecciona el nombre de la lista de seguimiento para ver los detalles del panel de control de la lista de seguimiento.
+. Selecciona *Editar* para actualizar los detalles de la lista de seguimiento.
+. Selecciona *Eliminar* para eliminar la lista de seguimiento.
 

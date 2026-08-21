@@ -40,7 +40,7 @@ Para iniciar sesión en el asesor digital, puede usar sus credenciales del sitio
 
 .Pasos
 . Abra un explorador web y vaya a link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^] página de inicio de sesión.
-. Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
+. Introduce tu nombre de usuario y contraseña y selecciona *Sign In*.
 . Desde la navegación izquierda, seleccione *Sostenibilidad*.
 +
 image:sustainability_dashboard.png["Una captura de pantalla de la interfaz de usuario que ofrece información general del panel de sostenibilidad."]

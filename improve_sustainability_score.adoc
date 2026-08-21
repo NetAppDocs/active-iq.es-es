@@ -58,9 +58,7 @@ image:recommended_actions.png["Una captura de pantalla que muestra la lista de a
 ** Si planea abordar las acciones más tarde, seleccione *Más tarde*.
 +
 *** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
-*** También puede revisar las acciones pospuestas en cualquier momento y hacer clic en *Considerar* para moverlas a la pestaña *Acciones recomendadas*.
- +
-image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
+*** También puedes revisar las acciones pospuestas en cualquier momento y seleccionar *Consider* para trasladarlas a la pestaña *Recommended actions*. + image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
 
 
 
@@ -84,9 +82,7 @@ image:recommended_actions.png["Una captura de pantalla que muestra la lista de a
 ** Si planea abordar las acciones más tarde, seleccione *Más tarde*.
 +
 *** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
-*** También puede revisar las acciones pospuestas en cualquier momento y hacer clic en *Considerar* para moverlas a la pestaña *Acciones recomendadas*.
- +
-image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
+*** También puedes revisar las acciones pospuestas en cualquier momento y seleccionar *Consider* para trasladarlas a la pestaña *Recommended actions*. + image:actions_for_later.png["Una captura de pantalla que muestra las acciones recomendadas con la opción Considerar."]
 
 
 
@@ -108,7 +104,7 @@ Puede seguir estos pasos para mejorar la puntuación de sostenibilidad a nivel d
 --
 . Vaya a *Sostenibilidad* desde la categoría *Salud* disponible en la navegación izquierda de la Consola.
 . Vaya a la tabla *Sistemas*.
-. Haga clic en el número de acciones de la columna *Acciones recomendadas* para el clúster de destino.
+. Selecciona el número de acciones de la columna *Recommended actions* para el clúster de destino.
 +
 image:recommended_actions_cluster.png["Una captura de pantalla que muestra el número de acciones."]
 
@@ -118,7 +114,7 @@ image:recommended_actions_cluster.png["Una captura de pantalla que muestra el n�
 image:recommended_actions_list.png["Una captura de pantalla que proporciona los detalles de las acciones recomendadas con la opción de corrección y posterior."]
 
 ** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
-** También puede revisar las acciones pospuestas en cualquier momento y hacer clic en *Considerar* para moverlas a la pestaña *Acciones recomendadas*.
+** También puedes revisar las acciones pospuestas en cualquier momento y seleccionar *Consider* para trasladarlas a la pestaña *Recommended actions*.
 
 
 
@@ -132,7 +128,7 @@ TIP: Puede agregar o eliminar los parámetros ambientales en la tabla *Sistemas*
 . Vaya a *Sostenibilidad* disponible en la navegación izquierda del panel de control de Digital Advisor .
 . Vaya a la pestaña *Acciones recomendadas*.
 . Vaya a la tabla *Sistemas*.
-. Haga clic en el número de acciones de la columna *Acciones recomendadas* para el clúster de destino.
+. Selecciona el número de acciones de la columna *Recommended actions* para el clúster de destino.
 +
 image:recommended_actions_cluster.png["Una captura de pantalla que muestra el número de acciones."]
 
@@ -142,7 +138,7 @@ image:recommended_actions_cluster.png["Una captura de pantalla que muestra el n�
 image:recommended_actions_list.png["Una captura de pantalla que proporciona los detalles de las acciones recomendadas con la opción de corrección y posterior."]
 
 ** Si selecciona *Más tarde*, mueve la acción recomendada seleccionada a la pestaña *Acciones para más tarde*. La acción seleccionada se pospondrá durante 30 días. Después de 30 días, esta acción se moverá a la pestaña *Acciones recomendadas*.
-** También puede revisar las acciones pospuestas en cualquier momento y hacer clic en *Considerar* para moverlas a la pestaña *Acciones recomendadas*.
+** También puedes revisar las acciones pospuestas en cualquier momento y seleccionar *Consider* para trasladarlas a la pestaña *Recommended actions*.
 
 
 

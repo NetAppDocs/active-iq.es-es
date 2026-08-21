@@ -20,15 +20,15 @@ Los gráficos de rendimiento permiten analizar el rendimiento de sus dispositivo
 
 Tiene una opción para establecer preferencias; por ejemplo, puede ver un gráfico de tres nodos o dos gráficos de tres nodos.
 
-Cuando se muestra el gráfico por primera vez, se preselecciona una ficha de 1 semana y presenta datos de una semana en formato gráfico para facilitar la comprensión de grandes cantidades de datos y su relación entre las distintas series de datos. Si desea restablecer el intervalo de fechas, por ejemplo, puede hacer clic en la ficha de 1 mes y seleccionar fechas en el calendario.
+Cuando se muestra el gráfico por primera vez, la pestaña «1 semana» aparece preseleccionada y presenta los datos correspondientes a una semana en formato gráfico para que sea más fácil entender grandes cantidades de datos y la relación entre las diferentes series de datos. Si quieres restablecer el intervalo de fechas, por ejemplo, puedes seleccionar la pestaña «1 mes» y elegir las fechas en el calendario.
 
 También tiene la opción de ampliar el gráfico de rendimiento; se muestran los puntos de datos individuales.
 
 video::fWrHYX17xT8[youtube,width=848,height=480]
 .Pasos
-. En el Panel de control, haga clic en *rendimiento*.
+. En el panel de control, selecciona *Rendimiento*.
 +
-Para sistemas ONTAP, puede hacer clic en la ficha *nodo* para ver el rendimiento de un solo nodo de un clúster ONTAP, hacer clic en la ficha *nivel local* para ver el rendimiento del nivel local o hacer clic en la ficha *volumen* para ver el rendimiento del volumen. De manera predeterminada, se muestra el rendimiento del clúster.
+En el caso de los sistemas ONTAP, puedes seleccionar la pestaña *Nodo* para ver el rendimiento de un único nodo de un clúster ONTAP, seleccionar la pestaña *Nivel local* para ver el rendimiento del nivel local, o seleccionar la pestaña *Volumen* para ver el rendimiento del volumen. De forma predeterminada, se muestra el rendimiento del clúster.
 
 +
 Para los sistemas E-Series, solo puede ver los gráficos a nivel de controladora.

@@ -31,10 +31,10 @@ Antes de actualizar el firmware de AFF y FAS con Ansible, debe:
 
 
 .Pasos
-. Haga clic en cualquier widget de bienestar del panel o haga clic en *Ver todas las acciones* para ver una lista de todas las acciones y riesgos.
-. Haga clic en *actualización del firmware* para ver todos los riesgos de actualización del firmware.
-. Haga clic en *Actualizar AFF y firmware de FAS* para ver todos los paquetes de actualización disponibles o haga clic en image:update_ansible.png["Actualice Ansible"] junto a cada riesgo para actualizar el paquete específico de ese riesgo.
-. Haga clic en *Descargar* para descargar los archivos zip y actualizar el sistema de almacenamiento.
+. Selecciona cualquier widget de bienestar en el panel de control o selecciona *Ver todas las acciones* para ver una lista de todas las acciones y riesgos.
+. Selecciona *Actualización de firmware* para ver todos los riesgos de actualización de firmware.
+. Selecciona *Update AFF and FAS Firmware* para ver todos los paquetes de actualización disponibles o selecciona image:update_ansible.png["Actualice Ansible"] junto a cada riesgo para actualizar el paquete específico de ese riesgo.
+. Selecciona *Descargar* para descargar los archivos zip y actualizar tu sistema de almacenamiento.
 +
 El archivo zip contiene lo siguiente:
 

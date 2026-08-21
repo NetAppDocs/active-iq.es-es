@@ -21,11 +21,11 @@ Puede visualizar los riesgos del sistema de almacenamiento que ocurrieron en los
 Estos riesgos se clasifican en cuatro tipos de riesgos: *Sin resolver*, *Nuevo*, *resuelto* y *reconocido*. Se representan con colores diferentes. El resumen de estos riesgos se representa a través de un gráfico *Historial de riesgos*.
 
 .Pasos
-. En el panel de control, en el panel *Wellness*, haga clic en *Ver todas las acciones*.
-. Haga clic en *Historial de bienestar*.
-. En el gráfico *Historial de riesgos*, haga clic en la categoría para la que desea ver el historial de riesgos.
+. En el panel de control, en el panel *Wellness*, selecciona *View All Actions*.
+. Selecciona *Historial de bienestar*.
+. En el gráfico *Historial de riesgos*, selecciona la categoría cuyo historial de riesgos quieras consultar.
 +
-Cuando se pasa el ratón por encima de las barras de colores, se muestra información sobre el número de riesgos de cada categoría. Al hacer clic en la categoría de riesgo correspondiente, la información se muestra en la tabla * Información de riesgo*.
+Al pasar el cursor por encima de las barras de color, se muestra información sobre el número de riesgos en cada categoría. Al seleccionar la categoría de riesgo correspondiente, la información se muestra en la tabla *Información sobre riesgos*.
 
 +
 También puede descargar un resumen de riesgos en una hoja de Excel.

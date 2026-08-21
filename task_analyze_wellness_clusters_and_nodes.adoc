@@ -25,6 +25,6 @@ Puede ver visualizaciones o representaciones gráficas de la configuración fís
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .Pasos
 . En el widget *Inventario*, seleccione el clúster o nodo (host) que desee.
-. En el nivel de clúster o nodo, haga clic en *ClusterViewer* junto al widget *Configuración*.
-. Haga clic en la ficha *visualización* para ver una representación gráfica del clúster.
+. A nivel de clúster o de nodo, selecciona *ClusterViewer* junto al widget *Configuración*.
+. Selecciona la pestaña *Visualización* para ver una representación gráfica del clúster.
 

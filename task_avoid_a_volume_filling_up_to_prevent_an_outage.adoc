@@ -16,10 +16,10 @@ summary: Proporciona información sobre cómo evitar que se llene un volumen par
 
 
 [role="lead"]
-Cuando inicie sesión en Digital Advisor y observe la insignia roja en el widget *Configuración*. Al hacer clic en el widget, puede observar que el volumen está lleno al 98 % y que esto puede provocar una interrupción del servicio. La solución de este problema evitaría el llenado de volúmenes, lo que provocaría que se bloquee y falle la lectura, lo que provocaría que las aplicaciones accedan a él.
+Al iniciar sesión en Digital Advisor, observas que aparece una insignia roja en el widget *Configuración*. Al seleccionar el widget, ves que el volumen está lleno al 98 % y que esto podría provocar una interrupción del servicio. Solucionar este problema evitaría que el volumen se llenara por completo, lo que lo convertiría en de solo lectura y provocaría que las aplicaciones que acceden a él se bloqueen y dejen de funcionar.
 
 .Pasos
 . Inicie sesión en Digital Advisor.
-. Haga clic en *acciones* en el widget *Configuración*.image:Configuration_image 1 prevent an outage.png["Widget de configuración"]
-. Haga clic en la ficha *riesgos únicos*. Al hacer clic en el enlace *Acción Correctiva*, puede cambiar los umbrales de advertencia o asignar más espacio al volumen.image:Risk summary_image 2 prevent an outage.png["Resumen de riesgos"]
+. Selecciona *Acciones* en el widget *Configuración*. image:Configuration_image 1 prevent an outage.png["Widget de configuración"]
+. Selecciona la pestaña *Riesgos únicos*. Al seleccionar el enlace *Medida correctiva*, puedes cambiar los umbrales de advertencia o asignar más espacio al volumen. image:Risk summary_image 2 prevent an outage.png["Resumen de riesgos"]
 

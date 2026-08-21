@@ -21,14 +21,14 @@ Identifique de manera proactiva los sistemas que alcanzan los límites de capaci
 En ONTAP, se pueden ver sistemas que han superado el 90% de su capacidad o que deben superar el 90% de su capacidad en 1, 3 y 6 meses. En StorageGRID, se pueden ver sistemas que han superado el 70% de su capacidad o que deben superar el 70% de su capacidad en 1, 3 y 6 meses.
 
 .Pasos
-. En el widget *Planificación*, haz clic en *Ampliación de almacenamiento*.
+. En el widget *Planning*, selecciona *Storage Expansion*.
 +
 De forma predeterminada, se muestran los sistemas de ONTAP que han superado el 90 % de su capacidad o que se acercan al 90 %.
 
-. Haga clic en la pestaña *StorageGRID* para ver los sistemas StorageGRID que han superado el 70% de capacidad o que están cerca del 70% de capacidad.
+. Selecciona la pestaña *StorageGRID* para ver los sistemas StorageGRID que han superado el 70 % de su capacidad o que se están acercando al 70 % de su capacidad.
 . Seleccione los sistemas para los que desea aumentar la capacidad.
-. Haga clic en *Ver pronóstico de capacidad* para ver el pronóstico de capacidad para los próximos 6 meses.
-. Haga clic en *Solicitar para agregar capacidad*.
+. Selecciona *Ver previsión de capacidad* para consultar la previsión de capacidad para los próximos 6 meses.
+. Selecciona *Request to Add Capacity*.
 . De manera opcional, introduzca cualquier comentario.
-. Haz clic en *Enviar* para enviar la solicitud al equipo de almacenamiento de NetApp para que te ayude con la ampliación del almacenamiento de los sistemas seleccionados.
+. Selecciona *Enviar* para enviar la solicitud al equipo de almacenamiento de NetApp para que te ayude con la ampliación del almacenamiento de los sistemas seleccionados.
 

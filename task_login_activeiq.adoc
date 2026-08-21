@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor muestra los sistemas con un contrato de soporte válido. Si los contratos caducan, se da un período de gracia de 90 días en el que los sistemas continúan siendo visibles. A partir de entonces, los sistemas no se pueden buscar ni son visibles en Digital Advisor.
 
-. Introduzca su nombre de usuario y contraseña y haga clic en *Iniciar sesión*.
+. Introduce tu nombre de usuario y contraseña y selecciona *Sign In*.
 

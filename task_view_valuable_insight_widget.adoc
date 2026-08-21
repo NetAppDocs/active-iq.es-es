@@ -20,8 +20,8 @@ El widget *preciosing Insights* proporciona información sobre el número de cas
 
 video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .Pasos
-. En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.
-. Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.
+. En el widget *Inventario*, selecciona *Sistemas* para ver la información del sistema de todas las plataformas o selecciona el tipo de plataforma y luego selecciona *Sistemas* para ver los sistemas específicos de esa plataforma.
+. Selecciona el nodo o el clúster para ver información detallada sobre el sistema.
 +
 El widget *valiosa Insights* está disponible en el panel.
 

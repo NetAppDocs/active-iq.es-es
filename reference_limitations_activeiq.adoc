@@ -51,7 +51,7 @@ El widget AutoSupport no proporciona alertas para las búsquedas del clúster y 
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == El widget AutoSupport no puede profundizar en los detalles de AutoSupport de nivel de serie
 
-En la página AutoSupport Reporting, al hacer clic en cualquiera de los estados, los sistemas que han dejado de enviar recientemente o los sistemas que tienen AutoSupport desactivado no se accede a la pantalla de comprobación de estado.
+En la página de informes de AutoSupport, al seleccionar cualquiera de los estados, los sistemas que han dejado de enviar datos recientemente o los sistemas que tienen desactivado AutoSupport, no se navega a la pantalla Health Check.
 
 
 

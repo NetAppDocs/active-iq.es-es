@@ -183,6 +183,12 @@ sidebar:
         url: "/concept_report_types.html"
       - title: Generar o programar un informe
         url: "/task_generate_reports.html"
+    - title: Descubre información valiosa
+      entries:
+      - title: Conoce más sobre Value Insights
+        url: "/concept_value_insights.html"
+      - title: Ver el panel de control de Value Insights
+        url: "/task_view_value_insights_dashboard.html"
   - title: Conocimiento y apoyo
     entries:
     - title: Regístrese para recibir soporte

@@ -27,10 +27,10 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 == Ver detalles del sistema
 
 .Pasos
-. En el widget *Inventario*, haga clic en *sistemas* para ver la información del sistema de todas las plataformas o haga clic en el tipo de plataforma y, a continuación, haga clic en *sistemas* para ver los sistemas específicos de esa plataforma.
-. Haga clic en el nodo o en el clúster para ver información detallada sobre el sistema.
-. Descargue el informe *Inventory* para ver los detalles del sistema en formato .xls.
-. Descargue el informe *Ansible Inventory* para ver los detalles del sistema en los formatos .yml y .ini a nivel de región o sitio.
+. En el widget *Inventario*, selecciona *Sistemas* para ver la información del sistema de todas las plataformas o selecciona el tipo de plataforma y luego selecciona *Sistemas* para ver los sistemas específicos de esa plataforma.
+. Selecciona el nodo o el clúster para ver información detallada sobre el sistema.
+. Selecciona *Descargar* para descargar el informe *Inventory* y consultar los detalles del sistema en formato .xls.
+. Selecciona *Descargar* para descargar el informe *Ansible Inventory* y consultar los detalles del sistema en los formatos .yml e .ini a nivel de región o de sitio.
 +
 Los archivos de inventario de Ansible pueden utilizarse con archivos personalizados del libro de aplicaciones de Ansible para hacer cambios en la configuración de la infraestructura.
 
@@ -42,5 +42,5 @@ Los archivos de inventario de Ansible pueden utilizarse con archivos personaliza
 == Ver detalles del cambio de soporte autorizado
 
 .Pasos
-. En el widget *Inventario*, haga clic en *Conmutadores con soporte autorizado* para ver información acerca de todos los conmutadores con soporte autorizado.
+. En el widget *Inventario*, selecciona *Conmutadores con derecho a asistencia* para ver información sobre todos los conmutadores con derecho a asistencia.
 

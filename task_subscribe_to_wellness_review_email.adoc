@@ -28,10 +28,10 @@ Una vez activada la suscripción, deberá seleccionar una fecha de inicio al agr
 NOTE: Esta función solo está disponible a través de las ofertas de servicio SupportEdge Advisor y SupportEdge Expert de NetApp.
 
 .Pasos
-. En el panel izquierdo, haga clic en *Revisión de bienestar*.
-. Haga clic en *Agregar suscripción*.
+. En el panel de la izquierda, selecciona *Wellness Review*.
+. Selecciona *Add Subscription*.
 . Proporcione la información necesaria en los campos *Nombre de los campos Suscripción*, *elegir categoría*, *Buscar cliente* y *correo electrónico* del cuadro de diálogo *Agregar nueva suscripción*.
-. Haga clic en *Suscribirse*.
+. Selecciona *Subscribe*.
 +
 Una vez que la suscripción se haya realizado correctamente, recibirá un mensaje *Suscripción ha sido añadida*.
 

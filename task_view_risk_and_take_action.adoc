@@ -19,11 +19,11 @@ summary: Ofrece información para ver y analizar el estado de su sistema de alma
 Puede analizar los atributos de estado del sistema de almacenamiento consultando las acciones y riesgos asociados con él. Debe ver las acciones correctivas asociadas y mitigar manualmente el riesgo.
 
 .Pasos
-. Haga clic en el widget *Wellness* del panel o haga clic en *Ver todas las acciones* para ver la lista de todas las acciones y riesgos.
+. Selecciona el widget *Wellness* en el panel de control o selecciona *View All Actions* para ver la lista de todas las acciones y riesgos.
 . Consulte las *acciones* y *riesgos* asociadas con el atributo wellness.
-. Haga clic en *acciones* para ver los riesgos asociados con las acciones, haga clic en *riesgos* para ver todos los riesgos, o haga clic en *sistemas afectados* para ver los sistemas que requieren atención.
-. Haga clic en el nombre del riesgo para ver información sobre el riesgo.
-. Haga clic en las acciones correctivas asociadas y siga la información para resolver el riesgo.
+. Selecciona *Acciones* para ver los riesgos asociados a las acciones, selecciona *Riesgos* para ver todos los riesgos o selecciona *Sistemas afectados* para ver los sistemas que requieren atención.
+. Selecciona el nombre del riesgo para ver información sobre el riesgo.
+. Selecciona las medidas correctivas correspondientes y sigue la información para resolver el riesgo.
 
 
 Los pasos para mitigar los riesgos son los mismos para todos los atributos de bienestar. Puede ver el siguiente vídeo para supervisar y solucionar problemas relacionados con la seguridad:

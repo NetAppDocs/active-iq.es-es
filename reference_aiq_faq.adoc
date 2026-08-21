@@ -29,19 +29,19 @@ Los casos técnicos se crean para solicitar ayuda con cualquiera de los producto
 
 * ¿Cómo puedo crear un caso técnico?*
 
-. Haga clic en link:https://mysupport.netapp.com/site/global/dashboard["aquí"^] Para abrir el sitio de soporte de NetApp.
-. En el menú superior, haz clic en *Mis casos*.
-. Haga clic en *Crear un caso*.
-. Seleccione una categoría, proporcione los detalles requeridos y haga clic en *Nueva búsqueda* para buscar un sistema de su inventario.
+. Selecciona link:https://mysupport.netapp.com/site/global/dashboard["aquí"^] para abrir el sitio de soporte de NetApp.
+. En el menú superior, selecciona *Mis casos*.
+. Selecciona *Crear un caso*.
+. Selecciona una categoría, introduce los datos necesarios y selecciona *Nueva búsqueda* para buscar un sistema de tu inventario.
 . En la lista de sistemas mostrados, seleccione el sistema para crear el caso.
 . Seleccione la prioridad del nuevo caso.
 . Seleccione la categoría apropiada de la lista desplegable *Categoría del problema*.
-. Introduzca la descripción del problema en el campo Descripción del problema y haga clic en *Proseguir*.
+. Introduce la descripción del problema en el campo «Descripción del problema» y selecciona *Proceed*.
 . Proporcione detalles adicionales sobre el problema.
-. Haga clic en *Seleccionar archivos* para cargar archivos o imágenes que puedan ayudar a diagnosticar el problema.
-. Haga clic en *proseguir*.
+. Selecciona *Seleccionar archivos* para subir archivos o imágenes que puedan ayudar a diagnosticar el problema.
+. Selecciona *Proceder*.
 . Proporcione sus datos de contacto.
-. Haga clic en *Crear caso*.
+. Selecciona *Crear caso*.
 
 
 
@@ -66,10 +66,10 @@ Se debe crear un caso no técnico para los siguientes casos:
 
 *¿Cómo creo un caso no técnico?*
 
-. Haga clic en link:https://mysupport.netapp.com/site/help["aquí"^] Para abrir la herramienta de comentarios no técnicos en el sitio de soporte de NetApp.
+. Selecciona link:https://mysupport.netapp.com/site/help["aquí"^] para abrir la “Non-Technical Feedback Tool" en el sitio de soporte de NetApp.
 . Seleccione la categoría adecuada en la lista desplegable *Categoría de comentarios*.
 . Introduzca los detalles necesarios y proporcione información adicional en la casilla "Comentarios".
-. Haga clic en *Enviar*.
+. Selecciona *Submit*.
 
 
 Se crea un caso y se proporciona un número de caso para su referencia.
@@ -87,7 +87,7 @@ Para proporcionar comentarios o hacer preguntas, envíe un correo electrónico a
 
 . Abra la página de inicio de link:https://activeiq.netapp.com/?source=onlinedocs["Asesor digital"^].
 . Busque un cliente, sitio, grupo, clúster o nodo en el cuadro de búsqueda superior derecho para acceder a la consola correspondiente.
-. Haga clic en *eficiencia de almacenamiento* en la navegación de la izquierda.
+. Selecciona *Eficiencia de almacenamiento* en el panel de navegación de la izquierda.
 
 
 
@@ -236,7 +236,7 @@ Es posible que no pueda buscar ciertos sistemas o verlos en la página de invent
 * Los sistemas están inactivos, archivados o decomisionados en SAP.
 
 
-Si no puede ver los sistemas por cualquier otro motivo, tiene consultas o desea solicitar acceso, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"^]. Para obtener más información acerca del caso no técnico, haga clic en <<Caso no técnico,aquí.>>
+Si no puedes ver los sistemas por cualquier otro motivo, tienes alguna duda o deseas solicitar acceso, link:https://mysupport.netapp.com/site/help["cree un caso no técnico"^]. Para obtener más información sobre casos no técnicos, selecciona <<Caso no técnico,aquí.>>
 
 
 

@@ -19,7 +19,7 @@ summary: Proporciona información sobre cómo renovar los contratos de soporte d
 Puede ver la calificación y el resumen de todos los contratos de soporte activos del panel. Puede realizar acciones basadas en las recomendaciones clave que se proporcionan en orden de prioridad.
 
 .Pasos
-. En el Panel de control de estado, haga clic en el widget *asistencia y derechos*.
-. Si alguno de sus contratos de soporte del sistema ha caducado o está a punto de expirar, haga clic en el widget *contratos de soporte activo*.
-. Seleccione las casillas de verificación y haga clic en *renovar* para iniciar el proceso de renovación de los sistemas seleccionados.
+. En el panel de control de Health Check, selecciona el widget *Support & Entitlements*.
+. Si alguno de tus contratos de soporte del sistema ha caducado o está a punto de caducar, selecciona el widget *Active Support Contracts*.
+. Marca las casillas de selección y selecciona *Renovar* para iniciar el proceso de renovación de los sistemas seleccionados.
 

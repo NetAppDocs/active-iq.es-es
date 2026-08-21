@@ -32,7 +32,7 @@ La automatización con API es una forma excelente de añadir eficiencia y precis
 
 El cambio en la parte superior de la página permite al usuario cambiar entre los dos modos para ver el catálogo. La vista Código se centra en los parámetros de entrada necesarios, el contenido y el formato de los datos devueltos y las muestras de código para que el usuario comience a utilizar el código. La vista experimento ofrece al usuario la oportunidad de “probar” la API en el navegador mediante un token generado obtenido de la página principal de Servicios API.
 
-Cualquiera de las dos vistas permite al usuario examinar los elementos disponibles mediante el panel de navegación de la izquierda. Los elementos se organizan por servicio en orden alfabético. Dentro de un servicio determinado, puede expandir el encabezado para mostrar los diferentes extremos de API. Al hacer clic en el encabezado del servicio o en un extremo de API, se le llevará a esa sección del catálogo en el panel central.
+Cualquiera de las dos vistas permite al usuario navegar por los elementos disponibles mediante el panel de navegación de la izquierda. Los elementos están organizados por servicio en orden alfabético. Dentro de un servicio determinado, puedes desplegar el encabezado para mostrar los puntos finales de la API individuales. Al seleccionar el encabezado del servicio o un punto final de la API, accederás a esa sección del catálogo en el panel central.
 
 
 

@@ -37,7 +37,7 @@ image:sustainability_score.png["Una captura de pantalla que muestra la puntuaci�
 
 *Indicadores ambientales*: Muestra proyecciones de su energía, uso directo de carbono y emisión de calor para evaluar el estado ambiental de sus sistemas de almacenamiento. Estas proyecciones se basan en la potencia real, si no están disponibles, los valores de potencia típicos. Puede ver estas proyecciones mensualmente, trimestralmente o anualmente seleccionando la opción deseada en la lista desplegable en la esquina superior derecha de esta sección.
 
-*Porcentajes de mitigación de carbono*: Muestra el porcentaje de mitigación de carbono en cada sitio/ciudad, y los valores de referencia presentados se basan en su ubicación. Puede ajustar el porcentaje de mitigación de carbono para sitios específicos haciendo clic en el image:edit_icon_1.png["Una captura de pantalla que muestra un icono editable."] icono situado junto a los valores de porcentaje, y los números de carbono se ajustarán automáticamente en consecuencia.
+*Porcentajes de reducción de emisiones de carbono*: Muestra el porcentaje de reducción de emisiones de carbono en cada lugar o ciudad, y los valores de referencia que se muestran se basan en tu ubicación. Puedes ajustar el porcentaje de reducción de emisiones de carbono para lugares concretos seleccionando el icono image:edit_icon_1.png["Una captura de pantalla que muestra un icono editable."] situado junto a los valores porcentuales, y las cifras de emisiones de carbono se ajustarán automáticamente en consecuencia.
 
 image:carbon_mitigation_percentage.png["Una captura de pantalla que muestra el porcentaje de mitigación de carbono de los sitios y cómo editar este porcentaje."]
 

@@ -59,7 +59,7 @@ A medida que empiece a utilizar el Asesor Digital, es importante que entienda al
 ** * Historia del Bienestar:* muestra información sobre los riesgos del sistema que ocurren en los últimos tres meses, para que pueda aprender cómo están criando horas extra.
 ** *Reconocer riesgos (Ack):* le permite reconocer los riesgos y sistemas que han sido afectados. Puede reconocer estos riesgos y familiarizarse con las acciones que puede llevar a cabo para mitigar estos riesgos.
 ** *No reconocer riesgos (desac-ack):* le permite no reconocer los riesgos y sistemas que han sido reconocidos.
-** *Solucionar:* Soluciona los riesgos del sistema mediante Active IQ Unified Manager. Haz clic en este botón para iniciar Unified Manager y realizar los pasos para mitigar los riesgos.
+** *Solucionar:* Soluciona los riesgos del sistema mediante Active IQ Unified Manager. Selecciona este botón para iniciar Unified Manager y realizar los pasos para mitigar los riesgos.
 
 
 * *Widget de inventario:* muestra un resumen de los sistemas totales que posee. Esto incluye productos habilitados para Digital Advisor y no habilitados.

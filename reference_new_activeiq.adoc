@@ -20,6 +20,23 @@ Las siguientes características y mejoras se han introducido en el Asesor digita
 
 
 
+[[20-august-2026]]
+== 20 de agosto de 2026
+
+
+
+[[introducing-value-insights]]
+=== Presentamos Value Insights
+
+La función «Value Insights» recopila información general sobre el estado, el ahorro, la estabilidad y la seguridad de los sistemas ONTAP. Puedes usar esta información para mejorar el estado y el rendimiento del sistema gracias a una visión continua y condicionada por los datos de tu entorno ONTAP.
+
+
+NOTE: Value Insights solo está disponible para sistemas ONTAP.
+
+Más información sobre link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Perspectivas sobre el valor"].
+
+
+
 [[12-august-2026]]
 == 12 de agosto de 2026
 
@@ -342,7 +359,7 @@ La versión anterior de Upgrade Advisor ya no está disponible. Puede utilizar l
 [[wellness]]
 === Bienestar
 
-* El flujo de trabajo de Bienestar ahora incluye el widget de Sustentabilidad, que proporciona el recuento de acciones recomendadas a nivel de cliente, lista de seguimiento, sitio y grupo.  Puede hacer clic en el número de acciones para obtener una vista detallada de estas acciones recomendadas en el panel de Sustentabilidad. Para obtener más información, consultelink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analice la sostenibilidad de sus sistemas de almacenamiento"] .
+* El flujo de trabajo de Wellness ahora incluye el widget Sustainability, que muestra el recuento de acciones recomendadas a nivel de cliente, lista de seguimiento, sitio y grupo. Puedes seleccionar el número de acciones para ver en detalle estas acciones recomendadas en el panel de Sustainability. Para obtener más información, consulta link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analice la sostenibilidad de sus sistemas de almacenamiento"].
 * Las vulnerabilidades de seguridad y los widgets de defensa contra ransomware del flujo de trabajo de bienestar se combinan en un único widget, que ahora se denomina seguridad y defensa contra ransomware.
 
 
@@ -987,7 +1004,7 @@ En los clústeres de modelos de hardware mixto, la versión de sistema operativo
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === Configuración recomendada/estado de la máquina virtual de almacenamiento (SVM): Resumen de nivel de volumen
 
-Al hacer clic en el recuadro azul «Resumen de volúmenes» de la tabla SVM, aparece una ventana emergente con información detallada sobre los volúmenes que están alojados o asociados al número de serie o nodo físico específico.
+Al seleccionar la casilla azul «Resumen de volúmenes» en la tabla SVM, aparece una ventana emergente con información detallada sobre los volúmenes alojados o asociados a ese número de serie o nodo físico concreto.
 
 
 
@@ -1187,9 +1204,9 @@ Esta versión ofrece la siguiente funcionalidad:
 
 * *Panel DE GRID:* el tablero de GRID proporciona detalles de salud, planificación y configuración para la RED seleccionada.
 * *Widget de configuración:* proporciona detalles básicos del StorageGRID seleccionado en el widget, como NOMBRE DE CUADRÍCULA, nombre de host, número de serie, modelo, versión del SO, Nombre del cliente, ubicación de envío y datos de contacto.
-* *VISOR DE CUADRÍCULA:* desde el widget *Configuración*, puede ver la configuración de LA CUADRÍCULA en detalle haciendo clic en el enlace *Visor de CUADRÍCULA*. Desde el widget *Configuración*, puede descargar los detalles del sitio y los detalles de capacidad del StorageGRID seleccionado haciendo clic en el botón *Descargar* de la pantalla *Visor de cuadrícula*.
+* *Visor de GRID:* Desde el widget *Configuración*, puedes consultar la configuración de GRID en detalle seleccionando el enlace *Visor de GRID*. Desde el widget *Configuración*, puedes descargar los detalles del sitio y los detalles de capacidad del StorageGRID seleccionado pulsando el botón *Descargar* en la pantalla *Visor de GRID*.
 * *Detalles del sitio:* esta ficha proporciona los nodos de almacenamiento y resumen de cuadrícula disponibles para cada sitio.
-* *Resumen DE GRID:* contiene información básica, como Tipo de licencia, capacidad de licencia, número de nodos instalados, plazo de soporte (Fecha de terminación del contrato de licencia), nodo de administración principal y Sitio principal del nodo de administración principal. Esta pestaña también proporciona el nombre del sitio y el número de nodos de almacenamiento etiquetados en el sitio correspondiente. En esta versión, puede ver la lista de nombres de nodos al hacer clic en el hipervínculo disponible para ver los nodos de almacenamiento del sitio correspondiente.
+* *Resumen de GRID:* Contiene información básica, como el tipo de licencia, la capacidad de la licencia, el número de nodos instalados, el plazo de asistencia técnica (fecha de finalización del contrato de licencia), el nodo de administración principal y la ubicación principal de dicho nodo. Esta pestaña también muestra el nombre de la ubicación y el número de nodos de almacenamiento asociados a la ubicación correspondiente. En esta versión, puedes ver la lista de nombres de nodos al seleccionar el enlace disponible para visualizar los nodos de almacenamiento del sitio correspondiente.
 * *Ficha Detalles de capacidad:* proporciona los detalles de nivel de cuadrícula y capacidad de sitio configurados para LA CUADRÍCULA. Los detalles de la capacidad, como la capacidad de almacenamiento instalada, la capacidad de almacenamiento disponible, la capacidad de almacenamiento total utilizada y la capacidad utilizada para datos y metadatos. Estos datos están disponibles tanto a nivel de cuadrícula como de sitio.
 
 
