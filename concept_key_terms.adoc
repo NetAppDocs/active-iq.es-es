@@ -4,7 +4,7 @@ permalink: concept_key_terms.html
 keywords: overview, inventory, wellness, widgets, actions 
 summary: Proporciona información sobre los términos clave utilizados en el Asesor digital. 
 ---
-= Más información sobre el asesor digital
+= Términos y definiciones clave en Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
