@@ -123,3 +123,5 @@ NOTE: Esta función es exclusiva de los sistemas ONTAP y no está disponible par
 
 
 
+
+Más información sobre link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["cómo usar el panel de Value Insights en Digital Advisor"^].

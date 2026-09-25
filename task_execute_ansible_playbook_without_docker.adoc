@@ -40,7 +40,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-Para obtener más información sobre el comando ansible-galy, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentación de Ansible Galaxy"^] Si desea obtener más información sobre la colección de Ansible de NetApp, consulte link:https://galaxy.ansible.com/netapp/ontap["Página de la colección Ansible de NetApp"^].
+Para obtener más información sobre el comando ansible-galaxy, consulta link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-galaxy.html["Documentación de Ansible Galaxy"^] y, para obtener más información sobre la Ansible Collection de NetApp, consulta link:https://galaxy.ansible.com/netapp/ontap["Página de la colección Ansible de NetApp"^].
 
 . Ejecute el libro de aplicaciones de Ansible con el comando * ansible-playbook*:
 +
