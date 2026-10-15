@@ -16,14 +16,14 @@ summary: Ofrece información sobre los indicadores generales de estado, ahorro, 
 
 
 [role="lead"]
-La función «Value Insights» recopila información general sobre el estado, el ahorro, la estabilidad y la seguridad de tu sistema ONTAP. Puedes usar esta información para mejorar el estado y el rendimiento del sistema gracias a una visión continua y condicionada por los datos de tu entorno ONTAP.
+La función Value Insights consolida la puntuación general de estado, el ahorro, la estabilidad y la información de seguridad de tus sistemas E-Series, ONTAP y StorageGRID. Puedes usar esta información para mejorar la puntuación de estado y el rendimiento del sistema mediante una visión continua y condicionada por los datos de tu entorno E-Series, ONTAP y StorageGRID.
 
 
-NOTE: Value Insights solo está disponible para sistemas ONTAP.
+NOTE: Value Insights está disponible para los sistemas E-Series, ONTAP y StorageGRID.
 
 Value Insights ofrece la siguiente información:
 
-* El estado general de tu sistema ONTAP es una métrica de puntuación del estado compuesta por nueve indicadores clave de rendimiento. Cada sección tiene un desglose detallado de los KPI y las puntuaciones.
+* El estado general de tu sistema es una métrica de puntuación de estado compuesta por nueve indicadores clave de rendimiento. Cada sección incluye un desglose detallado de los KPI y las puntuaciones.
 * Los índices de ahorro y estabilidad indican cómo lograr un ahorro de capacidad y almacenamiento mediante un uso eficiente de los recursos. Accede a información sobre tendencias relativas al tiempo de actividad del almacenamiento y a los tiempos de inactividad no planificados, incluida la posibilidad de descargar archivos EMS.
 * La sección de «Seguridad y planificación futura» detalla los riesgos evitados y los problemas que se han podido prevenir. El ahorro de costes se calcula a partir de la eficiencia en el almacenamiento.
 * Maximizar el valor de la infraestructura recomienda funciones adicionales para mejorar aún más el rendimiento de la infraestructura y alcanzar la máxima eficiencia.
