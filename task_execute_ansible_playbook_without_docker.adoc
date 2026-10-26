@@ -17,7 +17,7 @@ summary: Proporciona información sobre cómo ejecutar el libro de aplicaciones 
 
 .Pasos
 [role="lead"]
-. Instale link:https://docs.python.org/3/using/windows.html["Python"^] y.. link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
+. Instala link:https://docs.python.org/3/using/windows.html["Python"^] y link:https://docs.ansible.com/projects/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
 . Instale los paquetes Python necesarios utilizando *pip*:
 +
 [listing]
