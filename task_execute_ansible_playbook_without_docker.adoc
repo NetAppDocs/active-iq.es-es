@@ -60,6 +60,6 @@ NOTE: Si hay un conjunto de clústeres con credenciales de inicio de sesión dif
 
 
 
-Para obtener más información acerca del comando *ansible-playbook*, consulte link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"^] Y para ejecutar el libro de aplicaciones de Ansible en el modo de comprobación (ejecución en seco), consulte link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"^].
+Para obtener más información sobre el comando *ansible-playbook*, consulta link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html["Documentación del libro de estrategia de Ansible"^] y, para ejecutar el Ansible Playbook en modo de comprobación (simulación), consulta link:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html["Ansible: Modo de comprobación"^].
 
 Tras ejecutar el libro de estrategia, consulte link:task_validate_firmware_installation.html["Validaciones de instalación del firmware"] para obtener instrucciones posteriores a la ejecución.
